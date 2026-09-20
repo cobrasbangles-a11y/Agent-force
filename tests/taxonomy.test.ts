@@ -31,6 +31,24 @@ describe('loadTaxonomy', () => {
     });
   });
 
+  it('normalizes whitespace in multi-line descriptions', () => {
+    const p = fixture(`
+- slug: folded-desc
+  title: Folded Desc
+  category: sales
+  description: |-
+    Finds, qualifies, and lands new
+    customers end to end across
+    several lines.
+  tools: [Read]
+`);
+    const entries = loadTaxonomy(p);
+    expect(entries).toHaveLength(1);
+    expect(entries[0]?.description).toBe(
+      'Finds, qualifies, and lands new customers end to end across several lines.'
+    );
+  });
+
   it('throws when the root is not a list', () => {
     const p = fixture(`slug: nope`);
     expect(() => loadTaxonomy(p)).toThrow(/must be a list/);
