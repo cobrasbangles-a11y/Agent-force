@@ -173,6 +173,33 @@ describe('validateLibrary', () => {
     expect(result.overseerAuthored).toBe(true);
   });
 
+  it('does not error when tools match but are listed in a different order', () => {
+    taxonomy(`
+- slug: ordered
+  title: Ordered
+  category: sales
+  description: a
+  tools: [Read, Write]
+`);
+    agent('sales', 'ordered', 'a', 'Write, Read');
+    expect(validateLibrary(root, { complete: false }).errors).toEqual([]);
+  });
+
+  it('names the specific tools that differ between taxonomy and file', () => {
+    taxonomy(`
+- slug: mismatched
+  title: Mismatched
+  category: sales
+  description: a
+  tools: [Read, Write]
+`);
+    agent('sales', 'mismatched', 'a', 'Read, Bash');
+    const message = validateLibrary(root, { complete: false }).errors.join('\n');
+    expect(message).toMatch(/mismatched/);
+    expect(message).toMatch(/missing Write/);
+    expect(message).toMatch(/unexpected Bash/);
+  });
+
   it('ignores count rules unless complete is set', () => {
     taxonomy(`
 - slug: lonely
