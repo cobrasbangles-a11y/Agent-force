@@ -1,0 +1,80 @@
+import { describe, it, expect, beforeEach } from 'vitest';
+import { mkdtempSync, mkdirSync, writeFileSync, existsSync, readFileSync, lstatSync } from 'node:fs';
+import { join } from 'node:path';
+import { tmpdir } from 'node:os';
+import { installAgents } from '../scripts/lib/install.js';
+
+const BODY = `\n# Role\nr\n# Core expertise\n- c\n# Method\n1. m\n# Output\no\n# Boundaries\nb\n`;
+let root: string;
+let dest: string;
+
+beforeEach(() => {
+  root = mkdtempSync(join(tmpdir(), 'af-inst-'));
+  dest = mkdtempSync(join(tmpdir(), 'af-dest-'));
+  mkdirSync(join(root, 'data'), { recursive: true });
+  mkdirSync(join(root, 'agents', 'sales'), { recursive: true });
+  mkdirSync(join(root, 'packs'), { recursive: true });
+  writeFileSync(join(root, 'data', 'taxonomy.yaml'), `
+- slug: customer-getter
+  title: Customer Getter
+  category: sales
+  description: Finds and lands new customers.
+  tools: [Read]
+`);
+  writeFileSync(join(root, 'agents', 'sales', 'customer-getter.md'),
+    `---\nname: customer-getter\ndescription: Finds and lands new customers.\ntools: Read\n---\n${BODY}`);
+  writeFileSync(join(root, 'packs', 'growth.yaml'), 'name: Growth\nagents:\n  - customer-getter\n');
+});
+
+describe('installAgents', () => {
+  it('copies a named agent flat into the destination', () => {
+    const result = installAgents(root, { agents: ['customer-getter'], dest });
+    expect(result.written).toEqual(['customer-getter.md']);
+    expect(existsSync(join(dest, 'customer-getter.md'))).toBe(true);
+    expect(readFileSync(join(dest, 'customer-getter.md'), 'utf8')).toContain('name: customer-getter');
+  });
+
+  it('installs every agent in a pack', () => {
+    const result = installAgents(root, { pack: 'growth', dest });
+    expect(result.written).toEqual(['customer-getter.md']);
+  });
+
+  it('throws on an unknown agent slug', () => {
+    expect(() => installAgents(root, { agents: ['nope'], dest })).toThrow(/nope/);
+  });
+
+  it('throws on an unknown pack', () => {
+    expect(() => installAgents(root, { pack: 'nope', dest })).toThrow(/nope/);
+  });
+
+  it('throws when an agent is in the taxonomy but not yet authored', () => {
+    writeFileSync(join(root, 'data', 'taxonomy.yaml'), `
+- slug: unwritten
+  title: Unwritten
+  category: sales
+  description: a
+  tools: [Read]
+`);
+    expect(() => installAgents(root, { agents: ['unwritten'], dest })).toThrow(/not yet authored/);
+  });
+
+  it('skips an existing file without force', () => {
+    writeFileSync(join(dest, 'customer-getter.md'), 'mine');
+    const result = installAgents(root, { agents: ['customer-getter'], dest });
+    expect(result.written).toEqual([]);
+    expect(result.skipped).toEqual(['customer-getter.md']);
+    expect(readFileSync(join(dest, 'customer-getter.md'), 'utf8')).toBe('mine');
+  });
+
+  it('overwrites an existing file with force', () => {
+    writeFileSync(join(dest, 'customer-getter.md'), 'mine');
+    const result = installAgents(root, { agents: ['customer-getter'], dest, force: true });
+    expect(result.written).toEqual(['customer-getter.md']);
+    expect(readFileSync(join(dest, 'customer-getter.md'), 'utf8')).toContain('name: customer-getter');
+  });
+
+  it('creates a symlink when asked', () => {
+    installAgents(root, { agents: ['customer-getter'], dest, symlink: true });
+    expect(lstatSync(join(dest, 'customer-getter.md')).isSymbolicLink()).toBe(true);
+  });
+});
