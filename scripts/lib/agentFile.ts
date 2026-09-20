@@ -15,7 +15,13 @@ export function parseAgentFile(raw: string, path: string): AgentFile {
   }
   const [, head, body] = match as unknown as [string, string, string];
 
-  const meta = parse(head);
+  let meta: unknown;
+  try {
+    meta = parse(head);
+  } catch (err) {
+    const message = err instanceof Error ? err.message : String(err);
+    throw new AgentFileError(`${path}: malformed YAML frontmatter: ${message}`);
+  }
   if (typeof meta !== 'object' || meta === null) {
     throw new AgentFileError(`${path}: frontmatter must be a mapping`);
   }
@@ -55,8 +61,26 @@ export function parseAgentFile(raw: string, path: string): AgentFile {
   };
 }
 
+function maskFencedBlocks(body: string): string {
+  const lines = body.split('\n');
+  let inFence = false;
+  const masked = lines.map((line) => {
+    const trimmed = line.trimStart();
+    if (trimmed.startsWith('```') || trimmed.startsWith('~~~')) {
+      inFence = !inFence;
+      return ' '.repeat(line.length);
+    }
+    if (inFence) {
+      return line.replace(/[^\n\r]/g, ' ');
+    }
+    return line;
+  }).join('\n');
+  return masked;
+}
+
 function parseSections(body: string, path: string): Record<SectionName, string> {
-  const found = [...body.matchAll(/^# (.+)$/gm)].map((m) => ({
+  const masked = maskFencedBlocks(body);
+  const found = [...masked.matchAll(/^# (.+)$/gm)].map((m) => ({
     title: (m[1] ?? '').trim(),
     start: m.index ?? 0,
     end: 0,

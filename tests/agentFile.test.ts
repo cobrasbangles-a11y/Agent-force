@@ -64,4 +64,63 @@ describe('parseAgentFile', () => {
     const bad = GOOD.replace('# Boundaries\nDoes not make binding pricing commitments.\n', '# Boundaries\n\n');
     expect(() => parseAgentFile(bad, 'agents/sales/customer-getter.md')).toThrow(/Boundaries.*empty/);
   });
+
+  it('ignores # lines inside fenced code blocks', () => {
+    const withFence = `---
+name: code-agent
+description: Runs code snippets.
+tools: Read, Write
+---
+
+# Role
+An executor of scripts.
+
+# Core expertise
+- Shell scripting
+- Python
+
+# Method
+Run the following:
+
+\`\`\`bash
+# configure the environment
+npm run validate
+\`\`\`
+
+Done.
+
+# Output
+Validation results.
+
+# Boundaries
+Does not execute untrusted code.
+`;
+    const agent = parseAgentFile(withFence, 'agents/code/code-agent.md');
+    expect(agent.sections.Role).toContain('executor');
+    expect(agent.sections.Method).toContain('# configure the environment');
+    expect(agent.sections.Method).toContain('npm run validate');
+    expect(Object.keys(agent.sections)).toEqual(['Role', 'Core expertise', 'Method', 'Output', 'Boundaries']);
+  });
+
+  it('rejects malformed YAML with AgentFileError including the path', () => {
+    const badYaml = `---
+name: bad-agent
+description: [unclosed
+tools: Read
+---
+
+# Role
+Test
+`;
+    expect(() => parseAgentFile(badYaml, 'agents/sales/bad.md')).toThrow(Error);
+    try {
+      parseAgentFile(badYaml, 'agents/sales/bad.md');
+      throw new Error('Should have thrown');
+    } catch (err) {
+      if (err instanceof Error) {
+        expect(err.message).toContain('agents/sales/bad.md');
+        expect(err.message).toContain('YAML');
+      }
+    }
+  });
 });
