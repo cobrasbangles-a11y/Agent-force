@@ -10,11 +10,29 @@ export interface ValidationResult {
   authored: number;
   total: number;
   byCategory: Record<string, { authored: number; total: number }>;
+  overseerAuthored: boolean;
 }
 
 const SLUG_RE = /^[a-z][a-z0-9-]*$/;
 const SPECIALIST_TOTAL = 1000;
 const PER_CATEGORY = 40;
+
+function emptyByCategory(): ValidationResult['byCategory'] {
+  const byCategory: ValidationResult['byCategory'] = {};
+  for (const slug of CATEGORY_SLUGS) {
+    byCategory[slug] = { authored: 0, total: 0 };
+  }
+  return byCategory;
+}
+
+function toolsDiff(taxonomyTools: string[], fileTools: string[]): { missing: string[]; extra: string[] } {
+  const taxonomySet = new Set(taxonomyTools);
+  const fileSet = new Set(fileTools);
+  return {
+    missing: taxonomyTools.filter((t) => !fileSet.has(t)),
+    extra: fileTools.filter((t) => !taxonomySet.has(t)),
+  };
+}
 
 function walkAgents(root: string): string[] {
   const dir = join(root, 'agents');
@@ -48,15 +66,12 @@ export function validateLibrary(root: string, opts: { complete: boolean }): Vali
   try {
     entries = loadTaxonomy(taxonomyPath);
   } catch (err) {
-    const byCategory: ValidationResult['byCategory'] = {};
-    for (const slug of CATEGORY_SLUGS) {
-      byCategory[slug] = { authored: 0, total: 0 };
-    }
     return {
       errors: [(err as Error).message],
       authored: 0,
       total: 0,
-      byCategory,
+      byCategory: emptyByCategory(),
+      overseerAuthored: false,
     };
   }
 
@@ -87,10 +102,7 @@ export function validateLibrary(root: string, opts: { complete: boolean }): Vali
   const specialists = entries.filter((e) => e.category !== OVERSEER_CATEGORY);
   const overseers = entries.filter((e) => e.category === OVERSEER_CATEGORY);
 
-  const byCategory: ValidationResult['byCategory'] = {};
-  for (const slug of CATEGORY_SLUGS) {
-    byCategory[slug] = { authored: 0, total: 0 };
-  }
+  const byCategory = emptyByCategory();
   for (const entry of specialists) {
     const bucket = byCategory[entry.category];
     if (bucket) bucket.total += 1;
@@ -112,6 +124,7 @@ export function validateLibrary(root: string, opts: { complete: boolean }): Vali
   }
 
   let authored = 0;
+  let overseerAuthored = false;
   for (const file of walkAgents(root)) {
     const rel = relative(root, file);
     let agent;
@@ -138,13 +151,24 @@ export function validateLibrary(root: string, opts: { complete: boolean }): Vali
     if (entry.category !== agent.category) {
       errors.push(`${rel}: lives in "${agent.category}" but taxonomy says "${entry.category}"`);
     }
-    if (entry.tools.join(',') !== agent.tools.join(',')) {
-      errors.push(`${rel}: tools do not match the taxonomy entry for "${agent.name}"`);
+
+    const { missing, extra } = toolsDiff(entry.tools, agent.tools);
+    if (missing.length > 0 || extra.length > 0) {
+      const parts: string[] = [];
+      if (missing.length > 0) parts.push(`missing ${missing.join(', ')}`);
+      if (extra.length > 0) parts.push(`unexpected ${extra.join(', ')}`);
+      errors.push(
+        `${rel}: tools do not match the taxonomy entry for "${agent.name}" (${parts.join('; ')})`,
+      );
     }
 
-    authored += 1;
-    const bucket = byCategory[entry.category];
-    if (bucket) bucket.authored += 1;
+    if (entry.category === OVERSEER_CATEGORY) {
+      overseerAuthored = true;
+    } else {
+      authored += 1;
+      const bucket = byCategory[entry.category];
+      if (bucket) bucket.authored += 1;
+    }
   }
 
   const knownSlugs = new Set(bySlug.keys());
@@ -156,5 +180,5 @@ export function validateLibrary(root: string, opts: { complete: boolean }): Vali
     }
   }
 
-  return { errors, authored, total: entries.length, byCategory };
+  return { errors, authored, total: entries.length, byCategory, overseerAuthored };
 }

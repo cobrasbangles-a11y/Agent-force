@@ -11,6 +11,7 @@ for (const error of result.errors) {
 
 const specialistTotal = 1000;
 console.log(`\nauthored: ${result.authored} / ${specialistTotal}`);
+console.log(result.overseerAuthored ? 'overseer: authored' : 'overseer: not yet authored');
 
 const partial = CATEGORY_SLUGS
   .map((slug) => {

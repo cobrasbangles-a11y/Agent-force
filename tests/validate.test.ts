@@ -3,6 +3,7 @@ import { mkdtempSync, mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { tmpdir } from 'node:os';
 import { validateLibrary } from '../scripts/lib/validate.js';
+import { CATEGORY_SLUGS } from '../scripts/lib/categories.js';
 
 const BODY = `
 # Role
@@ -141,6 +142,35 @@ describe('validateLibrary', () => {
     taxonomy(`[]`);
     writeFileSync(join(root, 'packs', 'growth.yaml'), 'name: Growth\nagents:\n  - nonexistent\n');
     expect(validateLibrary(root, { complete: false }).errors.join('\n')).toMatch(/nonexistent/);
+  });
+
+  it('fills byCategory with zeroed buckets when the taxonomy file is missing', () => {
+    // No taxonomy() call: data/taxonomy.yaml does not exist in this root.
+    const result = validateLibrary(root, { complete: false });
+    expect(result.errors.length).toBeGreaterThan(0);
+    expect(Object.keys(result.byCategory)).toHaveLength(CATEGORY_SLUGS.length);
+    expect(result.byCategory['sales']).toEqual({ authored: 0, total: 0 });
+  });
+
+  it('excludes the overseer from the authored specialist count', () => {
+    taxonomy(`
+- slug: boss
+  title: Boss
+  category: overseer
+  description: Oversees everything.
+  tools: [Read]
+- slug: helper
+  title: Helper
+  category: sales
+  description: Helps.
+  tools: [Read]
+`);
+    agent('overseer', 'boss', 'Oversees everything.');
+    agent('sales', 'helper', 'Helps.');
+    const result = validateLibrary(root, { complete: false });
+    expect(result.errors).toEqual([]);
+    expect(result.authored).toBe(1);
+    expect(result.overseerAuthored).toBe(true);
   });
 
   it('ignores count rules unless complete is set', () => {
