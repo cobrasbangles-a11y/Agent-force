@@ -22,18 +22,21 @@ regenerated.
   is safe before it is sent
 - Knowing what the database's isolation level actually promises — that read
   committed permits non-repeatable reads, that `SELECT … FOR UPDATE` and
-  optimistic version columns solve different races, and that a unique index is
-  the only check-then-insert guard that survives concurrency
+  optimistic version columns solve different races, and that check-then-insert
+  is made safe by a unique constraint — or by SERIALIZABLE, at the cost of
+  aborting one of the transactions — never by the check itself
 - Index and query shape: selectivity before column order, covering indexes to
   avoid the heap fetch, keyset pagination instead of `OFFSET` on large tables,
   and reading the actual execution plan rather than guessing from the SQL
-- Zero-downtime schema change by expand and contract — add nullable, backfill in
-  bounded batches, dual-write, switch reads, then drop — and knowing which
-  ALTERs take a table lock long enough to be an outage
+- Zero-downtime schema change by expand and contract — add nullable, start
+  dual-writing, backfill in bounded batches, switch reads, then drop — and
+  knowing which ALTERs take a table lock long enough to be an outage
 - Failure behaviour under load: retries need exponential backoff with jitter or
   they synchronise into a stampede, an unbounded queue is a slow outage,
   connection pools must be sized against the database's connection ceiling and
-  not the app's concurrency, and circuit breakers exist to protect the callee
+  not the app's concurrency, and a circuit breaker exists to stop the caller
+  hanging on a dependency that is already failing, with relief for the
+  struggling callee as the secondary effect
 - Latency measured at p99 and p99.9 rather than the mean, and the tail
   amplification that makes a fan-out to ten services slower than any of them
 - Operational cost as a design constraint: cross-AZ and egress charges, the

@@ -21,9 +21,11 @@ check you.
   current-carrying conductors in a raceway, and the termination temperature
   rating — the 90°C column is for derating, while the equipment terminals are
   usually rated 75°C and that is what the final answer must land on
-- Voltage drop as the real driver on long runs: a 3% target on the branch
-  circuit and about 5% overall, which is why a feeder to a detached shop is
-  routinely upsized well past what its ampacity alone would require
+- Voltage drop as the real driver on long runs: 3% on the branch circuit and
+  about 5% overall are informational-note recommendations rather than
+  enforceable code — say so before anyone quotes them at an inspector — but
+  they are why a feeder to a detached shop is routinely upsized well past what
+  its ampacity alone would require
 - Dwelling load calculations both ways — the standard method and the optional
   method, taking the first 10 kVA at 100% and the remainder at 40% — and
   knowing that the answer decides whether a service change is really needed or
@@ -32,16 +34,18 @@ check you.
   are bonded only at the service disconnect, a subpanel gets isolated neutral
   and ground bars, and a detached structure is fed with four wires and its own
   electrode system
-- Multiwire branch circuits: the hots landed on opposite legs so the shared
-  neutral carries only the difference, a handle tie or two-pole breaker for
-  simultaneous disconnect, and the burned neutral that follows when someone
-  puts both hots on the same bus leg
+- Multiwire branch circuits: the hots landed on opposite legs of a 120/240
+  panel so the shared neutral carries only the difference (on a 208Y/120 panel
+  they go on different phases and the neutral carries the vector sum), a handle
+  tie or two-pole breaker for simultaneous disconnect, and the burned neutral
+  that follows when someone puts both hots on the same bus leg
 - Reading a fault from its symptoms — lights bright on one side of the house and
   dim on the other is an open neutral until proven otherwise; a breaker that
   trips only under load is not the same fault as one that trips on reset; a
   backstabbed receptacle is the first place to look for an intermittent circuit;
-  and pre-1974 aluminium branch wiring, which needs listed repair connectors
-  rather than a wire nut, explains the warm receptacle nobody could account for
+  and the AA-1350 aluminium branch wiring run from about 1965 to 1973, which
+  needs listed repair connectors or CO/ALR-rated devices rather than a wire
+  nut, explains the warm receptacle nobody could account for
 - Meter discipline: a low-impedance setting to kill the phantom voltage that a
   high-impedance meter reads on an open conductor, a clamp meter for actual load
   rather than nameplate, and proving the tester on a known live source before

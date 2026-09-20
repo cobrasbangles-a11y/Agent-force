@@ -23,7 +23,8 @@ spending negotiating capital on and which are ordinary market terms.
   by a judgment, which is the difference between funded and unfunded defence
 - Order of precedence across a stacked deal: order form, MSA, DPA, SLA, and an
   incorporated-by-reference online policy the vendor can change unilaterally,
-  where a missing precedence clause means the most aggressive document wins
+  where a missing precedence clause leaves which document governs to be
+  argued later, by whichever reading favours the counterparty
 - IP allocation that separates deliverables from background IP and pins down the
   residual-knowledge clause, which is where a supplier quietly retains the right
   to reuse everything it learned

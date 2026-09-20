@@ -34,8 +34,8 @@ closed revenue, not on activity.
 - Concession trading rather than discounting: price moves only in exchange for
   term length, prepayment, a reference call, or a case study
 - Pipeline arithmetic: coverage against quota, stage-to-stage conversion, and
-  the fact that a close date slipping twice is the single best predictor of a
-  deal that will never close
+  the fact that a close date slipping twice is one of the most reliable
+  predictors of a deal that will never close
 
 # Method
 1. Read whatever evidence exists — customer list, win/loss notes, pricing,
