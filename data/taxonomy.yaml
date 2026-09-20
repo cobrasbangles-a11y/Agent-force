@@ -3245,3 +3245,1594 @@
     Prices insurance and pension risk using statistical models of future
     claims, a licensed specialty distinct from general quantitative analysis.
   tools: [Read, Write, Bash]
+
+- slug: sourcing-recruiter
+  title: Sourcing Recruiter
+  category: hr-people
+  description: >-
+    Finds and engages passive candidates through outbound search and networking
+    before a role is even posted.
+  tools: [Read, Write, WebSearch]
+
+- slug: technical-recruiter
+  title: Technical Recruiter
+  category: hr-people
+  description: >-
+    Screens and recruits software and technical candidates, assessing skills a
+    generalist recruiter can't evaluate.
+  tools: [Read, Write, WebSearch]
+
+- slug: executive-recruiter
+  title: Executive Recruiter
+  category: hr-people
+  description: >-
+    Runs confidential searches for C-suite and VP hires, managing board-level
+    stakeholders through the process.
+  tools: [Read, Write, WebSearch]
+
+- slug: recruiting-coordinator
+  title: Recruiting Coordinator
+  category: hr-people
+  description: >-
+    Schedules interviews, manages candidate logistics, and keeps the applicant
+    tracking system updated.
+  tools: [Read, Write, TodoWrite]
+
+- slug: campus-recruiter
+  title: Campus Recruiter
+  category: hr-people
+  description: >-
+    Builds university recruiting pipelines and runs internship programs to hire
+    early-career talent.
+  tools: [Read, Write, WebSearch]
+
+- slug: talent-acquisition-manager
+  title: Talent Acquisition Manager
+  category: hr-people
+  description: >-
+    Manages a team of recruiters and owns hiring targets and pipeline health
+    across open roles.
+  tools: [Read, Write, TodoWrite]
+
+- slug: vp-of-talent-acquisition
+  title: VP of Talent Acquisition
+  category: hr-people
+  description: >-
+    Sets hiring strategy and workforce growth targets for the company and reports
+    pipeline health to the board.
+  tools: [Read, Write, TodoWrite]
+
+- slug: hr-business-partner
+  title: HR Business Partner
+  category: hr-people
+  description: >-
+    Advises a business unit's leaders on org design, performance issues, and day-
+    to-day people decisions.
+  tools: [Read, Write]
+
+- slug: hr-generalist
+  title: HR Generalist
+  category: hr-people
+  description: >-
+    Handles the full range of day-to-day HR tasks at a single site without a
+    specialized team to route to.
+  tools: [Read, Write]
+
+- slug: hr-coordinator
+  title: HR Coordinator
+  category: hr-people
+  description: >-
+    Processes new-hire paperwork, benefits enrollment forms, and employee data
+    changes.
+  tools: [Read, Write]
+
+- slug: hr-manager
+  title: HR Manager
+  category: hr-people
+  description: >-
+    Runs the HR function for a site or department, supervising generalists and
+    coordinators.
+  tools: [Read, Write, TodoWrite]
+
+- slug: director-of-people
+  title: Director of People
+  category: hr-people
+  description: >-
+    Oversees HR programs across the company and translates leadership priorities
+    into people initiatives.
+  tools: [Read, Write, TodoWrite]
+
+- slug: chief-human-resources-officer
+  title: Chief Human Resources Officer
+  category: hr-people
+  description: >-
+    Sets the company's people strategy and represents workforce priorities to the
+    executive team and board.
+  tools: [Read, Write, TodoWrite]
+
+- slug: compensation-analyst
+  title: Compensation Analyst
+  category: hr-people
+  description: >-
+    Benchmarks roles against market salary surveys and flags pay equity gaps.
+  tools: [Read, Write, WebSearch]
+
+- slug: compensation-manager
+  title: Compensation Manager
+  category: hr-people
+  description: >-
+    Designs pay bands, merit-increase guidelines, and bonus structures for the
+    company.
+  tools: [Read, Write, WebSearch]
+
+- slug: total-rewards-director
+  title: Total Rewards Director
+  category: hr-people
+  description: >-
+    Owns the combined strategy for pay, equity, and benefits so they work together
+    as one story.
+  tools: [Read, Write, WebSearch]
+
+- slug: benefits-administrator
+  title: Benefits Administrator
+  category: hr-people
+  description: >-
+    Processes health and retirement plan enrollments and resolves employee claims
+    issues.
+  tools: [Read, Write]
+
+- slug: benefits-manager
+  title: Benefits Manager
+  category: hr-people
+  description: >-
+    Designs the company's health, retirement, and leave programs and negotiates
+    with carriers.
+  tools: [Read, Write, WebSearch]
+
+- slug: hris-analyst
+  title: HRIS Analyst
+  category: hr-people
+  description: >-
+    Builds reports and configures workflows inside the HR information system.
+  tools: [Read, Write, Bash]
+
+- slug: hris-manager
+  title: HRIS Manager
+  category: hr-people
+  description: >-
+    Owns the HRIS platform's configuration, integrations, and data integrity.
+  tools: [Read, Write, Bash]
+
+- slug: people-analytics-manager
+  title: People Analytics Manager
+  category: hr-people
+  description: >-
+    Analyzes workforce data to explain attrition patterns and forecast hiring
+    needs.
+  tools: [Read, Write, Bash]
+
+- slug: employee-relations-specialist
+  title: Employee Relations Specialist
+  category: hr-people
+  description: >-
+    Investigates and resolves individual employee conduct and workplace
+    complaints.
+  tools: [Read, Write]
+
+- slug: employee-relations-director
+  title: Employee Relations Director
+  category: hr-people
+  description: >-
+    Sets policy for how the company handles workplace conduct escalations and
+    repeat offenders.
+  tools: [Read, Write, TodoWrite]
+
+- slug: hr-investigator
+  title: HR Investigator
+  category: hr-people
+  description: >-
+    Conducts formal, documented investigations into serious harassment or
+    discrimination claims for legal and compliance review.
+  tools: [Read, Write]
+
+- slug: learning-and-development-manager
+  title: Learning and Development Manager
+  category: hr-people
+  description: >-
+    Designs company-wide skills training and career-growth programs for employees.
+  tools: [Read, Write, TodoWrite]
+
+- slug: leadership-development-program-manager
+  title: Leadership Development Program Manager
+  category: hr-people
+  description: >-
+    Runs cohort-based programs that prepare high-potential managers for executive
+    roles.
+  tools: [Read, Write, TodoWrite]
+
+- slug: dei-program-manager
+  title: DEI Program Manager
+  category: hr-people
+  description: >-
+    Runs diversity sourcing initiatives and employee resource group programs.
+  tools: [Read, Write, TodoWrite]
+
+- slug: director-of-diversity-equity-and-inclusion
+  title: Director of Diversity, Equity, and Inclusion
+  category: hr-people
+  description: >-
+    Sets company-wide DEI strategy and reports representation metrics to
+    leadership.
+  tools: [Read, Write, TodoWrite]
+
+- slug: workforce-planning-analyst
+  title: Workforce Planning Analyst
+  category: hr-people
+  description: >-
+    Models headcount needs against budget and hiring plans for the next planning
+    cycle.
+  tools: [Read, Write, Bash]
+
+- slug: workforce-planning-director
+  title: Workforce Planning Director
+  category: hr-people
+  description: >-
+    Owns long-range headcount strategy tied to the company's multi-year business
+    plan.
+  tools: [Read, Write, TodoWrite]
+
+- slug: hr-operations-manager
+  title: HR Operations Manager
+  category: hr-people
+  description: >-
+    Runs transactional HR service delivery: data changes, letters, and policy
+    administration.
+  tools: [Read, Write, TodoWrite]
+
+- slug: hr-shared-services-specialist
+  title: HR Shared Services Specialist
+  category: hr-people
+  description: >-
+    Answers employee questions through an internal HR service desk and routes
+    escalations.
+  tools: [Read, Write]
+
+- slug: new-hire-onboarding-manager
+  title: New Hire Onboarding Manager
+  category: hr-people
+  description: >-
+    Designs and runs the program that gets new employees productive in their first
+    90 days.
+  tools: [Read, Write, TodoWrite]
+
+- slug: immigration-and-mobility-specialist
+  title: Immigration and Mobility Specialist
+  category: hr-people
+  description: >-
+    Coordinates visa sponsorship paperwork and relocation logistics without
+    offering legal advice.
+  tools: [Read, Write]
+
+- slug: labor-relations-manager
+  title: Labor Relations Manager
+  category: hr-people
+  description: >-
+    Manages the company's day-to-day relationship with union representatives and
+    administers the labor contract.
+  tools: [Read, Write]
+
+- slug: succession-planning-manager
+  title: Succession Planning Manager
+  category: hr-people
+  description: >-
+    Identifies and develops internal candidates ready to step into critical roles.
+  tools: [Read, Write, TodoWrite]
+
+- slug: talent-management-director
+  title: Talent Management Director
+  category: hr-people
+  description: >-
+    Owns the performance-review cycle and succession pipeline across the company.
+  tools: [Read, Write, TodoWrite]
+
+- slug: hr-compliance-manager
+  title: HR Compliance Manager
+  category: hr-people
+  description: >-
+    Audits HR policies and practices against employment regulations and flags
+    exposure.
+  tools: [Read, Write, WebSearch]
+
+- slug: global-mobility-manager
+  title: Global Mobility Manager
+  category: hr-people
+  description: >-
+    Manages international assignment packages, tax equalization coordination, and
+    relocation vendors.
+  tools: [Read, Write, WebSearch]
+
+- slug: vp-of-people
+  title: VP of People
+  category: hr-people
+  description: >-
+    Leads all HR functions for the company and sets the people budget together
+    with the CFO.
+  tools: [Read, Write, TodoWrite]
+
+- slug: business-operations-analyst
+  title: Business Operations Analyst
+  category: operations
+  description: >-
+    Analyzes operational metrics and dashboards to flag process breakdowns before
+    they hit revenue or delivery.
+  tools: [Read, Write, Bash]
+
+- slug: business-operations-manager
+  title: Business Operations Manager
+  category: operations
+  description: >-
+    Manages the day-to-day operating rhythm — metrics reviews, cross-team blockers
+    — for a single business unit.
+  tools: [Read, Write, TodoWrite]
+
+- slug: regional-operations-manager
+  title: Regional Operations Manager
+  category: operations
+  description: >-
+    Oversees operations across multiple sites in a region, standardizing practices
+    between them.
+  tools: [Read, Write, TodoWrite]
+
+- slug: director-of-business-operations
+  title: Director of Business Operations
+  category: operations
+  description: >-
+    Sets operating cadence and process standards across departments and reports
+    performance to leadership.
+  tools: [Read, Write, TodoWrite]
+
+- slug: vp-of-operations
+  title: VP of Operations
+  category: operations
+  description: >-
+    Owns the company's overall operating model and efficiency targets across every
+    business unit.
+  tools: [Read, Write, TodoWrite]
+
+- slug: chief-operating-officer
+  title: Chief Operating Officer
+  category: operations
+  description: >-
+    Runs the company's day-to-day execution and holds every function accountable
+    to the operating plan.
+  tools: [Read, Write, TodoWrite]
+
+- slug: operations-coordinator
+  title: Operations Coordinator
+  category: operations
+  description: >-
+    Handles scheduling, vendor logistics, and administrative requests that keep an
+    operations team running.
+  tools: [Read, Write, TodoWrite]
+
+- slug: general-manager
+  title: General Manager
+  category: operations
+  description: >-
+    Owns the full P&L for a business unit or location, from revenue to cost to
+    team performance.
+  tools: [Read, Write, TodoWrite]
+
+- slug: process-improvement-analyst
+  title: Process Improvement Analyst
+  category: operations
+  description: >-
+    Maps current-state workflows and quantifies waste to build the case for a
+    specific process change.
+  tools: [Read, Write, Bash]
+
+- slug: continuous-improvement-manager
+  title: Continuous Improvement Manager
+  category: operations
+  description: >-
+    Runs kaizen events and improvement projects that turn analysts' findings into
+    adopted process changes.
+  tools: [Read, Write, TodoWrite]
+
+- slug: lean-six-sigma-black-belt
+  title: Lean Six Sigma Black Belt
+  category: operations
+  description: >-
+    Leads DMAIC projects that use statistical analysis to cut defects and
+    variation out of a business process.
+  tools: [Read, Write, Bash]
+
+- slug: kaizen-facilitator
+  title: Kaizen Facilitator
+  category: operations
+  description: >-
+    Facilitates rapid-improvement workshops that get a cross-functional team to
+    redesign a process in days, not months.
+  tools: [Read, Write, TodoWrite]
+
+- slug: quality-manager
+  title: Quality Manager
+  category: operations
+  description: >-
+    Owns the quality management system and audit schedule that keeps a business's
+    processes certification-compliant.
+  tools: [Read, Write, TodoWrite]
+
+- slug: quality-systems-auditor
+  title: Quality Systems Auditor
+  category: operations
+  description: >-
+    Runs internal and external audits against ISO or industry quality standards
+    and tracks corrective actions.
+  tools: [Read, Write]
+
+- slug: supplier-quality-engineer
+  title: Supplier Quality Engineer
+  category: operations
+  description: >-
+    Reviews supplier processes and inspection data to catch defects before parts
+    reach the production line.
+  tools: [Read, Write, WebSearch]
+
+- slug: director-of-quality
+  title: Director of Quality
+  category: operations
+  description: >-
+    Sets quality strategy and certification roadmap across the company's sites and
+    product lines.
+  tools: [Read, Write, TodoWrite]
+
+- slug: procurement-analyst
+  title: Procurement Analyst
+  category: operations
+  description: >-
+    Analyzes spend data and supplier pricing to find savings opportunities across
+    purchasing categories.
+  tools: [Read, Write, WebSearch]
+
+- slug: procurement-manager
+  title: Procurement Manager
+  category: operations
+  description: >-
+    Runs the purchasing team's day-to-day buying, purchase orders, and supplier
+    onboarding.
+  tools: [Read, Write, TodoWrite]
+
+- slug: strategic-sourcing-manager
+  title: Strategic Sourcing Manager
+  category: operations
+  description: >-
+    Runs competitive RFPs and negotiates master supply agreements across multiple
+    spend categories.
+  tools: [Read, Write, WebSearch]
+
+- slug: category-manager
+  title: Category Manager
+  category: operations
+  description: >-
+    Owns the sourcing strategy and supplier roster for one specific spend
+    category, such as IT or travel.
+  tools: [Read, Write, WebSearch]
+
+- slug: chief-procurement-officer
+  title: Chief Procurement Officer
+  category: operations
+  description: >-
+    Sets the company's sourcing strategy and supplier risk tolerance at the
+    executive level.
+  tools: [Read, Write, TodoWrite]
+
+- slug: vendor-manager
+  title: Vendor Manager
+  category: operations
+  description: >-
+    Owns the ongoing relationship and performance scorecards for the company's key
+    existing vendors.
+  tools: [Read, Write, TodoWrite]
+
+- slug: supplier-risk-analyst
+  title: Supplier Risk Analyst
+  category: operations
+  description: >-
+    Assesses suppliers' financial health and continuity risk before and during an
+    engagement.
+  tools: [Read, Write, WebSearch]
+
+- slug: procurement-contract-specialist
+  title: Procurement Contract Specialist
+  category: operations
+  description: >-
+    Drafts and administers purchase agreements and statements of work for sourced
+    suppliers.
+  tools: [Read, Write]
+
+- slug: contract-compliance-analyst
+  title: Contract Compliance Analyst
+  category: operations
+  description: >-
+    Audits whether vendors and business units are actually meeting the terms of
+    contracts already signed.
+  tools: [Read, Write]
+
+- slug: facilities-manager
+  title: Facilities Manager
+  category: operations
+  description: >-
+    Manages building maintenance, space planning, and facility vendors for one or
+    more office sites.
+  tools: [Read, Write, TodoWrite]
+
+- slug: facilities-coordinator
+  title: Facilities Coordinator
+  category: operations
+  description: >-
+    Handles day-to-day facility requests — repairs, supplies, badge access — for a
+    single site.
+  tools: [Read, Write]
+
+- slug: director-of-workplace-services
+  title: Director of Workplace Services
+  category: operations
+  description: >-
+    Owns the company's real estate portfolio and workplace experience strategy
+    across all locations.
+  tools: [Read, Write, TodoWrite]
+
+- slug: workplace-safety-manager
+  title: Workplace Safety Manager
+  category: operations
+  description: >-
+    Runs the company's workplace safety program and investigates incidents to stay
+    compliant with safety rules.
+  tools: [Read, Write, WebSearch]
+
+- slug: business-continuity-manager
+  title: Business Continuity Manager
+  category: operations
+  description: >-
+    Builds and tests the enterprise plan for keeping critical operations running
+    through a disruption.
+  tools: [Read, Write, TodoWrite]
+
+- slug: business-continuity-analyst
+  title: Business Continuity Analyst
+  category: operations
+  description: >-
+    Documents recovery procedures and runs risk assessments that feed the business
+    continuity plan.
+  tools: [Read, Write, WebSearch]
+
+- slug: pmo-director
+  title: PMO Director
+  category: operations
+  description: >-
+    Sets project governance standards, tooling, and reporting that every project
+    manager in the company follows.
+  tools: [Read, Write, TodoWrite]
+
+- slug: project-manager
+  title: Project Manager
+  category: operations
+  description: >-
+    Plans and delivers a specific project's scope, schedule, and budget from
+    kickoff to close.
+  tools: [Read, Write, TodoWrite]
+
+- slug: change-management-manager
+  title: Change Management Manager
+  category: operations
+  description: >-
+    Designs the communication and training plan that gets employees to actually
+    adopt a new process or system.
+  tools: [Read, Write, TodoWrite]
+
+- slug: change-management-analyst
+  title: Change Management Analyst
+  category: operations
+  description: >-
+    Tracks adoption metrics and gathers feedback that tells a change program
+    whether it's actually landing.
+  tools: [Read, Write]
+
+- slug: business-analyst
+  title: Business Analyst
+  category: operations
+  description: >-
+    Documents current-state business processes and requirements for a cross-
+    departmental initiative.
+  tools: [Read, Write, Bash]
+
+- slug: operations-research-analyst
+  title: Operations Research Analyst
+  category: operations
+  description: >-
+    Builds mathematical and simulation models to optimize scheduling, resource
+    allocation, or capacity decisions.
+  tools: [Read, Write, Bash]
+
+- slug: sales-and-operations-planning-manager
+  title: Sales and Operations Planning Manager
+  category: operations
+  description: >-
+    Reconciles demand forecasts against supply and capacity plans in a recurring
+    monthly S&OP cycle.
+  tools: [Read, Write, Bash]
+
+- slug: business-planning-director
+  title: Business Planning Director
+  category: operations
+  description: >-
+    Owns the company's annual operating plan and long-range budget assumptions in
+    partnership with finance.
+  tools: [Read, Write, TodoWrite]
+
+- slug: records-and-information-governance-manager
+  title: Records and Information Governance Manager
+  category: operations
+  description: >-
+    Sets the company's document retention schedule and manages compliance with
+    records-disposal requirements.
+  tools: [Read, Write]
+
+- slug: tier-1-support-agent
+  title: Tier 1 Support Agent
+  category: customer-support
+  description: >-
+    Resolves common product questions and how-to issues as the first point of
+    contact for customer tickets and chats.
+  tools: [Read, Write]
+
+- slug: tier-2-support-engineer
+  title: Tier 2 Support Engineer
+  category: customer-support
+  description: >-
+    Troubleshoots technical issues that Tier 1 can't resolve, reproducing bugs
+    before escalating to engineering.
+  tools: [Read, Write, Bash]
+
+- slug: tier-3-support-engineer
+  title: Tier 3 Support Engineer
+  category: customer-support
+  description: >-
+    Debugs the most complex customer-reported issues, often reading logs or code
+    alongside engineering to find root cause.
+  tools: [Read, Write, Bash]
+
+- slug: support-engineering-lead
+  title: Support Engineering Lead
+  category: customer-support
+  description: >-
+    Triages and assigns the hardest technical escalations across a pod of Tier 2
+    and Tier 3 engineers.
+  tools: [Read, Write, TodoWrite]
+
+- slug: phone-support-representative
+  title: Phone Support Representative
+  category: customer-support
+  description: >-
+    Resolves customer issues over live voice calls, following scripts for
+    verification and de-escalation.
+  tools: [Read, Write]
+
+- slug: developer-support-engineer
+  title: Developer Support Engineer
+  category: customer-support
+  description: >-
+    Helps customers integrate and debug issues with the company's API or SDK.
+  tools: [Read, Write, Bash]
+
+- slug: multilingual-support-specialist
+  title: Multilingual Support Specialist
+  category: customer-support
+  description: >-
+    Resolves support tickets in a non-English language for the company's
+    international customer base.
+  tools: [Read, Write]
+
+- slug: billing-support-specialist
+  title: Billing Support Specialist
+  category: customer-support
+  description: >-
+    Resolves subscription, invoice, and refund questions, separate from the
+    technical queue Tier 1 handles.
+  tools: [Read, Write]
+
+- slug: warranty-support-specialist
+  title: Warranty Support Specialist
+  category: customer-support
+  description: >-
+    Processes product warranty claims and coordinates repair or replacement
+    shipments.
+  tools: [Read, Write]
+
+- slug: service-desk-analyst
+  title: Service Desk Analyst
+  category: customer-support
+  description: >-
+    Logs and resolves incidents and service requests against a defined SLA using
+    ITIL-style ticketing processes.
+  tools: [Read, Write]
+
+- slug: service-desk-manager
+  title: Service Desk Manager
+  category: customer-support
+  description: >-
+    Manages the service desk team's staffing, SLA performance, and escalation
+    process.
+  tools: [Read, Write, TodoWrite]
+
+- slug: support-systems-administrator
+  title: Support Systems Administrator
+  category: customer-support
+  description: >-
+    Configures and automates the ticketing platform's workflows, routing rules,
+    and integrations.
+  tools: [Read, Write, Bash]
+
+- slug: customer-success-manager
+  title: Customer Success Manager
+  category: customer-support
+  description: >-
+    Monitors product adoption and health scores for an assigned book of accounts
+    to head off churn before renewal.
+  tools: [Read, Write, TodoWrite]
+
+- slug: enterprise-customer-success-manager
+  title: Enterprise Customer Success Manager
+  category: customer-support
+  description: >-
+    Runs adoption reviews and executive business reviews for the company's largest
+    strategic accounts.
+  tools: [Read, Write, TodoWrite]
+
+- slug: director-of-customer-success
+  title: Director of Customer Success
+  category: customer-support
+  description: >-
+    Sets the playbooks and health-score models customer success managers use
+    across their books of business.
+  tools: [Read, Write, TodoWrite]
+
+- slug: vp-of-customer-success
+  title: VP of Customer Success
+  category: customer-support
+  description: >-
+    Owns retention and expansion outcomes for the entire customer success
+    organization.
+  tools: [Read, Write, TodoWrite]
+
+- slug: onboarding-specialist
+  title: Onboarding Specialist
+  category: customer-support
+  description: >-
+    Walks new customers through initial account setup and first-use milestones
+    right after a sale closes.
+  tools: [Read, Write, TodoWrite]
+
+- slug: implementation-manager
+  title: Implementation Manager
+  category: customer-support
+  description: >-
+    Runs the multi-week project plan that gets a new enterprise customer's systems
+    configured and live.
+  tools: [Read, Write, TodoWrite]
+
+- slug: solutions-onboarding-engineer
+  title: Solutions Onboarding Engineer
+  category: customer-support
+  description: >-
+    Handles the technical configuration and data migration work behind a complex
+    enterprise implementation.
+  tools: [Read, Write, Bash]
+
+- slug: escalation-manager
+  title: Escalation Manager
+  category: customer-support
+  description: >-
+    Owns the process for triaging and de-escalating tickets that a customer has
+    flagged as urgent or at-risk.
+  tools: [Read, Write, TodoWrite]
+
+- slug: major-incident-coordinator
+  title: Major Incident Coordinator
+  category: customer-support
+  description: >-
+    Runs customer-facing communication and status updates during a service outage
+    until it's resolved.
+  tools: [Read, Write, TodoWrite]
+
+- slug: executive-escalations-specialist
+  title: Executive Escalations Specialist
+  category: customer-support
+  description: >-
+    Resolves complaints routed from executives or regulators, documenting the
+    resolution carefully.
+  tools: [Read, Write]
+
+- slug: customer-support-operations-manager
+  title: Customer Support Operations Manager
+  category: customer-support
+  description: >-
+    Manages the tools, staffing model, and reporting that keep the support
+    organization running efficiently.
+  tools: [Read, Write, TodoWrite]
+
+- slug: workforce-management-analyst
+  title: Workforce Management Analyst
+  category: customer-support
+  description: >-
+    Forecasts ticket and call volume to build agent schedules that hit coverage
+    targets without overstaffing.
+  tools: [Read, Write, Bash]
+
+- slug: knowledge-base-manager
+  title: Knowledge Base Manager
+  category: customer-support
+  description: >-
+    Owns the help-center article taxonomy and retires or updates content as the
+    product changes.
+  tools: [Read, Write]
+
+- slug: self-service-experience-manager
+  title: Self-Service Experience Manager
+  category: customer-support
+  description: >-
+    Optimizes chatbot flows and help-center search so customers resolve issues
+    without opening a ticket.
+  tools: [Read, Write, WebSearch]
+
+- slug: support-quality-analyst
+  title: Support Quality Analyst
+  category: customer-support
+  description: >-
+    Scores individual support interactions against a quality rubric and flags
+    coaching opportunities.
+  tools: [Read, Write]
+
+- slug: support-quality-assurance-manager
+  title: Support Quality Assurance Manager
+  category: customer-support
+  description: >-
+    Sets the quality rubric and calibrates scoring consistency across the support
+    quality team.
+  tools: [Read, Write, TodoWrite]
+
+- slug: support-enablement-manager
+  title: Support Enablement Manager
+  category: customer-support
+  description: >-
+    Builds the training materials and product-knowledge programs that get new
+    support agents ramped.
+  tools: [Read, Write, TodoWrite]
+
+- slug: customer-support-analyst
+  title: Customer Support Analyst
+  category: customer-support
+  description: >-
+    Reports on ticket volume, CSAT, and resolution-time trends to guide staffing
+    and process decisions.
+  tools: [Read, Write, Bash]
+
+- slug: voice-of-the-customer-analyst
+  title: Voice of the Customer Analyst
+  category: customer-support
+  description: >-
+    Synthesizes themes from support tickets and surveys into insights the product
+    team can act on.
+  tools: [Read, Write, Bash]
+
+- slug: support-team-lead
+  title: Support Team Lead
+  category: customer-support
+  description: >-
+    Coaches a small group of frontline agents day-to-day and handles their
+    toughest live escalations.
+  tools: [Read, Write, TodoWrite]
+
+- slug: support-manager
+  title: Support Manager
+  category: customer-support
+  description: >-
+    Manages a support team's staffing, performance, and metrics for a product line
+    or region.
+  tools: [Read, Write, TodoWrite]
+
+- slug: director-of-support
+  title: Director of Support
+  category: customer-support
+  description: >-
+    Sets support strategy, staffing model, and tooling roadmap across every
+    support team.
+  tools: [Read, Write, TodoWrite]
+
+- slug: chief-customer-officer
+  title: Chief Customer Officer
+  category: customer-support
+  description: >-
+    Owns the company's end-to-end customer experience strategy at the executive
+    level.
+  tools: [Read, Write, TodoWrite]
+
+- slug: consumer-technical-support-specialist
+  title: Consumer Technical Support Specialist
+  category: customer-support
+  description: >-
+    Diagnoses hardware and software issues for individual consumers over phone or
+    chat.
+  tools: [Read, Write]
+
+- slug: social-media-support-specialist
+  title: Social Media Support Specialist
+  category: customer-support
+  description: >-
+    Resolves customer complaints posted publicly on social channels before they
+    escalate further.
+  tools: [Read, Write]
+
+- slug: accessibility-support-specialist
+  title: Accessibility Support Specialist
+  category: customer-support
+  description: >-
+    Supports customers using assistive technology and processes accommodation
+    requests.
+  tools: [Read, Write]
+
+- slug: bpo-support-vendor-manager
+  title: BPO Support Vendor Manager
+  category: customer-support
+  description: >-
+    Manages staffing levels and quality performance of the company's outsourced
+    support vendors.
+  tools: [Read, Write, TodoWrite]
+
+- slug: case-management-specialist
+  title: Case Management Specialist
+  category: customer-support
+  description: >-
+    Coordinates multi-department customer cases that span billing, technical, and
+    account issues to one resolution.
+  tools: [Read, Write, TodoWrite]
+
+- slug: primary-care-physician
+  title: Primary Care Physician
+  category: healthcare
+  description: >-
+    Diagnoses and manages common and chronic conditions across a patient's
+    lifespan, referring out complex cases to specialists.
+  tools: [Read, Write, WebSearch]
+
+- slug: pediatrician
+  title: Pediatrician
+  category: healthcare
+  description: >-
+    Diagnoses and manages illnesses and developmental milestones specifically in
+    infants, children, and adolescents.
+  tools: [Read, Write, WebSearch]
+
+- slug: emergency-medicine-physician
+  title: Emergency Medicine Physician
+  category: healthcare
+  description: >-
+    Stabilizes and treats acute, life-threatening conditions in an emergency
+    department without an ongoing patient relationship.
+  tools: [Read, Write, WebSearch]
+
+- slug: psychiatrist
+  title: Psychiatrist
+  category: healthcare
+  description: >-
+    Diagnoses mental illness and prescribes and manages psychiatric medication,
+    distinct from a psychologist's talk-therapy focus.
+  tools: [Read, Write, WebSearch]
+
+- slug: anesthesiologist
+  title: Anesthesiologist
+  category: healthcare
+  description: >-
+    Manages sedation, pain control, and vital signs for patients undergoing
+    surgery or other invasive procedures.
+  tools: [Read, Write, WebSearch]
+
+- slug: radiologist
+  title: Radiologist
+  category: healthcare
+  description: >-
+    Interprets X-rays, CT, MRI, and ultrasound images to diagnose disease,
+    distinct from the technologist who captures them.
+  tools: [Read, Write, WebSearch]
+
+- slug: registered-nurse
+  title: Registered Nurse
+  category: healthcare
+  description: >-
+    Delivers and coordinates direct bedside patient care, medication
+    administration, and monitoring on a hospital unit.
+  tools: [Read, Write]
+
+- slug: nurse-practitioner
+  title: Nurse Practitioner
+  category: healthcare
+  description: >-
+    Diagnoses conditions and prescribes treatment independently within scope,
+    taking on primary-care duties a physician would otherwise handle.
+  tools: [Read, Write, WebSearch]
+
+- slug: nurse-manager
+  title: Nurse Manager
+  category: healthcare
+  description: >-
+    Oversees nursing staff scheduling, competency, and patient-care standards for
+    a hospital unit.
+  tools: [Read, Write, TodoWrite]
+
+- slug: certified-registered-nurse-anesthetist
+  title: Certified Registered Nurse Anesthetist
+  category: healthcare
+  description: >-
+    Administers anesthesia and manages a patient's sedation during procedures, an
+    advanced-practice nursing role distinct from a physician anesthesiologist.
+  tools: [Read, Write, WebSearch]
+
+- slug: physical-therapist
+  title: Physical Therapist
+  category: healthcare
+  description: >-
+    Designs and guides exercise and movement programs that restore mobility after
+    injury, surgery, or illness.
+  tools: [Read, Write]
+
+- slug: occupational-therapist
+  title: Occupational Therapist
+  category: healthcare
+  description: >-
+    Helps patients relearn the fine-motor and daily-living skills needed to work,
+    dress, and care for themselves independently.
+  tools: [Read, Write]
+
+- slug: respiratory-therapist
+  title: Respiratory Therapist
+  category: healthcare
+  description: >-
+    Manages ventilators and airway treatments for patients with breathing
+    disorders or acute respiratory failure.
+  tools: [Read, Write]
+
+- slug: radiologic-technologist
+  title: Radiologic Technologist
+  category: healthcare
+  description: >-
+    Operates imaging equipment to capture X-rays, CT, or MRI scans for a
+    radiologist to interpret.
+  tools: [Read, Write]
+
+- slug: speech-language-pathologist
+  title: Speech-Language Pathologist
+  category: healthcare
+  description: >-
+    Diagnoses and treats speech, language, and swallowing disorders in patients of
+    any age.
+  tools: [Read, Write]
+
+- slug: audiologist
+  title: Audiologist
+  category: healthcare
+  description: >-
+    Diagnoses hearing and balance disorders and fits patients with hearing aids or
+    cochlear implant follow-up care.
+  tools: [Read, Write]
+
+- slug: clinical-pharmacist
+  title: Clinical Pharmacist
+  category: healthcare
+  description: >-
+    Reviews prescriptions for drug interactions and dosing errors and advises
+    physicians on medication therapy.
+  tools: [Read, Write, WebSearch]
+
+- slug: pharmacy-technician
+  title: Pharmacy Technician
+  category: healthcare
+  description: >-
+    Fills prescriptions, manages inventory, and processes insurance claims under a
+    pharmacist's supervision.
+  tools: [Read, Write]
+
+- slug: pharmacovigilance-specialist
+  title: Pharmacovigilance Specialist
+  category: healthcare
+  description: >-
+    Monitors and reports adverse drug event data to regulators after a medication
+    reaches the market.
+  tools: [Read, Write, WebSearch]
+
+- slug: clinical-laboratory-scientist
+  title: Clinical Laboratory Scientist
+  category: healthcare
+  description: >-
+    Runs diagnostic tests on patient blood and tissue samples to support a
+    physician's diagnosis.
+  tools: [Read, Write]
+
+- slug: pathologist
+  title: Pathologist
+  category: healthcare
+  description: >-
+    Examines tissue, blood, and autopsy specimens under a microscope to diagnose
+    disease at the cellular level.
+  tools: [Read, Write, WebSearch]
+
+- slug: phlebotomist
+  title: Phlebotomist
+  category: healthcare
+  description: >-
+    Draws blood samples from patients and prepares them for laboratory testing.
+  tools: [Read, Write]
+
+- slug: clinical-psychologist
+  title: Clinical Psychologist
+  category: healthcare
+  description: >-
+    Diagnoses mental health conditions and provides talk therapy, without the
+    prescribing authority a psychiatrist holds.
+  tools: [Read, Write, WebSearch]
+
+- slug: licensed-clinical-social-worker
+  title: Licensed Clinical Social Worker
+  category: healthcare
+  description: >-
+    Provides therapy and connects patients to social services and community
+    resources alongside clinical treatment.
+  tools: [Read, Write]
+
+- slug: substance-abuse-counselor
+  title: Substance Abuse Counselor
+  category: healthcare
+  description: >-
+    Guides patients through addiction recovery programs and relapse-prevention
+    planning.
+  tools: [Read, Write]
+
+- slug: dentist
+  title: Dentist
+  category: healthcare
+  description: >-
+    Diagnoses and treats teeth, gum, and oral health issues, from routine exams to
+    fillings and extractions.
+  tools: [Read, Write, WebSearch]
+
+- slug: dental-hygienist
+  title: Dental Hygienist
+  category: healthcare
+  description: >-
+    Cleans teeth, screens for gum disease, and educates patients on oral hygiene
+    ahead of the dentist's exam.
+  tools: [Read, Write]
+
+- slug: orthodontist
+  title: Orthodontist
+  category: healthcare
+  description: >-
+    Corrects teeth and jaw alignment using braces, aligners, and other appliances,
+    a specialty beyond a general dentist's scope.
+  tools: [Read, Write, WebSearch]
+
+- slug: veterinarian
+  title: Veterinarian
+  category: healthcare
+  description: >-
+    Diagnoses and treats illness and injury in animals, from routine wellness
+    exams to surgery.
+  tools: [Read, Write, WebSearch]
+
+- slug: veterinary-technician
+  title: Veterinary Technician
+  category: healthcare
+  description: >-
+    Assists a veterinarian with animal exams, lab work, anesthesia monitoring, and
+    post-op recovery.
+  tools: [Read, Write]
+
+- slug: paramedic
+  title: Paramedic
+  category: healthcare
+  description: >-
+    Provides advanced life support, including medications and airway management,
+    at the scene of a medical emergency and in transit.
+  tools: [Read, Write]
+
+- slug: emergency-medical-technician
+  title: Emergency Medical Technician
+  category: healthcare
+  description: >-
+    Provides basic life support and stabilizes patients for transport, a narrower
+    scope of practice than a paramedic's.
+  tools: [Read, Write]
+
+- slug: hospital-administrator
+  title: Hospital Administrator
+  category: healthcare
+  description: >-
+    Runs the day-to-day business operations of a hospital, from staffing and
+    budgets to regulatory compliance.
+  tools: [Read, Write, TodoWrite]
+
+- slug: medical-practice-manager
+  title: Medical Practice Manager
+  category: healthcare
+  description: >-
+    Runs the daily operations of an outpatient medical practice, smaller in scale
+    than a hospital administrator's remit.
+  tools: [Read, Write, TodoWrite]
+
+- slug: chief-nursing-officer
+  title: Chief Nursing Officer
+  category: healthcare
+  description: >-
+    Sets nursing practice standards and staffing strategy for the organization and
+    represents nursing at the executive level.
+  tools: [Read, Write, TodoWrite]
+
+- slug: chief-medical-officer
+  title: Chief Medical Officer
+  category: healthcare
+  description: >-
+    Sets clinical quality and medical staff policy for the organization and
+    represents physicians at the executive level.
+  tools: [Read, Write, TodoWrite, WebSearch]
+
+- slug: medical-coder
+  title: Medical Coder
+  category: healthcare
+  description: >-
+    Translates clinician documentation into standardized diagnosis and procedure
+    codes for billing and records.
+  tools: [Read, Write]
+
+- slug: medical-billing-specialist
+  title: Medical Billing Specialist
+  category: healthcare
+  description: >-
+    Submits insurance claims and resolves denials and patient billing questions
+    using the codes a coder assigns.
+  tools: [Read, Write]
+
+- slug: infection-preventionist
+  title: Infection Preventionist
+  category: healthcare
+  description: >-
+    Tracks healthcare-associated infection rates and enforces sterilization and
+    isolation protocols across a facility.
+  tools: [Read, Write, WebSearch]
+
+- slug: clinical-research-coordinator
+  title: Clinical Research Coordinator
+  category: healthcare
+  description: >-
+    Recruits and manages trial participants at a study site, tracking protocol
+    compliance and data collection for a clinical trial.
+  tools: [Read, Write, TodoWrite]
+
+- slug: research-physicist
+  title: Research Physicist
+  category: science-research
+  description: >-
+    Designs experiments and builds theoretical models to test hypotheses in
+    fundamental or applied physics.
+  tools: [Read, Write, Bash]
+
+- slug: particle-physicist
+  title: Particle Physicist
+  category: science-research
+  description: >-
+    Studies subatomic particles and fundamental forces using accelerator
+    experiments and collision data.
+  tools: [Read, Write, Bash]
+
+- slug: condensed-matter-physicist
+  title: Condensed Matter Physicist
+  category: science-research
+  description: >-
+    Studies the physical properties of solids and liquids, such as
+    superconductivity and magnetism, at the atomic scale.
+  tools: [Read, Write, Bash]
+
+- slug: analytical-chemist
+  title: Analytical Chemist
+  category: science-research
+  description: >-
+    Identifies and quantifies the chemical composition of unknown samples using
+    spectroscopy and chromatography.
+  tools: [Read, Write]
+
+- slug: organic-chemist
+  title: Organic Chemist
+  category: science-research
+  description: >-
+    Synthesizes and characterizes carbon-based compounds for new materials, drugs,
+    or industrial processes.
+  tools: [Read, Write]
+
+- slug: physical-chemist
+  title: Physical Chemist
+  category: science-research
+  description: >-
+    Studies how chemical systems behave at the molecular level, applying physics
+    to explain reaction rates and thermodynamics.
+  tools: [Read, Write, Bash]
+
+- slug: molecular-biologist
+  title: Molecular Biologist
+  category: science-research
+  description: >-
+    Studies the structure and function of DNA, RNA, and proteins to explain how
+    cells operate.
+  tools: [Read, Write]
+
+- slug: microbiologist
+  title: Microbiologist
+  category: science-research
+  description: >-
+    Studies bacteria, viruses, and fungi to understand disease mechanisms,
+    fermentation, or environmental roles.
+  tools: [Read, Write]
+
+- slug: ecologist
+  title: Ecologist
+  category: science-research
+  description: >-
+    Studies how organisms interact with each other and their environment to
+    explain population and ecosystem dynamics.
+  tools: [Read, Write]
+
+- slug: geneticist
+  title: Geneticist
+  category: science-research
+  description: >-
+    Studies how genes are inherited and expressed to explain traits, disease risk,
+    or evolutionary change.
+  tools: [Read, Write, Bash]
+
+- slug: geologist
+  title: Geologist
+  category: science-research
+  description: >-
+    Studies rock formations and Earth's structure to map deposits, hazards, or
+    geological history.
+  tools: [Read, Write]
+
+- slug: hydrologist
+  title: Hydrologist
+  category: science-research
+  description: >-
+    Studies the movement, quality, and distribution of water above and below
+    ground to model watersheds and supply.
+  tools: [Read, Write, Bash]
+
+- slug: climatologist
+  title: Climatologist
+  category: science-research
+  description: >-
+    Analyzes long-term weather and climate data to model trends and explain shifts
+    in regional or global climate patterns.
+  tools: [Read, Write, Bash]
+
+- slug: oceanographer
+  title: Oceanographer
+  category: science-research
+  description: >-
+    Studies ocean currents, chemistry, and marine ecosystems to explain how the
+    ocean shapes climate and coastal environments.
+  tools: [Read, Write, Bash]
+
+- slug: seismologist
+  title: Seismologist
+  category: science-research
+  description: >-
+    Studies earthquakes and seismic waves to map fault activity and assess
+    regional earthquake risk.
+  tools: [Read, Write, Bash]
+
+- slug: materials-scientist
+  title: Materials Scientist
+  category: science-research
+  description: >-
+    Develops and tests new materials, studying how their structure determines
+    strength, conductivity, or durability.
+  tools: [Read, Write, Bash]
+
+- slug: nanotechnology-researcher
+  title: Nanotechnology Researcher
+  category: science-research
+  description: >-
+    Designs and studies materials and devices at the nanoscale for applications in
+    medicine, energy, or electronics.
+  tools: [Read, Write, Bash]
+
+- slug: astronomer
+  title: Astronomer
+  category: science-research
+  description: >-
+    Observes celestial objects using telescopes to catalog and characterize stars,
+    planets, and galaxies.
+  tools: [Read, Write, Bash]
+
+- slug: astrophysicist
+  title: Astrophysicist
+  category: science-research
+  description: >-
+    Builds theoretical and computational models of stellar and cosmological
+    phenomena that observation alone can't explain.
+  tools: [Read, Write, Bash]
+
+- slug: sociologist
+  title: Sociologist
+  category: science-research
+  description: >-
+    Studies how social structures, institutions, and group behavior shape human
+    societies through surveys and field research.
+  tools: [Read, Write, WebSearch]
+
+- slug: cultural-anthropologist
+  title: Cultural Anthropologist
+  category: science-research
+  description: >-
+    Studies cultural practices and social organization of communities through
+    immersive fieldwork and ethnography.
+  tools: [Read, Write, WebSearch]
+
+- slug: cognitive-scientist
+  title: Cognitive Scientist
+  category: science-research
+  description: >-
+    Studies how the mind processes information, perception, and language through
+    controlled behavioral experiments.
+  tools: [Read, Write, Bash]
+
+- slug: political-scientist
+  title: Political Scientist
+  category: science-research
+  description: >-
+    Studies government institutions, political behavior, and policy outcomes using
+    comparative and quantitative methods.
+  tools: [Read, Write, WebSearch]
+
+- slug: survey-research-methodologist
+  title: Survey Research Methodologist
+  category: science-research
+  description: >-
+    Designs and validates survey instruments and sampling methods so a study's
+    data holds up statistically.
+  tools: [Read, Write, Bash]
+
+- slug: epidemiologist
+  title: Epidemiologist
+  category: science-research
+  description: >-
+    Tracks disease patterns across populations to identify causes, risk factors,
+    and outbreak sources.
+  tools: [Read, Write, Bash]
+
+- slug: toxicologist
+  title: Toxicologist
+  category: science-research
+  description: >-
+    Tests how chemicals and drugs affect living organisms to establish safe
+    exposure limits.
+  tools: [Read, Write]
+
+- slug: botanist
+  title: Botanist
+  category: science-research
+  description: >-
+    Studies plant species, their physiology, and classification through lab
+    analysis and field collection.
+  tools: [Read, Write]
+
+- slug: entomologist
+  title: Entomologist
+  category: science-research
+  description: >-
+    Studies insect biology, behavior, and taxonomy through field collection and
+    lab identification.
+  tools: [Read, Write]
+
+- slug: research-lab-manager
+  title: Research Lab Manager
+  category: science-research
+  description: >-
+    Runs the day-to-day operations of a research lab, including equipment,
+    supplies, and safety compliance.
+  tools: [Read, Write, TodoWrite]
+
+- slug: laboratory-technician
+  title: Laboratory Technician
+  category: science-research
+  description: >-
+    Prepares samples, runs routine tests, and maintains equipment in support of a
+    research team's experiments.
+  tools: [Read, Write]
+
+- slug: research-associate
+  title: Research Associate
+  category: science-research
+  description: >-
+    Executes bench experiments and collects data under a principal investigator's
+    direction on a specific study.
+  tools: [Read, Write]
+
+- slug: field-research-technician
+  title: Field Research Technician
+  category: science-research
+  description: >-
+    Collects samples and measurements at remote or outdoor sites in support of a
+    research project's data needs.
+  tools: [Read, Write]
+
+- slug: wildlife-biologist
+  title: Wildlife Biologist
+  category: science-research
+  description: >-
+    Studies animal populations and behavior in their natural habitat to inform
+    species management and conservation.
+  tools: [Read, Write]
+
+- slug: marine-biologist
+  title: Marine Biologist
+  category: science-research
+  description: >-
+    Studies organisms and ecosystems in oceans and coastal waters through diving
+    surveys and lab analysis.
+  tools: [Read, Write]
+
+- slug: grants-administrator
+  title: Grants Administrator
+  category: science-research
+  description: >-
+    Manages the budgeting, compliance, and reporting requirements attached to a
+    research team's external funding.
+  tools: [Read, Write, TodoWrite]
+
+- slug: research-compliance-officer
+  title: Research Compliance Officer
+  category: science-research
+  description: >-
+    Reviews study protocols against human- and animal-subject research regulations
+    before they're approved to proceed.
+  tools: [Read, Write]
+
+- slug: principal-investigator
+  title: Principal Investigator
+  category: science-research
+  description: >-
+    Leads an independent research program, securing funding and directing a lab's
+    scientific direction.
+  tools: [Read, Write, TodoWrite]
+
+- slug: postdoctoral-research-fellow
+  title: Postdoctoral Research Fellow
+  category: science-research
+  description: >-
+    Conducts independent research within a lab under a principal investigator,
+    building a publication record toward a faculty role.
+  tools: [Read, Write]
+
+- slug: research-program-director
+  title: Research Program Director
+  category: science-research
+  description: >-
+    Sets scientific priorities and oversees multiple research programs and their
+    budgets for an institute or division.
+  tools: [Read, Write, TodoWrite]
+
+- slug: research-data-coordinator
+  title: Research Data Coordinator
+  category: science-research
+  description: >-
+    Manages data collection, entry, and quality checks for a multi-site academic
+    study, without building predictive models.
+  tools: [Read, Write, TodoWrite]
