@@ -9,6 +9,7 @@
   "scripts": {
     "test": "vitest run",
     "validate": "tsx scripts/validate.ts",
+    "counts": "tsx scripts/counts.ts",
     "install:agents": "tsx scripts/install.ts"
   },
   "repository": {

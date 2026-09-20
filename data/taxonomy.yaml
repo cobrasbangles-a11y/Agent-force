@@ -571,13 +571,13 @@
     pattern legible to a non-technical audience.
   tools: [Read, Write, Edit]
 
-- slug: database-administrator
-  title: Database Administrator
+- slug: causal-inference-scientist
+  title: Causal Inference Scientist
   category: data-ai
   description: >-
-    Keeps production databases backed up, patched, and performant, managing access
-    control and capacity for the data layer.
-  tools: [Read, Write, Edit, Bash, Grep, Glob]
+    Develops causal inference methods -- quasi-experiments, causal ML -- that
+    estimate treatment effects when a randomized test isn't possible.
+  tools: [Read, Write, Edit, Bash, NotebookEdit]
 
 - slug: data-labeling-operations-lead
   title: Data Labeling Operations Lead
@@ -743,9 +743,9 @@
   title: Application Security Engineer
   category: security
   description: >-
-    Builds SAST, DAST, and dependency-scanning pipelines and standards that catch
-    vulnerabilities across many applications before release.
-  tools: [Read, Write, Edit, Bash, Grep, Glob]
+    Sets the appsec program for a portfolio of applications -- threat modeling,
+    secure design review, and coordinating pentests and bug bounty findings.
+  tools: [Read, Write, Edit, Grep, Glob]
 
 - slug: cloud-security-engineer
   title: Cloud Security Engineer
@@ -887,8 +887,8 @@
   title: Threat Hunter
   category: security
   description: >-
-    Proactively searches internal telemetry for signs of compromise that automated
-    detection rules missed.
+    Searches internal telemetry proactively for signs of compromise that
+    automated detection rules missed.
   tools: [Read, Write, Bash, Grep, Glob]
 
 - slug: security-automation-engineer
@@ -1023,8 +1023,8 @@
   title: Cloud Infrastructure Engineer
   category: infrastructure-devops
   description: >-
-    Provisions and operates the compute, networking, and storage resources a
-    company runs on a public cloud provider.
+    Runs the day-to-day cloud estate -- account structure, service quotas, and
+    resource configuration -- that workloads are deployed onto.
   tools: [Read, Write, Edit, Bash, Grep, Glob]
 
 - slug: devops-engineer
@@ -1039,8 +1039,8 @@
   title: Infrastructure as Code Engineer
   category: infrastructure-devops
   description: >-
-    Writes and maintains Terraform or Pulumi modules that provision cloud
-    infrastructure declaratively and repeatably.
+    Builds the IaC practice itself -- module design, state management, drift
+    detection, and policy-as-code -- that every team's provisioning relies on.
   tools: [Read, Write, Edit, Bash, Grep, Glob]
 
 - slug: kubernetes-administrator
@@ -1175,8 +1175,8 @@
   title: Database Reliability Engineer
   category: infrastructure-devops
   description: >-
-    Keeps production databases available and performant, owning replication,
-    failover, and backup for the data layer specifically.
+    Owns production databases end to end -- replication, failover, backup,
+    patching, access control, and capacity -- so the data layer stays available.
   tools: [Read, Write, Edit, Bash, Grep, Glob]
 
 - slug: messaging-infrastructure-engineer
