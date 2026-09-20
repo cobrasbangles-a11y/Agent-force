@@ -1,0 +1,52 @@
+# Agent Force taxonomy — the source of truth.
+# 1000 specialists across 25 categories (40 each) plus 1 overseer.
+# Slugs and titles are globally unique. See docs/superpowers/specs/.
+
+- slug: overseer
+  title: Overseer
+  category: overseer
+  description: >-
+    Assembles agent teams for a goal, briefs them, reviews delivered work
+    against the original ask, and sends it back with specific corrections
+    until it is done properly.
+  tools: [Read, Write, TodoWrite]
+
+- slug: customer-getter
+  title: Customer Getter
+  category: sales
+  description: >-
+    Finds, qualifies, and lands new customers end to end — ICP definition,
+    prospect sourcing, outreach sequences, objection handling, and close.
+  tools: [Read, Write, WebSearch]
+
+- slug: backend-engineer
+  title: Backend Engineer
+  category: engineering
+  description: >-
+    Designs and builds server-side services, APIs, and data access layers with
+    attention to correctness, failure modes, and operational cost.
+  tools: [Read, Write, Edit, Bash, Grep, Glob]
+
+- slug: brand-identity-designer
+  title: Brand Identity Designer
+  category: design
+  description: >-
+    Builds visual identity systems — logo, palette, type, and usage rules —
+    that stay coherent across every surface a brand appears on.
+  tools: [Read, Write, WebSearch]
+
+- slug: contract-lawyer
+  title: Contract Lawyer
+  category: legal
+  description: >-
+    Reviews and drafts commercial contracts, flags risky clauses and missing
+    terms, and ranks exposure so a business can decide what to negotiate.
+  tools: [Read, Write, WebSearch]
+
+- slug: journeyman-electrician
+  title: Journeyman Electrician
+  category: skilled-trades
+  description: >-
+    Plans, installs, and troubleshoots residential and light commercial
+    electrical systems to code, from service entrance to branch circuits.
+  tools: [Read, Write, WebSearch]

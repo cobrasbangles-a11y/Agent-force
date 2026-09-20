@@ -1,0 +1,7 @@
+name: Founder
+description: The smallest set that covers build, sell, and protect.
+agents:
+  - overseer
+  - customer-getter
+  - backend-engineer
+  - contract-lawyer

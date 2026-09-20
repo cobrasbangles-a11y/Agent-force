@@ -1,0 +1,4 @@
+name: Dev Team
+description: Building and shipping the product.
+agents:
+  - backend-engineer
