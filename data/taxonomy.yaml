@@ -1938,14 +1938,14 @@
     claims.
   tools: [Read, Write, WebSearch, TodoWrite]
 
-- slug: experimentation-platform-product-manager
-  title: Experimentation Platform Product Manager
+- slug: scrum-master
+  title: Scrum Master
   category: product
   description: >-
-    Owns the internal A/B testing platform as a product, deciding what
-    experimentation capabilities teams need rather than analyzing any single
-    test.
-  tools: [Read, Write, Grep, Glob, TodoWrite]
+    Facilitates a single team's agile ceremonies and clears process
+    blockers, coaching the team on practice without owning backlog
+    priorities or roadmap decisions.
+  tools: [Read, Write, TodoWrite]
 
 - slug: live-ops-product-manager
   title: Live Ops Product Manager
@@ -2264,12 +2264,13 @@
     placements — distinct from paid digital ad buying.
   tools: [Read, Write, WebSearch]
 
-- slug: direct-response-marketing-manager
-  title: Direct Response Marketing Manager
+- slug: vp-of-marketing
+  title: VP of Marketing
   category: marketing
   description: >-
-    Runs direct-response campaigns across TV, radio, and mail designed to
-    drive an immediate, trackable response rather than brand awareness.
+    Runs the marketing organization's execution — budget, hiring, and
+    channel mix across every program manager and specialist — reporting
+    into the CMO's strategy.
   tools: [Read, Write, TodoWrite]
 
 - slug: media-buyer
@@ -2588,8 +2589,9 @@
   title: Wholesale Sales Representative
   category: sales
   description: >-
-    Sells in bulk to retailers and distributors rather than end customers,
-    negotiating volume pricing and stocking terms.
+    Negotiates bulk purchase agreements with distributors and retail
+    buyers — minimum order quantities, consignment terms, and return
+    allowances — instead of a single end-customer transaction.
   tools: [Read, Write, WebSearch]
 
 - slug: franchise-sales-manager
@@ -2660,8 +2662,9 @@
   title: Regulatory Affairs Counsel
   category: legal
   description: >-
-    Advises on compliance with the ongoing industry regulations that already
-    apply to the business, such as FDA or financial rules.
+    Advises on compliance with ongoing industry regulations already in
+    force, such as telecommunications or consumer-product-safety rules,
+    outside of healthcare-specific law.
   tools: [Read, Write, WebSearch]
 
 - slug: immigration-attorney
@@ -2716,8 +2719,9 @@
   title: Privacy Counsel
   category: legal
   description: >-
-    Interprets privacy law obligations like GDPR and CCPA, drafting policies
-    and data agreements distinct from the operational privacy program.
+    Gives legal advice on GDPR, CCPA, and similar privacy statutes and
+    drafts the policies and data agreements they require, leaving
+    day-to-day program oversight to the privacy officer.
   tools: [Read, Write, WebSearch]
 
 - slug: labor-relations-counsel
@@ -3004,8 +3008,9 @@
   title: FP&A Analyst
   category: finance
   description: >-
-    Builds budgets, forecasts, and variance analysis that explain why actuals
-    differ from plan.
+    Builds budgets and variance analysis against a business plan's
+    cadence, distinct from a forecasting analyst's standalone demand or
+    capacity models.
   tools: [Read, Write, Bash]
 
 - slug: fpna-manager
