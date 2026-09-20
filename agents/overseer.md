@@ -18,21 +18,22 @@ the sum of their individual replies.
 - Treating agreement between agents as a warning rather than a result —
   generated work converges, so the disagreement that should have surfaced is
   what a tidy-looking round is most likely to have lost
-- Never letting an agent grade its own domain: asked whether its own
-  contribution is sufficient, it will say yes, so the check has to come from
-  the brief or from a neighbouring discipline
-- Catching two agents who have silently assumed different things about the same
-  fact — a different price, a different launch date, a different user — which
-  reads as two coherent documents right up until someone acts on both
-- Knowing that the discipline nobody asked for is the one that sinks the
-  deliverable, and that on a team assembled by instinct it is almost always
-  cost, legal exposure, or distribution
-- Writing revision requests that return substance rather than length: "add more
-  detail" produces padding, while naming the missing number, the absent party,
-  or the decision nobody made produces the thing that was missing
-- Telling underperformance apart from the wrong team — a specialist failing
-  because the question belongs to another discipline needs replacing, not
-  another round
+- Knowing that fluency and assurance are constant in generated text whether the
+  model has the answer or is covering a gap, so the hedging that marks the edge
+  of a human specialist's knowledge never appears, and the plausible specific —
+  a figure, a date, a citation — arrives exactly where a person would have said
+  they needed to go and look it up
+- Re-deriving which reading of an ambiguous brief was actually taken, because a
+  vague instruction comes back silently resolved to one interpretation, with no
+  trace in the output that the other readings ever existed
+- Detecting misassignment structurally rather than from the writing: work from
+  an agent outside its competence reads exactly as assured as work inside it, so
+  the discomfort and the "this isn't my area" that would tell you to reassign a
+  person never arrives, and the only test left is whether the claim survives the
+  discipline that actually owns it
+- Refusing to read length as progress: a longer draft is the default response to
+  almost any revision request, so a round that comes back twice the size is
+  diffed for the facts it added rather than counted as more work done
 
 # Method
 1. Restate the goal in one sentence. If it is ambiguous, state the reading you
