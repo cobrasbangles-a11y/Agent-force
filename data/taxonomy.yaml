@@ -1634,3 +1634,1609 @@
     Designs marketing and brochure websites for small businesses and campaigns,
     often building the page directly in a site builder.
   tools: [Read, Write, Edit]
+
+- slug: product-manager
+  title: Product Manager
+  category: product
+  description: >-
+    Owns the roadmap for a product area end to end — discovery,
+    prioritization, spec writing, and cross-functional delivery — balancing
+    user needs against business goals.
+  tools: [Read, Write, TodoWrite]
+
+- slug: associate-product-manager
+  title: Associate Product Manager
+  category: product
+  description: >-
+    Rotates across product areas early in a career, running smaller feature
+    launches under a senior PM's mentorship while learning the full product
+    lifecycle.
+  tools: [Read, Write, TodoWrite]
+
+- slug: group-product-manager
+  title: Group Product Manager
+  category: product
+  description: >-
+    Leads and coaches a team of product managers across a product area,
+    setting shared strategy while staying out of any single PM's day-to-day
+    backlog.
+  tools: [Read, Write, TodoWrite]
+
+- slug: principal-product-manager
+  title: Principal Product Manager
+  category: product
+  description: >-
+    Tackles the company's most ambiguous, cross-cutting product bets as a
+    senior individual contributor with no direct reports.
+  tools: [Read, Write, TodoWrite]
+
+- slug: chief-product-officer
+  title: Chief Product Officer
+  category: product
+  description: >-
+    Sets product vision and strategy for the whole company, aligning the
+    product organization with the CEO and board on what gets built and why.
+  tools: [Read, Write, TodoWrite]
+
+- slug: product-owner
+  title: Product Owner
+  category: product
+  description: >-
+    Owns and prioritizes a single Scrum team's backlog, writing acceptance
+    criteria and making the day-to-day trade-off calls a sprint requires.
+  tools: [Read, Write, TodoWrite]
+
+- slug: technical-program-manager
+  title: Technical Program Manager
+  category: product
+  description: >-
+    Drives execution across multiple engineering teams on a complex technical
+    program, tracking dependencies and unblocking delivery without owning the
+    roadmap.
+  tools: [Read, Write, TodoWrite]
+
+- slug: growth-product-manager
+  title: Growth Product Manager
+  category: product
+  description: >-
+    Runs structured experiments across acquisition, activation, and retention
+    loops inside the product to move a specific growth metric.
+  tools: [Read, Write, TodoWrite]
+
+- slug: platform-product-manager
+  title: Platform Product Manager
+  category: product
+  description: >-
+    Decides which internal platform capabilities to build so other product
+    teams can ship faster on shared infrastructure.
+  tools: [Read, Write, Grep, Glob, TodoWrite]
+
+- slug: technical-product-manager
+  title: Technical Product Manager
+  category: product
+  description: >-
+    Translates deep technical constraints and trade-offs — architecture
+    limits, data models, latency budgets — into roadmap decisions for
+    infrastructure-heavy products.
+  tools: [Read, Write, Grep, Glob, TodoWrite]
+
+- slug: api-product-manager
+  title: API Product Manager
+  category: product
+  description: >-
+    Manages a public or partner-facing API as a product: versioning policy,
+    documentation, adoption metrics, and deprecation timelines.
+  tools: [Read, Write, Grep, Glob, TodoWrite]
+
+- slug: data-product-manager
+  title: Data Product Manager
+  category: product
+  description: >-
+    Decides what internal and external data products get built — which
+    datasets, pipelines, and access patterns — based on what consumers
+    actually need.
+  tools: [Read, Write, Grep, Glob, TodoWrite]
+
+- slug: ai-product-manager
+  title: AI Product Manager
+  category: product
+  description: >-
+    Sets product requirements for AI-powered features, defining eval criteria,
+    acceptable failure modes, and rollout guardrails before a model ships.
+  tools: [Read, Write, Grep, Glob, TodoWrite]
+
+- slug: payments-product-manager
+  title: Payments Product Manager
+  category: product
+  description: >-
+    Decides which payment methods, checkout flows, and compliance trade-offs
+    ship, balancing conversion against fraud and regulatory risk.
+  tools: [Read, Write, TodoWrite]
+
+- slug: marketplace-product-manager
+  title: Marketplace Product Manager
+  category: product
+  description: >-
+    Balances supply and demand on a two-sided marketplace, owning matching,
+    trust and safety, and liquidity metrics between buyers and sellers.
+  tools: [Read, Write, TodoWrite]
+
+- slug: b2b-product-manager
+  title: B2B Product Manager
+  category: product
+  description: >-
+    Builds for enterprise buyers — admin controls, procurement requirements,
+    and long sales cycles — where the buyer and the user are often different
+    people.
+  tools: [Read, Write, TodoWrite]
+
+- slug: consumer-product-manager
+  title: Consumer Product Manager
+  category: product
+  description: >-
+    Builds for individual end users at scale, optimizing onboarding, habit
+    loops, and virality where every design choice competes for attention.
+  tools: [Read, Write, TodoWrite]
+
+- slug: mobile-product-manager
+  title: Mobile Product Manager
+  category: product
+  description: >-
+    Owns the product roadmap for native mobile apps, working within app-store
+    review cycles, offline states, and platform-specific UX constraints.
+  tools: [Read, Write, TodoWrite]
+
+- slug: hardware-product-manager
+  title: Hardware Product Manager
+  category: product
+  description: >-
+    Sets the spec for a physical product, arbitrating trade-offs between
+    hardware cost, firmware capability, and software features across long
+    manufacturing lead times.
+  tools: [Read, Write, TodoWrite]
+
+- slug: trust-and-safety-product-manager
+  title: Trust and Safety Product Manager
+  category: product
+  description: >-
+    Owns product decisions for content moderation, fraud prevention, and abuse
+    response, balancing user safety against friction and false positives.
+  tools: [Read, Write, TodoWrite]
+
+- slug: internal-tools-product-manager
+  title: Internal Tools Product Manager
+  category: product
+  description: >-
+    Builds the internal tools that employees — support agents, ops teams,
+    salespeople — use every day, treating them with the same rigor as
+    customer-facing products.
+  tools: [Read, Write, TodoWrite]
+
+- slug: zero-to-one-product-manager
+  title: Zero-to-One Product Manager
+  category: product
+  description: >-
+    Takes a product from an unproven idea to a shipped v1, running fast
+    validation cycles before any team invests in scaling it.
+  tools: [Read, Write, TodoWrite]
+
+- slug: international-expansion-product-manager
+  title: International Expansion Product Manager
+  category: product
+  description: >-
+    Decides which new country markets to enter and in what order, weighing
+    regulatory, payments, and pricing requirements against expected demand.
+  tools: [Read, Write, WebSearch, TodoWrite]
+
+- slug: product-operations-manager
+  title: Product Operations Manager
+  category: product
+  description: >-
+    Builds the processes, tooling, and cadences — roadmap reviews, launch
+    checklists, cross-team rituals — that let product teams operate at scale.
+  tools: [Read, Write, TodoWrite]
+
+- slug: pricing-and-packaging-manager
+  title: Pricing and Packaging Manager
+  category: product
+  description: >-
+    Designs pricing tiers, packaging, and discount policy based on
+    willingness-to-pay research and competitive positioning.
+  tools: [Read, Write, WebSearch, TodoWrite]
+
+- slug: competitive-intelligence-analyst
+  title: Competitive Intelligence Analyst
+  category: product
+  description: >-
+    Tracks competitor product releases, pricing, and positioning, turning it
+    into a briefing the roadmap and sales teams can act on.
+  tools: [Read, Write, WebSearch]
+
+- slug: product-analyst
+  title: Product Analyst
+  category: product
+  description: >-
+    Instruments product usage and builds adoption dashboards that quantify a
+    feature's impact, distinct from designing the experiments themselves.
+  tools: [Read, Write, Bash, Grep]
+
+- slug: product-business-analyst
+  title: Product Business Analyst
+  category: product
+  description: >-
+    Translates stakeholder business requirements into detailed specs and
+    workflows a product team can build against, without owning overall product
+    strategy.
+  tools: [Read, Write, TodoWrite]
+
+- slug: ecosystem-partnerships-product-manager
+  title: Ecosystem Partnerships Product Manager
+  category: product
+  description: >-
+    Decides which third-party integrations and partner platforms to build for,
+    negotiating the technical requirements a partnership needs to launch.
+  tools: [Read, Write, TodoWrite]
+
+- slug: customer-insights-manager
+  title: Customer Insights Manager
+  category: product
+  description: >-
+    Runs interviews, surveys, and support-ticket theme analysis to surface
+    qualitative customer feedback the roadmap would otherwise miss.
+  tools: [Read, Write, WebSearch]
+
+- slug: security-product-manager
+  title: Security Product Manager
+  category: product
+  description: >-
+    Decides which customer-facing security and compliance features — SSO,
+    audit logs, data residency — ship and in what order, based on deal-
+    blocking risk.
+  tools: [Read, Write, TodoWrite]
+
+- slug: localization-product-manager
+  title: Localization Product Manager
+  category: product
+  description: >-
+    Prioritizes which languages and locales get full product support based on
+    market size and the cost of translation and formatting work.
+  tools: [Read, Write, TodoWrite]
+
+- slug: accessibility-product-manager
+  title: Accessibility Product Manager
+  category: product
+  description: >-
+    Prioritizes accessibility fixes across the roadmap against legal
+    compliance deadlines, coordinating with design and engineering on what
+    ships when.
+  tools: [Read, Write, TodoWrite]
+
+- slug: launch-manager
+  title: Launch Manager
+  category: product
+  description: >-
+    Owns go-to-market launch readiness for a new feature, coordinating
+    support, marketing, and sales enablement so a release doesn't surprise
+    anyone.
+  tools: [Read, Write, TodoWrite]
+
+- slug: beta-program-manager
+  title: Beta Program Manager
+  category: product
+  description: >-
+    Runs the early-access program that puts unreleased features in front of a
+    controlled group of customers and turns feedback into ship or no-ship
+    calls.
+  tools: [Read, Write, TodoWrite]
+
+- slug: sustainability-product-manager
+  title: Sustainability Product Manager
+  category: product
+  description: >-
+    Decides which sustainability features — carbon reporting, material
+    sourcing disclosures — belong on the roadmap and how to substantiate their
+    claims.
+  tools: [Read, Write, WebSearch, TodoWrite]
+
+- slug: experimentation-platform-product-manager
+  title: Experimentation Platform Product Manager
+  category: product
+  description: >-
+    Owns the internal A/B testing platform as a product, deciding what
+    experimentation capabilities teams need rather than analyzing any single
+    test.
+  tools: [Read, Write, Grep, Glob, TodoWrite]
+
+- slug: live-ops-product-manager
+  title: Live Ops Product Manager
+  category: product
+  description: >-
+    Runs the ongoing content, event, and monetization calendar for a live game
+    or app after launch, reacting to engagement data week to week.
+  tools: [Read, Write, TodoWrite]
+
+- slug: search-and-discovery-product-manager
+  title: Search and Discovery Product Manager
+  category: product
+  description: >-
+    Owns the product experience of search, browse, and recommendations,
+    deciding what good-enough relevance looks like and when to ship a ranking
+    change.
+  tools: [Read, Write, Grep, Glob, TodoWrite]
+
+- slug: subscription-and-billing-product-manager
+  title: Subscription and Billing Product Manager
+  category: product
+  description: >-
+    Owns the mechanics of subscription plan changes, proration, dunning, and
+    invoicing — the operational plumbing behind whatever price the business
+    sets.
+  tools: [Read, Write, TodoWrite]
+
+- slug: marketing-manager
+  title: Marketing Manager
+  category: marketing
+  description: >-
+    Plans and runs a company's marketing programs across channels, setting
+    quarterly priorities and budget allocation to hit pipeline and awareness
+    goals.
+  tools: [Read, Write, TodoWrite]
+
+- slug: chief-marketing-officer
+  title: Chief Marketing Officer
+  category: marketing
+  description: >-
+    Sets marketing strategy and budget for the whole company, aligning brand,
+    demand, and product marketing behind a shared growth narrative.
+  tools: [Read, Write, TodoWrite]
+
+- slug: marketing-coordinator
+  title: Marketing Coordinator
+  category: marketing
+  description: >-
+    Executes the logistics behind campaigns and events — scheduling, vendor
+    coordination, asset trafficking — under a manager's direction.
+  tools: [Read, Write, TodoWrite]
+
+- slug: brand-marketing-manager
+  title: Brand Marketing Manager
+  category: marketing
+  description: >-
+    Owns brand positioning and messaging architecture across campaigns,
+    distinct from the visual identity system a brand designer builds.
+  tools: [Read, Write, WebSearch, TodoWrite]
+
+- slug: product-marketing-manager
+  title: Product Marketing Manager
+  category: marketing
+  description: >-
+    Crafts product positioning, launch messaging, and sales enablement content
+    that turns a shipped feature into a story customers and reps can repeat.
+  tools: [Read, Write, TodoWrite]
+
+- slug: field-marketing-manager
+  title: Field Marketing Manager
+  category: marketing
+  description: >-
+    Runs regional in-person campaigns and events tied to sales territories to
+    generate and accelerate local pipeline.
+  tools: [Read, Write, TodoWrite]
+
+- slug: partner-marketing-manager
+  title: Partner Marketing Manager
+  category: marketing
+  description: >-
+    Builds co-marketing campaigns and joint content with technology and
+    business partners to reach each other's audiences.
+  tools: [Read, Write, TodoWrite]
+
+- slug: lifecycle-marketing-manager
+  title: Lifecycle Marketing Manager
+  category: marketing
+  description: >-
+    Designs the email and push messaging cadence that moves a user from signup
+    through activation, retention, and win-back.
+  tools: [Read, Write, TodoWrite]
+
+- slug: growth-marketing-manager
+  title: Growth Marketing Manager
+  category: marketing
+  description: >-
+    Runs paid, organic, and lifecycle experiments across the acquisition
+    funnel to move a company-wide growth metric.
+  tools: [Read, Write, TodoWrite]
+
+- slug: demand-generation-manager
+  title: Demand Generation Manager
+  category: marketing
+  description: >-
+    Builds campaigns that generate qualified pipeline for the sales team,
+    owning the handoff criteria between marketing and sales.
+  tools: [Read, Write, TodoWrite]
+
+- slug: performance-marketing-manager
+  title: Performance Marketing Manager
+  category: marketing
+  description: >-
+    Allocates paid media budget across channels based on ROI, setting the
+    targets that channel-specific ad managers execute against.
+  tools: [Read, Write, TodoWrite]
+
+- slug: paid-search-manager
+  title: Paid Search Manager
+  category: marketing
+  description: >-
+    Manages keyword strategy, bidding, and ad copy testing on search engine ad
+    platforms to hit a cost-per-acquisition target.
+  tools: [Read, Write, TodoWrite]
+
+- slug: paid-social-manager
+  title: Paid Social Manager
+  category: marketing
+  description: >-
+    Manages creative testing, audience targeting, and budget pacing on social
+    ad platforms to hit a cost-per-acquisition target.
+  tools: [Read, Write, TodoWrite]
+
+- slug: marketing-operations-manager
+  title: Marketing Operations Manager
+  category: marketing
+  description: >-
+    Owns lead routing, scoring rules, and reporting cadence across the
+    marketing funnel so campaign performance is measurable and trusted.
+  tools: [Read, Write, TodoWrite]
+
+- slug: marketing-technology-manager
+  title: Marketing Technology Manager
+  category: marketing
+  description: >-
+    Administers the marketing automation and CRM tool stack, owning
+    integrations and vendor selection rather than campaign strategy.
+  tools: [Read, Write, TodoWrite]
+
+- slug: content-marketing-manager
+  title: Content Marketing Manager
+  category: marketing
+  description: >-
+    Sets content strategy and editorial calendar for marketing, briefing
+    writers and measuring what content actually drives pipeline.
+  tools: [Read, Write, TodoWrite]
+
+- slug: seo-manager
+  title: SEO Manager
+  category: marketing
+  description: >-
+    Improves organic search visibility through technical audits, keyword
+    strategy, and site structure recommendations.
+  tools: [Read, Write, WebSearch]
+
+- slug: social-media-marketing-manager
+  title: Social Media Marketing Manager
+  category: marketing
+  description: >-
+    Owns organic social channel strategy and posting calendar, distinct from
+    the paid social manager's ad spend and the community manager's engagement
+    work.
+  tools: [Read, Write, TodoWrite]
+
+- slug: community-manager
+  title: Community Manager
+  category: marketing
+  description: >-
+    Runs day-to-day engagement in owned community channels — forums, Discord,
+    user groups — turning members into advocates.
+  tools: [Read, Write, TodoWrite]
+
+- slug: developer-relations-manager
+  title: Developer Relations Manager
+  category: marketing
+  description: >-
+    Builds external developer adoption through talks, sample content, and
+    community engagement, representing the product to a technical audience.
+  tools: [Read, Write, WebSearch, TodoWrite]
+
+- slug: influencer-marketing-manager
+  title: Influencer Marketing Manager
+  category: marketing
+  description: >-
+    Sources and negotiates creator partnerships, managing briefs and payment
+    terms for sponsored content deals.
+  tools: [Read, Write, WebSearch]
+
+- slug: affiliate-marketing-manager
+  title: Affiliate Marketing Manager
+  category: marketing
+  description: >-
+    Recruits and manages a network of affiliate publishers, setting commission
+    structures and tracking performance-based payouts.
+  tools: [Read, Write, WebSearch]
+
+- slug: industry-marketing-manager
+  title: Industry Marketing Manager
+  category: marketing
+  description: >-
+    Tailors messaging and campaigns to a specific customer vertical,
+    translating industry-specific pain points into positioning.
+  tools: [Read, Write, WebSearch, TodoWrite]
+
+- slug: account-based-marketing-manager
+  title: Account-Based Marketing Manager
+  category: marketing
+  description: >-
+    Runs coordinated, personalized campaigns aimed at a target list of named
+    enterprise accounts in lockstep with sales.
+  tools: [Read, Write, TodoWrite]
+
+- slug: marketing-events-manager
+  title: Marketing Events Manager
+  category: marketing
+  description: >-
+    Owns flagship conferences, trade show presence, and webinar production end
+    to end, from venue logistics to speaker lineup.
+  tools: [Read, Write, TodoWrite]
+
+- slug: public-relations-manager
+  title: Public Relations Manager
+  category: marketing
+  description: >-
+    Manages press and media relationships, pitching stories and preparing
+    spokespeople for interviews and crisis response.
+  tools: [Read, Write, WebSearch]
+
+- slug: market-research-analyst
+  title: Market Research Analyst
+  category: marketing
+  description: >-
+    Sizes markets and surveys customers to inform go-to-market strategy and
+    segmentation, separate from a product analyst's usage data.
+  tools: [Read, Write, WebSearch]
+
+- slug: international-marketing-manager
+  title: International Marketing Manager
+  category: marketing
+  description: >-
+    Sets go-to-market strategy and positioning for new geographic markets,
+    deciding what campaigns to run and where.
+  tools: [Read, Write, WebSearch, TodoWrite]
+
+- slug: marketing-localization-manager
+  title: Marketing Localization Manager
+  category: marketing
+  description: >-
+    Adapts existing campaign creative and copy for local markets —
+    translation, cultural review, format changes — for a global marketing
+    plan.
+  tools: [Read, Write, TodoWrite]
+
+- slug: loyalty-program-manager
+  title: Loyalty Program Manager
+  category: marketing
+  description: >-
+    Designs the points, tiers, and rewards structure of a customer loyalty
+    program and negotiates redemption partnerships.
+  tools: [Read, Write, TodoWrite]
+
+- slug: customer-marketing-manager
+  title: Customer Marketing Manager
+  category: marketing
+  description: >-
+    Turns the existing customer base into marketing assets — case studies,
+    testimonials, reference calls — to support new deals.
+  tools: [Read, Write, TodoWrite]
+
+- slug: e-commerce-marketing-manager
+  title: E-commerce Marketing Manager
+  category: marketing
+  description: >-
+    Owns onsite merchandising, promotions, and product page optimization to
+    convert visitors on the company's own online store.
+  tools: [Read, Write, TodoWrite]
+
+- slug: conversion-rate-optimization-manager
+  title: Conversion Rate Optimization Manager
+  category: marketing
+  description: >-
+    Runs A/B tests on landing pages and checkout flows to raise the percentage
+    of visitors who complete a target action.
+  tools: [Read, Write, TodoWrite]
+
+- slug: trade-marketing-manager
+  title: Trade Marketing Manager
+  category: marketing
+  description: >-
+    Coordinates in-store promotions and merchandising calendars with retail
+    buyers to drive sell-through at the shelf.
+  tools: [Read, Write, TodoWrite]
+
+- slug: marketing-compliance-manager
+  title: Marketing Compliance Manager
+  category: marketing
+  description: >-
+    Reviews campaign copy and offers against required disclosures and industry
+    advertising rules before anything publishes.
+  tools: [Read, Write, WebSearch]
+
+- slug: sponsorship-marketing-manager
+  title: Sponsorship Marketing Manager
+  category: marketing
+  description: >-
+    Negotiates and activates brand sponsorship deals — events, teams, media
+    placements — distinct from paid digital ad buying.
+  tools: [Read, Write, WebSearch]
+
+- slug: direct-response-marketing-manager
+  title: Direct Response Marketing Manager
+  category: marketing
+  description: >-
+    Runs direct-response campaigns across TV, radio, and mail designed to
+    drive an immediate, trackable response rather than brand awareness.
+  tools: [Read, Write, TodoWrite]
+
+- slug: media-buyer
+  title: Media Buyer
+  category: marketing
+  description: >-
+    Negotiates and purchases ad inventory across publishers and platforms,
+    executing the placements a performance marketing plan calls for.
+  tools: [Read, Write, WebSearch]
+
+- slug: app-store-optimization-manager
+  title: App Store Optimization Manager
+  category: marketing
+  description: >-
+    Improves mobile app visibility and install conversion through keyword
+    strategy, screenshots, and ratings management in app stores.
+  tools: [Read, Write, WebSearch]
+
+- slug: marketing-agency-manager
+  title: Marketing Agency Manager
+  category: marketing
+  description: >-
+    Manages relationships, contracts, and budget allocation across external
+    creative and media agency partners.
+  tools: [Read, Write, TodoWrite]
+
+- slug: account-executive
+  title: Account Executive
+  category: sales
+  description: >-
+    Closes new business from sales-qualified pipeline handed off by SDRs,
+    running demos, negotiation, and contract signature to quota.
+  tools: [Read, Write, TodoWrite]
+
+- slug: sales-development-representative
+  title: Sales Development Representative
+  category: sales
+  description: >-
+    Prospects and qualifies outbound leads into sales-ready meetings, handing
+    off qualified opportunities to an account executive.
+  tools: [Read, Write, WebSearch]
+
+- slug: inside-sales-representative
+  title: Inside Sales Representative
+  category: sales
+  description: >-
+    Runs the full sales cycle remotely by phone and video for lower-value or
+    higher-velocity deals that don't justify in-person visits.
+  tools: [Read, Write, TodoWrite]
+
+- slug: field-sales-representative
+  title: Field Sales Representative
+  category: sales
+  description: >-
+    Runs the full sales cycle through in-person visits for deals where face-
+    to-face relationship building changes the outcome.
+  tools: [Read, Write, TodoWrite]
+
+- slug: sales-manager
+  title: Sales Manager
+  category: sales
+  description: >-
+    Coaches and manages a team of account executives, forecasting the team's
+    pipeline and running deal reviews to hit quota.
+  tools: [Read, Write, TodoWrite]
+
+- slug: sales-development-manager
+  title: Sales Development Manager
+  category: sales
+  description: >-
+    Manages the SDR team's outbound pipeline generation, hiring and coaching
+    reps separately from the AE-facing sales manager.
+  tools: [Read, Write, TodoWrite]
+
+- slug: regional-sales-director
+  title: Regional Sales Director
+  category: sales
+  description: >-
+    Owns revenue targets and hiring for a geographic region, managing multiple
+    sales managers underneath a single P&L.
+  tools: [Read, Write, TodoWrite]
+
+- slug: vp-of-sales
+  title: VP of Sales
+  category: sales
+  description: >-
+    Runs the entire sales organization's execution — quota setting, hiring,
+    process — across every region and segment.
+  tools: [Read, Write, TodoWrite]
+
+- slug: chief-revenue-officer
+  title: Chief Revenue Officer
+  category: sales
+  description: >-
+    Owns revenue strategy across sales, marketing, and renewals, aligning
+    every revenue-generating function behind one number.
+  tools: [Read, Write, TodoWrite]
+
+- slug: sales-engineer
+  title: Sales Engineer
+  category: sales
+  description: >-
+    Runs technical demos and proof-of-concepts during the sales cycle,
+    answering the product questions an account executive can't.
+  tools: [Read, Write, Grep, Glob]
+
+- slug: presales-solutions-architect
+  title: Presales Solutions Architect
+  category: sales
+  description: >-
+    Designs the overall technical solution architecture proposed for large or
+    complex enterprise deals, coordinating with engineering on feasibility.
+  tools: [Read, Write, Grep, Glob]
+
+- slug: channel-account-manager
+  title: Channel Account Manager
+  category: sales
+  description: >-
+    Manages the day-to-day relationship and quota for a book of reseller and
+    distributor partners.
+  tools: [Read, Write, TodoWrite]
+
+- slug: channel-sales-manager
+  title: Channel Sales Manager
+  category: sales
+  description: >-
+    Designs the partner program's tiers and incentives and recruits new
+    resellers, distinct from managing existing partner relationships.
+  tools: [Read, Write, TodoWrite]
+
+- slug: sales-enablement-manager
+  title: Sales Enablement Manager
+  category: sales
+  description: >-
+    Builds the playbooks, battle cards, and onboarding content that ramp new
+    sales reps and keep the team's pitch consistent.
+  tools: [Read, Write, TodoWrite]
+
+- slug: partner-enablement-manager
+  title: Partner Enablement Manager
+  category: sales
+  description: >-
+    Builds certification and training programs that teach external channel
+    partners how to sell the product themselves.
+  tools: [Read, Write, TodoWrite]
+
+- slug: sales-coach
+  title: Sales Coach
+  category: sales
+  description: >-
+    Reviews recorded sales calls and runs live roleplay sessions to improve an
+    individual rep's skills, separate from building enablement content.
+  tools: [Read, Write, TodoWrite]
+
+- slug: revenue-operations-manager
+  title: Revenue Operations Manager
+  category: sales
+  description: >-
+    Owns the systems and data that connect sales, marketing, and customer
+    success — CRM architecture, forecasting models, comp plan design.
+  tools: [Read, Write, TodoWrite]
+
+- slug: sales-operations-analyst
+  title: Sales Operations Analyst
+  category: sales
+  description: >-
+    Builds pipeline reports, sets territory boundaries, and keeps CRM data
+    clean for a sales organization's day-to-day reporting needs.
+  tools: [Read, Write, Bash, Grep]
+
+- slug: sales-compensation-analyst
+  title: Sales Compensation Analyst
+  category: sales
+  description: >-
+    Designs commission plans and calculates quota attainment payouts,
+    resolving disputes over comp plan mechanics.
+  tools: [Read, Write, Bash]
+
+- slug: deal-desk-manager
+  title: Deal Desk Manager
+  category: sales
+  description: >-
+    Approves non-standard pricing and contract terms on complex deals,
+    balancing discount requests against margin targets.
+  tools: [Read, Write, TodoWrite]
+
+- slug: renewals-manager
+  title: Renewals Manager
+  category: sales
+  description: >-
+    Owns the renewal program's process and forecast across the customer base,
+    managing the team that works individual renewal accounts.
+  tools: [Read, Write, TodoWrite]
+
+- slug: renewal-specialist
+  title: Renewal Specialist
+  category: sales
+  description: >-
+    Works a book of accounts through the renewal negotiation directly,
+    distinct from the manager who owns the renewal program's overall process.
+  tools: [Read, Write, TodoWrite]
+
+- slug: account-manager
+  title: Account Manager
+  category: sales
+  description: >-
+    Grows revenue in existing accounts through upsell and cross-sell, owning
+    the commercial relationship after an account executive closes it.
+  tools: [Read, Write, TodoWrite]
+
+- slug: technical-account-manager
+  title: Technical Account Manager
+  category: sales
+  description: >-
+    Serves as the technical trusted advisor for a portfolio of enterprise
+    accounts, distinct from the commercially focused account manager.
+  tools: [Read, Write, Grep, Glob]
+
+- slug: rfp-and-proposal-manager
+  title: RFP and Proposal Manager
+  category: sales
+  description: >-
+    Writes and coordinates competitive bid responses for enterprise and
+    government deals, assembling input from sales, legal, and product.
+  tools: [Read, Write, TodoWrite]
+
+- slug: business-development-manager
+  title: Business Development Manager
+  category: sales
+  description: >-
+    Identifies and negotiates strategic business partnerships and alliances
+    outside the standard quota-carrying sales motion.
+  tools: [Read, Write, WebSearch]
+
+- slug: strategic-alliances-manager
+  title: Strategic Alliances Manager
+  category: sales
+  description: >-
+    Builds co-sell and technical integration relationships with major
+    technology partners, distinct from managing reseller channel partners.
+  tools: [Read, Write, TodoWrite]
+
+- slug: order-management-specialist
+  title: Order Management Specialist
+  category: sales
+  description: >-
+    Processes signed contracts into billing and provisioning systems, ensuring
+    order details match what was actually sold.
+  tools: [Read, Write, Bash]
+
+- slug: crm-administrator
+  title: CRM Administrator
+  category: sales
+  description: >-
+    Configures CRM fields, workflows, and integrations for the sales org,
+    distinct from the sales ops analyst who builds reports on top of it.
+  tools: [Read, Write, Bash]
+
+- slug: public-sector-account-executive
+  title: Public Sector Account Executive
+  category: sales
+  description: >-
+    Closes deals with government agencies, navigating procurement rules and
+    RFP timelines a commercial account executive never sees.
+  tools: [Read, Write, WebSearch]
+
+- slug: medical-device-sales-representative
+  title: Medical Device Sales Representative
+  category: sales
+  description: >-
+    Sells clinical devices directly to hospitals and physicians, navigating OR
+    access and committee-based procurement decisions.
+  tools: [Read, Write, WebSearch]
+
+- slug: insurance-sales-agent
+  title: Insurance Sales Agent
+  category: sales
+  description: >-
+    Sells insurance policies to individuals or businesses, assessing coverage
+    needs and matching them to licensed products.
+  tools: [Read, Write, WebSearch]
+
+- slug: pharmaceutical-sales-representative
+  title: Pharmaceutical Sales Representative
+  category: sales
+  description: >-
+    Details prescription drug information to physicians under strict
+    promotional compliance rules, without directly closing a transaction.
+  tools: [Read, Write, WebSearch]
+
+- slug: sales-coordinator
+  title: Sales Coordinator
+  category: sales
+  description: >-
+    Handles scheduling, CRM data entry, and quote generation support for an
+    account executive team.
+  tools: [Read, Write, TodoWrite]
+
+- slug: win-loss-analyst
+  title: Win-Loss Analyst
+  category: sales
+  description: >-
+    Interviews won and lost prospects after a deal closes to find the real
+    reasons behind the outcome, feeding findings back to sales and product.
+  tools: [Read, Write, WebSearch]
+
+- slug: export-sales-manager
+  title: Export Sales Manager
+  category: sales
+  description: >-
+    Manages cross-border sales of physical goods, handling customs
+    documentation, international distributors, and trade financing terms.
+  tools: [Read, Write, WebSearch]
+
+- slug: wholesale-sales-representative
+  title: Wholesale Sales Representative
+  category: sales
+  description: >-
+    Sells in bulk to retailers and distributors rather than end customers,
+    negotiating volume pricing and stocking terms.
+  tools: [Read, Write, WebSearch]
+
+- slug: franchise-sales-manager
+  title: Franchise Sales Manager
+  category: sales
+  description: >-
+    Recruits and sells franchise territories to prospective franchisee
+    investors, qualifying their financial readiness before signing.
+  tools: [Read, Write, WebSearch]
+
+- slug: automotive-sales-consultant
+  title: Automotive Sales Consultant
+  category: sales
+  description: >-
+    Sells vehicles to individual buyers, structuring financing and trade-in
+    terms as part of the negotiation.
+  tools: [Read, Write, WebSearch]
+
+- slug: corporate-counsel
+  title: Corporate Counsel
+  category: legal
+  description: >-
+    Advises the business on day-to-day legal matters — entity governance,
+    vendor agreements, policy review — as in-house generalist counsel.
+  tools: [Read, Write, WebSearch]
+
+- slug: general-counsel
+  title: General Counsel
+  category: legal
+  description: >-
+    Leads the entire legal function and advises the board on the company's
+    most material legal and regulatory risk.
+  tools: [Read, Write, TodoWrite]
+
+- slug: litigation-attorney
+  title: Litigation Attorney
+  category: legal
+  description: >-
+    Represents the company in lawsuits and disputes, managing case strategy,
+    discovery, and settlement negotiations through trial.
+  tools: [Read, Write, WebSearch]
+
+- slug: employment-lawyer
+  title: Employment Lawyer
+  category: legal
+  description: >-
+    Advises on hiring, termination, and workplace policy compliance, and
+    handles individual employee disputes and claims.
+  tools: [Read, Write, WebSearch]
+
+- slug: patent-attorney
+  title: Patent Attorney
+  category: legal
+  description: >-
+    Drafts and prosecutes patent applications, translating technical
+    inventions into claims that will hold up against prior art.
+  tools: [Read, Write, WebSearch]
+
+- slug: trademark-and-copyright-attorney
+  title: Trademark and Copyright Attorney
+  category: legal
+  description: >-
+    Registers and defends brand names, logos, and creative works, handling
+    infringement disputes distinct from patent prosecution.
+  tools: [Read, Write, WebSearch]
+
+- slug: regulatory-affairs-counsel
+  title: Regulatory Affairs Counsel
+  category: legal
+  description: >-
+    Advises on compliance with the ongoing industry regulations that already
+    apply to the business, such as FDA or financial rules.
+  tools: [Read, Write, WebSearch]
+
+- slug: immigration-attorney
+  title: Immigration Attorney
+  category: legal
+  description: >-
+    Manages visa sponsorship and work authorization filings for employees
+    relocating across borders.
+  tools: [Read, Write, WebSearch]
+
+- slug: real-estate-attorney
+  title: Real Estate Attorney
+  category: legal
+  description: >-
+    Negotiates commercial leases and property transactions, reviewing title
+    and zoning issues before a deal closes.
+  tools: [Read, Write, WebSearch]
+
+- slug: immigration-paralegal
+  title: Immigration Paralegal
+  category: legal
+  description: >-
+    Prepares visa petitions and supporting documentation for an immigration
+    attorney's caseload, tracking filing deadlines.
+  tools: [Read, Write, WebSearch]
+
+- slug: litigation-paralegal
+  title: Litigation Paralegal
+  category: legal
+  description: >-
+    Manages discovery, deposition logistics, and trial exhibit preparation in
+    support of a litigation attorney's caseload.
+  tools: [Read, Write, WebSearch]
+
+- slug: corporate-paralegal
+  title: Corporate Paralegal
+  category: legal
+  description: >-
+    Maintains entity formation documents, cap tables, and board meeting
+    minutes in support of corporate counsel.
+  tools: [Read, Write, WebSearch]
+
+- slug: mergers-and-acquisitions-attorney
+  title: Mergers and Acquisitions Attorney
+  category: legal
+  description: >-
+    Structures deal terms and runs legal due diligence for company
+    acquisitions and divestitures.
+  tools: [Read, Write, WebSearch]
+
+- slug: privacy-counsel
+  title: Privacy Counsel
+  category: legal
+  description: >-
+    Interprets privacy law obligations like GDPR and CCPA, drafting policies
+    and data agreements distinct from the operational privacy program.
+  tools: [Read, Write, WebSearch]
+
+- slug: labor-relations-counsel
+  title: Labor Relations Counsel
+  category: legal
+  description: >-
+    Negotiates collective bargaining agreements and advises on union
+    relations, distinct from individual employment disputes.
+  tools: [Read, Write, WebSearch]
+
+- slug: antitrust-and-competition-attorney
+  title: Antitrust and Competition Attorney
+  category: legal
+  description: >-
+    Reviews mergers and business practices for antitrust exposure and advises
+    on competition law compliance across markets.
+  tools: [Read, Write, WebSearch]
+
+- slug: securities-attorney
+  title: Securities Attorney
+  category: legal
+  description: >-
+    Ensures public company disclosures and SEC filings meet securities law
+    requirements, distinct from investor relations communications.
+  tools: [Read, Write, WebSearch]
+
+- slug: contract-manager
+  title: Contract Manager
+  category: legal
+  description: >-
+    Tracks the contract lifecycle — renewal dates, obligations, repository —
+    without personally negotiating the legal risk a contract lawyer reviews.
+  tools: [Read, Write, TodoWrite]
+
+- slug: e-discovery-specialist
+  title: E-Discovery Specialist
+  category: legal
+  description: >-
+    Manages electronic document collection, litigation holds, and review
+    platform workflows for active litigation.
+  tools: [Read, Write, Bash]
+
+- slug: legal-operations-manager
+  title: Legal Operations Manager
+  category: legal
+  description: >-
+    Runs the legal department's budget, outside counsel spend, and matter
+    management tools rather than practicing law directly.
+  tools: [Read, Write, TodoWrite]
+
+- slug: internal-investigations-counsel
+  title: Internal Investigations Counsel
+  category: legal
+  description: >-
+    Investigates internal misconduct and whistleblower complaints for legal
+    risk, distinct from a security team's technical threat investigations.
+  tools: [Read, Write, WebSearch]
+
+- slug: environmental-compliance-attorney
+  title: Environmental Compliance Attorney
+  category: legal
+  description: >-
+    Advises on environmental permitting, contamination liability, and
+    regulatory reporting obligations.
+  tools: [Read, Write, WebSearch]
+
+- slug: tax-attorney
+  title: Tax Attorney
+  category: legal
+  description: >-
+    Structures transactions for tax efficiency and represents the company in
+    tax disputes with authorities, distinct from a tax accountant's filings.
+  tools: [Read, Write, WebSearch]
+
+- slug: bankruptcy-attorney
+  title: Bankruptcy Attorney
+  category: legal
+  description: >-
+    Advises on restructuring options and represents the company in creditor or
+    debtor bankruptcy proceedings.
+  tools: [Read, Write, WebSearch]
+
+- slug: international-trade-and-sanctions-counsel
+  title: International Trade and Sanctions Counsel
+  category: legal
+  description: >-
+    Advises on export controls, sanctions screening, and customs compliance
+    for cross-border business.
+  tools: [Read, Write, WebSearch]
+
+- slug: employee-benefits-attorney
+  title: Employee Benefits Attorney
+  category: legal
+  description: >-
+    Advises on ERISA compliance and legal risk in retirement and health
+    benefit plan design, distinct from general employment law.
+  tools: [Read, Write, WebSearch]
+
+- slug: product-liability-attorney
+  title: Product Liability Attorney
+  category: legal
+  description: >-
+    Assesses product safety and liability exposure and defends claims when a
+    product allegedly causes harm.
+  tools: [Read, Write, WebSearch]
+
+- slug: insurance-coverage-counsel
+  title: Insurance Coverage Counsel
+  category: legal
+  description: >-
+    Advises on what a company's insurance policies actually cover and
+    negotiates with insurers over disputed claims.
+  tools: [Read, Write, WebSearch]
+
+- slug: government-affairs-counsel
+  title: Government Affairs Counsel
+  category: legal
+  description: >-
+    Tracks pending legislation and advises on lobbying compliance, distinct
+    from ensuring compliance with regulations already in force.
+  tools: [Read, Write, WebSearch]
+
+- slug: corporate-secretary
+  title: Corporate Secretary
+  category: legal
+  description: >-
+    Maintains board governance records and ensures corporate formalities —
+    meeting minutes, resolutions, filings — are followed correctly.
+  tools: [Read, Write, TodoWrite]
+
+- slug: franchise-attorney
+  title: Franchise Attorney
+  category: legal
+  description: >-
+    Drafts franchise disclosure documents and advises franchisors on
+    compliance with franchise law.
+  tools: [Read, Write, WebSearch]
+
+- slug: healthcare-regulatory-attorney
+  title: Healthcare Regulatory Attorney
+  category: legal
+  description: >-
+    Advises on HIPAA, licensure, and healthcare-specific regulatory compliance
+    distinct from general regulatory affairs work.
+  tools: [Read, Write, WebSearch]
+
+- slug: technology-transactions-attorney
+  title: Technology Transactions Attorney
+  category: legal
+  description: >-
+    Negotiates software licensing, SaaS terms, and data rights in technology
+    deals, distinct from general commercial contract review.
+  tools: [Read, Write, WebSearch]
+
+- slug: workers-compensation-attorney
+  title: Workers' Compensation Attorney
+  category: legal
+  description: >-
+    Represents the company in workplace injury claims and advises on workers'
+    compensation insurance obligations.
+  tools: [Read, Write, WebSearch]
+
+- slug: trusts-and-estates-attorney
+  title: Trusts and Estates Attorney
+  category: legal
+  description: >-
+    Drafts wills, trusts, and estate plans for individual clients, distinct
+    from every other role in this catalog that serves a business.
+  tools: [Read, Write, WebSearch]
+
+- slug: family-law-attorney
+  title: Family Law Attorney
+  category: legal
+  description: >-
+    Represents individual clients in divorce, custody, and support
+    proceedings.
+  tools: [Read, Write, WebSearch]
+
+- slug: criminal-defense-attorney
+  title: Criminal Defense Attorney
+  category: legal
+  description: >-
+    Represents individuals charged with crimes, building defense strategy and
+    negotiating with prosecutors.
+  tools: [Read, Write, WebSearch]
+
+- slug: title-examiner
+  title: Title Examiner
+  category: legal
+  description: >-
+    Searches public records to confirm clear property ownership and identify
+    liens before a real estate closing.
+  tools: [Read, Write, Bash]
+
+- slug: commercial-mediator
+  title: Commercial Mediator
+  category: legal
+  description: >-
+    Facilitates settlement negotiations between disputing businesses as a
+    neutral third party, without representing either side.
+  tools: [Read, Write]
+
+- slug: staff-accountant
+  title: Staff Accountant
+  category: finance
+  description: >-
+    Records journal entries and reconciles accounts as part of the monthly
+    close process under a controller's review.
+  tools: [Read, Write, Bash]
+
+- slug: accounts-payable-specialist
+  title: Accounts Payable Specialist
+  category: finance
+  description: >-
+    Processes vendor invoices and payment runs, matching them against purchase
+    orders before anything gets paid.
+  tools: [Read, Write, Bash]
+
+- slug: accounts-receivable-specialist
+  title: Accounts Receivable Specialist
+  category: finance
+  description: >-
+    Issues customer invoices and applies incoming payments, distinct from the
+    collections manager who chases overdue balances.
+  tools: [Read, Write, Bash]
+
+- slug: payroll-manager
+  title: Payroll Manager
+  category: finance
+  description: >-
+    Runs payroll processing and tax withholding compliance across pay cycles,
+    resolving discrepancies before they reach employees.
+  tools: [Read, Write, Bash]
+
+- slug: general-ledger-accountant
+  title: General Ledger Accountant
+  category: finance
+  description: >-
+    Owns the chart of accounts and month-end close entries that roll up into
+    the company's financial statements.
+  tools: [Read, Write, Bash]
+
+- slug: cost-accountant
+  title: Cost Accountant
+  category: finance
+  description: >-
+    Tracks production and inventory costs to determine per-unit margins,
+    distinct from the general ledger accountant's company-wide close.
+  tools: [Read, Write, Bash]
+
+- slug: revenue-accountant
+  title: Revenue Accountant
+  category: finance
+  description: >-
+    Applies revenue recognition rules to contracts and subscriptions,
+    determining when and how much revenue can be booked.
+  tools: [Read, Write, Bash]
+
+- slug: controller
+  title: Controller
+  category: finance
+  description: >-
+    Owns the accuracy of the monthly close and financial statements, managing
+    the accounting team that produces them.
+  tools: [Read, Write, TodoWrite]
+
+- slug: assistant-controller
+  title: Assistant Controller
+  category: finance
+  description: >-
+    Runs the mechanics of the close process day to day, reporting to the
+    controller who owns final sign-off.
+  tools: [Read, Write, Bash]
+
+- slug: chief-financial-officer
+  title: Chief Financial Officer
+  category: finance
+  description: >-
+    Owns the company's financial strategy, capital allocation, and reporting
+    integrity, advising the CEO and board.
+  tools: [Read, Write, TodoWrite]
+
+- slug: fpna-analyst
+  title: FP&A Analyst
+  category: finance
+  description: >-
+    Builds budgets, forecasts, and variance analysis that explain why actuals
+    differ from plan.
+  tools: [Read, Write, Bash]
+
+- slug: fpna-manager
+  title: FP&A Manager
+  category: finance
+  description: >-
+    Owns the company-wide planning process and consolidation, distinct from
+    the embedded finance partner who advises one business unit.
+  tools: [Read, Write, TodoWrite]
+
+- slug: finance-business-partner
+  title: Finance Business Partner
+  category: finance
+  description: >-
+    Embeds inside a specific department to advise on unit economics and spend
+    decisions, translating finance into terms that team uses.
+  tools: [Read, Write, TodoWrite]
+
+- slug: treasury-analyst
+  title: Treasury Analyst
+  category: finance
+  description: >-
+    Forecasts cash positions and monitors liquidity across bank accounts to
+    make sure obligations are covered.
+  tools: [Read, Write, Bash]
+
+- slug: treasury-manager
+  title: Treasury Manager
+  category: finance
+  description: >-
+    Manages banking relationships, debt structure, and hedging strategy,
+    distinct from the analyst's day-to-day cash forecasting.
+  tools: [Read, Write, TodoWrite]
+
+- slug: tax-manager
+  title: Tax Manager
+  category: finance
+  description: >-
+    Prepares and files tax returns and manages tax provision calculations,
+    distinct from a tax attorney's legal structuring work.
+  tools: [Read, Write, Bash]
+
+- slug: international-tax-manager
+  title: International Tax Manager
+  category: finance
+  description: >-
+    Manages transfer pricing and cross-border tax structuring across the
+    jurisdictions the company operates in.
+  tools: [Read, Write, Bash]
+
+- slug: sales-and-use-tax-specialist
+  title: Sales and Use Tax Specialist
+  category: finance
+  description: >-
+    Tracks indirect tax obligations across jurisdictions and files sales and
+    use tax returns as rules change state by state.
+  tools: [Read, Write, Bash]
+
+- slug: internal-auditor
+  title: Internal Auditor
+  category: finance
+  description: >-
+    Tests internal controls and operational processes across the company for
+    risk and compliance gaps.
+  tools: [Read, Write, Bash]
+
+- slug: audit-manager
+  title: Audit Manager
+  category: finance
+  description: >-
+    Leads external financial statement audit engagements from an accounting
+    firm's side, distinct from a company's own internal auditor.
+  tools: [Read, Write, Bash]
+
+- slug: sox-compliance-manager
+  title: SOX Compliance Manager
+  category: finance
+  description: >-
+    Documents and tests internal financial controls required under Sarbanes-
+    Oxley for public company reporting.
+  tools: [Read, Write, Bash]
+
+- slug: investor-relations-manager
+  title: Investor Relations Manager
+  category: finance
+  description: >-
+    Communicates financial results and company strategy to public market
+    investors and analysts, preparing earnings materials.
+  tools: [Read, Write, WebSearch]
+
+- slug: portfolio-manager
+  title: Portfolio Manager
+  category: finance
+  description: >-
+    Makes buy and sell decisions across a managed investment portfolio,
+    setting asset allocation against a risk and return target.
+  tools: [Read, Write, WebSearch]
+
+- slug: equity-research-analyst
+  title: Equity Research Analyst
+  category: finance
+  description: >-
+    Builds financial models and investment theses on individual companies
+    through fundamental research, distinct from statistical model-building.
+  tools: [Read, Write, WebSearch]
+
+- slug: private-equity-associate
+  title: Private Equity Associate
+  category: finance
+  description: >-
+    Sources deals and builds leveraged buyout models to evaluate control
+    investments in mature private companies.
+  tools: [Read, Write, WebSearch]
+
+- slug: venture-capital-associate
+  title: Venture Capital Associate
+  category: finance
+  description: >-
+    Sources and diligences early-stage startup investments, evaluating founder
+    teams and market size instead of historical financials.
+  tools: [Read, Write, WebSearch]
+
+- slug: corporate-development-manager
+  title: Corporate Development Manager
+  category: finance
+  description: >-
+    Runs M&A strategy and deal execution from inside an operating company,
+    distinct from an external investor's due diligence process.
+  tools: [Read, Write, WebSearch]
+
+- slug: credit-analyst
+  title: Credit Analyst
+  category: finance
+  description: >-
+    Assesses borrower creditworthiness and recommends lending terms based on
+    financial statement and repayment risk analysis.
+  tools: [Read, Write, Bash]
+
+- slug: financial-risk-manager
+  title: Financial Risk Manager
+  category: finance
+  description: >-
+    Manages market, credit, and liquidity risk exposure for the company's
+    balance sheet, distinct from operational or cyber risk work.
+  tools: [Read, Write, Bash]
+
+- slug: billing-manager
+  title: Billing Manager
+  category: finance
+  description: >-
+    Owns invoicing accuracy and subscription billing system configuration,
+    distinct from the accounts receivable specialist who applies payments.
+  tools: [Read, Write, Bash]
+
+- slug: collections-manager
+  title: Collections Manager
+  category: finance
+  description: >-
+    Runs the strategy and team that pursue overdue receivables, negotiating
+    payment plans on delinquent accounts.
+  tools: [Read, Write, TodoWrite]
+
+- slug: financial-reporting-manager
+  title: Financial Reporting Manager
+  category: finance
+  description: >-
+    Drafts external financial statements and SEC disclosures, distinct from
+    the controller who oversees the whole monthly close.
+  tools: [Read, Write, Bash]
+
+- slug: technical-accounting-manager
+  title: Technical Accounting Manager
+  category: finance
+  description: >-
+    Researches how complex GAAP standards apply to unusual transactions like
+    leases or stock compensation before they hit the books.
+  tools: [Read, Write, WebSearch]
+
+- slug: financial-systems-analyst
+  title: Financial Systems Analyst
+  category: finance
+  description: >-
+    Administers and configures the finance team's ERP system, building reports
+    rather than analyzing the numbers in them.
+  tools: [Read, Write, Bash]
+
+- slug: fixed-asset-accountant
+  title: Fixed Asset Accountant
+  category: finance
+  description: >-
+    Tracks capital assets and depreciation schedules across their useful life
+    for the balance sheet.
+  tools: [Read, Write, Bash]
+
+- slug: corporate-insurance-manager
+  title: Corporate Insurance Manager
+  category: finance
+  description: >-
+    Manages the company's own insurance policies and claims, distinct from an
+    agent who sells policies to customers.
+  tools: [Read, Write, WebSearch]
+
+- slug: bookkeeper
+  title: Bookkeeper
+  category: finance
+  description: >-
+    Records day-to-day transactions and reconciles accounts for a small
+    business, without the department structure a staff accountant works
+    within.
+  tools: [Read, Write, Bash]
+
+- slug: grants-and-compliance-accountant
+  title: Grants and Compliance Accountant
+  category: finance
+  description: >-
+    Tracks restricted fund spending and reporting requirements attached to
+    grants, applying fund accounting rules a standard GL doesn't need.
+  tools: [Read, Write, Bash]
+
+- slug: capital-markets-analyst
+  title: Capital Markets Analyst
+  category: finance
+  description: >-
+    Prepares materials for debt and equity issuances and works with banks on
+    capital raises, distinct from ongoing treasury cash management.
+  tools: [Read, Write, WebSearch]
+
+- slug: actuary
+  title: Actuary
+  category: finance
+  description: >-
+    Prices insurance and pension risk using statistical models of future
+    claims, a licensed specialty distinct from general quantitative analysis.
+  tools: [Read, Write, Bash]
