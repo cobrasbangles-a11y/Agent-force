@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeEach } from 'vitest';
-import { mkdtempSync, mkdirSync, writeFileSync, existsSync, readFileSync, lstatSync } from 'node:fs';
+import { mkdtempSync, mkdirSync, writeFileSync, existsSync, readFileSync, lstatSync, symlinkSync, unlinkSync } from 'node:fs';
 import { join } from 'node:path';
 import { tmpdir } from 'node:os';
 import { installAgents } from '../scripts/lib/install.js';
@@ -76,5 +76,65 @@ describe('installAgents', () => {
   it('creates a symlink when asked', () => {
     installAgents(root, { agents: ['customer-getter'], dest, symlink: true });
     expect(lstatSync(join(dest, 'customer-getter.md')).isSymbolicLink()).toBe(true);
+  });
+
+  it('rejects path traversal in slug', () => {
+    writeFileSync(join(root, 'data', 'taxonomy.yaml'), `
+- slug: ../evil
+  title: Evil
+  category: sales
+  description: a
+  tools: [Read]
+`);
+    mkdirSync(join(root, 'agents', 'sales', '..'), { recursive: true });
+    writeFileSync(join(root, 'agents', 'sales', '../evil.md'), 'dangerous');
+    expect(() => installAgents(root, { agents: ['../evil'], dest })).toThrow(/invalid slug/);
+    // Verify nothing was written outside dest
+    expect(existsSync(join(root, 'evil.md'))).toBe(false);
+  });
+
+  it('rejects path traversal in category', () => {
+    writeFileSync(join(root, 'data', 'taxonomy.yaml'), `
+- slug: traversal-agent
+  title: Traversal Agent
+  category: ../../tmp
+  description: a
+  tools: [Read]
+`);
+    expect(() => installAgents(root, { agents: ['traversal-agent'], dest })).toThrow(/invalid category/);
+  });
+
+  it('skips a dangling symlink without force', () => {
+    // Create a symlink to a nonexistent target
+    symlinkSync(join(root, 'agents', 'sales', 'customer-getter-nonexistent.md'), join(dest, 'customer-getter.md'));
+    const result = installAgents(root, { agents: ['customer-getter'], dest });
+    expect(result.written).toEqual([]);
+    expect(result.skipped).toEqual(['customer-getter.md']);
+    expect(lstatSync(join(dest, 'customer-getter.md')).isSymbolicLink()).toBe(true);
+  });
+
+  it('overwrites an existing symlink with force', () => {
+    symlinkSync(join(root, 'agents', 'sales', 'customer-getter-nonexistent.md'), join(dest, 'customer-getter.md'));
+    const result = installAgents(root, { agents: ['customer-getter'], dest, force: true });
+    expect(result.written).toEqual(['customer-getter.md']);
+    expect(lstatSync(join(dest, 'customer-getter.md')).isSymbolicLink()).toBe(false);
+    expect(readFileSync(join(dest, 'customer-getter.md'), 'utf8')).toContain('name: customer-getter');
+  });
+
+  it('resolves overseer agent to agents/overseer.md', () => {
+    mkdirSync(join(root, 'agents'), { recursive: true });
+    writeFileSync(join(root, 'data', 'taxonomy.yaml'), `
+- slug: overseer
+  title: Overseer
+  category: overseer
+  description: Master coordinator
+  tools: [Read]
+`);
+    writeFileSync(join(root, 'agents', 'overseer.md'),
+      `---\nname: overseer\ndescription: Master coordinator.\ntools: Read\n---\n${BODY}`);
+    const result = installAgents(root, { agents: ['overseer'], dest });
+    expect(result.written).toEqual(['overseer.md']);
+    expect(existsSync(join(dest, 'overseer.md'))).toBe(true);
+    expect(readFileSync(join(dest, 'overseer.md'), 'utf8')).toContain('name: overseer');
   });
 });
