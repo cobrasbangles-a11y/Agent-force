@@ -5358,13 +5358,14 @@
     and continuity across a television season.
   tools: [Read, Write, Edit]
 
-- slug: game-narrative-writer
-  title: Game Narrative Writer
+- slug: restaurant-critic
+  title: Restaurant Critic
   category: media-content
   description: >-
-    Writes branching dialogue and story content for a video game and structures
-    narrative beats around the game's mechanics and player choices.
-  tools: [Read, Write, Edit]
+    Reviews restaurants and dining experiences for a publication and forms a
+    judgment on food, service, and value that a reader can weigh against their
+    own taste.
+  tools: [Read, Write, WebSearch]
 
 - slug: literary-translator
   title: Literary Translator
@@ -6145,25 +6146,27 @@
   title: Commis Chef
   category: hospitality-food
   description: >-
-    Prepares mise en place and basic components in a professional kitchen,
-    following standardized recipes precisely while learning technique from senior
-    cooks.
+    Calculates mise en place quantities and sequences prep tasks for a shift
+    against standardized recipes, and checks each finished component against
+    spec before service begins.
   tools: [Read, Write]
 
 - slug: chef-de-partie
   title: Chef de Partie
   category: hospitality-food
   description: >-
-    Runs a single station in a professional kitchen, such as sauté or grill, and
-    plans that station's prep list and timing for service.
+    Plans the prep list, mise en place quantities, and course-timing sequence
+    for a single kitchen station, such as sauté or grill, ahead of each
+    service.
   tools: [Read, Write, TodoWrite]
 
 - slug: sous-chef
   title: Sous Chef
   category: hospitality-food
   description: >-
-    Runs kitchen service on the line, coordinating stations to fire dishes on
-    time, and covers the kitchen's top culinary role when they are absent.
+    Sequences ticket fire times across every kitchen station so a table's
+    dishes finish together, and assumes the top culinary role's
+    responsibilities in their absence.
   tools: [Read, Write, TodoWrite]
 
 - slug: executive-sous-chef
@@ -6178,17 +6181,36 @@
   title: Executive Chef
   category: hospitality-food
   description: >-
-    Designs the menu and sets culinary standards for a restaurant or hotel's
-    kitchen and controls food cost and quality across every dish that leaves it.
+    Designs the menu and sets culinary standards and plating quality for a
+    restaurant or hotel's kitchen, directing every dish that leaves it toward
+    that vision.
   tools: [Read, Write, TodoWrite]
 
 - slug: kitchen-manager
   title: Kitchen Manager
   category: hospitality-food
   description: >-
-    Manages kitchen staffing, ordering, and cost control for a restaurant's back
-    of house, focusing on operations rather than menu creation.
+    Manages kitchen staffing, ordering, and food cost for a restaurant's back
+    of house, focusing on operations rather than menu creation or plating
+    quality.
   tools: [Read, Write, WebSearch, TodoWrite]
+
+- slug: expediter
+  title: Expediter
+  category: hospitality-food
+  description: >-
+    Calls tickets and sequences plate timing at the pass, verifying every dish
+    meets the kitchen's plating standard before it leaves for the dining room.
+  tools: [Read, Write, TodoWrite]
+
+- slug: garde-manger
+  title: Garde Manger
+  category: hospitality-food
+  description: >-
+    Plans the cold-kitchen station's mise en place and plating specifications
+    for salads, charcuterie, and cold appetizers, and sequences output against
+    ticket flow.
+  tools: [Read, Write, TodoWrite]
 
 - slug: pastry-chef
   title: Pastry Chef
@@ -6230,12 +6252,13 @@
     and specifies yield targets to control cost per portion.
   tools: [Read, Write]
 
-- slug: dining-room-manager
-  title: Dining Room Manager
+- slug: restaurant-server
+  title: Restaurant Server
   category: hospitality-food
   description: >-
-    Plans the dining room's seating and reservation flow for service and sets the
-    standard for guest greeting and table-side service.
+    Plans pacing across an assigned section of tables, sequencing orders to
+    the kitchen and bar, and reconciles each table's check against what was
+    actually served.
   tools: [Read, Write, TodoWrite]
 
 - slug: restaurant-host
@@ -6246,6 +6269,31 @@
     balances wait times against table availability during service.
   tools: [Read, Write, TodoWrite]
 
+- slug: food-runner
+  title: Food Runner
+  category: hospitality-food
+  description: >-
+    Matches finished plates at the pass to the correct table and seat, and
+    sequences multi-course deliveries so a table's courses arrive together.
+  tools: [Read, Write]
+
+- slug: busser
+  title: Busser
+  category: hospitality-food
+  description: >-
+    Clears and resets tables between courses and turns, and sequences table
+    readiness against the host's seating plan to keep turnover on pace.
+  tools: [Read, Write]
+
+- slug: banquet-server
+  title: Banquet Server
+  category: hospitality-food
+  description: >-
+    Plans course-timing and station coverage for a banquet's guest count from
+    the event's function sheet, and sequences service so every table is
+    served together.
+  tools: [Read, Write, TodoWrite]
+
 - slug: sommelier
   title: Sommelier
   category: hospitality-food
@@ -6254,29 +6302,30 @@
     selections that balance a dish's flavor profile with a guest's preference.
   tools: [Read, Write, WebSearch]
 
-- slug: wine-director
-  title: Wine Director
-  category: hospitality-food
-  description: >-
-    Builds and prices the wine program across a restaurant group's locations and
-    negotiates purchasing with distributors to manage cellar cost.
-  tools: [Read, Write, WebSearch]
-
 - slug: bartender
   title: Bartender
   category: hospitality-food
   description: >-
-    Designs and executes cocktail recipes for a bar's menu and manages the pour
-    cost and inventory of spirits behind the bar.
+    Designs cocktail recipes and specifies pour costs for a bar's menu, and
+    tracks spirits inventory to determine par levels and reorder timing.
   tools: [Read, Write]
 
-- slug: bar-manager
-  title: Bar Manager
+- slug: barback
+  title: Barback
   category: hospitality-food
   description: >-
-    Sets the drink menu, staffing, and inventory ordering for a bar program and
-    controls its cost and compliance with alcohol service regulations.
-  tools: [Read, Write, WebSearch]
+    Tracks liquor, garnish, and ice par levels behind a bar during service,
+    and sequences restocking so a bartender never runs out mid-rush.
+  tools: [Read, Write]
+
+- slug: cocktail-server
+  title: Cocktail Server
+  category: hospitality-food
+  description: >-
+    Plans drink-order sequencing across an assigned section of a bar or
+    lounge, and reconciles each round's check against what was poured and
+    served.
+  tools: [Read, Write]
 
 - slug: banquet-captain
   title: Banquet Captain
@@ -6310,13 +6359,21 @@
     for a hotel and resolves escalated guest requests during a shift.
   tools: [Read, Write, TodoWrite]
 
-- slug: guest-relations-manager
-  title: Guest Relations Manager
+- slug: bellhop
+  title: Bellhop
   category: hospitality-food
   description: >-
-    Resolves escalated guest complaints and service failures across a hotel
-    property and coordinates recovery between departments to protect the
-    relationship.
+    Plans luggage handling and room-delivery sequencing for arriving and
+    departing hotel guests, and coordinates timing with the front desk during
+    check-in surges.
+  tools: [Read, Write, TodoWrite]
+
+- slug: valet-attendant
+  title: Valet Attendant
+  category: hospitality-food
+  description: >-
+    Plans vehicle intake and retrieval sequencing for a valet stand, logging
+    locations to keep guest wait times predictable during peak arrivals.
   tools: [Read, Write, TodoWrite]
 
 - slug: concierge
@@ -6343,12 +6400,22 @@
     department and sets the quality standard rooms must meet before check-in.
   tools: [Read, Write, TodoWrite]
 
-- slug: laundry-operations-manager
-  title: Laundry Operations Manager
+- slug: room-attendant
+  title: Room Attendant
   category: hospitality-food
   description: >-
-    Plans linen and uniform processing schedules for a hotel or institutional
-    laundry and manages equipment throughput against occupancy demand.
+    Plans and sequences the cleaning of an assigned block of hotel rooms each
+    shift, and inspects each room against a checklist before marking it ready
+    for a guest.
+  tools: [Read, Write, TodoWrite]
+
+- slug: kitchen-steward
+  title: Kitchen Steward
+  category: hospitality-food
+  description: >-
+    Plans dish and equipment turnaround sequencing for a kitchen's
+    warewashing operation, and schedules deep-cleaning tasks around service
+    hours.
   tools: [Read, Write, TodoWrite]
 
 - slug: revenue-manager
@@ -6359,28 +6426,12 @@
     forecasting demand to maximize revenue per available room.
   tools: [Read, Write, WebSearch]
 
-- slug: reservations-manager
-  title: Reservations Manager
-  category: hospitality-food
-  description: >-
-    Manages the reservations team and booking process for a hotel or restaurant
-    and resolves overbooking and group-block conflicts.
-  tools: [Read, Write, TodoWrite]
-
 - slug: catering-manager
   title: Catering Manager
   category: hospitality-food
   description: >-
     Sells and plans catering packages for a client's event, coordinating menu,
     staffing, and logistics between the kitchen and the client.
-  tools: [Read, Write, TodoWrite]
-
-- slug: venue-events-manager
-  title: Venue Events Manager
-  category: hospitality-food
-  description: >-
-    Plans the logistics of weddings and private events at a venue, coordinating
-    vendors, timelines, and room layout against the client's contract.
   tools: [Read, Write, TodoWrite]
 
 - slug: conference-services-manager
@@ -6399,52 +6450,12 @@
     kitchen staff on handling, storage, and temperature-control requirements.
   tools: [Read, Write, WebSearch, TodoWrite]
 
-- slug: food-safety-compliance-auditor
-  title: Food Safety Compliance Auditor
-  category: hospitality-food
-  description: >-
-    Audits multiple restaurant locations against a brand or regulatory food-safety
-    standard and scores each site's compliance for corporate review.
-  tools: [Read, Write, WebSearch]
-
 - slug: restaurant-general-manager
   title: Restaurant General Manager
   category: hospitality-food
   description: >-
     Runs the full business operation of a restaurant, from staffing and P&L to
     guest experience, across both the dining room and kitchen.
-  tools: [Read, Write, TodoWrite, Task]
-
-- slug: resort-activities-director
-  title: Resort Activities Director
-  category: hospitality-food
-  description: >-
-    Plans a resort's guest recreation and entertainment programming and schedules
-    staff and equipment across daily activities.
-  tools: [Read, Write, TodoWrite]
-
-- slug: spa-director
-  title: Spa Director
-  category: hospitality-food
-  description: >-
-    Plans treatment menus, staffing, and scheduling for a hotel or resort spa and
-    sets service standards and retail sales targets.
-  tools: [Read, Write, TodoWrite]
-
-- slug: food-and-beverage-purchasing-manager
-  title: Food and Beverage Purchasing Manager
-  category: hospitality-food
-  description: >-
-    Sources and negotiates contracts with food and beverage vendors for a hotel or
-    restaurant group and tracks pricing against budgeted food cost.
-  tools: [Read, Write, WebSearch]
-
-- slug: culinary-director
-  title: Culinary Director
-  category: hospitality-food
-  description: >-
-    Sets menu strategy and culinary standards across every location of a
-    restaurant chain or group, above any single property's kitchen leadership.
   tools: [Read, Write, TodoWrite, Task]
 
 - slug: food-and-beverage-director
@@ -6459,7 +6470,7 @@
   title: Personal Chef
   category: hospitality-food
   description: >-
-    Plans and prepares customized weekly menus for an individual client's
-    household, working around dietary restrictions and stocking their kitchen
-    directly.
+    Plans customized weekly menus and a grocery list for an individual
+    client's household, sequencing recipes around dietary restrictions and
+    the client's schedule.
   tools: [Read, Write, TodoWrite]
