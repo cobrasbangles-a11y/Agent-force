@@ -4839,3 +4839,1627 @@
     Manages data collection, entry, and quality checks for a multi-site academic
     study, without building predictive models.
   tools: [Read, Write, TodoWrite]
+
+- slug: preschool-teacher
+  title: Preschool Teacher
+  category: education
+  description: >-
+    Plans developmentally appropriate activities for children under five and
+    tracks each child's progress toward early social, motor, and language
+    milestones.
+  tools: [Read, Write, TodoWrite]
+
+- slug: kindergarten-teacher
+  title: Kindergarten Teacher
+  category: education
+  description: >-
+    Plans foundational literacy and numeracy lessons for five- and six-year-olds
+    and assesses school readiness across a classroom of new students.
+  tools: [Read, Write, TodoWrite]
+
+- slug: elementary-school-teacher
+  title: Elementary School Teacher
+  category: education
+  description: >-
+    Plans and sequences lessons across core subjects for a single classroom of
+    children and tracks each student's progress toward grade-level standards.
+  tools: [Read, Write, TodoWrite]
+
+- slug: high-school-mathematics-teacher
+  title: High School Mathematics Teacher
+  category: education
+  description: >-
+    Plans and sequences a secondary mathematics curriculum and diagnoses gaps in a
+    student's problem-solving from graded work to target instruction.
+  tools: [Read, Write, TodoWrite]
+
+- slug: high-school-science-teacher
+  title: High School Science Teacher
+  category: education
+  description: >-
+    Designs lab-based lessons and safety procedures for a secondary science course
+    and sequences the curriculum toward standardized exam requirements.
+  tools: [Read, Write, TodoWrite]
+
+- slug: high-school-english-teacher
+  title: High School English Teacher
+  category: education
+  description: >-
+    Plans a secondary literature and composition curriculum and evaluates student
+    writing to target instruction on argument, grammar, and analysis.
+  tools: [Read, Write, TodoWrite]
+
+- slug: high-school-history-teacher
+  title: High School History Teacher
+  category: education
+  description: >-
+    Plans a secondary history or social studies curriculum and designs source-
+    analysis assignments that build toward exam and essay requirements.
+  tools: [Read, Write, WebSearch]
+
+- slug: high-school-world-language-teacher
+  title: High School World Language Teacher
+  category: education
+  description: >-
+    Plans a sequenced curriculum for a foreign-language course and assesses
+    students' speaking, listening, reading, and writing proficiency.
+  tools: [Read, Write, TodoWrite]
+
+- slug: physical-education-teacher
+  title: Physical Education Teacher
+  category: education
+  description: >-
+    Plans age-appropriate fitness and sport activities for a class and tracks
+    student progress against physical education standards and safety requirements.
+  tools: [Read, Write, TodoWrite]
+
+- slug: art-teacher
+  title: Art Teacher
+  category: education
+  description: >-
+    Plans studio projects and technique instruction across media for a class and
+    assesses student work against a curriculum's creative and technical goals.
+  tools: [Read, Write, TodoWrite]
+
+- slug: music-teacher
+  title: Music Teacher
+  category: education
+  description: >-
+    Plans instruction in music theory, performance, or ensemble technique for a
+    class and sequences repertoire toward recitals or performance requirements.
+  tools: [Read, Write, TodoWrite]
+
+- slug: special-education-teacher
+  title: Special Education Teacher
+  category: education
+  description: >-
+    Writes and implements individualized education plans for students with
+    disabilities and adapts instruction and assessment to each plan's goals.
+  tools: [Read, Write, TodoWrite]
+
+- slug: esl-teacher
+  title: ESL Teacher
+  category: education
+  description: >-
+    Assesses English proficiency for non-native speakers and plans language-
+    acquisition instruction that supports their access to grade-level content.
+  tools: [Read, Write, TodoWrite]
+
+- slug: gifted-and-talented-education-teacher
+  title: Gifted and Talented Education Teacher
+  category: education
+  description: >-
+    Designs enrichment and accelerated curriculum for identified high-ability
+    students and evaluates their progress against differentiated learning goals.
+  tools: [Read, Write, TodoWrite]
+
+- slug: university-lecturer
+  title: University Lecturer
+  category: education
+  description: >-
+    Designs and delivers course lectures and assessments for a university subject,
+    focusing on teaching load rather than a personal research agenda.
+  tools: [Read, Write, WebSearch]
+
+- slug: registrar
+  title: Registrar
+  category: education
+  description: >-
+    Maintains academic records, manages course registration, and certifies degree
+    completion and transcript accuracy for an institution's students.
+  tools: [Read, Write]
+
+- slug: academic-dean
+  title: Academic Dean
+  category: education
+  description: >-
+    Sets academic policy and curriculum standards for a college or school within a
+    university and oversees the department chairs and faculty within it.
+  tools: [Read, Write, TodoWrite, Task]
+
+- slug: provost
+  title: Provost
+  category: education
+  description: >-
+    Sets institution-wide academic strategy and resource priorities across every
+    college and faculty, reporting to the president on academic performance.
+  tools: [Read, Write, TodoWrite, Task]
+
+- slug: admissions-counselor
+  title: Admissions Counselor
+  category: education
+  description: >-
+    Evaluates applications against a college's admission criteria and advises
+    prospective students on fit and requirements throughout the application
+    process.
+  tools: [Read, Write, TodoWrite]
+
+- slug: financial-aid-advisor
+  title: Financial Aid Advisor
+  category: education
+  description: >-
+    Determines a student's eligibility for grants, loans, and scholarships from
+    financial documentation and packages an aid offer within program rules.
+  tools: [Read, Write]
+
+- slug: school-guidance-counselor
+  title: School Guidance Counselor
+  category: education
+  description: >-
+    Advises K-12 students on academic planning and social or emotional concerns
+    and coordinates college or career readiness support with families and staff.
+  tools: [Read, Write, TodoWrite]
+
+- slug: career-counselor
+  title: Career Counselor
+  category: education
+  description: >-
+    Assesses a client's interests and skills and advises on career paths, job
+    search strategy, and further education options.
+  tools: [Read, Write, WebSearch]
+
+- slug: academic-advisor
+  title: Academic Advisor
+  category: education
+  description: >-
+    Plans a college student's course schedule and degree progress against program
+    requirements and flags risks to on-time graduation.
+  tools: [Read, Write, TodoWrite]
+
+- slug: school-principal
+  title: School Principal
+  category: education
+  description: >-
+    Sets instructional priorities and manages staff and budget for a single school
+    and evaluates teacher performance against school improvement goals.
+  tools: [Read, Write, TodoWrite, Task]
+
+- slug: assistant-principal
+  title: Assistant Principal
+  category: education
+  description: >-
+    Manages student discipline, scheduling, and daily operations for a school in
+    support of its instructional priorities.
+  tools: [Read, Write, TodoWrite]
+
+- slug: school-district-superintendent
+  title: School District Superintendent
+  category: education
+  description: >-
+    Sets policy, budget, and academic priorities across every school in a district
+    and reports district performance to an elected school board.
+  tools: [Read, Write, TodoWrite, Task]
+
+- slug: curriculum-coordinator
+  title: Curriculum Coordinator
+  category: education
+  description: >-
+    Designs and aligns curriculum standards and materials across grade levels or
+    subjects for a school or district and trains teachers on adoption.
+  tools: [Read, Write, TodoWrite]
+
+- slug: dean-of-students
+  title: Dean of Students
+  category: education
+  description: >-
+    Oversees student conduct, campus life, and disciplinary processes at a
+    college, separate from academic policy or classroom instruction.
+  tools: [Read, Write, TodoWrite]
+
+- slug: instructional-designer
+  title: Instructional Designer
+  category: education
+  description: >-
+    Designs learning objectives, course structure, and assessments for a
+    curriculum and specifies how content should be sequenced for learner
+    retention.
+  tools: [Read, Write]
+
+- slug: e-learning-developer
+  title: E-Learning Developer
+  category: education
+  description: >-
+    Builds interactive digital course modules from an instructional design plan,
+    using authoring tools to produce content packaged for a learning platform.
+  tools: [Read, Write, Edit]
+
+- slug: educational-technology-coordinator
+  title: Educational Technology Coordinator
+  category: education
+  description: >-
+    Evaluates classroom technology tools for a school and trains teachers on
+    integrating them into lesson plans.
+  tools: [Read, Write, WebSearch]
+
+- slug: lms-administrator
+  title: LMS Administrator
+  category: education
+  description: >-
+    Configures and maintains a learning management system's courses, user access,
+    and integrations and troubleshoots platform issues for instructors and
+    learners.
+  tools: [Read, Write, Bash]
+
+- slug: corporate-trainer
+  title: Corporate Trainer
+  category: education
+  description: >-
+    Delivers training sessions on company processes, products, or soft skills to
+    employees and adapts delivery based on audience feedback and assessment
+    results.
+  tools: [Read, Write, TodoWrite]
+
+- slug: technical-trainer
+  title: Technical Trainer
+  category: education
+  description: >-
+    Delivers hands-on instruction on software, equipment, or technical systems to
+    employees or customers and builds exercises that verify competency.
+  tools: [Read, Write, TodoWrite]
+
+- slug: school-librarian
+  title: School Librarian
+  category: education
+  description: >-
+    Curates a K-12 school's book and digital collection and teaches research and
+    information-literacy skills to classes.
+  tools: [Read, Write, WebSearch]
+
+- slug: academic-librarian
+  title: Academic Librarian
+  category: education
+  description: >-
+    Curates a university library's research collections and supports faculty and
+    students with literature searches and citation guidance.
+  tools: [Read, Write, WebSearch]
+
+- slug: career-and-technical-education-teacher
+  title: Career and Technical Education Teacher
+  category: education
+  description: >-
+    Plans hands-on vocational curriculum in a trade or technical field for
+    secondary or postsecondary students and assesses readiness for certification
+    exams.
+  tools: [Read, Write, TodoWrite]
+
+- slug: adult-education-instructor
+  title: Adult Education Instructor
+  category: education
+  description: >-
+    Plans basic literacy, numeracy, or GED-preparation instruction for adult
+    learners and adapts pacing to varied prior schooling and life schedules.
+  tools: [Read, Write, TodoWrite]
+
+- slug: homeschool-curriculum-consultant
+  title: Homeschool Curriculum Consultant
+  category: education
+  description: >-
+    Advises homeschooling families on curriculum selection and scope-and-sequence
+    planning and evaluates a student's progress against state requirements.
+  tools: [Read, Write, WebSearch]
+
+- slug: private-tutor
+  title: Private Tutor
+  category: education
+  description: >-
+    Assesses an individual student's gaps in a subject and plans one-on-one lesson
+    sequences targeted to their specific needs and pace.
+  tools: [Read, Write, TodoWrite]
+
+- slug: news-reporter
+  title: News Reporter
+  category: media-content
+  description: >-
+    Gathers facts through interviews and records and writes daily news stories on
+    deadline for a general-assignment beat.
+  tools: [Read, Write, WebSearch, WebFetch]
+
+- slug: investigative-journalist
+  title: Investigative Journalist
+  category: media-content
+  description: >-
+    Builds a long-form story from public records, documents, and sources over
+    weeks or months and verifies claims before publication.
+  tools: [Read, Write, WebSearch, WebFetch]
+
+- slug: political-reporter
+  title: Political Reporter
+  category: media-content
+  description: >-
+    Covers government and campaign activity and writes stories that track policy
+    decisions and the people making them for a general audience.
+  tools: [Read, Write, WebSearch]
+
+- slug: sports-reporter
+  title: Sports Reporter
+  category: media-content
+  description: >-
+    Covers games, teams, and athletes for a beat and writes recaps and features on
+    deadline around a live schedule of events.
+  tools: [Read, Write, WebSearch]
+
+- slug: business-reporter
+  title: Business Reporter
+  category: media-content
+  description: >-
+    Covers company earnings, markets, and economic trends and writes stories that
+    explain financial developments for a general audience.
+  tools: [Read, Write, WebSearch, WebFetch]
+
+- slug: science-journalist
+  title: Science Journalist
+  category: media-content
+  description: >-
+    Translates scientific research and studies into accurate, accessible stories
+    for a general audience and vets claims against the underlying research.
+  tools: [Read, Write, WebSearch, WebFetch]
+
+- slug: legal-affairs-reporter
+  title: Legal Affairs Reporter
+  category: media-content
+  description: >-
+    Covers court proceedings and legal developments and writes stories that
+    explain rulings and their consequences for a general audience.
+  tools: [Read, Write, WebSearch]
+
+- slug: foreign-correspondent
+  title: Foreign Correspondent
+  category: media-content
+  description: >-
+    Reports on events in a country or region from on the ground and writes stories
+    that give a home audience context for unfamiliar places and politics.
+  tools: [Read, Write, WebSearch]
+
+- slug: copy-editor
+  title: Copy Editor
+  category: media-content
+  description: >-
+    Edits a written story for grammar, clarity, and house style before publication
+    and checks it against a publication's style guide.
+  tools: [Read, Write, Edit]
+
+- slug: managing-editor
+  title: Managing Editor
+  category: media-content
+  description: >-
+    Runs the day-to-day editorial operation of a publication, assigning stories
+    and coordinating the schedule between writers, editors, and production.
+  tools: [Read, Write, TodoWrite, Task]
+
+- slug: editor-in-chief
+  title: Editor-in-Chief
+  category: media-content
+  description: >-
+    Sets the overall editorial vision and standards for a publication and makes
+    final calls on the most consequential or sensitive stories.
+  tools: [Read, Write, TodoWrite]
+
+- slug: photo-editor
+  title: Photo Editor
+  category: media-content
+  description: >-
+    Selects and sequences photographs to accompany a story and evaluates submitted
+    images for accuracy, quality, and ethical sourcing.
+  tools: [Read, Write]
+
+- slug: developmental-editor
+  title: Developmental Editor
+  category: media-content
+  description: >-
+    Works with an author on a manuscript's structure, pacing, and argument before
+    line editing begins and recommends major revisions.
+  tools: [Read, Write, Edit]
+
+- slug: line-editor
+  title: Line Editor
+  category: media-content
+  description: >-
+    Edits a manuscript sentence by sentence for clarity, flow, and voice, working
+    after developmental revisions and before proofreading.
+  tools: [Read, Write, Edit]
+
+- slug: proofreader
+  title: Proofreader
+  category: media-content
+  description: >-
+    Checks a final-formatted document for typographical, spelling, and formatting
+    errors before it goes to print or publication.
+  tools: [Read, Write, Edit]
+
+- slug: acquisitions-editor
+  title: Acquisitions Editor
+  category: media-content
+  description: >-
+    Evaluates manuscript submissions and pitches for a publishing house and
+    decides which projects to acquire and shepherd toward a contract.
+  tools: [Read, Write, WebSearch]
+
+- slug: editorial-assistant
+  title: Editorial Assistant
+  category: media-content
+  description: >-
+    Tracks manuscripts through a publishing house's production stages and
+    coordinates between authors, editors, and the production schedule.
+  tools: [Read, Write, TodoWrite]
+
+- slug: technical-writer
+  title: Technical Writer
+  category: media-content
+  description: >-
+    Writes user documentation and how-to guides for a product and structures
+    content so a reader can complete a task without prior knowledge.
+  tools: [Read, Write, Edit]
+
+- slug: api-documentation-writer
+  title: API Documentation Writer
+  category: media-content
+  description: >-
+    Writes reference documentation and code examples for a software API and
+    verifies each example against the actual endpoint behavior.
+  tools: [Read, Write, Edit, WebFetch]
+
+- slug: grant-writer
+  title: Grant Writer
+  category: media-content
+  description: >-
+    Writes funding proposals for a nonprofit or institution and tailors the
+    narrative and budget to each funder's stated priorities and requirements.
+  tools: [Read, Write, WebSearch]
+
+- slug: speechwriter
+  title: Speechwriter
+  category: media-content
+  description: >-
+    Writes speeches for an executive or public figure and matches the tone and
+    message to the audience and occasion.
+  tools: [Read, Write, Edit]
+
+- slug: advertising-copywriter
+  title: Advertising Copywriter
+  category: media-content
+  description: >-
+    Writes headlines and body copy for ads and campaigns and iterates language to
+    fit a brand's voice and a specific call to action.
+  tools: [Read, Write, Edit]
+
+- slug: screenwriter
+  title: Screenwriter
+  category: media-content
+  description: >-
+    Writes scripts for film or television, structuring plot, dialogue, and scene
+    descriptions into an industry-standard format.
+  tools: [Read, Write, Edit]
+
+- slug: television-story-editor
+  title: Television Story Editor
+  category: media-content
+  description: >-
+    Breaks episode stories with a writers' room and edits scripts for structure
+    and continuity across a television season.
+  tools: [Read, Write, Edit]
+
+- slug: game-narrative-writer
+  title: Game Narrative Writer
+  category: media-content
+  description: >-
+    Writes branching dialogue and story content for a video game and structures
+    narrative beats around the game's mechanics and player choices.
+  tools: [Read, Write, Edit]
+
+- slug: literary-translator
+  title: Literary Translator
+  category: media-content
+  description: >-
+    Translates novels or literary works into another language, preserving voice
+    and meaning rather than producing a literal word-for-word rendering.
+  tools: [Read, Write, Edit]
+
+- slug: localization-linguist
+  title: Localization Linguist
+  category: media-content
+  description: >-
+    Translates and culturally adapts software, marketing, or game content for a
+    target market and flags phrases that won't land outside the source language.
+  tools: [Read, Write, WebSearch]
+
+- slug: subtitle-translator
+  title: Subtitle Translator
+  category: media-content
+  description: >-
+    Translates and times dialogue into subtitle captions for video content,
+    condensing lines to fit reading-speed and on-screen character limits.
+  tools: [Read, Write, Edit]
+
+- slug: localization-project-manager
+  title: Localization Project Manager
+  category: media-content
+  description: >-
+    Coordinates translators, timelines, and file handoffs across a multi-language
+    localization project and tracks each language's progress to launch.
+  tools: [Read, Write, TodoWrite]
+
+- slug: fact-checker
+  title: Fact Checker
+  category: media-content
+  description: >-
+    Verifies factual claims, quotes, and figures in a story against primary
+    sources before publication and flags unsupported statements back to the
+    writer.
+  tools: [Read, Write, WebSearch, WebFetch]
+
+- slug: podcast-producer
+  title: Podcast Producer
+  category: media-content
+  description: >-
+    Plans episode topics and books guests for a podcast and structures the
+    interview outline and talking points ahead of recording.
+  tools: [Read, Write, TodoWrite, WebSearch]
+
+- slug: broadcast-news-producer
+  title: Broadcast News Producer
+  category: media-content
+  description: >-
+    Plans the story lineup and timing for a television or radio newscast and
+    writes scripts that anchors read on air.
+  tools: [Read, Write, TodoWrite]
+
+- slug: broadcast-news-anchor
+  title: Broadcast News Anchor
+  category: media-content
+  description: >-
+    Delivers the on-air presentation of a newscast and rewrites wire and staff
+    copy into a script suited to spoken delivery.
+  tools: [Read, Write, Edit]
+
+- slug: newsletter-editor
+  title: Newsletter Editor
+  category: media-content
+  description: >-
+    Curates and writes a recurring email newsletter, selecting stories and framing
+    them for a subscriber audience on a fixed publishing cadence.
+  tools: [Read, Write, Edit]
+
+- slug: opinion-editor
+  title: Opinion Editor
+  category: media-content
+  description: >-
+    Solicits and edits op-ed submissions for a publication and balances the mix of
+    viewpoints run across an opinion section.
+  tools: [Read, Write, Edit]
+
+- slug: columnist
+  title: Columnist
+  category: media-content
+  description: >-
+    Writes a recurring column of original analysis or commentary under their own
+    byline, developing a consistent voice and point of view over time.
+  tools: [Read, Write, WebSearch]
+
+- slug: culture-critic
+  title: Culture Critic
+  category: media-content
+  description: >-
+    Reviews films, books, or television for a publication and forms a judgment on
+    a work's merit that a reader can weigh against their own taste.
+  tools: [Read, Write, WebSearch]
+
+- slug: staff-writer
+  title: Staff Writer
+  category: media-content
+  description: >-
+    Writes feature articles for a digital publication on an ongoing assignment
+    basis, pitching and researching stories beyond a single news beat.
+  tools: [Read, Write, WebSearch]
+
+- slug: ghostwriter
+  title: Ghostwriter
+  category: media-content
+  description: >-
+    Writes a book or article in another person's voice from interviews and source
+    material, with the credited author's name on the byline.
+  tools: [Read, Write, Edit]
+
+- slug: documentary-writer
+  title: Documentary Writer
+  category: media-content
+  description: >-
+    Researches a documentary's subject and writes the narration script,
+    structuring interviews and archival material into a coherent story.
+  tools: [Read, Write, WebSearch]
+
+- slug: master-electrician
+  title: Master Electrician
+  category: skilled-trades
+  description: >-
+    Calculates service and feeder loads for commercial buildings, designs the
+    electrical system layout, and holds the license required to pull permits and
+    sign off on installations.
+  tools: [Read, Write, WebSearch]
+
+- slug: electrical-foreman
+  title: Electrical Foreman
+  category: skilled-trades
+  description: >-
+    Sequences crew assignments and material deliveries across an electrical job
+    site and resolves conflicts with other trades against the project schedule.
+  tools: [Read, Write, TodoWrite]
+
+- slug: plumber
+  title: Plumber
+  category: skilled-trades
+  description: >-
+    Sizes pipe runs and fixture layouts for residential and commercial buildings,
+    diagnoses leaks and blockages, and sequences rough-in work around inspections.
+  tools: [Read, Write, WebSearch]
+
+- slug: master-plumber
+  title: Master Plumber
+  category: skilled-trades
+  description: >-
+    Designs water supply and drainage systems for multi-building projects,
+    calculates fixture unit loads, and holds the license required to pull permits
+    and train apprentices.
+  tools: [Read, Write, WebSearch]
+
+- slug: pipefitter
+  title: Pipefitter
+  category: skilled-trades
+  description: >-
+    Lays out and fabricates high-pressure process piping for industrial and
+    mechanical systems, reading isometric drawings to sequence welds and fitting
+    installation.
+  tools: [Read, Write, WebSearch]
+
+- slug: hvac-installation-technician
+  title: HVAC Installation Technician
+  category: skilled-trades
+  description: >-
+    Sizes ductwork and equipment for new heating and cooling systems, calculates
+    load requirements for a building, and sequences installation around
+    inspections.
+  tools: [Read, Write, WebSearch]
+
+- slug: hvac-service-technician
+  title: HVAC Service Technician
+  category: skilled-trades
+  description: >-
+    Diagnoses failures in existing heating and cooling systems from symptoms and
+    readings and determines whether to repair or recommend replacement of the
+    unit.
+  tools: [Read, Write, WebSearch]
+
+- slug: refrigeration-technician
+  title: Refrigeration Technician
+  category: skilled-trades
+  description: >-
+    Diagnoses faults in commercial refrigeration and cold-storage systems,
+    calculates refrigerant charge, and sequences repairs to minimize food-safety
+    downtime.
+  tools: [Read, Write, WebSearch]
+
+- slug: sheet-metal-worker
+  title: Sheet Metal Worker
+  category: skilled-trades
+  description: >-
+    Fabricates and lays out ductwork and building sheet metal from architectural
+    drawings, calculating dimensions and seam allowances before a shop cuts
+    material.
+  tools: [Read, Write, WebSearch]
+
+- slug: framing-carpenter
+  title: Framing Carpenter
+  category: skilled-trades
+  description: >-
+    Reads structural drawings to lay out and sequence the framing of walls,
+    floors, and roofs, calculating stud spacing, headers, and load paths.
+  tools: [Read, Write, WebSearch]
+
+- slug: finish-carpenter
+  title: Finish Carpenter
+  category: skilled-trades
+  description: >-
+    Plans trim, millwork, and built-in installation sequencing for a finished
+    interior, calculating material takeoffs against site conditions and drawings.
+  tools: [Read, Write, WebSearch]
+
+- slug: cabinetmaker
+  title: Cabinetmaker
+  category: skilled-trades
+  description: >-
+    Designs custom cabinetry layouts and joinery from a client's requirements,
+    producing cut lists and shop drawings before fabrication begins.
+  tools: [Read, Write, WebSearch]
+
+- slug: drywall-installer
+  title: Drywall Installer
+  category: skilled-trades
+  description: >-
+    Plans board layout and fastening schedules for a room or building, calculating
+    material and taping sequencing around framing and inspection milestones.
+  tools: [Read, Write, TodoWrite]
+
+- slug: painter
+  title: Painter
+  category: skilled-trades
+  description: >-
+    Specifies surface preparation, primer, and coating systems for interior and
+    exterior jobs and sequences painting work around other trades and cure times.
+  tools: [Read, Write, WebSearch]
+
+- slug: flooring-installer
+  title: Flooring Installer
+  category: skilled-trades
+  description: >-
+    Determines subfloor preparation and material transitions for a flooring job,
+    calculating square footage, pattern layout, and expansion gaps before
+    installation.
+  tools: [Read, Write, WebSearch]
+
+- slug: tile-setter
+  title: Tile Setter
+  category: skilled-trades
+  description: >-
+    Lays out tile patterns and waterproofing systems for wet areas, calculating
+    material quantities and substrate preparation before setting begins.
+  tools: [Read, Write, WebSearch]
+
+- slug: roofer
+  title: Roofer
+  category: skilled-trades
+  description: >-
+    Diagnoses roof leaks and wear from an inspection and specifies the
+    underlayment, flashing, and material system for a repair or full replacement.
+  tools: [Read, Write, WebSearch]
+
+- slug: mason
+  title: Mason
+  category: skilled-trades
+  description: >-
+    Plans coursing, mortar mix, and expansion-joint placement for brick, block,
+    and stone construction, sequencing work around weather and cure times.
+  tools: [Read, Write, WebSearch]
+
+- slug: concrete-finisher
+  title: Concrete Finisher
+  category: skilled-trades
+  description: >-
+    Determines slump, pour sequencing, and finishing technique for a concrete
+    placement and calculates control-joint spacing to manage cracking.
+  tools: [Read, Write, WebSearch]
+
+- slug: glazier
+  title: Glazier
+  category: skilled-trades
+  description: >-
+    Specifies glass type, thickness, and glazing system for a window or storefront
+    opening and sequences installation around structural tolerances.
+  tools: [Read, Write, WebSearch]
+
+- slug: insulation-installer
+  title: Insulation Installer
+  category: skilled-trades
+  description: >-
+    Calculates R-value requirements and vapor-barrier placement for a building
+    envelope and specifies the insulation material and installation method by
+    area.
+  tools: [Read, Write, WebSearch]
+
+- slug: elevator-technician
+  title: Elevator Technician
+  category: skilled-trades
+  description: >-
+    Diagnoses elevator and escalator control and mechanical faults from inspection
+    logs and error codes and sequences repairs around code-required safety tests.
+  tools: [Read, Write, WebSearch]
+
+- slug: locksmith
+  title: Locksmith
+  category: skilled-trades
+  description: >-
+    Diagnoses lock and access-control failures, specifies rekeying or hardware
+    replacement, and designs master-key systems for multi-door buildings.
+  tools: [Read, Write, WebSearch]
+
+- slug: fire-sprinkler-fitter
+  title: Fire Sprinkler Fitter
+  category: skilled-trades
+  description: >-
+    Calculates hydraulic demand and head spacing for a fire suppression system
+    layout and sequences installation and testing around code inspections.
+  tools: [Read, Write, WebSearch]
+
+- slug: appliance-repair-technician
+  title: Appliance Repair Technician
+  category: skilled-trades
+  description: >-
+    Diagnoses faults in household and light-commercial appliances from symptoms
+    and diagnostic codes and determines whether a repair or part replacement is
+    warranted.
+  tools: [Read, Write, WebSearch]
+
+- slug: welder
+  title: Welder
+  category: skilled-trades
+  description: >-
+    Selects weld process, filler metal, and joint preparation for a fabrication or
+    repair job and reads welding symbols on drawings to sequence the work.
+  tools: [Read, Write, WebSearch]
+
+- slug: structural-ironworker
+  title: Structural Ironworker
+  category: skilled-trades
+  description: >-
+    Plans the erection sequence for structural steel members from shop drawings,
+    calculating rigging loads and connection order before steel arrives on site.
+  tools: [Read, Write, TodoWrite]
+
+- slug: millwright
+  title: Millwright
+  category: skilled-trades
+  description: >-
+    Diagnoses misalignment and wear in industrial machinery and plans the rigging,
+    leveling, and precision alignment sequence for installing or overhauling
+    equipment.
+  tools: [Read, Write, WebSearch]
+
+- slug: machinist
+  title: Machinist
+  category: skilled-trades
+  description: >-
+    Reads engineering drawings to plan tooling, speeds, and cutting sequences for
+    producing precision metal parts on lathes and mills.
+  tools: [Read, Write, WebSearch]
+
+- slug: tool-and-die-maker
+  title: Tool and Die Maker
+  category: skilled-trades
+  description: >-
+    Designs and specifies the tooling, dies, and fixtures used to mass-produce
+    stamped or molded parts, calculating tolerances from part drawings.
+  tools: [Read, Write, WebSearch]
+
+- slug: metal-fabricator
+  title: Metal Fabricator
+  category: skilled-trades
+  description: >-
+    Plans cutting, bending, and welding sequences for structural and plate-steel
+    components from shop drawings, calculating material layout to minimize waste.
+  tools: [Read, Write, WebSearch]
+
+- slug: boilermaker
+  title: Boilermaker
+  category: skilled-trades
+  description: >-
+    Plans the assembly and pressure-testing sequence for boilers and pressure
+    vessels, reading code-stamped drawings to verify weld and material
+    specifications.
+  tools: [Read, Write, WebSearch]
+
+- slug: diesel-mechanic
+  title: Diesel Mechanic
+  category: skilled-trades
+  description: >-
+    Diagnoses engine, transmission, and hydraulic faults in diesel trucks and
+    heavy equipment using diagnostic codes and sequences the repair and parts
+    ordering.
+  tools: [Read, Write, WebSearch]
+
+- slug: automotive-technician
+  title: Automotive Technician
+  category: skilled-trades
+  description: >-
+    Diagnoses mechanical and electrical faults in passenger vehicles from symptoms
+    and scan-tool data and determines the repair sequence and parts needed.
+  tools: [Read, Write, WebSearch]
+
+- slug: collision-repair-technician
+  title: Collision Repair Technician
+  category: skilled-trades
+  description: >-
+    Assesses structural and cosmetic vehicle damage to write a repair plan,
+    sequencing frame straightening, panel replacement, and refinishing steps.
+  tools: [Read, Write, TodoWrite]
+
+- slug: motorcycle-mechanic
+  title: Motorcycle Mechanic
+  category: skilled-trades
+  description: >-
+    Diagnoses engine, suspension, and electrical faults on motorcycles and
+    powersports vehicles and sequences teardown and reassembly around parts
+    availability.
+  tools: [Read, Write, WebSearch]
+
+- slug: farm-equipment-mechanic
+  title: Farm Equipment Mechanic
+  category: skilled-trades
+  description: >-
+    Diagnoses hydraulic, engine, and drivetrain faults in tractors and harvesting
+    equipment and sequences repairs around planting and harvest deadlines.
+  tools: [Read, Write, WebSearch]
+
+- slug: heavy-equipment-operator
+  title: Heavy Equipment Operator
+  category: skilled-trades
+  description: >-
+    Plans dig, grade, and load sequencing for excavators, dozers, and loaders on a
+    site, calculating cut-and-fill volumes against the site plan.
+  tools: [Read, Write, TodoWrite]
+
+- slug: crane-operator
+  title: Crane Operator
+  category: skilled-trades
+  description: >-
+    Calculates load charts, rigging configuration, and swing radius for a lift
+    plan and sequences picks around site obstructions and wind limits.
+  tools: [Read, Write, TodoWrite]
+
+- slug: registered-architect
+  title: Registered Architect
+  category: construction-realestate
+  description: >-
+    Designs building layouts and systems to satisfy code and zoning requirements
+    and produces the construction documents a contractor bids and builds from.
+  tools: [Read, Write, WebSearch]
+
+- slug: architectural-designer
+  title: Architectural Designer
+  category: construction-realestate
+  description: >-
+    Develops floor plans, elevations, and CAD construction documents for a
+    building project, working within an established design concept and code
+    parameters.
+  tools: [Read, Write, Edit]
+
+- slug: landscape-architect
+  title: Landscape Architect
+  category: construction-realestate
+  description: >-
+    Designs site grading, planting, and hardscape plans for outdoor spaces,
+    balancing drainage, code setbacks, and a client's program requirements.
+  tools: [Read, Write, WebSearch]
+
+- slug: interior-architect
+  title: Interior Architect
+  category: construction-realestate
+  description: >-
+    Plans interior space layouts, partition walls, and egress paths for a
+    commercial buildout and produces the construction documents required for a
+    permit.
+  tools: [Read, Write, WebSearch]
+
+- slug: structural-engineer
+  title: Structural Engineer
+  category: construction-realestate
+  description: >-
+    Calculates loads and designs the framing, foundation, and lateral system for a
+    building and stamps drawings certifying they meet code.
+  tools: [Read, Write, WebSearch]
+
+- slug: civil-engineer
+  title: Civil Engineer
+  category: construction-realestate
+  description: >-
+    Designs site grading, drainage, and utility layouts for a development and
+    calculates stormwater and erosion-control requirements for permit approval.
+  tools: [Read, Write, WebSearch]
+
+- slug: mep-engineer
+  title: MEP Engineer
+  category: construction-realestate
+  description: >-
+    Designs the mechanical, electrical, and plumbing systems for a building,
+    sizing equipment and calculating loads to coordinate with the structural
+    design.
+  tools: [Read, Write, WebSearch]
+
+- slug: urban-planner
+  title: Urban Planner
+  category: construction-realestate
+  description: >-
+    Drafts land-use and zoning plans for a municipality or district and evaluates
+    development proposals against comprehensive plan goals.
+  tools: [Read, Write, WebSearch]
+
+- slug: structural-detailer
+  title: Structural Detailer
+  category: construction-realestate
+  description: >-
+    Produces fabrication and erection shop drawings from an engineer's structural
+    design, detailing connections and dimensions for the steel or concrete
+    supplier.
+  tools: [Read, Write, Edit]
+
+- slug: quantity-surveyor
+  title: Quantity Surveyor
+  category: construction-realestate
+  description: >-
+    Measures quantities from construction drawings to produce cost estimates and
+    bills of materials and tracks valuations as work proceeds.
+  tools: [Read, Write, WebSearch]
+
+- slug: construction-estimator
+  title: Construction Estimator
+  category: construction-realestate
+  description: >-
+    Prepares competitive bid estimates for a construction project by pricing
+    labor, material, and subcontractor quotes against the drawings and
+    specifications.
+  tools: [Read, Write, WebSearch]
+
+- slug: project-scheduler
+  title: Project Scheduler
+  category: construction-realestate
+  description: >-
+    Builds and maintains the critical-path schedule for a construction project,
+    sequencing trades and flagging float and delay risk to the project team.
+  tools: [Read, Write, TodoWrite]
+
+- slug: building-inspector
+  title: Building Inspector
+  category: construction-realestate
+  description: >-
+    Reviews completed construction work against code and approved plans at each
+    inspection milestone and determines whether a project may proceed or must be
+    corrected.
+  tools: [Read, Write, WebSearch]
+
+- slug: building-code-plan-reviewer
+  title: Building Code Plan Reviewer
+  category: construction-realestate
+  description: >-
+    Reviews permit applications and construction drawings against building and
+    zoning code before work begins and flags violations back to the design team.
+  tools: [Read, Write, WebSearch]
+
+- slug: home-inspector
+  title: Home Inspector
+  category: construction-realestate
+  description: >-
+    Assesses a home's structure, systems, and safety condition for a real estate
+    transaction and produces a report ranking defects by urgency.
+  tools: [Read, Write, WebSearch]
+
+- slug: construction-safety-manager
+  title: Construction Safety Manager
+  category: construction-realestate
+  description: >-
+    Identifies jobsite hazards and writes the safety plan for a construction
+    project and audits crews for compliance with OSHA and site-specific rules.
+  tools: [Read, Write, WebSearch, TodoWrite]
+
+- slug: land-surveyor
+  title: Land Surveyor
+  category: construction-realestate
+  description: >-
+    Establishes property boundaries and topography through survey measurements and
+    produces the plats and legal descriptions used in transactions and permitting.
+  tools: [Read, Write, WebSearch]
+
+- slug: environmental-site-assessor
+  title: Environmental Site Assessor
+  category: construction-realestate
+  description: >-
+    Researches historical land use and site conditions for a property transaction
+    and determines whether contamination risk warrants further investigation.
+  tools: [Read, Write, WebSearch, WebFetch]
+
+- slug: construction-project-manager
+  title: Construction Project Manager
+  category: construction-realestate
+  description: >-
+    Coordinates budget, schedule, and subcontractors across a construction project
+    and resolves conflicts between design intent and field conditions.
+  tools: [Read, Write, TodoWrite, Task]
+
+- slug: construction-site-superintendent
+  title: Construction Site Superintendent
+  category: construction-realestate
+  description: >-
+    Sequences daily work among trades on an active job site and resolves field
+    conflicts to keep the schedule and quality on track.
+  tools: [Read, Write, TodoWrite]
+
+- slug: general-contractor
+  title: General Contractor
+  category: construction-realestate
+  description: >-
+    Holds the license and contract for a construction project, hiring and
+    coordinating subcontractors and bearing responsibility for the finished work.
+  tools: [Read, Write, TodoWrite, Task]
+
+- slug: preconstruction-manager
+  title: Preconstruction Manager
+  category: construction-realestate
+  description: >-
+    Develops budget, schedule, and constructability input during a project's
+    design phase, before a construction contract is signed.
+  tools: [Read, Write, WebSearch, TodoWrite]
+
+- slug: construction-contract-administrator
+  title: Construction Contract Administrator
+  category: construction-realestate
+  description: >-
+    Processes change orders, submittals, and payment applications against a
+    construction contract and tracks compliance with its terms.
+  tools: [Read, Write, TodoWrite]
+
+- slug: owners-representative
+  title: Owner's Representative
+  category: construction-realestate
+  description: >-
+    Represents a property owner through design and construction, reviewing
+    decisions, costs, and schedule on the owner's behalf rather than the
+    builder's.
+  tools: [Read, Write, TodoWrite, Task]
+
+- slug: residential-property-manager
+  title: Residential Property Manager
+  category: construction-realestate
+  description: >-
+    Manages leasing, maintenance, and rent collection for residential rental
+    properties on behalf of an owner and resolves tenant issues day to day.
+  tools: [Read, Write, TodoWrite]
+
+- slug: commercial-property-manager
+  title: Commercial Property Manager
+  category: construction-realestate
+  description: >-
+    Manages operations, tenant relations, and capital planning for office, retail,
+    or industrial properties and tracks performance against the owner's budget.
+  tools: [Read, Write, TodoWrite]
+
+- slug: leasing-agent
+  title: Leasing Agent
+  category: construction-realestate
+  description: >-
+    Markets available units to prospective tenants, qualifies applicants, and
+    negotiates lease terms to keep a property's vacancy rate low.
+  tools: [Read, Write, WebSearch]
+
+- slug: real-estate-agent
+  title: Real Estate Agent
+  category: construction-realestate
+  description: >-
+    Represents a buyer or seller through a residential property transaction,
+    pricing the listing or evaluating comparables and negotiating the offer.
+  tools: [Read, Write, WebSearch]
+
+- slug: real-estate-broker
+  title: Real Estate Broker
+  category: construction-realestate
+  description: >-
+    Holds the license required to operate a real estate brokerage and supervises
+    agents' transactions for legal and contractual compliance.
+  tools: [Read, Write, TodoWrite]
+
+- slug: commercial-real-estate-broker
+  title: Commercial Real Estate Broker
+  category: construction-realestate
+  description: >-
+    Represents landlords or tenants in office, retail, or industrial leasing and
+    sales and underwrites deal economics for both sides of a transaction.
+  tools: [Read, Write, WebSearch]
+
+- slug: hoa-manager
+  title: HOA Manager
+  category: construction-realestate
+  description: >-
+    Administers a homeowners association's budget, vendor contracts, and rule
+    enforcement on behalf of its elected board.
+  tools: [Read, Write, TodoWrite]
+
+- slug: real-estate-appraiser
+  title: Real Estate Appraiser
+  category: construction-realestate
+  description: >-
+    Determines a property's market value using comparable sales and income
+    analysis and produces the appraisal report a lender or court relies on.
+  tools: [Read, Write, WebSearch]
+
+- slug: title-officer
+  title: Title Officer
+  category: construction-realestate
+  description: >-
+    Searches public records to confirm clear ownership of a property and resolves
+    liens or defects before a title insurance policy is issued.
+  tools: [Read, Write, WebFetch]
+
+- slug: escrow-officer
+  title: Escrow Officer
+  category: construction-realestate
+  description: >-
+    Holds and disburses funds and documents for a real estate closing and confirms
+    every condition of the purchase contract is satisfied before it closes.
+  tools: [Read, Write, TodoWrite]
+
+- slug: real-estate-developer
+  title: Real Estate Developer
+  category: construction-realestate
+  description: >-
+    Assembles land, financing, and entitlements to bring a real estate project
+    from concept to construction and directs the design and construction teams.
+  tools: [Read, Write, TodoWrite, Task]
+
+- slug: land-acquisition-manager
+  title: Land Acquisition Manager
+  category: construction-realestate
+  description: >-
+    Identifies and negotiates land parcels for a developer's pipeline, evaluating
+    site suitability and purchase terms before due diligence begins.
+  tools: [Read, Write, WebSearch]
+
+- slug: zoning-and-entitlements-specialist
+  title: Zoning and Entitlements Specialist
+  category: construction-realestate
+  description: >-
+    Navigates zoning, variance, and permit approvals for a development project and
+    negotiates conditions with planning boards and agencies.
+  tools: [Read, Write, WebSearch]
+
+- slug: development-feasibility-analyst
+  title: Development Feasibility Analyst
+  category: construction-realestate
+  description: >-
+    Builds pro forma models for a proposed development, testing construction cost,
+    absorption, and financing assumptions to determine whether it pencils.
+  tools: [Read, Write, WebSearch]
+
+- slug: real-estate-investment-analyst
+  title: Real Estate Investment Analyst
+  category: construction-realestate
+  description: >-
+    Underwrites acquisitions of income-producing properties, modeling cap rates,
+    cash flow, and returns to recommend whether an investor should buy.
+  tools: [Read, Write, WebSearch]
+
+- slug: real-estate-asset-manager
+  title: Real Estate Asset Manager
+  category: construction-realestate
+  description: >-
+    Oversees the financial and operating performance of a portfolio of properties
+    on behalf of an ownership group and directs property managers toward its
+    investment goals.
+  tools: [Read, Write, TodoWrite]
+
+- slug: commis-chef
+  title: Commis Chef
+  category: hospitality-food
+  description: >-
+    Prepares mise en place and basic components in a professional kitchen,
+    following standardized recipes precisely while learning technique from senior
+    cooks.
+  tools: [Read, Write]
+
+- slug: chef-de-partie
+  title: Chef de Partie
+  category: hospitality-food
+  description: >-
+    Runs a single station in a professional kitchen, such as sauté or grill, and
+    plans that station's prep list and timing for service.
+  tools: [Read, Write, TodoWrite]
+
+- slug: sous-chef
+  title: Sous Chef
+  category: hospitality-food
+  description: >-
+    Runs kitchen service on the line, coordinating stations to fire dishes on
+    time, and covers the kitchen's top culinary role when they are absent.
+  tools: [Read, Write, TodoWrite]
+
+- slug: executive-sous-chef
+  title: Executive Sous Chef
+  category: hospitality-food
+  description: >-
+    Oversees multiple kitchen stations and shifts across a large hotel or resort's
+    food outlets and coordinates staffing and standards between them.
+  tools: [Read, Write, TodoWrite]
+
+- slug: executive-chef
+  title: Executive Chef
+  category: hospitality-food
+  description: >-
+    Designs the menu and sets culinary standards for a restaurant or hotel's
+    kitchen and controls food cost and quality across every dish that leaves it.
+  tools: [Read, Write, TodoWrite]
+
+- slug: kitchen-manager
+  title: Kitchen Manager
+  category: hospitality-food
+  description: >-
+    Manages kitchen staffing, ordering, and cost control for a restaurant's back
+    of house, focusing on operations rather than menu creation.
+  tools: [Read, Write, WebSearch, TodoWrite]
+
+- slug: pastry-chef
+  title: Pastry Chef
+  category: hospitality-food
+  description: >-
+    Designs the dessert and baked-goods menu for a restaurant and plans production
+    schedules for items that require advance preparation.
+  tools: [Read, Write, TodoWrite]
+
+- slug: executive-pastry-chef
+  title: Executive Pastry Chef
+  category: hospitality-food
+  description: >-
+    Sets the pastry program and standards across multiple outlets of a hotel or
+    restaurant group and trains pastry staff to execute it consistently.
+  tools: [Read, Write, TodoWrite]
+
+- slug: baker
+  title: Baker
+  category: hospitality-food
+  description: >-
+    Plans bread production schedules around fermentation and proofing times and
+    adjusts formulas for consistency across batches and ingredient variation.
+  tools: [Read, Write]
+
+- slug: chocolatier
+  title: Chocolatier
+  category: hospitality-food
+  description: >-
+    Designs confections and chocolate work and specifies tempering and shelf-life
+    parameters for a retail or restaurant program.
+  tools: [Read, Write]
+
+- slug: butcher
+  title: Butcher
+  category: hospitality-food
+  description: >-
+    Plans meat fabrication and portioning from whole cuts for a restaurant or shop
+    and specifies yield targets to control cost per portion.
+  tools: [Read, Write]
+
+- slug: dining-room-manager
+  title: Dining Room Manager
+  category: hospitality-food
+  description: >-
+    Plans the dining room's seating and reservation flow for service and sets the
+    standard for guest greeting and table-side service.
+  tools: [Read, Write, TodoWrite]
+
+- slug: restaurant-host
+  title: Restaurant Host
+  category: hospitality-food
+  description: >-
+    Manages the reservation book and seating rotation for a restaurant and
+    balances wait times against table availability during service.
+  tools: [Read, Write, TodoWrite]
+
+- slug: sommelier
+  title: Sommelier
+  category: hospitality-food
+  description: >-
+    Recommends wine pairings to guests from a restaurant's list and advises on
+    selections that balance a dish's flavor profile with a guest's preference.
+  tools: [Read, Write, WebSearch]
+
+- slug: wine-director
+  title: Wine Director
+  category: hospitality-food
+  description: >-
+    Builds and prices the wine program across a restaurant group's locations and
+    negotiates purchasing with distributors to manage cellar cost.
+  tools: [Read, Write, WebSearch]
+
+- slug: bartender
+  title: Bartender
+  category: hospitality-food
+  description: >-
+    Designs and executes cocktail recipes for a bar's menu and manages the pour
+    cost and inventory of spirits behind the bar.
+  tools: [Read, Write]
+
+- slug: bar-manager
+  title: Bar Manager
+  category: hospitality-food
+  description: >-
+    Sets the drink menu, staffing, and inventory ordering for a bar program and
+    controls its cost and compliance with alcohol service regulations.
+  tools: [Read, Write, WebSearch]
+
+- slug: banquet-captain
+  title: Banquet Captain
+  category: hospitality-food
+  description: >-
+    Plans staff assignments and service timing for a banquet or event and
+    coordinates the room setup against the client's function sheet.
+  tools: [Read, Write, TodoWrite]
+
+- slug: barista
+  title: Barista
+  category: hospitality-food
+  description: >-
+    Plans a coffee program's recipe standards and equipment calibration and trains
+    staff on consistent extraction and milk-texturing technique.
+  tools: [Read, Write]
+
+- slug: hotel-general-manager
+  title: Hotel General Manager
+  category: hospitality-food
+  description: >-
+    Oversees every department of a hotel property and sets budget, staffing, and
+    service standards across rooms, food and beverage, and facilities.
+  tools: [Read, Write, TodoWrite, Task]
+
+- slug: front-office-manager
+  title: Front Office Manager
+  category: hospitality-food
+  description: >-
+    Manages front desk staffing, check-in and check-out flow, and room assignment
+    for a hotel and resolves escalated guest requests during a shift.
+  tools: [Read, Write, TodoWrite]
+
+- slug: guest-relations-manager
+  title: Guest Relations Manager
+  category: hospitality-food
+  description: >-
+    Resolves escalated guest complaints and service failures across a hotel
+    property and coordinates recovery between departments to protect the
+    relationship.
+  tools: [Read, Write, TodoWrite]
+
+- slug: concierge
+  title: Concierge
+  category: hospitality-food
+  description: >-
+    Advises hotel guests on local dining, transportation, and entertainment and
+    arranges reservations and tickets on their behalf.
+  tools: [Read, Write, WebSearch]
+
+- slug: night-auditor
+  title: Night Auditor
+  category: hospitality-food
+  description: >-
+    Reconciles a hotel's daily revenue and room charges overnight and prepares the
+    reports management reviews the next morning.
+  tools: [Read, Write]
+
+- slug: executive-housekeeper
+  title: Executive Housekeeper
+  category: hospitality-food
+  description: >-
+    Plans room-cleaning schedules and staffing across a hotel's housekeeping
+    department and sets the quality standard rooms must meet before check-in.
+  tools: [Read, Write, TodoWrite]
+
+- slug: laundry-operations-manager
+  title: Laundry Operations Manager
+  category: hospitality-food
+  description: >-
+    Plans linen and uniform processing schedules for a hotel or institutional
+    laundry and manages equipment throughput against occupancy demand.
+  tools: [Read, Write, TodoWrite]
+
+- slug: revenue-manager
+  title: Revenue Manager
+  category: hospitality-food
+  description: >-
+    Sets room rates and inventory allocation across booking channels for a hotel,
+    forecasting demand to maximize revenue per available room.
+  tools: [Read, Write, WebSearch]
+
+- slug: reservations-manager
+  title: Reservations Manager
+  category: hospitality-food
+  description: >-
+    Manages the reservations team and booking process for a hotel or restaurant
+    and resolves overbooking and group-block conflicts.
+  tools: [Read, Write, TodoWrite]
+
+- slug: catering-manager
+  title: Catering Manager
+  category: hospitality-food
+  description: >-
+    Sells and plans catering packages for a client's event, coordinating menu,
+    staffing, and logistics between the kitchen and the client.
+  tools: [Read, Write, TodoWrite]
+
+- slug: venue-events-manager
+  title: Venue Events Manager
+  category: hospitality-food
+  description: >-
+    Plans the logistics of weddings and private events at a venue, coordinating
+    vendors, timelines, and room layout against the client's contract.
+  tools: [Read, Write, TodoWrite]
+
+- slug: conference-services-manager
+  title: Conference Services Manager
+  category: hospitality-food
+  description: >-
+    Plans meeting room setups and audiovisual needs for group and conference
+    bookings at a hotel and coordinates schedules across simultaneous events.
+  tools: [Read, Write, TodoWrite]
+
+- slug: food-safety-manager
+  title: Food Safety Manager
+  category: hospitality-food
+  description: >-
+    Writes and audits a restaurant or hotel's HACCP food-safety plan and trains
+    kitchen staff on handling, storage, and temperature-control requirements.
+  tools: [Read, Write, WebSearch, TodoWrite]
+
+- slug: food-safety-compliance-auditor
+  title: Food Safety Compliance Auditor
+  category: hospitality-food
+  description: >-
+    Audits multiple restaurant locations against a brand or regulatory food-safety
+    standard and scores each site's compliance for corporate review.
+  tools: [Read, Write, WebSearch]
+
+- slug: restaurant-general-manager
+  title: Restaurant General Manager
+  category: hospitality-food
+  description: >-
+    Runs the full business operation of a restaurant, from staffing and P&L to
+    guest experience, across both the dining room and kitchen.
+  tools: [Read, Write, TodoWrite, Task]
+
+- slug: resort-activities-director
+  title: Resort Activities Director
+  category: hospitality-food
+  description: >-
+    Plans a resort's guest recreation and entertainment programming and schedules
+    staff and equipment across daily activities.
+  tools: [Read, Write, TodoWrite]
+
+- slug: spa-director
+  title: Spa Director
+  category: hospitality-food
+  description: >-
+    Plans treatment menus, staffing, and scheduling for a hotel or resort spa and
+    sets service standards and retail sales targets.
+  tools: [Read, Write, TodoWrite]
+
+- slug: food-and-beverage-purchasing-manager
+  title: Food and Beverage Purchasing Manager
+  category: hospitality-food
+  description: >-
+    Sources and negotiates contracts with food and beverage vendors for a hotel or
+    restaurant group and tracks pricing against budgeted food cost.
+  tools: [Read, Write, WebSearch]
+
+- slug: culinary-director
+  title: Culinary Director
+  category: hospitality-food
+  description: >-
+    Sets menu strategy and culinary standards across every location of a
+    restaurant chain or group, above any single property's kitchen leadership.
+  tools: [Read, Write, TodoWrite, Task]
+
+- slug: food-and-beverage-director
+  title: Food and Beverage Director
+  category: hospitality-food
+  description: >-
+    Oversees every restaurant, bar, and banquet outlet within a hotel and sets
+    budget and standards across the outlet managers who report to them.
+  tools: [Read, Write, TodoWrite, Task]
+
+- slug: personal-chef
+  title: Personal Chef
+  category: hospitality-food
+  description: >-
+    Plans and prepares customized weekly menus for an individual client's
+    household, working around dietary restrictions and stocking their kitchen
+    directly.
+  tools: [Read, Write, TodoWrite]
