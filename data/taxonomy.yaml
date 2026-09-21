@@ -6477,3 +6477,1606 @@
     client's household, sequencing recipes around dietary restrictions and
     the client's schedule.
   tools: [Read, Write, TodoWrite]
+
+- slug: long-haul-truck-driver
+  title: Long-Haul Truck Driver
+  category: transport-logistics
+  description: >-
+    Plans multi-day interstate routes, sequencing fuel and rest stops against
+    hours-of-service limits, and secures loads for over-the-road freight.
+  tools: [Read, Write, WebSearch]
+
+- slug: hazmat-truck-driver
+  title: Hazmat Truck Driver
+  category: transport-logistics
+  description: >-
+    Plans placarding, load segregation, and route restrictions for a
+    hazardous-materials shipment and prepares the incident-response documentation
+    regulators require.
+  tools: [Read, Write, WebSearch]
+
+- slug: truck-dispatcher
+  title: Truck Dispatcher
+  category: transport-logistics
+  description: >-
+    Matches available drivers and trailers to loads, tracks remaining
+    hours-of-service, and reroutes shipments around breakdowns and delays.
+  tools: [Read, Write, TodoWrite]
+
+- slug: cdl-driving-instructor
+  title: CDL Driving Instructor
+  category: transport-logistics
+  description: >-
+    Designs behind-the-wheel and classroom curricula for commercial driver's
+    license candidates and certifies readiness against DOT testing standards.
+  tools: [Read, Write, TodoWrite]
+
+- slug: fleet-manager
+  title: Fleet Manager
+  category: transport-logistics
+  description: >-
+    Sets vehicle replacement cycles, utilization targets, and maintenance vendor
+    contracts to control a commercial fleet's total cost of ownership.
+  tools: [Read, Write, TodoWrite, Task]
+
+- slug: fleet-maintenance-scheduler
+  title: Fleet Maintenance Scheduler
+  category: transport-logistics
+  description: >-
+    Schedules preventive maintenance and inspection intervals across a vehicle
+    fleet so breakdowns don't interrupt delivery commitments.
+  tools: [Read, Write, TodoWrite]
+
+- slug: transportation-safety-compliance-officer
+  title: Transportation Safety Compliance Officer
+  category: transport-logistics
+  description: >-
+    Audits driver logs, vehicle inspection records, and drug-testing programs
+    against federal motor carrier rules ahead of a regulatory audit.
+  tools: [Read, Write, WebSearch]
+
+- slug: route-optimization-analyst
+  title: Route Optimization Analyst
+  category: transport-logistics
+  description: >-
+    Models delivery and pickup sequencing against traffic, vehicle capacity, and
+    time windows to cut miles driven across a fleet's routes.
+  tools: [Read, Write, Bash]
+
+- slug: locomotive-engineer
+  title: Locomotive Engineer
+  category: transport-logistics
+  description: >-
+    Plans train handling for a scheduled run, sequencing braking and throttle
+    points against grade, curvature, and consist weight.
+  tools: [Read, Write]
+
+- slug: railroad-conductor
+  title: Railroad Conductor
+  category: transport-logistics
+  description: >-
+    Coordinates a train crew's switching moves, car-coupling order, and paperwork
+    for freight pickups and setoffs along a route.
+  tools: [Read, Write, TodoWrite]
+
+- slug: rail-yardmaster
+  title: Rail Yardmaster
+  category: transport-logistics
+  description: >-
+    Builds outbound trains from incoming rail cars, sequencing yard switching
+    moves by destination and shipping priority.
+  tools: [Read, Write, TodoWrite]
+
+- slug: rail-traffic-controller
+  title: Rail Traffic Controller
+  category: transport-logistics
+  description: >-
+    Authorizes train movements across a rail network's mainline track, sequencing
+    meets and passes to keep traffic flowing safely.
+  tools: [Read, Write]
+
+- slug: air-traffic-controller
+  title: Air Traffic Controller
+  category: transport-logistics
+  description: >-
+    Sequences aircraft takeoffs, landings, and airspace transitions to maintain
+    separation standards at a tower or control center.
+  tools: [Read, Write]
+
+- slug: airline-flight-dispatcher
+  title: Airline Flight Dispatcher
+  category: transport-logistics
+  description: >-
+    Files flight plans and calculates fuel loads against weather and route
+    conditions, sharing legal authority to release a flight.
+  tools: [Read, Write, WebSearch]
+
+- slug: ramp-operations-supervisor
+  title: Ramp Operations Supervisor
+  category: transport-logistics
+  description: >-
+    Sequences aircraft turnaround tasks - baggage, fueling, catering, and pushback
+    - against a tight gate schedule to prevent delay cascades.
+  tools: [Read, Write, TodoWrite]
+
+- slug: air-cargo-load-planner
+  title: Air Cargo Load Planner
+  category: transport-logistics
+  description: >-
+    Calculates weight and balance for palletized freight and builds a loading
+    sequence that keeps an aircraft within center-of-gravity limits.
+  tools: [Read, Write]
+
+- slug: airport-ground-operations-manager
+  title: Airport Ground Operations Manager
+  category: transport-logistics
+  description: >-
+    Runs an airport station's ground-handling contracts and staffing and is
+    accountable for on-time turns across every airline it services.
+  tools: [Read, Write, TodoWrite, Task]
+
+- slug: cargo-ship-captain
+  title: Cargo Ship Captain
+  category: transport-logistics
+  description: >-
+    Plans a cargo vessel's voyage route, ballast, and stowage sequence and holds
+    ultimate authority for the ship's safety at sea.
+  tools: [Read, Write, WebSearch]
+
+- slug: harbor-pilot
+  title: Harbor Pilot
+  category: transport-logistics
+  description: >-
+    Plans the transit line and speed for guiding a large vessel through a harbor's
+    channels, bridges, and traffic to berth.
+  tools: [Read, Write]
+
+- slug: vessel-traffic-controller
+  title: Vessel Traffic Controller
+  category: transport-logistics
+  description: >-
+    Monitors and sequences ship movements within a port's waterway, issuing
+    traffic advisories to prevent collisions in congested channels.
+  tools: [Read, Write]
+
+- slug: port-operations-manager
+  title: Port Operations Manager
+  category: transport-logistics
+  description: >-
+    Schedules berth assignments and crane allocation across arriving vessels and
+    coordinates terminal operations with shipping lines.
+  tools: [Read, Write, TodoWrite, Task]
+
+- slug: stevedore-supervisor
+  title: Stevedore Supervisor
+  category: transport-logistics
+  description: >-
+    Sequences container and break-bulk unloading crews against a vessel's stowage
+    plan to hit its scheduled sailing time.
+  tools: [Read, Write, TodoWrite]
+
+- slug: freight-forwarder
+  title: Freight Forwarder
+  category: transport-logistics
+  description: >-
+    Books cargo space across carriers and transport modes for an international
+    shipment and assembles the documentation each border requires.
+  tools: [Read, Write, WebSearch]
+
+- slug: customs-broker
+  title: Customs Broker
+  category: transport-logistics
+  description: >-
+    Classifies imported goods under tariff codes, calculates duties owed, and
+    files entry paperwork to clear shipments through customs.
+  tools: [Read, Write, WebSearch]
+
+- slug: import-export-compliance-specialist
+  title: Import-Export Compliance Specialist
+  category: transport-logistics
+  description: >-
+    Screens shipments and trading partners against export-control and sanctions
+    lists and keeps license documentation current for regulated goods.
+  tools: [Read, Write, WebSearch]
+
+- slug: warehouse-manager
+  title: Warehouse Manager
+  category: transport-logistics
+  description: >-
+    Runs a distribution warehouse's daily labor plan, inbound and outbound
+    schedules, and shrinkage targets across shift supervisors.
+  tools: [Read, Write, TodoWrite, Task]
+
+- slug: order-fulfillment-associate
+  title: Order Fulfillment Associate
+  category: transport-logistics
+  description: >-
+    Picks, packs, and stages customer orders against a wave plan, prioritizing
+    accuracy and cutoff times over a shift.
+  tools: [Read, Write]
+
+- slug: inventory-control-specialist
+  title: Inventory Control Specialist
+  category: transport-logistics
+  description: >-
+    Reconciles physical stock counts against system records and investigates the
+    shrinkage and mis-picks behind the gap.
+  tools: [Read, Write]
+
+- slug: warehouse-equipment-operator
+  title: Warehouse Equipment Operator
+  category: transport-logistics
+  description: >-
+    Plans put-away, replenishment, and retrieval sequencing across warehouse
+    racking, calculating travel paths and load stability for material-handling
+    shifts.
+  tools: [Read, Write]
+
+- slug: distribution-slotting-analyst
+  title: Distribution Slotting Analyst
+  category: transport-logistics
+  description: >-
+    Redesigns a warehouse's product placement by pick frequency and size to
+    shorten travel distance and speed order fulfillment.
+  tools: [Read, Write, Bash]
+
+- slug: local-delivery-driver
+  title: Local Delivery Driver
+  category: transport-logistics
+  description: >-
+    Sequences same-day stop order across a delivery zone, balancing time windows,
+    parking constraints, and package priority.
+  tools: [Read, Write]
+
+- slug: on-demand-delivery-operations-manager
+  title: On-Demand Delivery Operations Manager
+  category: transport-logistics
+  description: >-
+    Balances courier supply against order demand across delivery zones and tunes
+    dispatch radius and incentives to hold delivery times.
+  tools: [Read, Write, TodoWrite, Task]
+
+- slug: cold-chain-logistics-coordinator
+  title: Cold Chain Logistics Coordinator
+  category: transport-logistics
+  description: >-
+    Plans temperature-controlled routing and handoffs for perishable or
+    pharmaceutical shipments and tracks excursions against required storage
+    ranges.
+  tools: [Read, Write, TodoWrite]
+
+- slug: transit-bus-operator
+  title: Transit Bus Operator
+  category: transport-logistics
+  description: >-
+    Plans a fixed-route bus run's timing points and layover recovery to hold
+    schedule adherence against traffic and ridership variation.
+  tools: [Read, Write]
+
+- slug: transit-operations-dispatcher
+  title: Transit Operations Dispatcher
+  category: transport-logistics
+  description: >-
+    Monitors fleet position against published schedules and reroutes buses or
+    trains around service disruptions.
+  tools: [Read, Write, TodoWrite]
+
+- slug: paratransit-scheduling-coordinator
+  title: Paratransit Scheduling Coordinator
+  category: transport-logistics
+  description: >-
+    Books and sequences on-demand accessible-transit trips for riders with
+    disabilities, matching pickup windows to vehicle and driver availability.
+  tools: [Read, Write, TodoWrite]
+
+- slug: supply-chain-analyst
+  title: Supply Chain Analyst
+  category: transport-logistics
+  description: >-
+    Analyzes inbound and outbound shipment data to identify cost and service
+    bottlenecks across a company's transportation network.
+  tools: [Read, Write, WebSearch]
+
+- slug: logistics-coordinator
+  title: Logistics Coordinator
+  category: transport-logistics
+  description: >-
+    Books carriers and tracks shipments end to end for a shipper, resolving
+    exceptions like delays, damage claims, and missed pickups.
+  tools: [Read, Write, TodoWrite]
+
+- slug: freight-broker
+  title: Freight Broker
+  category: transport-logistics
+  description: >-
+    Matches shippers with available truck capacity, negotiating rates and
+    confirming carrier authority and insurance before booking a load.
+  tools: [Read, Write, WebSearch]
+
+- slug: third-party-logistics-account-manager
+  title: Third-Party Logistics Account Manager
+  category: transport-logistics
+  description: >-
+    Manages a contract logistics client's warehousing and transportation program,
+    tracking service-level performance and cost against the agreement.
+  tools: [Read, Write, TodoWrite, Task]
+
+- slug: city-manager
+  title: City Manager
+  category: public-sector
+  description: >-
+    Runs a municipal government's daily operations, departments, and budget on
+    behalf of an elected council.
+  tools: [Read, Write, TodoWrite, Task]
+
+- slug: legislative-policy-analyst
+  title: Legislative Policy Analyst
+  category: public-sector
+  description: >-
+    Researches a proposed bill's fiscal and social impact and drafts briefing
+    memos for a lawmaker ahead of a committee vote.
+  tools: [Read, Write, WebSearch]
+
+- slug: government-budget-analyst
+  title: Government Budget Analyst
+  category: public-sector
+  description: >-
+    Builds and defends a department's annual budget request and tracks spending
+    against appropriations through the fiscal year.
+  tools: [Read, Write]
+
+- slug: city-clerk
+  title: City Clerk
+  category: public-sector
+  description: >-
+    Maintains a municipality's official records, codifies ordinances, and manages
+    the agenda and minutes for council meetings.
+  tools: [Read, Write]
+
+- slug: legislative-aide
+  title: Legislative Aide
+  category: public-sector
+  description: >-
+    Drafts bill language and floor-speech talking points and researches policy
+    positions for an elected official's office.
+  tools: [Read, Write, WebSearch]
+
+- slug: patrol-officer
+  title: Patrol Officer
+  category: public-sector
+  description: >-
+    Documents field incidents, writes reports, and coordinates response steps with
+    dispatch and other units during a patrol shift.
+  tools: [Read, Write]
+
+- slug: criminal-investigator
+  title: Criminal Investigator
+  category: public-sector
+  description: >-
+    Builds a case file from evidence, witness statements, and lead follow-up to
+    support charges in a criminal investigation.
+  tools: [Read, Write]
+
+- slug: emergency-dispatcher
+  title: Emergency Dispatcher
+  category: public-sector
+  description: >-
+    Triages incoming 911 calls, determines the right units to send, and relays
+    field updates between callers and responders.
+  tools: [Read, Write]
+
+- slug: firefighter
+  title: Firefighter
+  category: public-sector
+  description: >-
+    Plans hose-line and ventilation tactics against a structure's layout and fire
+    behavior ahead of an interior attack.
+  tools: [Read, Write]
+
+- slug: fire-marshal
+  title: Fire Marshal
+  category: public-sector
+  description: >-
+    Inspects buildings for fire-code compliance and investigates fire scenes to
+    determine cause and origin.
+  tools: [Read, Write, WebSearch]
+
+- slug: emergency-management-director
+  title: Emergency Management Director
+  category: public-sector
+  description: >-
+    Writes a jurisdiction's disaster preparedness and response plan and
+    coordinates resource staging across agencies during an incident.
+  tools: [Read, Write, TodoWrite, Task]
+
+- slug: corrections-officer
+  title: Corrections Officer
+  category: public-sector
+  description: >-
+    Logs inmate movement, incident reports, and cell checks to maintain order and
+    safety within a correctional facility.
+  tools: [Read, Write]
+
+- slug: probation-officer
+  title: Probation Officer
+  category: public-sector
+  description: >-
+    Tracks a supervised offender's compliance with court-ordered conditions and
+    reports violations or progress back to the court.
+  tools: [Read, Write]
+
+- slug: veterans-service-officer
+  title: Veterans Service Officer
+  category: public-sector
+  description: >-
+    Assembles evidence and paperwork for a veteran's disability or benefits claim
+    and tracks it through the VA appeals process.
+  tools: [Read, Write, WebSearch]
+
+- slug: military-recruiter
+  title: Military Recruiter
+  category: public-sector
+  description: >-
+    Screens prospective enlistees against eligibility standards and guides them
+    through the enlistment and job-classification process.
+  tools: [Read, Write]
+
+- slug: foreign-service-officer
+  title: Foreign Service Officer
+  category: public-sector
+  description: >-
+    Reports on political and economic conditions in a host country and represents
+    national interests in meetings with local officials.
+  tools: [Read, Write, WebSearch]
+
+- slug: international-development-program-officer
+  title: International Development Program Officer
+  category: public-sector
+  description: >-
+    Designs and monitors an aid program's budget and milestones in a partner
+    country and reports results back to the funding agency.
+  tools: [Read, Write, WebSearch, TodoWrite]
+
+- slug: tax-auditor
+  title: Tax Auditor
+  category: public-sector
+  description: >-
+    Examines a taxpayer's filed return and supporting records to identify
+    underreported income or disallowed deductions.
+  tools: [Read, Write]
+
+- slug: tax-collections-officer
+  title: Tax Collections Officer
+  category: public-sector
+  description: >-
+    Negotiates payment plans and pursues liens against delinquent taxpayers on
+    behalf of a revenue agency.
+  tools: [Read, Write]
+
+- slug: property-tax-assessor
+  title: Property Tax Assessor
+  category: public-sector
+  description: >-
+    Values real property against comparable sales and improvement records to set
+    its assessed value for taxation.
+  tools: [Read, Write]
+
+- slug: social-services-caseworker
+  title: Social Services Caseworker
+  category: public-sector
+  description: >-
+    Determines a household's eligibility for public benefits and connects them to
+    housing, food, and childcare assistance programs.
+  tools: [Read, Write]
+
+- slug: child-protective-services-investigator
+  title: Child Protective Services Investigator
+  category: public-sector
+  description: >-
+    Assesses a reported child-welfare complaint's safety risk and recommends
+    services or removal to the family court.
+  tools: [Read, Write]
+
+- slug: unemployment-insurance-claims-examiner
+  title: Unemployment Insurance Claims Examiner
+  category: public-sector
+  description: >-
+    Determines a claimant's eligibility for unemployment benefits by verifying
+    work history and separation reason against program rules.
+  tools: [Read, Write]
+
+- slug: public-housing-program-administrator
+  title: Public Housing Program Administrator
+  category: public-sector
+  description: >-
+    Allocates subsidized housing units and vouchers against a waitlist and audits
+    tenant income eligibility for a housing authority.
+  tools: [Read, Write, TodoWrite]
+
+- slug: elections-administrator
+  title: Elections Administrator
+  category: public-sector
+  description: >-
+    Plans polling-place logistics, ballot printing, and certification procedures
+    to run a jurisdiction's election.
+  tools: [Read, Write, TodoWrite, Task]
+
+- slug: poll-worker-coordinator
+  title: Poll Worker Coordinator
+  category: public-sector
+  description: >-
+    Recruits, trains, and schedules poll workers across precincts for election
+    day.
+  tools: [Read, Write, TodoWrite]
+
+- slug: public-librarian
+  title: Public Librarian
+  category: public-sector
+  description: >-
+    Curates a branch's circulating collection and designs public programming to
+    match community reading and research needs.
+  tools: [Read, Write]
+
+- slug: municipal-archivist
+  title: Municipal Archivist
+  category: public-sector
+  description: >-
+    Appraises, catalogs, and preserves a city's historical records and responds to
+    public records requests for older material.
+  tools: [Read, Write]
+
+- slug: nonprofit-executive-director
+  title: Nonprofit Executive Director
+  category: public-sector
+  description: >-
+    Sets a nonprofit's strategic direction and fundraising targets and answers to
+    its board for the organization's overall performance.
+  tools: [Read, Write, TodoWrite, Task]
+
+- slug: nonprofit-program-manager
+  title: Nonprofit Program Manager
+  category: public-sector
+  description: >-
+    Runs a nonprofit's grant-funded program day to day, tracking outcomes and
+    spending against the funder's deliverables.
+  tools: [Read, Write, TodoWrite]
+
+- slug: volunteer-coordinator
+  title: Volunteer Coordinator
+  category: public-sector
+  description: >-
+    Recruits, schedules, and trains volunteers and matches them to shifts across a
+    nonprofit's ongoing programs and events.
+  tools: [Read, Write, TodoWrite]
+
+- slug: community-outreach-coordinator
+  title: Community Outreach Coordinator
+  category: public-sector
+  description: >-
+    Builds relationships with local groups and residents and plans public forums
+    to gather input on an agency's programs.
+  tools: [Read, Write, TodoWrite]
+
+- slug: border-patrol-agent
+  title: Border Patrol Agent
+  category: public-sector
+  description: >-
+    Plans patrol coverage along a border segment and documents crossing incidents,
+    apprehensions, and evidence for follow-up.
+  tools: [Read, Write]
+
+- slug: court-clerk
+  title: Court Clerk
+  category: public-sector
+  description: >-
+    Manages case filings, docketing, and hearing schedules for a courtroom and
+    maintains the official case record.
+  tools: [Read, Write]
+
+- slug: public-works-director
+  title: Public Works Director
+  category: public-sector
+  description: >-
+    Sets capital and maintenance priorities across a municipality's roads, water,
+    and sanitation infrastructure and manages the departments that run them.
+  tools: [Read, Write, TodoWrite, Task]
+
+- slug: emergency-communications-center-director
+  title: Emergency Communications Center Director
+  category: public-sector
+  description: >-
+    Runs a 911 call center's staffing, technology, and call-handling standards and
+    reports performance metrics to public-safety agencies.
+  tools: [Read, Write, TodoWrite, Task]
+
+- slug: parks-and-recreation-director
+  title: Parks and Recreation Director
+  category: public-sector
+  description: >-
+    Sets programming, maintenance priorities, and budget for a municipality's
+    parks, trails, and recreation facilities.
+  tools: [Read, Write, TodoWrite, Task]
+
+- slug: constituent-services-manager
+  title: Constituent Services Manager
+  category: public-sector
+  description: >-
+    Resolves individual constituent casework, such as benefits snags or permit
+    delays, by working an elected official's contacts inside agencies.
+  tools: [Read, Write, TodoWrite]
+
+- slug: public-records-officer
+  title: Public Records Officer
+  category: public-sector
+  description: >-
+    Reviews and processes freedom-of-information requests, redacting exempt
+    material before releasing agency records.
+  tools: [Read, Write, WebFetch]
+
+- slug: government-ombudsman
+  title: Government Ombudsman
+  category: public-sector
+  description: >-
+    Investigates citizen complaints against a government agency's decisions and
+    recommends corrective action where the process failed them.
+  tools: [Read, Write]
+
+- slug: power-plant-operator
+  title: Power Plant Operator
+  category: energy-environment
+  description: >-
+    Monitors and adjusts a power plant's boiler, turbine, and generator systems
+    against load demand and safety setpoints.
+  tools: [Read, Write]
+
+- slug: grid-control-room-operator
+  title: Grid Control Room Operator
+  category: energy-environment
+  description: >-
+    Balances real-time electricity supply and demand across a transmission grid
+    and dispatches generation to prevent frequency deviations.
+  tools: [Read, Write]
+
+- slug: electrical-substation-technician
+  title: Electrical Substation Technician
+  category: energy-environment
+  description: >-
+    Tests and diagnoses transformer, breaker, and relay faults at a substation and
+    sequences switching orders to isolate them safely.
+  tools: [Read, Write]
+
+- slug: power-lineworker
+  title: Power Lineworker
+  category: energy-environment
+  description: >-
+    Plans de-energization, grounding, and repair sequencing for overhead and
+    underground distribution lines during an outage.
+  tools: [Read, Write]
+
+- slug: transmission-planning-engineer
+  title: Transmission Planning Engineer
+  category: energy-environment
+  description: >-
+    Runs load-flow studies to size new transmission capacity and identify
+    constraints before a grid expansion project is approved.
+  tools: [Read, Write, Bash]
+
+- slug: solar-site-design-engineer
+  title: Solar Site Design Engineer
+  category: energy-environment
+  description: >-
+    Lays out a photovoltaic array's panel strings, inverter sizing, and shading
+    analysis for a utility-scale or commercial solar site.
+  tools: [Read, Write, Bash]
+
+- slug: wind-turbine-technician
+  title: Wind Turbine Technician
+  category: energy-environment
+  description: >-
+    Diagnoses turbine fault codes and sequences component inspections and part
+    replacements across a wind farm's maintenance schedule.
+  tools: [Read, Write]
+
+- slug: renewable-energy-project-developer
+  title: Renewable Energy Project Developer
+  category: energy-environment
+  description: >-
+    Sequences site control, permitting, and grid-interconnection milestones to
+    move a solar or wind project from concept to construction-ready.
+  tools: [Read, Write, WebSearch, TodoWrite]
+
+- slug: battery-energy-storage-systems-engineer
+  title: Battery Energy Storage Systems Engineer
+  category: energy-environment
+  description: >-
+    Sizes and specifies a grid-scale battery system's capacity and dispatch
+    strategy against peak-shaving or frequency-regulation targets.
+  tools: [Read, Write, Bash]
+
+- slug: drilling-engineer
+  title: Drilling Engineer
+  category: energy-environment
+  description: >-
+    Designs a well's casing program, mud weights, and drilling sequence to reach a
+    target formation safely and on cost.
+  tools: [Read, Write]
+
+- slug: petroleum-production-engineer
+  title: Petroleum Production Engineer
+  category: energy-environment
+  description: >-
+    Analyzes a producing well's decline curve and specifies artificial-lift or
+    workover changes to sustain output.
+  tools: [Read, Write, Bash]
+
+- slug: pipeline-control-room-operator
+  title: Pipeline Control Room Operator
+  category: energy-environment
+  description: >-
+    Monitors pipeline flow, pressure, and leak-detection alarms across a network
+    and sequences valve operations to respond to anomalies.
+  tools: [Read, Write]
+
+- slug: refinery-process-operator
+  title: Refinery Process Operator
+  category: energy-environment
+  description: >-
+    Monitors and adjusts distillation and reaction unit setpoints against a
+    refinery's process control targets and safety limits.
+  tools: [Read, Write]
+
+- slug: offshore-platform-operations-supervisor
+  title: Offshore Platform Operations Supervisor
+  category: energy-environment
+  description: >-
+    Sequences a production platform's daily operations and permit-to-work
+    approvals and coordinates crew safety drills offshore.
+  tools: [Read, Write, TodoWrite, Task]
+
+- slug: nuclear-reactor-operator
+  title: Nuclear Reactor Operator
+  category: energy-environment
+  description: >-
+    Monitors reactor core parameters and executes licensed procedures to adjust
+    power output within strict safety margins.
+  tools: [Read, Write]
+
+- slug: radiation-protection-technician
+  title: Radiation Protection Technician
+  category: energy-environment
+  description: >-
+    Surveys work areas for contamination and radiation dose and sets exposure
+    controls for personnel entering a nuclear facility.
+  tools: [Read, Write]
+
+- slug: water-treatment-plant-operator
+  title: Water Treatment Plant Operator
+  category: energy-environment
+  description: >-
+    Adjusts chemical dosing and filtration steps to keep a drinking-water plant's
+    output within regulatory quality limits.
+  tools: [Read, Write]
+
+- slug: wastewater-treatment-plant-operator
+  title: Wastewater Treatment Plant Operator
+  category: energy-environment
+  description: >-
+    Monitors biological and chemical treatment stages at a sewage plant and
+    adjusts process controls to meet discharge permit limits.
+  tools: [Read, Write]
+
+- slug: water-distribution-system-operator
+  title: Water Distribution System Operator
+  category: energy-environment
+  description: >-
+    Manages pressure zones, valve positions, and storage-tank levels across a
+    municipal water distribution network.
+  tools: [Read, Write]
+
+- slug: energy-auditor
+  title: Energy Auditor
+  category: energy-environment
+  description: >-
+    Surveys a building or facility's energy use and recommends efficiency upgrades
+    ranked by payback period.
+  tools: [Read, Write, WebSearch]
+
+- slug: demand-response-program-manager
+  title: Demand Response Program Manager
+  category: energy-environment
+  description: >-
+    Runs a utility's peak-curtailment program, recruiting participants and
+    dispatching load-reduction events during grid stress.
+  tools: [Read, Write, TodoWrite, Task]
+
+- slug: energy-efficiency-program-manager
+  title: Energy Efficiency Program Manager
+  category: energy-environment
+  description: >-
+    Designs and tracks a utility's rebate and retrofit program incentives against
+    savings targets for participating customers.
+  tools: [Read, Write, TodoWrite, Task]
+
+- slug: environmental-health-and-safety-manager
+  title: Environmental Health and Safety Manager
+  category: energy-environment
+  description: >-
+    Runs an industrial facility's EHS compliance program, auditing conditions and
+    investigating incidents against regulatory standards.
+  tools: [Read, Write, WebSearch, TodoWrite]
+
+- slug: emissions-compliance-specialist
+  title: Emissions Compliance Specialist
+  category: energy-environment
+  description: >-
+    Tracks stack-test results and continuous emissions monitoring data against a
+    facility's air permit limits and files required reports.
+  tools: [Read, Write, WebSearch]
+
+- slug: air-quality-permitting-specialist
+  title: Air Quality Permitting Specialist
+  category: energy-environment
+  description: >-
+    Prepares and files a facility's air-permit applications and models expected
+    emissions to support regulatory approval.
+  tools: [Read, Write, WebSearch]
+
+- slug: environmental-remediation-project-manager
+  title: Environmental Remediation Project Manager
+  category: energy-environment
+  description: >-
+    Sequences a contaminated site's cleanup phases and contractor work against
+    regulatory milestones and a remediation budget.
+  tools: [Read, Write, TodoWrite, Task]
+
+- slug: industrial-wastewater-pretreatment-coordinator
+  title: Industrial Wastewater Pretreatment Coordinator
+  category: energy-environment
+  description: >-
+    Monitors an industrial site's discharge against pretreatment permit limits
+    before wastewater enters the municipal sewer system.
+  tools: [Read, Write]
+
+- slug: hazardous-waste-operations-supervisor
+  title: Hazardous Waste Operations Supervisor
+  category: energy-environment
+  description: >-
+    Sequences a facility's hazardous-waste labeling, storage, and manifest
+    procedures to stay within accumulation-time limits.
+  tools: [Read, Write, TodoWrite]
+
+- slug: hydroelectric-dam-operator
+  title: Hydroelectric Dam Operator
+  category: energy-environment
+  description: >-
+    Schedules turbine dispatch and gate operations against reservoir levels,
+    flood-control rules, and downstream flow requirements.
+  tools: [Read, Write]
+
+- slug: natural-gas-utility-operator
+  title: Natural Gas Utility Operator
+  category: energy-environment
+  description: >-
+    Monitors distribution-system pressure and odorization levels and sequences
+    valve operations to respond to a gas leak.
+  tools: [Read, Write]
+
+- slug: utility-rate-case-analyst
+  title: Utility Rate Case Analyst
+  category: energy-environment
+  description: >-
+    Builds the cost-of-service model and testimony exhibits a utility files to
+    justify a rate increase to its regulator.
+  tools: [Read, Write, WebSearch]
+
+- slug: smart-grid-systems-analyst
+  title: Smart Grid Systems Analyst
+  category: energy-environment
+  description: >-
+    Analyzes advanced metering and grid-sensor data to detect outages, theft, and
+    voltage anomalies across a utility's service territory.
+  tools: [Read, Write, Bash]
+
+- slug: spill-prevention-and-response-coordinator
+  title: Spill Prevention and Response Coordinator
+  category: energy-environment
+  description: >-
+    Writes a facility's spill prevention and countermeasure plan and coordinates
+    drills and cleanup response for chemical or oil releases.
+  tools: [Read, Write, TodoWrite]
+
+- slug: landfill-operations-manager
+  title: Landfill Operations Manager
+  category: energy-environment
+  description: >-
+    Plans cell construction, daily cover, and waste-diversion targets to run a
+    landfill within its permitted capacity and life.
+  tools: [Read, Write, TodoWrite, Task]
+
+- slug: recycling-program-manager
+  title: Recycling Program Manager
+  category: energy-environment
+  description: >-
+    Designs collection routes and material-sorting standards for a municipal or
+    commercial recycling program and tracks diversion rates.
+  tools: [Read, Write, TodoWrite]
+
+- slug: carbon-markets-analyst
+  title: Carbon Markets Analyst
+  category: energy-environment
+  description: >-
+    Values and tracks carbon credits or allowances against a company's compliance
+    obligation under a cap-and-trade or offset program.
+  tools: [Read, Write, WebSearch]
+
+- slug: utility-vegetation-management-coordinator
+  title: Utility Vegetation Management Coordinator
+  category: energy-environment
+  description: >-
+    Plans tree-trimming and clearance cycles along power line corridors to reduce
+    outage and wildfire-ignition risk.
+  tools: [Read, Write, TodoWrite]
+
+- slug: wildfire-mitigation-program-manager
+  title: Wildfire Mitigation Program Manager
+  category: energy-environment
+  description: >-
+    Prioritizes grid-hardening projects and public safety power shutoff protocols
+    across a utility's highest wildfire-risk circuits.
+  tools: [Read, Write, TodoWrite, Task]
+
+- slug: load-forecasting-analyst
+  title: Load Forecasting Analyst
+  category: energy-environment
+  description: >-
+    Models weather and historical usage patterns to forecast a utility's short-
+    and long-term electricity demand.
+  tools: [Read, Write, Bash]
+
+- slug: decommissioning-and-site-closure-engineer
+  title: Decommissioning and Site Closure Engineer
+  category: energy-environment
+  description: >-
+    Plans the shutdown sequence, equipment removal, and site restoration for a
+    retired power plant, well, or industrial facility.
+  tools: [Read, Write]
+
+- slug: farm-manager
+  title: Farm Manager
+  category: agriculture
+  description: >-
+    Sets planting plans, budgets, and equipment schedules across a row-crop or
+    mixed farming operation's growing season.
+  tools: [Read, Write, TodoWrite, Task]
+
+- slug: crop-production-supervisor
+  title: Crop Production Supervisor
+  category: agriculture
+  description: >-
+    Sequences a field crew's planting, spraying, and harvest passes against
+    weather windows and crop-stage timing.
+  tools: [Read, Write, TodoWrite]
+
+- slug: farm-equipment-operator
+  title: Farm Equipment Operator
+  category: agriculture
+  description: >-
+    Calibrates seeding rates, spray pressure, and header settings and plans
+    field-pass patterns for planting and harvest equipment.
+  tools: [Read, Write]
+
+- slug: livestock-ranch-manager
+  title: Livestock Ranch Manager
+  category: agriculture
+  description: >-
+    Sets stocking rates, breeding schedules, and pasture rotation across a cattle
+    or livestock ranching operation.
+  tools: [Read, Write, TodoWrite, Task]
+
+- slug: herd-manager
+  title: Herd Manager
+  category: agriculture
+  description: >-
+    Tracks individual animal health, breeding status, and weight-gain records to
+    guide daily feeding and culling decisions for a herd.
+  tools: [Read, Write]
+
+- slug: dairy-farm-manager
+  title: Dairy Farm Manager
+  category: agriculture
+  description: >-
+    Schedules milking parlor operations and herd health protocols and tracks milk
+    quality metrics against processor standards.
+  tools: [Read, Write, TodoWrite, Task]
+
+- slug: poultry-farm-manager
+  title: Poultry Farm Manager
+  category: agriculture
+  description: >-
+    Sets biosecurity protocols and flock health and growth targets across a
+    broiler or layer production cycle.
+  tools: [Read, Write, TodoWrite, Task]
+
+- slug: feedlot-manager
+  title: Feedlot Manager
+  category: agriculture
+  description: >-
+    Formulates feed rations and tracks weight-gain and health protocols for cattle
+    finishing toward slaughter weight.
+  tools: [Read, Write, TodoWrite, Task]
+
+- slug: agronomist
+  title: Agronomist
+  category: agriculture
+  description: >-
+    Recommends crop variety, fertility, and pest-management plans for a farm based
+    on soil tests and field scouting data.
+  tools: [Read, Write, WebSearch]
+
+- slug: agricultural-soil-scientist
+  title: Agricultural Soil Scientist
+  category: agriculture
+  description: >-
+    Tests and maps a field's soil composition and fertility to guide crop
+    selection and amendment application rates.
+  tools: [Read, Write]
+
+- slug: farm-business-consultant
+  title: Farm Business Consultant
+  category: agriculture
+  description: >-
+    Advises on crop insurance elections, operating-loan structure, and land-lease
+    terms for a farm's business plan.
+  tools: [Read, Write, WebSearch]
+
+- slug: irrigation-systems-manager
+  title: Irrigation Systems Manager
+  category: agriculture
+  description: >-
+    Schedules water delivery timing and volume across a farm's pivot or canal
+    irrigation infrastructure against crop needs and water-rights allocations.
+  tools: [Read, Write]
+
+- slug: precision-agriculture-data-analyst
+  title: Precision Agriculture Data Analyst
+  category: agriculture
+  description: >-
+    Analyzes yield-map, soil-sensor, and satellite imagery data to build
+    variable-rate seeding and fertilizer prescriptions.
+  tools: [Read, Write, Bash]
+
+- slug: agricultural-drone-operations-specialist
+  title: Agricultural Drone Operations Specialist
+  category: agriculture
+  description: >-
+    Plans aerial imagery and spray-mission flight paths for crop scouting and
+    targeted treatment across a field.
+  tools: [Read, Write]
+
+- slug: forester
+  title: Forester
+  category: agriculture
+  description: >-
+    Plans timber harvest rotations, thinning schedules, and reforestation across a
+    managed forest tract.
+  tools: [Read, Write]
+
+- slug: logging-operations-supervisor
+  title: Logging Operations Supervisor
+  category: agriculture
+  description: >-
+    Sequences felling, skidding, and hauling equipment across a timber harvest
+    site against terrain and yield targets.
+  tools: [Read, Write, TodoWrite]
+
+- slug: aquaculture-farm-manager
+  title: Aquaculture Farm Manager
+  category: agriculture
+  description: >-
+    Manages water quality, feeding schedules, and harvest cycles for a fish or
+    shellfish farming operation.
+  tools: [Read, Write, TodoWrite, Task]
+
+- slug: commercial-fishing-vessel-captain
+  title: Commercial Fishing Vessel Captain
+  category: agriculture
+  description: >-
+    Plans fishing trip routes, gear selection, and set locations against seasonal
+    quotas, weather, and fuel range.
+  tools: [Read, Write, WebSearch]
+
+- slug: hatchery-manager
+  title: Hatchery Manager
+  category: agriculture
+  description: >-
+    Manages breeding, egg incubation, and juvenile-rearing cycles for a fish
+    hatchery supplying farms or stocking programs.
+  tools: [Read, Write, TodoWrite]
+
+- slug: vineyard-manager
+  title: Vineyard Manager
+  category: agriculture
+  description: >-
+    Plans pruning, canopy management, and harvest timing for a vineyard's grape
+    crop against ripeness and disease pressure.
+  tools: [Read, Write]
+
+- slug: orchard-manager
+  title: Orchard Manager
+  category: agriculture
+  description: >-
+    Plans pruning, pollination, and pest-management schedules and times harvest
+    for a fruit or nut orchard's crop.
+  tools: [Read, Write]
+
+- slug: commercial-greenhouse-grower
+  title: Commercial Greenhouse Grower
+  category: agriculture
+  description: >-
+    Sets planting schedules and climate-control setpoints for greenhouse vegetable
+    or ornamental crop production.
+  tools: [Read, Write]
+
+- slug: nursery-production-manager
+  title: Nursery Production Manager
+  category: agriculture
+  description: >-
+    Plans propagation batches and inventory cycles for trees, shrubs, and plants
+    grown for wholesale and retail sale.
+  tools: [Read, Write, TodoWrite, Task]
+
+- slug: grain-elevator-operator
+  title: Grain Elevator Operator
+  category: agriculture
+  description: >-
+    Manages intake, drying, and storage conditions and grades incoming grain
+    quality at a grain elevator facility.
+  tools: [Read, Write]
+
+- slug: grain-merchandiser
+  title: Grain Merchandiser
+  category: agriculture
+  description: >-
+    Buys and sells grain positions and manages basis and hedging strategy for a
+    grain-handling operation.
+  tools: [Read, Write, WebSearch]
+
+- slug: agricultural-extension-agent
+  title: Agricultural Extension Agent
+  category: agriculture
+  description: >-
+    Advises area farmers on crop and livestock best practices and runs county
+    education programs and field demonstrations.
+  tools: [Read, Write, WebSearch, TodoWrite]
+
+- slug: agricultural-inspector
+  title: Agricultural Inspector
+  category: agriculture
+  description: >-
+    Inspects crops, produce, or livestock for pest, disease, and grading
+    compliance against regulatory standards.
+  tools: [Read, Write]
+
+- slug: agricultural-crop-insurance-adjuster
+  title: Agricultural Crop Insurance Adjuster
+  category: agriculture
+  description: >-
+    Assesses field damage from weather or pests and calculates the payable loss
+    for a crop insurance claim.
+  tools: [Read, Write]
+
+- slug: rangeland-management-specialist
+  title: Rangeland Management Specialist
+  category: agriculture
+  description: >-
+    Plans grazing rotation, forage assessment, and fencing or water infrastructure
+    across public or private rangeland.
+  tools: [Read, Write]
+
+- slug: apiary-manager
+  title: Apiary Manager
+  category: agriculture
+  description: >-
+    Manages hive placement, colony health, and pollination contract schedules for
+    a commercial beekeeping operation.
+  tools: [Read, Write, TodoWrite]
+
+- slug: seed-production-manager
+  title: Seed Production Manager
+  category: agriculture
+  description: >-
+    Manages field isolation distances, detasseling or roguing, and quality control
+    for a seed-crop production field.
+  tools: [Read, Write, TodoWrite]
+
+- slug: organic-certification-specialist
+  title: Organic Certification Specialist
+  category: agriculture
+  description: >-
+    Prepares documentation and audits farm practices against USDA organic
+    standards ahead of a certification inspection.
+  tools: [Read, Write, WebSearch]
+
+- slug: livestock-nutrition-consultant
+  title: Livestock Nutrition Consultant
+  category: agriculture
+  description: >-
+    Formulates feed rations and mineral supplementation plans for a livestock
+    operation based on animal stage and performance targets.
+  tools: [Read, Write]
+
+- slug: farm-labor-contractor
+  title: Farm Labor Contractor
+  category: agriculture
+  description: >-
+    Recruits and schedules seasonal farm labor crews and manages visa, housing,
+    and transportation compliance for the workforce.
+  tools: [Read, Write, WebSearch, TodoWrite]
+
+- slug: cannabis-cultivation-manager
+  title: Cannabis Cultivation Manager
+  category: agriculture
+  description: >-
+    Sets grow-room climate, feeding, and harvest schedules and tracks plants
+    against state seed-to-sale compliance rules.
+  tools: [Read, Write, TodoWrite, Task]
+
+- slug: post-harvest-quality-control-technician
+  title: Post-Harvest Quality Control Technician
+  category: agriculture
+  description: >-
+    Inspects and grades harvested produce for defects and size and calibrates
+    packhouse sorting-line parameters against buyer specifications.
+  tools: [Read, Write]
+
+- slug: integrated-pest-management-scout
+  title: Integrated Pest Management Scout
+  category: agriculture
+  description: >-
+    Scouts fields for pest and disease pressure and recommends treatment
+    thresholds before an infestation spreads.
+  tools: [Read, Write]
+
+- slug: livestock-order-buyer
+  title: Livestock Order Buyer
+  category: agriculture
+  description: >-
+    Sources and purchases cattle or hogs for a feedlot or packer based on market
+    grading, weight, and price targets.
+  tools: [Read, Write, WebSearch]
+
+- slug: controlled-environment-agriculture-manager
+  title: Controlled Environment Agriculture Manager
+  category: agriculture
+  description: >-
+    Sets nutrient, lighting, and climate schedules for a hydroponic or
+    vertical-farming operation's crop cycles.
+  tools: [Read, Write, TodoWrite, Task]
+
+- slug: agritourism-operations-manager
+  title: Agritourism Operations Manager
+  category: agriculture
+  description: >-
+    Plans visitor programming, safety protocols, and seasonal staffing for a
+    farm's u-pick, tours, or event operations.
+  tools: [Read, Write, TodoWrite, Task]
+
+- slug: stage-actor
+  title: Stage Actor
+  category: arts-entertainment
+  description: >-
+    Breaks down a script's character arc, given circumstances, and blocking notes
+    to prepare a role for stage rehearsal.
+  tools: [Read, Write]
+
+- slug: dancer
+  title: Dancer
+  category: arts-entertainment
+  description: >-
+    Learns and marks choreography from notation or video reference and logs
+    conditioning needs across a rehearsal season.
+  tools: [Read, Write, TodoWrite]
+
+- slug: musician
+  title: Musician
+  category: arts-entertainment
+  description: >-
+    Marks fingerings, bowings, or breath points into a score and logs practice
+    repetitions needed before an ensemble rehearsal or session date.
+  tools: [Read, Write]
+
+- slug: conductor
+  title: Conductor
+  category: arts-entertainment
+  description: >-
+    Studies a score's tempo, dynamics, and phrasing and builds a rehearsal plan
+    sequencing which passages need the most attention.
+  tools: [Read, Write, TodoWrite]
+
+- slug: choreographer
+  title: Choreographer
+  category: arts-entertainment
+  description: >-
+    Designs a dance sequence's steps, formations, and timing to a piece of music
+    for a stage or screen production.
+  tools: [Read, Write]
+
+- slug: stage-manager
+  title: Stage Manager
+  category: arts-entertainment
+  description: >-
+    Calls cues and tracks blocking, prop placement, and entrances against a show's
+    prompt book during rehearsal and performance.
+  tools: [Read, Write, TodoWrite]
+
+- slug: technical-director-theater
+  title: Technical Director
+  category: arts-entertainment
+  description: >-
+    Plans a production's scenery build, rigging loads, and technical run schedule
+    and sequences the crew's load-in.
+  tools: [Read, Write, TodoWrite]
+
+- slug: camera-operator
+  title: Camera Operator
+  category: arts-entertainment
+  description: >-
+    Plans shot composition, camera movement, and lens choice against a director's
+    shot list for a scene.
+  tools: [Read, Write]
+
+- slug: director-of-photography
+  title: Director of Photography
+  category: arts-entertainment
+  description: >-
+    Sets a production's visual style, plans lighting design intent, and assigns
+    camera and lighting department tasks to match the script's tone.
+  tools: [Read, Write, TodoWrite]
+
+- slug: gaffer
+  title: Gaffer
+  category: arts-entertainment
+  description: >-
+    Plans lighting rig placement, power distribution, and gel choices to match a
+    scene's shot list and the cinematographer's intent.
+  tools: [Read, Write]
+
+- slug: production-sound-mixer
+  title: Production Sound Mixer
+  category: arts-entertainment
+  description: >-
+    Plans microphone placement and gain staging for on-set dialogue recording and
+    flags noise or coverage problems before a take is locked.
+  tools: [Read, Write]
+
+- slug: film-editor
+  title: Film Editor
+  category: arts-entertainment
+  description: >-
+    Assembles and sequences raw footage into a scene's pacing and structure,
+    tracking continuity and coverage gaps across takes.
+  tools: [Read, Write]
+
+- slug: foley-artist
+  title: Foley Artist
+  category: arts-entertainment
+  description: >-
+    Designs and records synchronized sound effects such as footsteps, cloth, and
+    props to match on-screen action during post-production.
+  tools: [Read, Write]
+
+- slug: production-coordinator-film
+  title: Production Coordinator
+  category: arts-entertainment
+  description: >-
+    Tracks a shoot's daily call sheets, crew logistics, and location schedules
+    against the shooting script.
+  tools: [Read, Write, TodoWrite]
+
+- slug: line-producer
+  title: Line Producer
+  category: arts-entertainment
+  description: >-
+    Builds and manages a production's below-the-line budget and day-to-day
+    logistics from pre-production through wrap.
+  tools: [Read, Write, TodoWrite, Task]
+
+- slug: executive-producer-film
+  title: Executive Producer
+  category: arts-entertainment
+  description: >-
+    Secures financing and greenlight approval for a production and signs off on
+    major creative and budget decisions across its run.
+  tools: [Read, Write, TodoWrite, Task]
+
+- slug: casting-director
+  title: Casting Director
+  category: arts-entertainment
+  description: >-
+    Screens and auditions actors against a script's character breakdowns and
+    recommends a shortlist to the director and producers.
+  tools: [Read, Write]
+
+- slug: script-supervisor
+  title: Script Supervisor
+  category: arts-entertainment
+  description: >-
+    Tracks continuity such as prop position, wardrobe, and blocking across takes
+    and scenes to keep footage consistent for editing.
+  tools: [Read, Write]
+
+- slug: costume-designer
+  title: Costume Designer
+  category: arts-entertainment
+  description: >-
+    Designs a character's costume pieces and specifies fabrication details that
+    match a production's period, budget, and visual concept.
+  tools: [Read, Write]
+
+- slug: recording-engineer
+  title: Recording Engineer
+  category: arts-entertainment
+  description: >-
+    Sets microphone technique, signal routing, and levels to capture a clean
+    multitrack recording during a studio session.
+  tools: [Read, Write]
+
+- slug: mixing-engineer
+  title: Mixing Engineer
+  category: arts-entertainment
+  description: >-
+    Balances levels, EQ, and effects across a song's recorded tracks to build a
+    final stereo mix.
+  tools: [Read, Write]
+
+- slug: mastering-engineer
+  title: Mastering Engineer
+  category: arts-entertainment
+  description: >-
+    Applies final equalization, compression, and loudness leveling across an
+    album's mixed tracks so they sound consistent when sequenced together.
+  tools: [Read, Write]
+
+- slug: music-producer
+  title: Music Producer
+  category: arts-entertainment
+  description: >-
+    Shapes a recording session's arrangement, tempo, and sound choices and guides
+    an artist's takes toward the intended sound.
+  tools: [Read, Write, TodoWrite]
+
+- slug: ar-representative
+  title: A&R Representative
+  category: arts-entertainment
+  description: >-
+    Scouts and evaluates emerging artists' material and matches a signed act with
+    producers and songwriters for their next release.
+  tools: [Read, Write, WebSearch]
+
+- slug: tour-manager
+  title: Tour Manager
+  category: arts-entertainment
+  description: >-
+    Builds a touring artist's day-to-day travel, venue advance, and settlement
+    schedule across a multi-city tour route.
+  tools: [Read, Write, TodoWrite]
+
+- slug: touring-sound-systems-engineer
+  title: Touring Sound Systems Engineer
+  category: arts-entertainment
+  description: >-
+    Plans a touring show's front-of-house and monitor mix settings, channel
+    routing, and system tuning for each venue's acoustics.
+  tools: [Read, Write]
+
+- slug: lighting-designer-entertainment
+  title: Lighting Designer
+  category: arts-entertainment
+  description: >-
+    Designs a show's lighting cues, fixture plot, and programming sequence to
+    match a set list or scene-by-scene cue sheet.
+  tools: [Read, Write]
+
+- slug: museum-curator
+  title: Museum Curator
+  category: arts-entertainment
+  description: >-
+    Researches and selects works for an exhibition and writes the wall text and
+    object labels that frame the collection's narrative.
+  tools: [Read, Write, WebSearch]
+
+- slug: museum-registrar
+  title: Museum Registrar
+  category: arts-entertainment
+  description: >-
+    Tracks a collection object's provenance, condition, insurance value, and loan
+    paperwork as it moves between exhibitions and storage.
+  tools: [Read, Write]
+
+- slug: art-conservator
+  title: Art Conservator
+  category: arts-entertainment
+  description: >-
+    Assesses a work of art's condition and plans a conservation treatment that
+    stabilizes damage without compromising its authenticity.
+  tools: [Read, Write]
+
+- slug: art-handler
+  title: Art Handler
+  category: arts-entertainment
+  description: >-
+    Plans the packing, crating, and installation sequence for moving fragile
+    artwork between storage, transit, and gallery walls.
+  tools: [Read, Write]
+
+- slug: gallery-director
+  title: Gallery Director
+  category: arts-entertainment
+  description: >-
+    Runs a commercial art gallery's exhibition calendar, artist relationships, and
+    sales program.
+  tools: [Read, Write, TodoWrite, Task]
+
+- slug: talent-agent
+  title: Talent Agent
+  category: arts-entertainment
+  description: >-
+    Pitches a represented actor or musician for specific roles or bookings and
+    negotiates the resulting contract's terms.
+  tools: [Read, Write]
+
+- slug: artist-manager
+  title: Artist Manager
+  category: arts-entertainment
+  description: >-
+    Builds a represented artist's long-term career strategy across projects and
+    coordinates their agents, publicists, and label contacts.
+  tools: [Read, Write, TodoWrite]
+
+- slug: live-event-producer
+  title: Live Event Producer
+  category: arts-entertainment
+  description: >-
+    Plans a live event's run-of-show, vendor logistics, and staging timeline from
+    load-in to strike.
+  tools: [Read, Write, TodoWrite]
+
+- slug: concert-rigger
+  title: Concert Rigger
+  category: arts-entertainment
+  description: >-
+    Calculates load ratings and anchor points for suspending trussing, speakers,
+    and lighting rigs above a stage or arena floor.
+  tools: [Read, Write]
+
+- slug: theater-director
+  title: Theater Director
+  category: arts-entertainment
+  description: >-
+    Interprets a script's themes and builds the staging, pacing, and
+    actor-direction concept for a theatrical production.
+  tools: [Read, Write, TodoWrite]
+
+- slug: film-director
+  title: Film Director
+  category: arts-entertainment
+  description: >-
+    Translates a screenplay into a shot list and visual approach and guides actor
+    performance and crew departments toward a unified vision.
+  tools: [Read, Write, TodoWrite]
+
+- slug: narrative-designer
+  title: Narrative Designer
+  category: arts-entertainment
+  description: >-
+    Architects a game's branching dialogue trees and quest story structure and
+    integrates them with level and systems design.
+  tools: [Read, Write]
+
+- slug: colorist
+  title: Colorist
+  category: arts-entertainment
+  description: >-
+    Grades a film or show's footage for consistent color and tone across scenes,
+    matching the intended visual style reel.
+  tools: [Read, Write]
