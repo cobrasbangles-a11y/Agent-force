@@ -1,5 +1,5 @@
 import { readdirSync, readFileSync, existsSync } from 'node:fs';
-import { join, relative } from 'node:path';
+import { basename, join, relative } from 'node:path';
 import { loadTaxonomy } from './taxonomy.js';
 import { parseAgentFile } from './agentFile.js';
 import { CATEGORY_SLUGS, OVERSEER_CATEGORY } from './categories.js';
@@ -135,7 +135,7 @@ export function validateLibrary(root: string, opts: { complete: boolean }): Vali
       continue;
     }
 
-    const stem = rel.split('/').pop()!.replace(/\.md$/, '');
+    const stem = basename(rel).replace(/\.md$/, '');
     if (agent.name !== stem) {
       errors.push(`${rel}: frontmatter name "${agent.name}" does not match filename "${stem}"`);
     }
