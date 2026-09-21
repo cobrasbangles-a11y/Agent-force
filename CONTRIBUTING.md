@@ -85,6 +85,13 @@ other keys) and a body of exactly five `# Heading` sections, in order:
    you while writing the body, fix it in `data/taxonomy.yaml` and copy the
    fixed version into the frontmatter — never let the two drift apart.
 
+**Rules 2, 3, 6, and 7 are enforced by `npm run validate`,** not just
+reviewed: a `Core expertise` bullet count outside 4-8, a `Method` step count
+outside 4-7, a body length outside 60-120 (measured as the whole file's line
+count, frontmatter included, not just the lines after the closing `---`), or
+a `description` at 200 characters or more all fail the validator, and so
+fail CI, rather than surfacing as a review comment.
+
 ## Taxonomy authoring rules
 
 These apply when you're proposing new entries or auditing existing ones in

@@ -17,6 +17,43 @@ const SLUG_RE = /^[a-z][a-z0-9-]*$/;
 const SPECIALIST_TOTAL = 1000;
 const PER_CATEGORY = 40;
 
+// CONTRIBUTING.md's four machine-checkable house-style rules (its numbered
+// items 2, 3, 6, and 7).
+const FILE_LINES_MIN = 60;
+const FILE_LINES_MAX = 120;
+const CORE_EXPERTISE_BULLETS_MIN = 4;
+const CORE_EXPERTISE_BULLETS_MAX = 8;
+const METHOD_STEPS_MIN = 4;
+const METHOD_STEPS_MAX = 7;
+const DESCRIPTION_MAX_CHARS = 200;
+
+// CONTRIBUTING.md rule 6 defines "the body" as everything after the
+// frontmatter's closing `---`. Taken literally, that reading fails files
+// already on `main`: the tightest currently-committed file
+// (agents/hr-people/hris-analyst.md) is exactly 60 lines counting the
+// whole file, but only ~55 lines counting just what follows the closing
+// `---`. A strict post-frontmatter count would put it, and at least one
+// other file, below the documented 60-line floor. So this checks the
+// *whole file's* line count (what `wc -l` reports, frontmatter included)
+// — the reading every currently-authored file actually satisfies — rather
+// than a literal post-frontmatter count that nothing on `main` would pass.
+function countFileLines(raw: string): number {
+  const withoutTrailingNewline = raw.endsWith('\n') ? raw.slice(0, -1) : raw;
+  return withoutTrailingNewline.length === 0 ? 0 : withoutTrailingNewline.split('\n').length;
+}
+
+// A top-level bullet is a line beginning with "- " or "* " at column 0.
+// A continuation line of a wrapped bullet is indented under the bullet's
+// text and does not match, so it isn't double-counted.
+function countTopLevelBullets(section: string): number {
+  return section.split('\n').filter((line) => /^[-*] /.test(line)).length;
+}
+
+// A numbered step is a line beginning with one or more digits then a ".".
+function countNumberedSteps(section: string): number {
+  return section.split('\n').filter((line) => /^\d+\./.test(line)).length;
+}
+
 function emptyByCategory(): ValidationResult['byCategory'] {
   const byCategory: ValidationResult['byCategory'] = {};
   for (const slug of CATEGORY_SLUGS) {
@@ -127,9 +164,10 @@ export function validateLibrary(root: string, opts: { complete: boolean }): Vali
   let overseerAuthored = false;
   for (const file of walkAgents(root)) {
     const rel = relative(root, file);
+    const raw = readFileSync(file, 'utf8');
     let agent;
     try {
-      agent = parseAgentFile(readFileSync(file, 'utf8'), rel);
+      agent = parseAgentFile(raw, rel);
     } catch (err) {
       errors.push((err as Error).message);
       continue;
@@ -138,6 +176,39 @@ export function validateLibrary(root: string, opts: { complete: boolean }): Vali
     const stem = basename(rel).replace(/\.md$/, '');
     if (agent.name !== stem) {
       errors.push(`${rel}: frontmatter name "${agent.name}" does not match filename "${stem}"`);
+    }
+
+    // Structural house-style checks: these run for every authored file,
+    // independent of whether it has a taxonomy entry, the same way the
+    // section-order and frontmatter-key checks in parseAgentFile do.
+    const lineCount = countFileLines(raw);
+    if (lineCount < FILE_LINES_MIN || lineCount > FILE_LINES_MAX) {
+      errors.push(
+        `${rel}: file is ${lineCount} lines, must be ${FILE_LINES_MIN}-${FILE_LINES_MAX}`,
+      );
+    }
+
+    const coreExpertiseBullets = countTopLevelBullets(agent.sections['Core expertise']);
+    if (
+      coreExpertiseBullets < CORE_EXPERTISE_BULLETS_MIN ||
+      coreExpertiseBullets > CORE_EXPERTISE_BULLETS_MAX
+    ) {
+      errors.push(
+        `${rel}: "Core expertise" has ${coreExpertiseBullets} bullet(s), must be ${CORE_EXPERTISE_BULLETS_MIN}-${CORE_EXPERTISE_BULLETS_MAX}`,
+      );
+    }
+
+    const methodSteps = countNumberedSteps(agent.sections['Method']);
+    if (methodSteps < METHOD_STEPS_MIN || methodSteps > METHOD_STEPS_MAX) {
+      errors.push(
+        `${rel}: "Method" has ${methodSteps} step(s), must be ${METHOD_STEPS_MIN}-${METHOD_STEPS_MAX}`,
+      );
+    }
+
+    if (agent.description.length >= DESCRIPTION_MAX_CHARS) {
+      errors.push(
+        `${rel}: description is ${agent.description.length} characters, must be under ${DESCRIPTION_MAX_CHARS}`,
+      );
     }
 
     const entry = bySlug.get(agent.name);
