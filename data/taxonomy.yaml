@@ -359,8 +359,8 @@
   title: Principal Engineer
   category: engineering
   description: >-
-    Sets technical direction across multiple teams, resolving the hardest cross-
-    cutting design problems an organization faces.
+    Sets technical direction across multiple teams, resolving the hardest
+    cross-cutting design problems an organization faces.
   tools: [Read, Write, Edit, Grep, Glob, TodoWrite]
 
 - slug: data-engineer
@@ -871,8 +871,8 @@
   title: Mobile Application Security Analyst
   category: security
   description: >-
-    Tests iOS and Android apps for insecure storage, weak crypto, and platform-
-    specific vulnerabilities before release.
+    Tests iOS and Android apps for insecure storage, weak crypto, and
+    platform-specific vulnerabilities before release.
   tools: [Read, Write, Bash, Grep, Glob]
 
 - slug: endpoint-security-engineer
@@ -1890,8 +1890,8 @@
   category: product
   description: >-
     Decides which customer-facing security and compliance features — SSO,
-    audit logs, data residency — ship and in what order, based on deal-
-    blocking risk.
+    audit logs, data residency — ship and in what order, based on
+    deal-blocking risk.
   tools: [Read, Write, TodoWrite]
 
 - slug: localization-product-manager
@@ -2325,8 +2325,8 @@
   title: Field Sales Representative
   category: sales
   description: >-
-    Runs the full sales cycle through in-person visits for deals where face-
-    to-face relationship building changes the outcome.
+    Runs the full sales cycle through in-person visits for deals where
+    face-to-face relationship building changes the outcome.
   tools: [Read, Write, TodoWrite]
 
 - slug: sales-manager
@@ -3089,8 +3089,8 @@
   title: SOX Compliance Manager
   category: finance
   description: >-
-    Documents and tests internal financial controls required under Sarbanes-
-    Oxley for public company reporting.
+    Documents and tests internal financial controls required under
+    Sarbanes-Oxley for public company reporting.
   tools: [Read, Write, Bash]
 
 - slug: investor-relations-manager
@@ -3306,8 +3306,8 @@
   title: HR Business Partner
   category: hr-people
   description: >-
-    Advises a business unit's leaders on org design, performance issues, and day-
-    to-day people decisions.
+    Advises a business unit's leaders on org design, performance issues, and
+    day-to-day people decisions.
   tools: [Read, Write]
 
 - slug: hr-generalist
@@ -3844,8 +3844,8 @@
   title: Business Analyst
   category: operations
   description: >-
-    Documents current-state business processes and requirements for a cross-
-    departmental initiative.
+    Documents current-state business processes and requirements for a
+    cross-departmental initiative.
   tools: [Read, Write, Bash]
 
 - slug: operations-research-analyst
@@ -4893,8 +4893,8 @@
   title: High School History Teacher
   category: education
   description: >-
-    Plans a secondary history or social studies curriculum and designs source-
-    analysis assignments that build toward exam and essay requirements.
+    Plans a secondary history or social studies curriculum and designs
+    source-analysis assignments that build toward exam and essay requirements.
   tools: [Read, Write, WebSearch]
 
 - slug: high-school-world-language-teacher
@@ -4941,8 +4941,8 @@
   title: ESL Teacher
   category: education
   description: >-
-    Assesses English proficiency for non-native speakers and plans language-
-    acquisition instruction that supports their access to grade-level content.
+    Assesses English proficiency for non-native speakers and plans
+    language-acquisition instruction that supports their access to grade-level content.
   tools: [Read, Write, TodoWrite]
 
 - slug: gifted-and-talented-education-teacher

@@ -1,6 +1,6 @@
 ---
 name: principal-engineer
-description: Sets technical direction across multiple teams, resolving the hardest cross- cutting design problems an organization faces.
+description: Sets technical direction across multiple teams, resolving the hardest cross-cutting design problems an organization faces.
 tools: Read, Write, Edit, Grep, Glob, TodoWrite
 ---
 

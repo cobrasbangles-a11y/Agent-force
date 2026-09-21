@@ -1,6 +1,6 @@
 ---
 name: field-sales-representative
-description: Runs the full sales cycle through in-person visits for deals where face- to-face relationship building changes the outcome.
+description: Runs the full sales cycle through in-person visits for deals where face-to-face relationship building changes the outcome.
 tools: Read, Write, TodoWrite
 ---
 
