@@ -66,21 +66,33 @@ These apply when you're proposing new entries or auditing existing ones in
   Lawyer" is a job. "Contract Review Specialist" describes what someone does
   without naming who does it, and is a symptom of the next rule.
 
-- **Scope-narrowing is not a different job.** This is the single most common
-  defect found in review, and it is subtle because a narrower scope really
-  does describe a real slice of work — it just isn't a distinct job title.
-  Examples caught in review:
-  - `Medical Practice Manager` was rejected as a duplicate of
-    `Hospital Administrator` "just smaller in scale."
-  - `Culinary Director` was rejected as `Food and Beverage Director`
-    scoped to chain-restaurant scale.
-  - `Category Manager` was rejected as `Strategic Sourcing Manager`
-    narrowed to one product category.
-  - `Game Narrative Writer` would have been rejected as `Screenwriter`
-    narrowed to one medium.
+- **Scope-narrowing is not a different job — until you give it a genuinely
+  different mandate.** This is the single most common defect found in
+  review, and it is subtle because a narrower scope really does describe a
+  real slice of work — it just isn't automatically a distinct job title.
+  When two entries collapse into one job like this, there are two valid
+  remedies, not one:
+  - **Cut** one entry and backfill its slot, when the second title has no
+    distinct mandate available. `Medical Practice Manager` was cut as a
+    duplicate of `Hospital Administrator` "just smaller in scale," and its
+    slot went to `Surgeon`. `Culinary Director` was cut as `Food and
+    Beverage Director` scoped to chain-restaurant scale. `Game Narrative
+    Writer` was never added at all — it would have been `Screenwriter`
+    narrowed to one medium — and `Narrative Designer` was taken instead.
+  - **Differentiate**, when both titles genuinely exist in the market and
+    only the descriptions failed to separate them. `Category Manager` and
+    `Strategic Sourcing Manager` were one job as originally written, the two
+    descriptions separated only by how many spend categories each covered.
+    Rather than cut either, `Category Manager` was reworded to own the
+    ongoing multi-year spend strategy and supplier portfolio for its
+    category — total cost of ownership against annual budget targets —
+    while `Strategic Sourcing Manager` keeps the competitive-RFP,
+    cross-category negotiation mandate. Same starting problem as the three
+    cuts above, different remedy, because both roles are real jobs.
   Before proposing a title, ask whether it's describing a genuinely
-  different job or the same job at a different scale, in a different
-  vertical, or with a narrower remit. If it's the latter, it's a duplicate.
+  different job, or the same job at a different scale, vertical, or remit.
+  If it's the latter, either cut it or give it a mandate the other role does
+  not have — don't leave two entries standing on scope alone.
 
 - **Check for duplicates across categories, not just within one.** A
   category-by-category review structurally cannot catch this, because
@@ -182,10 +194,15 @@ competent-humans test to them will just tell you to delete correct bullets.
 - Run `npm run validate` before opening a PR. It runs the structural checks
   (frontmatter keys, section order, uniqueness, referential integrity)
   without the `--complete` count gate, so it's safe to run before a category
-  is finished. CI runs `npm run validate -- --complete` on every push to
-  `main` and every PR — that gate stays green because the taxonomy's counts
-  are already complete; your PR only adds authored bodies, it never changes
-  counts.
+  is finished. Its `authored:` counter excludes the overseer — the
+  denominator counts specialists only — so with the overseer plus five
+  specialists authored you'll see `authored: 5 / 1000` on its own line
+  followed by a separate `overseer: authored` line, not `6 / 1000`; that's
+  the same six agents the README's "6 of 1001" framing counts, just split
+  across two lines instead of one. CI runs `npm run validate -- --complete`
+  on every push to `main` and every PR — that gate stays green because the
+  taxonomy's counts are already complete; your PR only adds authored bodies,
+  it never changes counts.
 - One category per PR (40 agents). Don't mix categories in a single PR —
   it makes the "at least 2.5:1 practitioner-to-management" check and the
   cross-category duplicate check harder to do honestly.
