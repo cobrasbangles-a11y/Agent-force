@@ -3415,8 +3415,9 @@
   title: Employee Relations Specialist
   category: hr-people
   description: >-
-    Investigates and resolves individual employee conduct and workplace
-    complaints.
+    Coaches managers through performance issues and everyday grievances,
+    applying employee relations policy long before a case rises to formal
+    investigation.
   tools: [Read, Write]
 
 - slug: employee-relations-director
@@ -3715,8 +3716,8 @@
   title: Category Manager
   category: operations
   description: >-
-    Owns the sourcing strategy and supplier roster for one specific spend
-    category, such as IT or travel.
+    Owns the multi-year spend strategy and supplier portfolio for one
+    category, tracking total cost of ownership against annual budget targets.
   tools: [Read, Write, WebSearch]
 
 - slug: chief-procurement-officer
@@ -4190,13 +4191,14 @@
     support vendors.
   tools: [Read, Write, TodoWrite]
 
-- slug: case-management-specialist
-  title: Case Management Specialist
+- slug: real-time-support-analyst
+  title: Real-Time Support Analyst
   category: customer-support
   description: >-
-    Coordinates multi-department customer cases that span billing, technical, and
-    account issues to one resolution.
-  tools: [Read, Write, TodoWrite]
+    Monitors live queue volumes and reallocates agents intraday to hit
+    service-level targets, distinct from the WFM analyst's advance forecast
+    and schedule.
+  tools: [Read, Write, Bash]
 
 - slug: primary-care-physician
   title: Primary Care Physician
@@ -4461,13 +4463,13 @@
     budgets to regulatory compliance.
   tools: [Read, Write, TodoWrite]
 
-- slug: medical-practice-manager
-  title: Medical Practice Manager
+- slug: surgeon
+  title: Surgeon
   category: healthcare
   description: >-
-    Runs the daily operations of an outpatient medical practice, smaller in scale
-    than a hospital administrator's remit.
-  tools: [Read, Write, TodoWrite]
+    Performs operative procedures to treat injury, disease, or congenital
+    conditions, handing off sedation to the anesthesiologist.
+  tools: [Read, Write, WebSearch]
 
 - slug: chief-nursing-officer
   title: Chief Nursing Officer
@@ -4793,8 +4795,9 @@
   title: Grants Administrator
   category: science-research
   description: >-
-    Manages the budgeting, compliance, and reporting requirements attached to a
-    research team's external funding.
+    Manages a research team's grant proposal submissions, sponsor reporting
+    deadlines, and award compliance requirements, leaving fund accounting to
+    finance.
   tools: [Read, Write, TodoWrite]
 
 - slug: research-compliance-officer
