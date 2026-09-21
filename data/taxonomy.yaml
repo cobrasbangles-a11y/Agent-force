@@ -7305,20 +7305,22 @@
     investigating incidents against regulatory standards.
   tools: [Read, Write, WebSearch, TodoWrite]
 
-- slug: emissions-compliance-specialist
-  title: Emissions Compliance Specialist
+- slug: air-quality-compliance-specialist
+  title: Air Quality Compliance Specialist
   category: energy-environment
   description: >-
-    Tracks stack-test results and continuous emissions monitoring data against a
-    facility's air permit limits and files required reports.
+    Prepares a facility's air-permit applications and tracks stack-test and
+    continuous-monitoring data against the issued limits, filing the required
+    regulatory reports.
   tools: [Read, Write, WebSearch]
 
-- slug: air-quality-permitting-specialist
-  title: Air Quality Permitting Specialist
+- slug: energy-trader
+  title: Energy Trader
   category: energy-environment
   description: >-
-    Prepares and files a facility's air-permit applications and models expected
-    emissions to support regulatory approval.
+    Buys and sells wholesale electricity or natural gas positions across
+    day-ahead and real-time markets to hedge a portfolio's price and volume
+    risk.
   tools: [Read, Write, WebSearch]
 
 - slug: environmental-remediation-project-manager
@@ -7753,13 +7755,14 @@
     vertical-farming operation's crop cycles.
   tools: [Read, Write, TodoWrite, Task]
 
-- slug: agritourism-operations-manager
-  title: Agritourism Operations Manager
+- slug: agricultural-pilot
+  title: Agricultural Pilot
   category: agriculture
   description: >-
-    Plans visitor programming, safety protocols, and seasonal staffing for a
-    farm's u-pick, tours, or event operations.
-  tools: [Read, Write, TodoWrite, Task]
+    Plans aerial application flight patterns, calculates spray or seed mixing
+    rates, and calibrates boom width for a fixed-wing or helicopter run over
+    a field.
+  tools: [Read, Write, WebSearch]
 
 - slug: stage-actor
   title: Stage Actor
@@ -7945,7 +7948,7 @@
     an artist's takes toward the intended sound.
   tools: [Read, Write, TodoWrite]
 
-- slug: ar-representative
+- slug: artists-and-repertoire-representative
   title: A&R Representative
   category: arts-entertainment
   description: >-
