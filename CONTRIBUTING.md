@@ -10,6 +10,28 @@ Read `agents/skilled-trades/journeyman-electrician.md` once before you start.
 It is the model for a non-desk role and the longest `Boundaries` section in
 the library — both are discussed below.
 
+## Referential integrity the validator enforces
+
+Before you write a single agent body, know that the validator cross-checks
+every authored file against its `data/taxonomy.yaml` entry. These three
+checks are the ones that fail a PR most often, and none of them is stated in
+`README.md` either — this is the only place they're written down:
+
+- **`description` must be copied verbatim** from that slug's taxonomy entry
+  (compared after whitespace normalization — line wraps and repeated spaces
+  are collapsed before comparing, so reflowing the text is fine, but changing
+  a word is not). Do not rewrite it, trim it, or "clean it up" while
+  authoring the body. See rule 7 below.
+- **`tools` must match the taxonomy entry's `tools` list**, compared as a
+  set — order doesn't matter, but the file can't add a tool the taxonomy
+  doesn't list or drop one it does.
+- **Frontmatter `name` must equal the filename stem, which must equal the
+  taxonomy `slug`.** `agents/sales/customer-getter.md` must have
+  `name: customer-getter`, and `customer-getter` must exist in the taxonomy.
+
+Get these three right and most of the mechanical validator failures in a
+40-agent PR disappear.
+
 ## The seven house style rules for an agent body
 
 Every agent file has YAML frontmatter (`name`, `description`, `tools` — no
@@ -52,10 +74,16 @@ other keys) and a body of exactly five `# Heading` sections, in order:
    didn't need (see the non-desk stance) or `Core expertise` drifted into
    restating `Method`.
 
-7. **`description`** — one sentence, verb-first ("Reviews and drafts...",
-   "Plans, installs, and troubleshoots..."), under 200 characters. This is
-   the text injected into every request for agent selection, so it has to
-   carry the whole job in one line with no filler.
+7. **`description`** — copy it verbatim from the taxonomy entry for this
+   slug; do not write a new one while authoring the body. The validator
+   checks the frontmatter `description` against `data/taxonomy.yaml`
+   (after whitespace normalization) and rejects any file where they differ,
+   even a faithful paraphrase. The one-sentence, verb-first ("Reviews and
+   drafts...", "Plans, installs, and troubleshoots..."), under-200-character
+   guidance still applies — it's just applied when the taxonomy entry itself
+   is authored or edited, not again here. If a description reads badly to
+   you while writing the body, fix it in `data/taxonomy.yaml` and copy the
+   fixed version into the frontmatter — never let the two drift apart.
 
 ## Taxonomy authoring rules
 
@@ -102,10 +130,22 @@ These apply when you're proposing new entries or auditing existing ones in
   effectively one job before this was caught. When you add a category,
   scan the full taxonomy for near-synonyms, not just your 40.
 
-- **Descriptions must stand alone — never name another role by title.** A
-  description that says "does X, unlike a Y" leaks the taxonomy's internal
-  structure into agent-selection text and breaks the moment the referenced
-  role is renamed. Describe what the job does, not what it isn't.
+- **Descriptions must not name another catalog entry's exact title, but a
+  lowercase generic contrast is fine when it earns its place.** Do not write
+  "unlike the Strategic Sourcing Manager" — that leaks the taxonomy's
+  internal structure into agent-selection text and breaks the moment the
+  referenced entry is renamed. A contrast against a lowercase generic role
+  ("distinct from a tax accountant's filings," "distinct from the
+  collections manager who chases overdue balances") is allowed, and in
+  adjacent-role categories — legal, finance, marketing, sales, healthcare,
+  customer support — it's often the clearest way to route between two
+  agents someone might otherwise confuse. The bar: the contrast must be
+  **intelligible to someone who installed only this one agent** and never
+  saw the rest of the catalog. If the contrast only makes sense to someone
+  holding the full taxonomy in their head — a reference to "every other role
+  in this catalog," or to another entry by an internal abbreviation the
+  installer has no way to expand — it fails this rule even though it names
+  no title.
 
 - **Each category should hold at least a 2.5:1 practitioner-to-management
   ratio.** When classifying a title, **seniority within a craft counts as

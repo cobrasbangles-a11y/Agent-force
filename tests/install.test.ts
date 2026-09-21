@@ -1,8 +1,8 @@
 import { describe, it, expect, beforeEach } from 'vitest';
-import { mkdtempSync, mkdirSync, writeFileSync, existsSync, readFileSync, lstatSync, symlinkSync, unlinkSync } from 'node:fs';
+import { mkdtempSync, mkdirSync, writeFileSync, existsSync, readFileSync, lstatSync, symlinkSync } from 'node:fs';
 import { join } from 'node:path';
 import { tmpdir } from 'node:os';
-import { installAgents } from '../scripts/lib/install.js';
+import { installAgents, InstallError } from '../scripts/lib/install.js';
 
 const BODY = `\n# Role\nr\n# Core expertise\n- c\n# Method\n1. m\n# Output\no\n# Boundaries\nb\n`;
 let root: string;
@@ -119,6 +119,42 @@ describe('installAgents', () => {
     expect(result.written).toEqual(['customer-getter.md']);
     expect(lstatSync(join(dest, 'customer-getter.md')).isSymbolicLink()).toBe(false);
     expect(readFileSync(join(dest, 'customer-getter.md'), 'utf8')).toContain('name: customer-getter');
+  });
+
+  it('validates every agent in a multi-agent pack before writing any of them', () => {
+    writeFileSync(join(root, 'data', 'taxonomy.yaml'), `
+- slug: agent-one
+  title: Agent One
+  category: sales
+  description: First agent, authored.
+  tools: [Read]
+
+- slug: agent-two
+  title: Agent Two
+  category: sales
+  description: Second agent, not yet authored.
+  tools: [Read]
+
+- slug: agent-three
+  title: Agent Three
+  category: sales
+  description: Third agent, authored.
+  tools: [Read]
+`);
+    writeFileSync(join(root, 'agents', 'sales', 'agent-one.md'),
+      `---\nname: agent-one\ndescription: First agent, authored.\ntools: Read\n---\n${BODY}`);
+    // agent-two is in the taxonomy but has no authored .md file.
+    writeFileSync(join(root, 'agents', 'sales', 'agent-three.md'),
+      `---\nname: agent-three\ndescription: Third agent, authored.\ntools: Read\n---\n${BODY}`);
+    writeFileSync(join(root, 'packs', 'trio.yaml'), 'name: Trio\nagents:\n  - agent-one\n  - agent-two\n  - agent-three\n');
+
+    expect(() => installAgents(root, { pack: 'trio', dest })).toThrow(InstallError);
+    expect(() => installAgents(root, { pack: 'trio', dest })).toThrow(/agent-two/);
+    // The whole-pack validation must complete before any writes happen — agent-one
+    // would have been written first by a naive validate-then-write-per-item loop.
+    expect(existsSync(join(dest, 'agent-one.md'))).toBe(false);
+    expect(existsSync(join(dest, 'agent-two.md'))).toBe(false);
+    expect(existsSync(join(dest, 'agent-three.md'))).toBe(false);
   });
 
   it('resolves overseer agent to agents/overseer.md', () => {

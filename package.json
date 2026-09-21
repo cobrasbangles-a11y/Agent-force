@@ -24,7 +24,7 @@
     "url": "https://github.com/cobrasbangles-a11y/Agent-force/issues"
   },
   "homepage": "https://github.com/cobrasbangles-a11y/Agent-force#readme",
-  "private": "true",
+  "private": true,
   "devDependencies": {
     "@types/node": "^26.6.2",
     "tsx": "^4.23.15",

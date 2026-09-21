@@ -1,5 +1,5 @@
 import { copyFileSync, existsSync, lstatSync, mkdirSync, rmSync, symlinkSync } from 'node:fs';
-import { join, resolve } from 'node:path';
+import { join, resolve, sep } from 'node:path';
 import { loadTaxonomy } from './taxonomy.js';
 import { loadPacks } from './packs.js';
 import { CATEGORY_SLUGS } from './categories.js';
@@ -87,7 +87,7 @@ export function installAgents(root: string, opts: InstallOptions): InstallResult
     const resolvedTarget = resolve(target);
 
     // Guard 3: ensure target is within dest (defense in depth)
-    if (!resolvedTarget.startsWith(resolvedDest + '/') && resolvedTarget !== resolvedDest) {
+    if (!resolvedTarget.startsWith(resolvedDest + sep) && resolvedTarget !== resolvedDest) {
       throw new InstallError(`path escape attempt: target "${slug}.md" would write outside destination`);
     }
 

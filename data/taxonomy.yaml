@@ -2888,8 +2888,8 @@
   title: Trusts and Estates Attorney
   category: legal
   description: >-
-    Drafts wills, trusts, and estate plans for individual clients, distinct
-    from every other role in this catalog that serves a business.
+    Drafts wills, trusts, and estate plans for individual clients rather
+    than businesses.
   tools: [Read, Write, WebSearch]
 
 - slug: family-law-attorney
@@ -4196,8 +4196,8 @@
   category: customer-support
   description: >-
     Monitors live queue volumes and reallocates agents intraday to hit
-    service-level targets, distinct from the WFM analyst's advance forecast
-    and schedule.
+    service-level targets, distinct from workforce-management forecasting
+    and scheduling.
   tools: [Read, Write, Bash]
 
 - slug: primary-care-physician
