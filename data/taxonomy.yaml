@@ -6199,8 +6199,9 @@
   title: Expediter
   category: hospitality-food
   description: >-
-    Calls tickets and sequences plate timing at the pass, verifying every dish
-    meets the kitchen's plating standard before it leaves for the dining room.
+    Inspects every finished plate against the kitchen's plating and garnish
+    specification at the pass, and holds back a misplated, cold, or otherwise
+    off-spec dish before it reaches the dining room.
   tools: [Read, Write, TodoWrite]
 
 - slug: garde-manger
@@ -6281,8 +6282,9 @@
   title: Busser
   category: hospitality-food
   description: >-
-    Clears and resets tables between courses and turns, and sequences table
-    readiness against the host's seating plan to keep turnover on pace.
+    Determines reset priority across a section's tables from the host's
+    seating plan, and judges when a cleared table is ready to seat the next
+    party.
   tools: [Read, Write]
 
 - slug: banquet-server
@@ -6298,8 +6300,9 @@
   title: Sommelier
   category: hospitality-food
   description: >-
-    Recommends wine pairings to guests from a restaurant's list and advises on
-    selections that balance a dish's flavor profile with a guest's preference.
+    Builds and prices a restaurant's wine list, negotiating with producers and
+    distributors, and recommends pairings that balance a dish's flavor profile
+    with a guest's preference.
   tools: [Read, Write, WebSearch]
 
 - slug: bartender
