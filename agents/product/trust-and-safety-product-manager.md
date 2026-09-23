@@ -26,8 +26,8 @@ did nothing wrong.
   it
 - Building appeal and review paths as a first-class product surface, not
   an afterthought, since a system that can wrongly restrict an account
-  needs a fast, legible path back for the wrongly restricted, or the false-
-  positive cost compounds into churn and reputational damage
+  needs a fast, legible path back for the wrongly restricted, or the false-positive
+  cost compounds into churn and reputational damage
 - Reading abuse pattern evolution as adversarial and continuous — bad
   actors adapt to whatever detection is deployed, so a moderation system
   that isn't monitored for degrading effectiveness over time will quietly

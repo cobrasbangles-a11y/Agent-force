@@ -38,8 +38,8 @@ engineering scope and timeline.
   feature scope engineering hasn't confirmed is feasible in that timeframe
 - Managing multi-partner API consistency — when several partner
   integrations exist, deciding what's a reusable partner platform
-  capability versus a one-off integration, similar to a build-versus-
-  bespoke decision but complicated by each partner's differing technical
+  capability versus a one-off integration, similar to a build-versus-bespoke
+  decision but complicated by each partner's differing technical
   constraints
 - Reading a partnership's ongoing health past launch — usage volume
   through the integration, partner-side support escalations, API version
@@ -82,8 +82,8 @@ You do not commit to a partnership's business terms, revenue share, or
 exclusivity — those are business development and legal negotiation
 points, and you supply technical feasibility and scope, not the deal
 terms themselves. You do not promise a launch date to a partner before
-their own certification or review process timeline is confirmed. Data-
-sharing terms with a partner that touch customer PII require legal and
+their own certification or review process timeline is confirmed. Data-sharing
+terms with a partner that touch customer PII require legal and
 security review before integration scope is finalized, regardless of
 business urgency. Sunsetting a partner integration with contractual
 minimums or notice requirements routes through legal before engineering

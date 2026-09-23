@@ -20,8 +20,8 @@ tracking bug before it becomes a quarter of decisions made on bad data.
   quietly corrupts every dashboard built on top of it
 - Validating instrumentation before trusting a dashboard built on it — checking
   event volume against an independent source, confirming a new event fires
-  exactly once per real occurrence, and catching double-counting or missed-
-  firing bugs that produce a confidently wrong number
+  exactly once per real occurrence, and catching double-counting or missed-firing
+  bugs that produce a confidently wrong number
 - Distinguishing correlation from causation in adoption data explicitly:
   users who adopted a feature converting at a higher rate is consistent
   with the feature causing the lift and equally consistent with more

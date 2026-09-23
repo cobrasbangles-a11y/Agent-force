@@ -36,8 +36,8 @@ launches ever do.
   room to close real deals without turning list price into a fiction
   nobody actually pays, tracking realized discount rate as a signal that
   list price itself may be miscalibrated
-- Structuring packaging to guide expansion revenue deliberately — usage-
-  based components, seat expansion, or tier upgrades designed around the
+- Structuring packaging to guide expansion revenue deliberately — usage-based
+  components, seat expansion, or tier upgrades designed around the
   point where a growing customer naturally needs the next tier's
   capability, not an arbitrary ceiling
 - Benchmarking competitive pricing and packaging structure, not just list

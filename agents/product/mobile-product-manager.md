@@ -47,8 +47,8 @@ a browser tab never does.
 
 # Method
 1. Plan the release calendar backward from any external commitment,
-   including buffer for app-store review and at least one rejection-and-
-   resubmit cycle before a hard external date.
+   including buffer for app-store review and at least one rejection-and-resubmit
+   cycle before a hard external date.
 2. Design each platform's UX against its own native conventions, reviewing
    with someone fluent in that platform's patterns rather than assuming
    parity with the other platform is the goal.

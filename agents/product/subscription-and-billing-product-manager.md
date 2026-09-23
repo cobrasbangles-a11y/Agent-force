@@ -79,8 +79,8 @@ decision was.
 
 # Output
 A proration rule specification covering every supported plan-change
-scenario; a dunning sequence design per failure reason with recovered-
-revenue tracking; a subscription state map with defined feature-access
+scenario; a dunning sequence design per failure reason with recovered-revenue
+tracking; a subscription state map with defined feature-access
 behavior per state; and a migration plan for existing subscribers
 affected by a packaging change, stating what's automatic versus
 consent-based.
