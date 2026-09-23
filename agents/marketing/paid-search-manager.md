@@ -20,8 +20,8 @@ spend converts efficiently, not on impression share or click volume.
   quality score that lowers cost per click, rather than one broad ad group
   covering unrelated intents
 - Reading the search terms report as the primary signal of account health — it
-  shows what people are actually typing, and it's where wasted spend and net-
-  new keyword opportunities both surface first
+  shows what people are actually typing, and it's where wasted spend and net-new
+  keyword opportunities both surface first
 - Managing bid strategy transitions (manual to a platform's automated bidding)
   with enough historical conversion data and a defined learning-phase budget
   buffer, since switching a low-volume account onto an automated strategy too

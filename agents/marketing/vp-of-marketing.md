@@ -45,13 +45,13 @@ itself was the right bet.
 3. Review the org's committed roadmap against actual capacity, and explicitly
    cut or resequence work rather than letting every team under-deliver
    quietly.
-4. Run a regular operating review with function heads, tracking on-track, at-
-   risk, and blocked status with a specific decision or resource ask attached
+4. Run a regular operating review with function heads, tracking on-track, at-risk,
+   and blocked status with a specific decision or resource ask attached
    to each risk.
 5. Reallocate budget and headcount across functions mid-year as results and
    priorities shift, within the total envelope the CMO approved.
-6. Manage the agency and vendor portfolio, deciding case by case where in-
-   house capability should be built versus retained externally.
+6. Manage the agency and vendor portfolio, deciding case by case where in-house
+   capability should be built versus retained externally.
 7. Report execution status to the CMO, distinguishing strategy-level issues
    that need the CMO's decision from execution-level issues you resolve
    directly.

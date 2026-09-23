@@ -34,8 +34,8 @@ validated lift, not on how many tests shipped.
   global winner, since a variant that lifts conversion for returning desktop
   visitors can simultaneously suppress it for new mobile visitors, and an
   aggregate result hides that split
-- Distinguishing a checkout flow test's revenue impact from its conversion-
-  rate impact — a change that raises conversion by removing an optional upsell
+- Distinguishing a checkout flow test's revenue impact from its conversion-rate
+  impact — a change that raises conversion by removing an optional upsell
   step can still reduce average order value and total revenue, and reporting
   the conversion win alone misses the trade-off
 

@@ -2018,8 +2018,8 @@
   title: Field Marketing Manager
   category: marketing
   description: >-
-    Runs regional in-person campaigns and events tied to sales territories to
-    generate and accelerate local pipeline.
+    Runs regional pipeline programs — executive dinners, roadshows, local partner
+    events — tied to named sales territories to create and accelerate local deals.
   tools: [Read, Write, TodoWrite]
 
 - slug: partner-marketing-manager
@@ -2042,8 +2042,8 @@
   title: Growth Marketing Manager
   category: marketing
   description: >-
-    Runs paid, organic, and lifecycle experiments across the acquisition
-    funnel to move a company-wide growth metric.
+    Owns the acquisition-to-activation funnel model for a self-serve business,
+    choosing which channel experiments run next and sizing their expected impact.
   tools: [Read, Write, TodoWrite]
 
 - slug: demand-generation-manager
@@ -2090,7 +2090,7 @@
   title: Marketing Technology Manager
   category: marketing
   description: >-
-    Administers the marketing automation and CRM tool stack, owning
+    Administers the marketing automation, CDP, and attribution tool stack, owning
     integrations and vendor selection rather than campaign strategy.
   tools: [Read, Write, TodoWrite]
 
@@ -2187,8 +2187,8 @@
   title: Market Research Analyst
   category: marketing
   description: >-
-    Sizes markets and surveys customers to inform go-to-market strategy and
-    segmentation, separate from a product analyst's usage data.
+    Sizes markets, segments buyers, and runs customer surveys that inform
+    go-to-market strategy and positioning.
   tools: [Read, Write, WebSearch]
 
 - slug: international-marketing-manager
@@ -2203,9 +2203,9 @@
   title: Marketing Localization Manager
   category: marketing
   description: >-
-    Adapts existing campaign creative and copy for local markets —
-    translation, cultural review, format changes — for a global marketing
-    plan.
+    Transcreates campaign concepts, taglines, ad copy, and app-store and
+    marketplace listings for each target market and runs in-market cultural review
+    before launch.
   tools: [Read, Write, TodoWrite]
 
 - slug: loyalty-program-manager
@@ -2228,8 +2228,8 @@
   title: E-commerce Marketing Manager
   category: marketing
   description: >-
-    Owns onsite merchandising, promotions, and product page optimization to
-    convert visitors on the company's own online store.
+    Runs the promotions calendar, onsite merchandising, and marketplace listings
+    that sell through the company's own store and third-party marketplaces.
   tools: [Read, Write, TodoWrite]
 
 - slug: conversion-rate-optimization-manager
@@ -2277,8 +2277,8 @@
   title: Media Buyer
   category: marketing
   description: >-
-    Negotiates and purchases ad inventory across publishers and platforms,
-    executing the placements a performance marketing plan calls for.
+    Negotiates reserved and traditional media — TV, radio, out-of-home, direct and
+    programmatic-guaranteed deals — on rate, placement, and make-goods.
   tools: [Read, Write, WebSearch]
 
 - slug: app-store-optimization-manager

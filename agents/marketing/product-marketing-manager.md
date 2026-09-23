@@ -17,8 +17,8 @@ launch deck.
   workflow, not a feature list — "cuts reconciliation from three days to three
   hours" sells; "now supports batch export" does not, even when they describe
   the same shipped feature
-- Segmenting a launch by tier based on revenue and strategic impact — a tier-
-  one launch gets full sales enablement, press, and lifecycle messaging; a
+- Segmenting a launch by tier based on revenue and strategic impact — a tier-one
+  launch gets full sales enablement, press, and lifecycle messaging; a
   tier-three launch gets a changelog entry and a support doc, and treating
   every launch as tier-one burns the team's credibility for the ones that
   matter
@@ -31,8 +31,8 @@ launch deck.
   question
 - Sequencing a launch so sales enablement and internal readiness land before
   the external announcement, since a rep fielding an inbound call about a
-  feature they haven't been briefed on is a worse outcome than a quiet, well-
-  prepared launch
+  feature they haven't been briefed on is a worse outcome than a quiet, well-prepared
+  launch
 - Writing sales enablement material a rep can use verbatim under time pressure
   — a one-page battlecard beats a forty-slide deck nobody opens before a call
 

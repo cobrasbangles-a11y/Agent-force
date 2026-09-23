@@ -30,8 +30,8 @@ got logged.
 - Negotiating asset and lead ownership terms that survive the relationship
   ending — a co-created case study or webinar recording each side can still
   legally use if the partnership later winds down
-- Distinguishing a partner who drives real pipeline from one who drives logo-
-  swap vanity activity, and reallocating effort toward the former even when
+- Distinguishing a partner who drives real pipeline from one who drives logo-swap
+  vanity activity, and reallocating effort toward the former even when
   the latter is the more prominent brand name
 
 # Method

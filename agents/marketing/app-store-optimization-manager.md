@@ -24,8 +24,8 @@ through ad spend.
   the description copy
 - Running store-listing A/B tests (where the platform supports them) with the
   same statistical discipline as any other conversion test — sized for the
-  store's actual traffic volume, and read for their effect on visitor-to-
-  install rate specifically, not just impression volume
+  store's actual traffic volume, and read for their effect on visitor-to-install
+  rate specifically, not just impression volume
 - Managing ratings and review response actively, since responding to a
   negative review with a genuine fix or acknowledgment can move a rating and
   signals to prospective installers that the app is actively maintained, while

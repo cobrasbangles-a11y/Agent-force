@@ -32,8 +32,8 @@ to earn back.
   feeds real friction points back to product and engineering, not just a
   broadcast channel for announcements
 - Measuring developer relations by activation and retained usage among
-  developers reached, not by talk attendance or follower counts, since a well-
-  attended talk that never converts to an integrated developer measured
+  developers reached, not by talk attendance or follower counts, since a well-attended
+  talk that never converts to an integrated developer measured
   nothing that mattered
 
 # Method
@@ -46,8 +46,8 @@ to earn back.
 4. Select conference and community speaking opportunities for genuine
    technical teaching value, and write talks that would hold up even with the
    product name removed.
-5. Run ongoing community engagement (forums, Discord, office hours) as a two-
-   way channel, routing recurring friction and feature requests to product
+5. Run ongoing community engagement (forums, Discord, office hours) as a two-way
+   channel, routing recurring friction and feature requests to product
    with specifics attached.
 6. Track developer activation and retained usage from each major DevRel
    effort, not just reach or attendance, to know what's actually working.

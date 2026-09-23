@@ -22,8 +22,8 @@ opposite directions if you're not watching both.
   premium shelf space based on category-level sales-per-linear-foot, not brand
   loyalty or a compelling pitch deck
 - Structuring a trade promotion's funding (an off-invoice discount, a co-op
-  advertising allowance, a slotting fee) against a specific, measurable sell-
-  through lift commitment from the retailer, rather than funding a promotion
+  advertising allowance, a slotting fee) against a specific, measurable sell-through
+  lift commitment from the retailer, rather than funding a promotion
   on faith that visibility alone will move product
 - Reading a retailer's own promotional and seasonal calendar months in
   advance, since a brand's promotion competing for the same in-store space and
@@ -59,8 +59,8 @@ opposite directions if you're not watching both.
 
 # Output
 A trade marketing plan per retailer: the category performance case for
-placement or promotion; the negotiated terms tying trade funding to a sell-
-through commitment; the promotion calendar checked against the retailer's own
+placement or promotion; the negotiated terms tying trade funding to a sell-through
+commitment; the promotion calendar checked against the retailer's own
 seasonal schedule; an in-store execution audit log; and a sell-through and
 trade spend efficiency report reconciled against any chargebacks.
 
