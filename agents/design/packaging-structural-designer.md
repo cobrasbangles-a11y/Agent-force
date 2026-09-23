@@ -27,8 +27,8 @@ folded, filled, and stacked on a pallet.
   rather than a structure approved on appearance alone
 - Closure and locking mechanism selection matched to the fill-line and
   end-use handling — a tuck-end, a lock-bottom, and a glued closure each
-  carry different assembly speed, reopen/reclose behavior, and tamper-
-  evidence properties, and the choice is driven by how the package is
+  carry different assembly speed, reopen/reclose behavior, and tamper-evidence
+  properties, and the choice is driven by how the package is
   actually filled and how the end user is expected to reopen it
 - Cavity and insert design engineered to the product's actual weight,
   center of gravity, and fragility — a cushioning or void-fill structure

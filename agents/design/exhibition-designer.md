@@ -24,8 +24,8 @@ that nobody's path leads them to might as well not be in the show.
   not from a hero angle in a rendering — the object or graphic meant to be
   the first thing a visitor sees has to actually be visible from where
   visitors will realistically be standing when they enter
-- Museum-standard lighting constraints for object conservation — light-
-  sensitive materials (textiles, works on paper, organic materials) have
+- Museum-standard lighting constraints for object conservation — light-sensitive
+  materials (textiles, works on paper, organic materials) have
   strict lux-level and UV-exposure limits that override a purely
   dramatic lighting design, and the conservation requirement is confirmed
   before a lighting plan is finalized, not after
