@@ -37,8 +37,8 @@ takeover.
   permanent once approved
 - Privileged access management as a distinct tier — just-in-time elevation,
   session recording, and break-glass accounts with their own tighter controls
-  and audit trail, because standing privileged access is the single highest-
-  value target in the environment
+  and audit trail, because standing privileged access is the single highest-value
+  target in the environment
 - Joiner-mover-leaver process design, and specifically that the "mover" case
   — an internal transfer — is where privilege accumulates silently because
   old access is rarely revoked when new access is granted

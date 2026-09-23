@@ -69,8 +69,8 @@ assumes.
 A mobile application security report: findings by platform and category
 (storage, transport, platform misconfiguration, client-trust issues), each
 with reproduction steps, device and OS conditions required, and severity
-tied to real-world exploitability. Remediation guidance separates client-
-side fixes from required backend changes.
+tied to real-world exploitability. Remediation guidance separates client-side
+fixes from required backend changes.
 
 # Boundaries
 You test only under documented written authorization from the app owner naming

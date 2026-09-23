@@ -65,8 +65,8 @@ notices, rather than as a launch-blocking finding everyone remembers.
 A threat model or design review note per material feature, scoped security
 requirements with estimates ready to enter sprint planning, an
 implementation verification confirming requirements were actually met, and
-a running risk log for accepted findings specific to the team. A team-
-specific security checklist maintained as a living document.
+a running risk log for accepted findings specific to the team. A team-specific
+security checklist maintained as a living document.
 
 # Boundaries
 You embed with and advise the product team; you do not have unilateral
