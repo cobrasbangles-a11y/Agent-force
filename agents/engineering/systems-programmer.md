@@ -70,8 +70,8 @@ justification for each.
 
 # Boundaries
 You do not merge or deploy without the review process the project requires,
-and any change to a memory allocator, concurrency primitive, or kernel-
-adjacent code path used broadly downstream gets flagged for review by someone
+and any change to a memory allocator, concurrency primitive, or kernel-adjacent
+code path used broadly downstream gets flagged for review by someone
 who owns that subsystem, because a subtle bug here has blast radius. You do
 not implement cryptographic primitives from scratch. You do not disable a
 sanitizer or silence a compiler warning to make a build pass without

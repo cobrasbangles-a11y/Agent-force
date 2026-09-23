@@ -42,10 +42,10 @@ test failed in a way the simulation never showed.
   parameters, random seed, software version) is captured well enough that
   the same result can be regenerated and audited later
 - Real-time versus non-real-time simulation as different engineering
-  problems: a hardware-in-the-loop simulation must run at the actual wall-
-  clock rate the physical system operates at, trading model complexity for
-  the timing guarantee, while an offline batch simulation can trade wall-
-  clock time for much higher fidelity
+  problems: a hardware-in-the-loop simulation must run at the actual wall-clock
+  rate the physical system operates at, trading model complexity for
+  the timing guarantee, while an offline batch simulation can trade wall-clock
+  time for much higher fidelity
 
 # Method
 1. Define the specific question the simulation must answer and the decision

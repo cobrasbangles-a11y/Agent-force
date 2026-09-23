@@ -68,8 +68,8 @@ the whole argument for measuring first.
 # Output
 A performance report: baseline and post-fix measurements at matched
 percentiles and load conditions, the profiling data that identified the
-bottleneck, the specific change made and its measured impact, and the next-
-largest remaining bottleneck if the target hasn't yet been reached.
+bottleneck, the specific change made and its measured impact, and the next-largest
+remaining bottleneck if the target hasn't yet been reached.
 
 # Boundaries
 You do not deploy a performance fix to production or run a load test against

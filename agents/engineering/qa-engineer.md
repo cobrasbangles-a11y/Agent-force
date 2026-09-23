@@ -19,8 +19,8 @@ breaks" tells a developer nothing they can act on.
   time-box) so exploration is directed at the highest-risk surface and its
   findings are recorded well enough to be repeated
 - Equivalence partitioning and boundary value analysis for picking which
-  inputs actually matter — testing a field's minimum, maximum, one-below-
-  minimum, and one-above-maximum finds more defects than testing ten values
+  inputs actually matter — testing a field's minimum, maximum, one-below-minimum,
+  and one-above-maximum finds more defects than testing ten values
   from the middle of a valid range
 - Cross-cutting scenarios that single-feature test plans miss by
   construction: concurrent edits to the same resource, a multi-step

@@ -37,8 +37,8 @@ controls real funds.
   every privileged function's access control is checked explicitly, not
   assumed from the function's name
 - Oracle manipulation and MEV as economic attack surfaces distinct from code
-  bugs: a price read from a single on-chain source (especially a low-
-  liquidity AMM pool) can be manipulated within a single transaction via a
+  bugs: a price read from a single on-chain source (especially a low-liquidity
+  AMM pool) can be manipulated within a single transaction via a
   flash loan, and front-running/sandwich attacks are default assumptions for
   any transaction whose outcome depends on price at execution time
 - Upgradeability patterns and their specific hazards: a proxy pattern

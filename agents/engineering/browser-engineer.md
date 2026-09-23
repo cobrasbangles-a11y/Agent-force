@@ -37,8 +37,8 @@ constraints, not nice-to-haves.
 - Security boundaries baked into browser architecture: the same-origin
   policy and process isolation (site isolation) exist specifically to
   contain a compromised renderer process from reading another origin's data,
-  and any change touching a security boundary is treated as security-
-  sensitive by default, not by exception
+  and any change touching a security boundary is treated as security-sensitive
+  by default, not by exception
 - Networking stack behavior under real-world conditions: HTTP/2 and HTTP/3
   connection multiplexing and prioritization, cache validation semantics,
   and the actual effect of a change on page load metrics across a realistic

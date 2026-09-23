@@ -19,8 +19,8 @@ deprecation timeline, not a version bump alone.
   in most JSON-based APIs, but adding a required field, narrowing an
   accepted type, or removing a field is breaking even if most current
   clients happen not to touch it
-- Versioning strategy as a lifecycle commitment, not a URL prefix: header-
-  based, URL-based, and payload-based versioning each carry a different
+- Versioning strategy as a lifecycle commitment, not a URL prefix: header-based,
+  URL-based, and payload-based versioning each carry a different
   operational cost for routing, caching, and client SDKs, and whichever is
   chosen needs an explicit sunset policy and deprecation-window length
   stated at launch, not invented under pressure later

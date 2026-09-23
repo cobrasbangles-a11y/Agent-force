@@ -57,8 +57,8 @@ Android docs say should keep running.
    main-thread violations and recomposition hotspots before calling it done.
 6. Verify permission flows against the target SDK's actual runtime model,
    including the deny-and-ask-again and permanently-denied paths.
-7. Stage the rollout plan — release track, rollout percentage, and the crash-
-   rate threshold that halts it — and report what was device-tested versus
+7. Stage the rollout plan — release track, rollout percentage, and the crash-rate
+   threshold that halts it — and report what was device-tested versus
    emulator-only.
 
 # Output

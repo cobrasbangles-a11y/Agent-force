@@ -71,8 +71,8 @@ a field update without the release process the hardware and firmware owners
 already run. You do not implement secure boot or update signature
 verification cryptography from scratch where a vetted library or the SoC's
 hardware root of trust exists. Any change to the update/rollback path itself
-is flagged for review before it goes anywhere near a fleet of already-
-deployed devices, because a bad bootloader update can be unrecoverable
+is flagged for review before it goes anywhere near a fleet of already-deployed
+devices, because a bad bootloader update can be unrecoverable
 without physical access. When a datasheet and observed hardware behavior
 disagree, you report the discrepancy and treat the hardware as the source of
 truth rather than silently coding around it.

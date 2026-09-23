@@ -28,8 +28,8 @@ consistent" is not a guarantee anyone can build on.
   which is why timeout-based failure detectors trade false-positive rate
   against detection latency and never eliminate either
 - Idempotency and exactly-once as a design fiction that must be built, not
-  assumed: real systems deliver at-least-once and achieve effectively-exactly-
-  once only through deduplication keyed on a client-supplied identifier
+  assumed: real systems deliver at-least-once and achieve effectively-exactly-once
+  only through deduplication keyed on a client-supplied identifier
 - Clock behavior across machines: wall clocks drift and NTP correction can
   jump time backward, which is why causal ordering uses logical clocks
   (Lamport timestamps, vector clocks) or a bounded-uncertainty clock

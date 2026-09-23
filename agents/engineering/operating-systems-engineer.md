@@ -40,8 +40,8 @@ assumed safe.
   for one (batch throughput) actively hurts another (interactive latency),
   which is why real schedulers expose multiple classes rather than one
   universal policy
-- Device driver correctness against the actual hardware contract: memory-
-  mapped I/O register access ordering, DMA buffer coherency and IOMMU
+- Device driver correctness against the actual hardware contract: memory-mapped
+  I/O register access ordering, DMA buffer coherency and IOMMU
   considerations, and handling a device that doesn't respond within
   expected time without hanging the kernel thread waiting on it
 - Debugging without userspace's tooling: kernel-level tracing (ftrace/

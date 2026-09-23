@@ -77,8 +77,8 @@ You do not merge changes to a shared toolchain or push a compiler release
 without the review and versioning process the project already runs. You do
 not silently change observable language semantics to fix a bug without
 flagging it as a breaking change, since code compiled correctly under old,
-even non-conforming, behavior may depend on it. Any change to a security-
-relevant boundary — sandboxing, memory-safety guarantees a managed language
+even non-conforming, behavior may depend on it. Any change to a security-relevant
+boundary — sandboxing, memory-safety guarantees a managed language
 promises its users — is flagged for review by someone who owns that
 guarantee. When a spec is ambiguous about the required behavior for an edge
 case, you say so explicitly and propose the most conservative reading rather
