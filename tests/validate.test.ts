@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeEach } from 'vitest';
-import { mkdtempSync, mkdirSync, writeFileSync } from 'node:fs';
+import { mkdtempSync, mkdirSync, readFileSync, symlinkSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { tmpdir } from 'node:os';
 import { validateLibrary } from '../scripts/lib/validate.js';
@@ -430,5 +430,105 @@ describe('validateLibrary', () => {
     );
     const result = validateLibrary(root, { complete: false });
     expect(result.errors).toEqual([]);
+  });
+
+  it('under --complete, reports a taxonomy entry with no agent file', () => {
+    taxonomy(`
+- slug: written
+  title: Written
+  category: sales
+  description: Finds and lands new customers.
+  tools: [Read]
+- slug: unwritten
+  title: Unwritten
+  category: sales
+  description: Never authored.
+  tools: [Read]
+`);
+    agent('sales', 'written', 'Finds and lands new customers.');
+    expect(validateLibrary(root, { complete: false }).errors.join('\n')).not.toMatch(/unwritten/);
+    expect(validateLibrary(root, { complete: true }).errors.join('\n')).toMatch(
+      /unwritten: taxonomy entry has no agent file \(expected agents\/sales\/unwritten\.md\)/,
+    );
+  });
+
+  it('does not count a prose line starting with a number and a dot as a Method step', () => {
+    taxonomy(`
+- slug: prose-number
+  title: Prose Number
+  category: sales
+  description: a
+  tools: [Read]
+`);
+    const body = makeBody({ bullets: 6, steps: 7, rolePad: 25 }).replace(
+      '\n\n# Output',
+      '\n2024. was a year this sentence starts a wrapped line.\n\n# Output',
+    );
+    agentWithBody('sales', 'prose-number', 'a', body);
+    expect(validateLibrary(root, { complete: false }).errors).toEqual([]);
+  });
+
+  it('reports Method steps that are not numbered 1..n in order', () => {
+    taxonomy(`
+- slug: all-ones
+  title: All Ones
+  category: sales
+  description: a
+  tools: [Read]
+`);
+    const body = makeBody({ bullets: 6, steps: 5, rolePad: 25 }).replace(/^\d+\. /gm, '1. ');
+    agentWithBody('sales', 'all-ones', 'a', body);
+    expect(validateLibrary(root, { complete: false }).errors.join('\n')).toMatch(
+      /all-ones.*"Method" steps must be numbered 1-5 in order — found 1, 1, 1, 1, 1/,
+    );
+  });
+
+  it('reports an agent file whose frontmatter name differs from its filename', () => {
+    taxonomy(`
+- slug: right-name
+  title: Right Name
+  category: sales
+  description: a
+  tools: [Read]
+`);
+    agent('sales', 'right-name', 'a');
+    const file = join(root, 'agents', 'sales', 'right-name.md');
+    writeFileSync(file, readFileSync(file, 'utf8').replace('name: right-name', 'name: wrong-name'));
+    expect(validateLibrary(root, { complete: false }).errors.join('\n')).toMatch(
+      /frontmatter name "wrong-name" does not match filename "right-name"/,
+    );
+  });
+
+  it('reports an unreadable agent file instead of crashing', () => {
+    taxonomy(`[]`);
+    mkdirSync(join(root, 'agents', 'sales'), { recursive: true });
+    const loop = join(root, 'agents', 'sales', 'loop.md');
+    symlinkSync(loop, loop);
+    let result: ReturnType<typeof validateLibrary> | undefined;
+    expect(() => {
+      result = validateLibrary(root, { complete: false });
+    }).not.toThrow();
+    expect(result!.errors.join('\n')).toMatch(/loop\.md: unreadable/);
+  });
+
+  it('reports a pack with a missing agents list, unknown keys, or duplicates', () => {
+    taxonomy(`
+- slug: customer-getter
+  title: Customer Getter
+  category: sales
+  description: Finds and lands new customers.
+  tools: [Read]
+`);
+    agent('sales', 'customer-getter', 'Finds and lands new customers.');
+    writeFileSync(join(root, 'packs', 'typo.yaml'), 'name: Typo\nagent:\n  - customer-getter\n');
+    writeFileSync(join(root, 'packs', 'empty.yaml'), 'name: Empty\nagents: []\n');
+    writeFileSync(join(root, 'packs', 'dupe.yaml'), 'name: Dupe\nagents:\n  - customer-getter\n  - customer-getter\n');
+    writeFileSync(join(root, 'packs', 'wrong-ext.yml'), 'name: Ext\nagents:\n  - customer-getter\n');
+    const message = validateLibrary(root, { complete: false }).errors.join('\n');
+    expect(message).toMatch(/packs\/typo\.yaml: unknown key "agent"/);
+    expect(message).toMatch(/packs\/typo\.yaml: "agents" must be a list/);
+    expect(message).toMatch(/packs\/empty\.yaml: "agents" is empty/);
+    expect(message).toMatch(/packs\/dupe\.yaml: lists "customer-getter" more than once/);
+    expect(message).toMatch(/packs\/wrong-ext\.yml: pack files must use the \.yaml extension/);
   });
 });

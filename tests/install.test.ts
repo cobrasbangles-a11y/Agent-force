@@ -173,4 +173,34 @@ describe('installAgents', () => {
     expect(existsSync(join(dest, 'overseer.md'))).toBe(true);
     expect(readFileSync(join(dest, 'overseer.md'), 'utf8')).toContain('name: overseer');
   });
+
+  it('refuses a destination inside the library agents/ folder, leaving the source intact', () => {
+    const source = join(root, 'agents', 'sales', 'customer-getter.md');
+    const before = readFileSync(source, 'utf8');
+    for (const target of [join(root, 'agents', 'sales'), join(root, 'agents'), join(root, 'agents', 'new-sub')]) {
+      expect(() => installAgents(root, { agents: ['customer-getter'], dest: target, force: true })).toThrow(
+        /inside the library's agents\/ folder/,
+      );
+      expect(() =>
+        installAgents(root, { agents: ['customer-getter'], dest: target, force: true, symlink: true }),
+      ).toThrow(InstallError);
+    }
+    expect(lstatSync(source).isSymbolicLink()).toBe(false);
+    expect(readFileSync(source, 'utf8')).toBe(before);
+    expect(existsSync(join(root, 'agents', 'new-sub'))).toBe(false);
+  });
+
+  it('refuses a symlinked destination that resolves into agents/', () => {
+    const link = join(dest, 'sneaky');
+    symlinkSync(join(root, 'agents', 'sales'), link);
+    expect(() => installAgents(root, { agents: ['customer-getter'], dest: link, force: true })).toThrow(
+      /inside the library's agents\/ folder/,
+    );
+    expect(existsSync(join(root, 'agents', 'sales', 'customer-getter.md'))).toBe(true);
+  });
+
+  it('throws on a pack that lists no agents', () => {
+    writeFileSync(join(root, 'packs', 'empty.yaml'), 'name: Empty\nagents: []\n');
+    expect(() => installAgents(root, { pack: 'empty', dest })).toThrow(/lists no agents/);
+  });
 });

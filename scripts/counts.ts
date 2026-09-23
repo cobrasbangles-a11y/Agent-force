@@ -1,19 +1,12 @@
-import { loadTaxonomy } from './lib/taxonomy.js';
+import { validateLibrary, SPECIALIST_TOTAL } from './lib/validate.js';
 import { CATEGORY_SLUGS, OVERSEER_CATEGORY } from './lib/categories.js';
 
-const root = process.cwd();
-const entries = loadTaxonomy(`${root}/data/taxonomy.yaml`);
+// Authored files on disk against taxonomy entries, per category.
+const result = validateLibrary(process.cwd(), { complete: false });
 
-const byCategory: Record<string, number> = {};
-for (const entry of entries) {
-  byCategory[entry.category] = (byCategory[entry.category] ?? 0) + 1;
-}
-
-const overseerCount = byCategory[OVERSEER_CATEGORY] ?? 0;
-console.log(`${OVERSEER_CATEGORY} ${overseerCount}/1`);
-
+console.log(`${OVERSEER_CATEGORY} ${result.overseerAuthored ? 1 : 0}/1`);
 for (const slug of CATEGORY_SLUGS) {
-  console.log(`${slug} ${byCategory[slug] ?? 0}/40`);
+  const bucket = result.byCategory[slug]!;
+  console.log(`${slug} ${bucket.authored}/${bucket.total}`);
 }
-
-console.log(`\ntotal: ${entries.length} / 1001`);
+console.log(`\nauthored: ${result.authored + (result.overseerAuthored ? 1 : 0)} / ${SPECIALIST_TOTAL + 1}`);
