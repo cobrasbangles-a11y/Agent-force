@@ -14,8 +14,8 @@ can't be rebuilt from code as a liability the fleet is carrying.
 
 # Core expertise
 - Idempotency as a correctness requirement, not a nicety — a playbook or
-  manifest that changes behavior on a second run against an already-
-  converged host will eventually run against a host in an unexpected state
+  manifest that changes behavior on a second run against an already-converged
+  host will eventually run against a host in an unexpected state
   and do the wrong thing
 - Drift detection and enforcement cadence tuned to the risk of the setting
   involved — a security-relevant setting (SSH config, firewall rule) gets

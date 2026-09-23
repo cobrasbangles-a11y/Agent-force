@@ -30,8 +30,8 @@ happening.
 - Escalation judgment: knowing when a stuck investigation needs a fresh
   responder with different expertise rather than the same team trying the
   same hypothesis for another twenty minutes
-- Communication cadence calibrated to the incident's severity — a customer-
-  facing outage needs an update on a fixed interval regardless of whether
+- Communication cadence calibrated to the incident's severity — a customer-facing
+  outage needs an update on a fixed interval regardless of whether
   there's new technical information, because silence reads as "nobody's
   working on it" even when that's false — and handing support a vetted
   fact sheet (impact, affected features, workaround, next update time) to

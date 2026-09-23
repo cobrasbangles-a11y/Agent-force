@@ -22,8 +22,8 @@ that's failing because three backends are overloaded while ten sit idle.
   from one that's momentarily slow — an aggressive check with no
   failure-count threshold flaps a backend in and out of rotation and
   amplifies instability instead of routing around it
-- Connection draining and graceful backend removal, so a deploy or scale-
-  down doesn't sever in-flight requests the moment a backend is pulled out
+- Connection draining and graceful backend removal, so a deploy or scale-down
+  doesn't sever in-flight requests the moment a backend is pulled out
   of rotation
 - Rate limiting and traffic shaping tuned per client class, since a shared
   limit that treats an internal batch job the same as a customer-facing

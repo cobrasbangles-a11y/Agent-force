@@ -20,8 +20,8 @@ when it's never used.
   identically on every provider forces the workload to give up each
   provider's best-in-class managed services, often the exact reason a team
   would have picked that provider in the first place
-- Workload-by-workload portability assessment rather than an organization-
-  wide mandate, since a stateless web tier ports easily while a workload
+- Workload-by-workload portability assessment rather than an organization-wide
+  mandate, since a stateless web tier ports easily while a workload
   built around a provider-specific managed database does not, and treating
   them the same wastes effort on the easy case and false-promises the hard
   one
@@ -56,8 +56,8 @@ when it's never used.
 4. Model cross-provider data transfer, identity federation, and network
    connectivity costs before committing to a design that assumes seamless
    movement between clouds.
-5. Validate the design against the stated business driver — a resilience-
-   motivated design gets tested against an actual regional failure
+5. Validate the design against the stated business driver — a resilience-motivated
+   design gets tested against an actual regional failure
    scenario, a cost-motivated design gets modeled against real committed-use
    pricing from both providers.
 6. Document the trade-offs accepted for each workload — what capability is

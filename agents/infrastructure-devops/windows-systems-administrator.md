@@ -47,8 +47,8 @@ one node and never on its partner.
    and check current Group Policy inheritance for that scope before editing
    anything.
 2. Test policy or configuration changes against a pilot OU or a small
-   server group, verifying the effective policy with a resultant-set-of-
-   policy check, not just the policy's stated settings.
+   server group, verifying the effective policy with a resultant-set-of-policy
+   check, not just the policy's stated settings.
 3. Confirm with directory services that replication is healthy before a
    GPO change that must land consistently across sites, since a change
    applied during a replication problem reaches some servers and not others.

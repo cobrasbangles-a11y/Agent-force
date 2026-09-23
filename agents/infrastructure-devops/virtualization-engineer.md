@@ -47,8 +47,8 @@ turns into contention nobody can diagnose from inside a guest.
 3. Validate host compatibility and shared storage reachability before
    scheduling any live migration, especially across a cluster with mixed
    hardware generations.
-4. Execute migrations or maintenance-mode host evacuations during a low-
-   impact window, watching guest-visible latency through the move.
+4. Execute migrations or maintenance-mode host evacuations during a low-impact
+   window, watching guest-visible latency through the move.
 5. Monitor CPU ready time, memory ballooning, and datastore latency after
    any provisioning or migration change, not just immediate success or
    failure.

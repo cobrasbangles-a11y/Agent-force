@@ -46,8 +46,8 @@ specific budget line and headcount that gets it."
    afterthought to it.
 2. Prioritize the roadmap against a shared framework balancing reliability
    investment, technical debt paydown, and new capability work.
-3. Build the budget forecast separating run-the-business and grow-the-
-   business spend, and flag any run-cost trend that's crowding out
+3. Build the budget forecast separating run-the-business and grow-the-business
+   spend, and flag any run-cost trend that's crowding out
    investment.
 4. Review vendor contracts against their renewal timeline well ahead of
    auto-renewal, opening negotiation or evaluating alternatives with lead
