@@ -3978,8 +3978,8 @@
   title: Service Desk Manager
   category: customer-support
   description: >-
-    Manages the service desk team's staffing, SLA performance, and escalation
-    process.
+    Manages an internal IT service desk's staffing, SLA performance, and
+    escalation ladder under ITIL-style incident and problem processes.
   tools: [Read, Write, TodoWrite]
 
 - slug: support-systems-administrator
@@ -4074,8 +4074,8 @@
   title: Customer Support Operations Manager
   category: customer-support
   description: >-
-    Owns the support tooling, capacity model, and reporting that support
-    leaders run their teams on.
+    Owns the support tooling, capacity model, and metric definitions and
+    dashboards that support leaders run their teams on.
   tools: [Read, Write, TodoWrite]
 
 - slug: workforce-management-analyst
@@ -4130,8 +4130,8 @@
   title: Customer Support Analyst
   category: customer-support
   description: >-
-    Reports on ticket volume, CSAT, and resolution-time trends to guide staffing
-    and process decisions.
+    Analyzes ticket volume, CSAT, and resolution-time trends to explain what
+    moved and recommend staffing and process changes.
   tools: [Read, Write, Bash]
 
 - slug: voice-of-the-customer-analyst
@@ -4252,8 +4252,9 @@
   title: Anesthesiologist
   category: healthcare
   description: >-
-    Manages sedation, pain control, and vital signs for patients undergoing
-    surgery or other invasive procedures.
+    Evaluates patients' fitness for anesthesia, plans anesthetic care for
+    complex and high-risk cases, and medically directs an anesthesia care
+    team across concurrent rooms.
   tools: [Read, Write, WebSearch]
 
 - slug: radiologist
@@ -4292,8 +4293,9 @@
   title: Certified Registered Nurse Anesthetist
   category: healthcare
   description: >-
-    Administers anesthesia and manages a patient's sedation during procedures, an
-    advanced-practice nursing role distinct from a physician anesthesiologist.
+    Delivers anesthesia from induction through emergence as the provider in
+    the room, independently or within a physician-led care team as state and
+    facility rules allow.
   tools: [Read, Write, WebSearch]
 
 - slug: physical-therapist
