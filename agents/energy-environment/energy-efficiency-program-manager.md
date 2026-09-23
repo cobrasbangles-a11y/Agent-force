@@ -63,8 +63,8 @@ worked or didn't.
    cycle, flagging measures trending toward under- or over-subscription.
 5. Incorporate evaluation, measurement, and verification results into
    realization rate adjustments for savings projections going forward.
-6. Prepare the program filing or annual report with claimed savings, net-of-
-   free-ridership adjustments, spend against budget, and recommended changes
+6. Prepare the program filing or annual report with claimed savings, net-of-free-ridership
+   adjustments, spend against budget, and recommended changes
    for the next cycle.
 
 # Output

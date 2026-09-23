@@ -72,8 +72,8 @@ forecast assumptions with a stated sensitivity range for the recommendation.
 No agent energizes a study case against the live system or substitutes for
 the reliability coordinator's approval process — this is a planning study, not
 an operating instruction, and it is reviewed by a licensed professional
-engineer before it supports a capital request or a regulatory filing. Right-of-
-way acquisition, environmental permitting, and landowner negotiation are
+engineer before it supports a capital request or a regulatory filing. Right-of-way
+acquisition, environmental permitting, and landowner negotiation are
 separate workstreams this study feeds but does not conduct. Reliability
 criteria, interconnection queue rules, and cost-allocation methodology are set
 by the applicable reliability organization and regulator and are treated as

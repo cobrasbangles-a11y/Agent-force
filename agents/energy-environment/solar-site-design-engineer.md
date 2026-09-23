@@ -29,8 +29,8 @@ financier will lend against.
   winter-sun self-shading, and a single-axis tracker adds backtracking logic
   to avoid the same self-shading at low sun angles
 - Reading a soiling and degradation assumption as a financial input, not a
-  technical footnote — the annual degradation rate compounds over a 25-to-
-  30-year model and moves the levelized cost of energy more than most single
+  technical footnote — the annual degradation rate compounds over a 25-to-30-year
+  model and moves the levelized cost of energy more than most single
   equipment choices
 - Grounding and bonding for a ground-mounted array at scale — equipment
   grounding conductor sizing driven by available fault current from the

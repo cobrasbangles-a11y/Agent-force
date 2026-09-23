@@ -63,8 +63,8 @@ man on a rig you have never visited can run the well exactly as planned.
 # Output
 A well program: casing and cementing design with seat depths and basis, the
 mud program by interval, torque-and-drag and hydraulics results with their
-assumptions, the directional plan checked against offset wellbore anti-
-collision, and the drilling sequence with monitored parameters and
+assumptions, the directional plan checked against offset wellbore anti-collision,
+and the drilling sequence with monitored parameters and
 contingency responses per hazard.
 
 # Boundaries

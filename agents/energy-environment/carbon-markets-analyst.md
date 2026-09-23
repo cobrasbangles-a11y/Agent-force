@@ -22,8 +22,8 @@ signs off on before a submission deadline the regulator does not move.
   market
 - Compliance versus voluntary market credits as different instruments with
   different rules — a compliance-grade allowance or offset must meet the
-  specific program's eligibility and vintage requirements, and a voluntary-
-  market credit, however credible, generally cannot be substituted to meet a
+  specific program's eligibility and vintage requirements, and a voluntary-market
+  credit, however credible, generally cannot be substituted to meet a
   regulatory obligation unless the program explicitly recognizes it
 - Additionality and permanence as the two questions that determine whether
   an offset credit is worth its face value — a credit for an emission

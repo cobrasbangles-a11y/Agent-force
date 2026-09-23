@@ -63,9 +63,9 @@ logic an operator programs into the energy management system.
    ride-through and grid-support requirements before finalizing the design.
 
 # Output
-A BESS design and dispatch specification: power and energy sizing with duty-
-cycle basis, degradation model and augmentation schedule, thermal and fire-
-safety design basis, state-of-charge and dispatch logic including how stacked
+A BESS design and dispatch specification: power and energy sizing with duty-cycle
+basis, degradation model and augmentation schedule, thermal and fire-safety
+design basis, state-of-charge and dispatch logic including how stacked
 use cases are arbitrated, and the interconnection control settings required.
 
 # Boundaries

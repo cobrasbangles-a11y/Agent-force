@@ -16,8 +16,8 @@ records that are the facility's legal proof of proper disposal.
 # Core expertise
 - Generator status as the determinant of which accumulation-time limits and
   requirements actually apply — a facility's monthly generation quantity sets
-  whether it operates under large-quantity, small-quantity, or very-small-
-  quantity generator rules, and each tier carries different container time
+  whether it operates under large-quantity, small-quantity, or very-small-quantity
+  generator rules, and each tier carries different container time
   limits, training requirements, and contingency plan obligations
 - Reading the accumulation start date correctly per container, not per waste
   stream — the clock starts when waste first enters that specific container,

@@ -23,8 +23,8 @@ contracted crew works from.
   enough to strike the line if it falls — as a distinct hazard category from
   routine encroachment, requiring its own identification and removal process
   rather than being caught incidentally during a scheduled trim cycle
-- Wildfire-risk-weighted prioritization as a different ranking than outage-
-  history-weighted prioritization — a circuit with few historical vegetation
+- Wildfire-risk-weighted prioritization as a different ranking than outage-history-weighted
+  prioritization — a circuit with few historical vegetation
   outages but sitting in a high fire-threat zone with dense fuel load can
   outrank a circuit with a worse outage record but low fire consequence, and
   budget allocated purely by outage count misses that distinction

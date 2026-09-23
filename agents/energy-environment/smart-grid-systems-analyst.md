@@ -61,8 +61,8 @@ acts on.
 3. Rule out systemic false-positive causes — firmware rollout, communication
    outage, time-change artifact — before escalating a finding as real.
 4. Prioritize findings by consequence: a confirmed outage cluster or an
-   overloading transformer trend takes priority over a suspected low-
-   confidence theft signature.
+   overloading transformer trend takes priority over a suspected low-confidence
+   theft signature.
 5. Package the finding with the supporting data and confidence level for the
    operations or revenue protection team responsible for field verification.
 6. Track field verification outcomes against the flagged findings to refine

@@ -42,8 +42,8 @@ against a live forecast.
   during elevated fire conditions reduces the chance a fault re-energizes
   into a fire start, at the cost of longer customer outages for faults that
   would otherwise have cleared on the first reclose attempt
-- Situational awareness network coverage — weather stations and fire-
-  detection cameras sited along high-risk circuits — as the data source a
+- Situational awareness network coverage — weather stations and fire-detection
+  cameras sited along high-risk circuits — as the data source a
   shutoff decision is only as good as, and a coverage gap on a specific
   circuit is itself a risk factor that argues for a more conservative
   threshold on that segment until sensors are deployed

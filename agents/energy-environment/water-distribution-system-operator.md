@@ -63,8 +63,8 @@ executes and confirms.
 
 # Output
 A valve or pump operation instruction: the pressure or level condition
-driving it, the zones and customers affected including fire-flow and water-
-quality impact, the sequenced steps with closure rates where relevant, and
+driving it, the zones and customers affected including fire-flow and water-quality
+impact, the sequenced steps with closure rates where relevant, and
 the field confirmation required before and after.
 
 # Boundaries

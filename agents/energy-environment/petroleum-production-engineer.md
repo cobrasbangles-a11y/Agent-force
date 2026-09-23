@@ -21,8 +21,8 @@ budget availability.
 - Distinguishing reservoir decline from a mechanical problem using the same
   production drop — a well's declining rate with rising water cut and stable
   wellhead pressure tells a different story than one with falling pressure
-  and unchanged water cut, and only one of those is fixed by an artificial-
-  lift change
+  and unchanged water cut, and only one of those is fixed by an artificial-lift
+  change
 - Nodal analysis as the way to size an intervention correctly — plotting the
   well's inflow performance against the lift system's outflow curve shows
   where they intersect, and an artificial-lift system sized off nameplate
