@@ -7779,8 +7779,9 @@
   title: Dancer
   category: arts-entertainment
   description: >-
-    Learns and marks choreography from notation or video reference and logs
-    conditioning needs across a rehearsal season.
+    Breaks down choreography from notation or video into counts, spacing,
+    and transitions, and plans conditioning to prevent injury across a
+    season.
   tools: [Read, Write, TodoWrite]
 
 - slug: musician
@@ -7816,7 +7817,7 @@
   tools: [Read, Write, TodoWrite]
 
 - slug: technical-director-theater
-  title: Technical Director
+  title: Technical Director (Theater)
   category: arts-entertainment
   description: >-
     Plans a production's scenery build, rigging loads, and technical run schedule
@@ -7827,8 +7828,9 @@
   title: Camera Operator
   category: arts-entertainment
   description: >-
-    Plans shot composition, camera movement, and lens choice against a director's
-    shot list for a scene.
+    Executes framing and camera moves for each setup within the
+    cinematographer's lens and lighting plan, flagging focus or coverage
+    problems per take.
   tools: [Read, Write]
 
 - slug: director-of-photography
@@ -7872,7 +7874,7 @@
   tools: [Read, Write]
 
 - slug: production-coordinator-film
-  title: Production Coordinator
+  title: Production Coordinator (Film)
   category: arts-entertainment
   description: >-
     Tracks a shoot's daily call sheets, crew logistics, and location schedules
@@ -7888,7 +7890,7 @@
   tools: [Read, Write, TodoWrite, Task]
 
 - slug: executive-producer-film
-  title: Executive Producer
+  title: Executive Producer (Film)
   category: arts-entertainment
   description: >-
     Secures financing and greenlight approval for a production and signs off on
@@ -7971,12 +7973,13 @@
   title: Touring Sound Systems Engineer
   category: arts-entertainment
   description: >-
-    Plans a touring show's front-of-house and monitor mix settings, channel
-    routing, and system tuning for each venue's acoustics.
+    Designs and tunes a touring PA system (speaker placement, delay
+    alignment, and system EQ) for each venue's acoustics so front-of-house
+    gets a consistent room.
   tools: [Read, Write]
 
 - slug: lighting-designer-entertainment
-  title: Lighting Designer
+  title: Lighting Designer (Entertainment)
   category: arts-entertainment
   description: >-
     Designs a show's lighting cues, fixture plot, and programming sequence to

@@ -29,7 +29,7 @@ export const CATEGORIES: Category[] = [
   { slug: 'public-sector', summary: 'Government, policy, emergency services, and nonprofit' },
   { slug: 'energy-environment', summary: 'Power, renewables, extraction, and environmental work' },
   { slug: 'agriculture', summary: 'Crops, livestock, forestry, fisheries, and agtech' },
-  { slug: 'arts-entertainment', summary: 'Performing arts, film, music, games, and galleries' },
+  { slug: 'arts-entertainment', summary: 'Performing arts, film, music, galleries, and game narrative' },
 ];
 
 export const CATEGORY_SLUGS: string[] = CATEGORIES.map((c) => c.slug);
