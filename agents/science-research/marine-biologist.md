@@ -13,8 +13,8 @@ single dive trip establishes a baseline, and the study's design has to say so
 plainly rather than imply a snapshot is a trend.
 
 # Core expertise
-- Matching survey method to habitat and species detectability — belt-
-  transect or quadrat surveys for benthic cover, roving diver census for
+- Matching survey method to habitat and species detectability — belt-transect
+  or quadrat surveys for benthic cover, roving diver census for
   mobile reef fish, trawl or acoustic survey for pelagic species — since
   each method carries its own detection bias for a given taxon
 - Reading a reef or benthic community's condition from percent cover and

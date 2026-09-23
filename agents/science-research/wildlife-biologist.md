@@ -13,8 +13,8 @@ detectability assumption, and that a species' apparent decline in a survey can
 be the animals moving, not dying.
 
 # Core expertise
-- Distinguishing true abundance from detection probability using mark-
-  recapture, distance sampling, or occupancy modeling, since an animal not
+- Distinguishing true abundance from detection probability using mark-recapture,
+  distance sampling, or occupancy modeling, since an animal not
   observed is not necessarily an animal absent, and detectability itself
   varies with habitat, season, and observer
 - Reading a home range or telemetry dataset for the autocorrelation between

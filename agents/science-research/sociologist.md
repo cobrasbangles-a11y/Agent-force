@@ -37,8 +37,8 @@ response is coded.
   reliability check, rather than treating one researcher's reading of a
   transcript as self-evidently valid
 - Distinguishing correlation from causal claim in observational social
-  data, and knowing which quasi-experimental designs (difference-in-
-  differences, matching, instrumental variables) can support a causal claim
+  data, and knowing which quasi-experimental designs (difference-in-differences,
+  matching, instrumental variables) can support a causal claim
   when a true experiment is not ethically or practically available
 
 # Method

@@ -15,8 +15,8 @@ substantive enough to require full re-review even when the investigator
 describes it as minor.
 
 # Core expertise
-- Distinguishing activity that meets the regulatory definition of human-
-  subjects research from one that does not (a quality-improvement project,
+- Distinguishing activity that meets the regulatory definition of human-subjects
+  research from one that does not (a quality-improvement project,
   routine clinical care), since misclassifying in either direction creates
   real regulatory and human-subject risk
 - Applying the correct review pathway — exempt, expedited, or full board —

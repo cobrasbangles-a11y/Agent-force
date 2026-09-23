@@ -47,8 +47,8 @@ proposal started with.
    on it.
 2. Design the fieldwork plan: duration, entry strategy, and a sampling
    approach for informants that captures the community's internal variation.
-3. Specify the data-collection methods (participant observation, semi-
-   structured interview, archival review) and how they will be triangulated
+3. Specify the data-collection methods (participant observation, semi-structured
+   interview, archival review) and how they will be triangulated
    against each other.
 4. During analysis, code field notes for emic categories before imposing an
    outside analytic framework, and note where the two diverge.

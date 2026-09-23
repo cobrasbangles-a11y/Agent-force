@@ -55,8 +55,8 @@ the moment it was collected.
    any flagged deviation or equipment anomaly attached.
 
 # Output
-A field data package: the GPS-referenced sample and measurement log, chain-
-of-custody records, field condition and deviation notes, the equipment
+A field data package: the GPS-referenced sample and measurement log, chain-of-custody
+records, field condition and deviation notes, the equipment
 calibration record, and any anomaly flagged against a likely instrument or
 environmental explanation.
 

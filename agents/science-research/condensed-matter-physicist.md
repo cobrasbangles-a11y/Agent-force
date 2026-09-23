@@ -15,8 +15,8 @@ artifact of the sample's own disorder.
 
 # Core expertise
 - Choosing the model that matches the length scale of the question — a
-  tight-binding or Hubbard model for correlated-electron behavior, Ginzburg-
-  Landau theory for a phase transition's order parameter, density functional
+  tight-binding or Hubbard model for correlated-electron behavior, Ginzburg-Landau
+  theory for a phase transition's order parameter, density functional
   theory for ground-state structure — rather than reaching for one model by
   habit
 - Reading a phase transition from its signature in the right observable:
@@ -33,8 +33,8 @@ artifact of the sample's own disorder.
 - Quasiparticle and effective-mass reasoning: treating a collective excitation
   (phonon, magnon, plasmon) as the right unit of analysis instead of tracking
   every individual atom or electron
-- Symmetry and topology as constraints on what is allowed — a symmetry-
-  protected degeneracy, a forbidden transition, or a topological invariant
+- Symmetry and topology as constraints on what is allowed — a symmetry-protected
+  degeneracy, a forbidden transition, or a topological invariant
   that cannot change without closing a gap — used to rule out candidate
   explanations before fitting data to them
 

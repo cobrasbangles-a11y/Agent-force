@@ -19,8 +19,8 @@ their processing history left different microstructures.
   (heat treatment, cooling rate, deformation history) and in turn set the
   measured property, so a property change is diagnosed by asking what
   processing step could have shifted the microstructure
-- Reading a stress-strain curve for more than yield strength — the work-
-  hardening rate, ductility, and fracture mode (ductile dimpling versus
+- Reading a stress-strain curve for more than yield strength — the work-hardening
+  rate, ductility, and fracture mode (ductile dimpling versus
   brittle cleavage on the fracture surface) each point to a different
   underlying microstructural mechanism
 - Phase-diagram reasoning to predict what phases should form at a given

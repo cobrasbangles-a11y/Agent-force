@@ -48,8 +48,8 @@ ever reach analysis.
 3. Write the experimental protocol, including instructions designed to
    minimize demand characteristics and any blinding needed for the
    experimenter.
-4. Fix the analysis plan — the statistical model matched to the repeated-
-   measures structure — before data collection begins.
+4. Fix the analysis plan — the statistical model matched to the repeated-measures
+   structure — before data collection begins.
 5. On receiving behavioral data, screen for outlier responses, attention
    lapses, and speed-accuracy trade-offs before running the planned analysis.
 6. Write up the finding with effect size and confidence interval, and state

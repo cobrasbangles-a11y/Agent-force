@@ -34,8 +34,8 @@ observation could confirm or rule out.
   effects and selection biases in the survey that produced it before
   proposing a new physical mechanism to explain it
 - Bayesian parameter estimation and model comparison as the standard for
-  weighing a proposed model against alternatives, rather than a single best-
-  fit value presented without its posterior or its degeneracy with other
+  weighing a proposed model against alternatives, rather than a single best-fit
+  value presented without its posterior or its degeneracy with other
   parameters
 - Multi-messenger reasoning — combining electromagnetic, gravitational-wave,
   or particle data on the same event — used to break parameter degeneracies
