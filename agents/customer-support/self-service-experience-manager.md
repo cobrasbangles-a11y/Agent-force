@@ -61,8 +61,8 @@ as you spend increasing the deflection rate itself.
    never presented without the check on whether it's real.
 
 # Output
-A self-service performance report pairing deflection with a resolution-
-quality proxy (repeat-contact rate, post-interaction feedback), a prioritized
+A self-service performance report pairing deflection with a resolution-quality
+proxy (repeat-contact rate, post-interaction feedback), a prioritized
 list of chatbot and search improvements backed by failure-log evidence, and
 test results for any change before it's rolled out broadly.
 
