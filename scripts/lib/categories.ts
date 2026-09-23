@@ -17,7 +17,7 @@ export const CATEGORIES: Category[] = [
   { slug: 'finance', summary: 'Accounting, FP&A, treasury, tax, and investment' },
   { slug: 'hr-people', summary: 'Recruiting, HR ops, L&D, compensation, employee relations' },
   { slug: 'operations', summary: 'Business operations, program management, quality, process' },
-  { slug: 'customer-support', summary: 'Support, success, onboarding, and community' },
+  { slug: 'customer-support', summary: 'Support, success, onboarding, and escalations' },
   { slug: 'healthcare', summary: 'Clinical, allied health, diagnostics, and health administration' },
   { slug: 'science-research', summary: 'Physical, life, earth, and social sciences research' },
   { slug: 'education', summary: 'Teaching, curriculum, instructional design, and administration' },

@@ -4059,8 +4059,8 @@
   title: Customer Support Operations Manager
   category: customer-support
   description: >-
-    Manages the tools, staffing model, and reporting that keep the support
-    organization running efficiently.
+    Owns the support tooling, capacity model, and reporting that support
+    leaders run their teams on.
   tools: [Read, Write, TodoWrite]
 
 - slug: workforce-management-analyst
@@ -4123,8 +4123,9 @@
   title: Voice of the Customer Analyst
   category: customer-support
   description: >-
-    Synthesizes themes from support tickets and surveys into insights the product
-    team can act on.
+    Maintains the ticket tagging taxonomy and contact-driver analysis that
+    shows which issues generate support volume and where self-service could
+    deflect it.
   tools: [Read, Write, Bash]
 
 - slug: support-team-lead
@@ -4139,15 +4140,15 @@
   title: Support Manager
   category: customer-support
   description: >-
-    Manages a support team's staffing, performance, and metrics for a product line
-    or region.
+    Manages a support team's hiring, coaching, and performance metrics for a
+    product line or region.
   tools: [Read, Write, TodoWrite]
 
 - slug: director-of-support
   title: Director of Support
   category: customer-support
   description: >-
-    Sets support strategy, staffing model, and tooling roadmap across every
+    Sets support strategy, channel mix, and tooling roadmap across every
     support team.
   tools: [Read, Write, TodoWrite]
 

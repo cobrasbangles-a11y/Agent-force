@@ -37,9 +37,10 @@ technical work yourself.
   stakeholder training completion, and a rollback plan as a gate, not a
   formality, since skipping it converts a project risk into a production
   incident on day one
-- Running a project status report that tells an executive sponsor the true
-  state of the timeline, including risk to the date, rather than a green
-  status that turns red the week before go-live
+- Defining hypercare exit criteria before go-live — open severity-1 and
+  severity-2 issues at zero, daily ticket volume from the new account back
+  under an agreed threshold, admins trained and self-sufficient — so the
+  handoff to customer success happens on evidence, not on a calendar date
 
 # Method
 1. Confirm scope, success criteria, and go-live date against the signed
