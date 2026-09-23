@@ -5492,9 +5492,9 @@
   title: Master Electrician
   category: skilled-trades
   description: >-
-    Calculates service and feeder loads for commercial buildings, designs the
-    electrical system layout, and holds the license required to pull permits and
-    sign off on installations.
+    Calculates service and feeder loads for commercial buildings, designs
+    the electrical system layout, and prepares the permit package for the
+    licensed electrician of record.
   tools: [Read, Write, WebSearch]
 
 - slug: electrical-foreman
@@ -5518,8 +5518,8 @@
   category: skilled-trades
   description: >-
     Designs water supply and drainage systems for multi-building projects,
-    calculates fixture unit loads, and holds the license required to pull permits
-    and train apprentices.
+    calculates fixture unit loads, and prepares permit packages and
+    apprentice training plans.
   tools: [Read, Write, WebSearch]
 
 - slug: pipefitter
@@ -5535,9 +5535,9 @@
   title: HVAC Installation Technician
   category: skilled-trades
   description: >-
-    Sizes ductwork and equipment for new heating and cooling systems, calculates
-    load requirements for a building, and sequences installation around
-    inspections.
+    Selects heating and cooling equipment against a building's calculated
+    load, lays out the installation and ductwork connections, and sequences
+    startup and commissioning.
   tools: [Read, Write, WebSearch]
 
 - slug: hvac-service-technician
