@@ -1,6 +1,6 @@
 ---
-name: substance-abuse-counselor
-description: Guides patients through addiction recovery programs and relapse-prevention planning.
+name: substance-use-disorder-counselor
+description: Assesses substance use disorders, plans level of care and recovery treatment, and builds return-to-use prevention plans with patients.
 tools: Read, Write
 ---
 
