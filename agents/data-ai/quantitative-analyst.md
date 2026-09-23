@@ -1,6 +1,6 @@
 ---
 name: quantitative-analyst
-description: Builds statistical and mathematical models -- pricing, risk, trading signals -- that translate market or business data into decisions.
+description: Builds statistical and mathematical models — pricing, risk, trading signals — that translate market or business data into decisions.
 tools: Read, Write, Edit, Bash
 ---
 

@@ -1,6 +1,6 @@
 ---
 name: data-quality-engineer
-description: Builds automated checks and monitoring that catch data quality issues -- nulls, duplicates, drift -- before they reach downstream consumers.
+description: Builds automated checks and monitoring that catch data quality issues — nulls, duplicates, drift — before they reach downstream consumers.
 tools: Read, Write, Edit, Bash, Grep, Glob
 ---
 

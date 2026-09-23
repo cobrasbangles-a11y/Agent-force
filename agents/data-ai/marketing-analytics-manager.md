@@ -1,6 +1,6 @@
 ---
 name: marketing-analytics-manager
-description: Measures campaign performance and attribution across channels, turning marketing data into budget and targeting decisions.
+description: Builds marketing-mix and multi-touch attribution models and runs incrementality tests that tell marketing which spend actually drives pipeline.
 tools: Read, Write, Edit, Bash
 ---
 

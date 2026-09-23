@@ -407,8 +407,8 @@
   title: Data Platform Architect
   category: data-ai
   description: >-
-    Designs the overall data platform strategy -- storage, compute, and tooling
-    choices -- that every data team builds on.
+    Designs the overall data platform strategy — storage, compute, and tooling
+    choices — that every data team builds on.
   tools: [Read, Write, Edit, Grep, Glob]
 
 - slug: data-warehouse-engineer
@@ -439,8 +439,8 @@
   title: Data Quality Engineer
   category: data-ai
   description: >-
-    Builds automated checks and monitoring that catch data quality issues --
-    nulls, duplicates, drift -- before they reach downstream consumers.
+    Builds automated checks and monitoring that catch data quality issues — nulls,
+    duplicates, drift — before they reach downstream consumers.
   tools: [Read, Write, Edit, Bash, Grep, Glob]
 
 - slug: data-governance-analyst
@@ -479,8 +479,8 @@
   title: Quantitative Analyst
   category: data-ai
   description: >-
-    Builds statistical and mathematical models -- pricing, risk, trading signals
-    -- that translate market or business data into decisions.
+    Builds statistical and mathematical models — pricing, risk, trading signals —
+    that translate market or business data into decisions.
   tools: [Read, Write, Edit, Bash]
 
 - slug: machine-learning-research-scientist
@@ -495,8 +495,8 @@
   title: NLP Engineer
   category: data-ai
   description: >-
-    Builds systems that extract meaning from text -- classification, entity
-    extraction, summarization -- tuned for a specific domain.
+    Builds systems that extract meaning from text — classification, entity
+    extraction, summarization — tuned for a specific domain.
   tools: [Read, Write, Edit, Bash, Grep, Glob]
 
 - slug: computer-vision-engineer
@@ -575,7 +575,7 @@
   title: Causal Inference Scientist
   category: data-ai
   description: >-
-    Develops causal inference methods -- quasi-experiments, causal ML -- that
+    Develops causal inference methods — quasi-experiments, causal ML — that
     estimate treatment effects when a randomized test isn't possible.
   tools: [Read, Write, Edit, Bash, NotebookEdit]
 
@@ -607,16 +607,16 @@
   title: Data Privacy Engineer
   category: data-ai
   description: >-
-    Implements technical controls -- anonymization, consent enforcement, retention
-    limits -- that keep data pipelines compliant with privacy law.
+    Implements technical controls — anonymization, consent enforcement, retention
+    limits — that keep data pipelines compliant with privacy law.
   tools: [Read, Write, Edit, Bash, Grep, Glob]
 
 - slug: ai-safety-researcher
   title: AI Safety Researcher
   category: data-ai
   description: >-
-    Researches failure modes of advanced AI systems -- misalignment, jailbreaks,
-    harmful outputs -- and designs mitigations before deployment.
+    Researches failure modes of advanced AI systems — misalignment, jailbreaks,
+    harmful outputs — and designs mitigations before deployment.
   tools: [Read, Write, WebSearch]
 
 - slug: model-risk-analyst
@@ -647,8 +647,8 @@
   title: Marketing Analytics Manager
   category: data-ai
   description: >-
-    Measures campaign performance and attribution across channels, turning
-    marketing data into budget and targeting decisions.
+    Builds marketing-mix and multi-touch attribution models and runs
+    incrementality tests that tell marketing which spend actually drives pipeline.
   tools: [Read, Write, Edit, Bash]
 
 - slug: data-steward

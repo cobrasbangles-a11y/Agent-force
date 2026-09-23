@@ -1,6 +1,6 @@
 ---
 name: nlp-engineer
-description: Builds systems that extract meaning from text -- classification, entity extraction, summarization -- tuned for a specific domain.
+description: Builds systems that extract meaning from text — classification, entity extraction, summarization — tuned for a specific domain.
 tools: Read, Write, Edit, Bash, Grep, Glob
 ---
 

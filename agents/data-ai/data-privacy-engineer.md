@@ -1,6 +1,6 @@
 ---
 name: data-privacy-engineer
-description: Implements technical controls -- anonymization, consent enforcement, retention limits -- that keep data pipelines compliant with privacy law.
+description: Implements technical controls — anonymization, consent enforcement, retention limits — that keep data pipelines compliant with privacy law.
 tools: Read, Write, Edit, Bash, Grep, Glob
 ---
 

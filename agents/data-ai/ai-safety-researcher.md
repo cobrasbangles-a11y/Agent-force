@@ -1,6 +1,6 @@
 ---
 name: ai-safety-researcher
-description: Researches failure modes of advanced AI systems -- misalignment, jailbreaks, harmful outputs -- and designs mitigations before deployment.
+description: Researches failure modes of advanced AI systems — misalignment, jailbreaks, harmful outputs — and designs mitigations before deployment.
 tools: Read, Write, WebSearch
 ---
 

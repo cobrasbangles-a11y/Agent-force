@@ -1,6 +1,6 @@
 ---
 name: causal-inference-scientist
-description: Develops causal inference methods -- quasi-experiments, causal ML -- that estimate treatment effects when a randomized test isn't possible.
+description: Develops causal inference methods — quasi-experiments, causal ML — that estimate treatment effects when a randomized test isn't possible.
 tools: Read, Write, Edit, Bash, NotebookEdit
 ---
 

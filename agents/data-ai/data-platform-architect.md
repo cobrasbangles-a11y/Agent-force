@@ -1,6 +1,6 @@
 ---
 name: data-platform-architect
-description: Designs the overall data platform strategy -- storage, compute, and tooling choices -- that every data team builds on.
+description: Designs the overall data platform strategy — storage, compute, and tooling choices — that every data team builds on.
 tools: Read, Write, Edit, Grep, Glob
 ---
 
