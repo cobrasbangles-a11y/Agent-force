@@ -4539,7 +4539,7 @@
     compliance and data collection for a clinical trial.
   tools: [Read, Write, TodoWrite]
 
-- slug: research-physicist
+- slug: applied-physicist
   title: Applied Physicist
   category: science-research
   description: >-

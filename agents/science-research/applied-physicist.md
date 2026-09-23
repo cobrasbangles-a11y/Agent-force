@@ -1,5 +1,5 @@
 ---
-name: research-physicist
+name: applied-physicist
 description: Applies physics to device, optics, or instrumentation problems in an industrial or national lab, from first model through prototype measurement.
 tools: Read, Write, Bash
 ---
