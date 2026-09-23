@@ -28,8 +28,8 @@ the ground rather than after.
   chain — a chain hoist, shackle, and truss each carry their own rated
   working load limit, and the whole system's safe capacity is set by its
   weakest rated component, not its strongest
-- Distinguishing a bridle's angle-derived load increase from its straight-
-  line weight — a bridle rigged at a sharp angle multiplies the load on
+- Distinguishing a bridle's angle-derived load increase from its straight-line
+  weight — a bridle rigged at a sharp angle multiplies the load on
   each leg well beyond the suspended weight's actual figure, and a rigger
   who calculates only the straight-line weight underrates the real load
   substantially

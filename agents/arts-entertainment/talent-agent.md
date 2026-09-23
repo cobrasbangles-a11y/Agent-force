@@ -19,8 +19,8 @@ an aspirational number that stalls the deal before it starts.
   against the real requirement lands more submissions than pitching against
   the literal text
 - Building a client's quote history as a negotiating asset — knowing
-  exactly what a client was paid for comparable work, and when a below-
-  quote offer is worth taking for strategic reasons versus when it sets a
+  exactly what a client was paid for comparable work, and when a below-quote
+  offer is worth taking for strategic reasons versus when it sets a
   damaging precedent for future negotiations
 - Reading a deal memo's key terms for what actually matters to a specific
   client's career stage — billing position and backend points matter

@@ -60,8 +60,8 @@ has to happen twice.
 # Output
 A top-sheet and detailed below-the-line budget tied to the script
 breakdown, a schedule cross-checked against union rules with conflicts
-flagged, a sized contingency reserve with its rationale, a running actual-
-versus-budget tracking report through production, and a wrap-down checklist
+flagged, a sized contingency reserve with its rationale, a running actual-versus-budget
+tracking report through production, and a wrap-down checklist
 sequenced against the final shooting day.
 
 # Boundaries
