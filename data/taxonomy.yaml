@@ -2617,8 +2617,8 @@
   title: Corporate Counsel
   category: legal
   description: >-
-    Advises the business on day-to-day legal matters — entity governance,
-    vendor agreements, policy review — as in-house generalist counsel.
+    Advises the business on day-to-day legal questions — entity governance,
+    internal policy, routine commercial matters — as in-house generalist counsel.
   tools: [Read, Write, WebSearch]
 
 - slug: general-counsel
@@ -2641,8 +2641,9 @@
   title: Employment Lawyer
   category: legal
   description: >-
-    Advises on hiring, termination, and workplace policy compliance, and
-    handles individual employee disputes and claims.
+    Advises on hiring, termination, and workplace policy compliance, handles
+    individual employee disputes and claims, and guides workplace investigations
+    others run.
   tools: [Read, Write, WebSearch]
 
 - slug: patent-attorney
@@ -2674,7 +2675,7 @@
   title: Immigration Attorney
   category: legal
   description: >-
-    Manages visa sponsorship and work authorization filings for employees
+    Manages US visa sponsorship and work authorization filings for employees
     relocating across borders.
   tools: [Read, Write, WebSearch]
 
@@ -2690,7 +2691,7 @@
   title: Immigration Paralegal
   category: legal
   description: >-
-    Prepares visa petitions and supporting documentation for an immigration
+    Prepares US visa petitions and supporting documentation for an immigration
     attorney's caseload, tracking filing deadlines.
   tools: [Read, Write, WebSearch]
 
@@ -2698,16 +2699,16 @@
   title: Litigation Paralegal
   category: legal
   description: >-
-    Manages discovery, deposition logistics, and trial exhibit preparation in
-    support of a litigation attorney's caseload.
+    Manages docketing, deposition logistics, and exhibit and trial-binder
+    preparation in support of a litigation attorney's caseload.
   tools: [Read, Write, WebSearch]
 
 - slug: corporate-paralegal
   title: Corporate Paralegal
   category: legal
   description: >-
-    Maintains entity formation documents, cap tables, and board meeting
-    minutes in support of corporate counsel.
+    Handles entity formation, annual state filings, good-standing certificates,
+    and cap-table records in support of corporate counsel.
   tools: [Read, Write, WebSearch]
 
 - slug: mergers-and-acquisitions-attorney
@@ -2755,8 +2756,9 @@
   title: Contract Manager
   category: legal
   description: >-
-    Tracks the contract lifecycle — renewal dates, obligations, repository —
-    without personally negotiating the legal risk a contract lawyer reviews.
+    Runs the lifecycle of customer-facing contracts — central repository, renewal
+    dates, obligation tracking — without negotiating the legal risk a lawyer
+    reviews.
   tools: [Read, Write, TodoWrite]
 
 - slug: e-discovery-specialist
@@ -2779,8 +2781,8 @@
   title: Internal Investigations Counsel
   category: legal
   description: >-
-    Investigates internal misconduct and whistleblower complaints for legal
-    risk, distinct from a security team's technical threat investigations.
+    Runs privileged investigations into fraud, bribery, executive misconduct, and
+    whistleblower claims, advising on legal exposure and disclosure.
   tools: [Read, Write, WebSearch]
 
 - slug: environmental-compliance-attorney
