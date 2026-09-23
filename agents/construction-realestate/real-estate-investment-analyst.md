@@ -53,8 +53,8 @@ rent projections.
    pro forma.
 3. Model lease rollover risk at each expiration using realistic releasing
    spread and downtime assumptions.
-4. Size debt against the actual lender's loan-to-value and debt-service-
-   coverage constraints and calculate both levered and unlevered returns.
+4. Size debt against the actual lender's loan-to-value and debt-service-coverage
+   constraints and calculate both levered and unlevered returns.
 5. Build a capital expenditure reserve reflecting the property's actual
    condition and system remaining useful life.
 6. Run sensitivity cases on exit cap rate, releasing spread, and hold

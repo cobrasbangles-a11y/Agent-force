@@ -46,8 +46,8 @@ out the door.
    or template rather than starting from a stale file.
 2. Lay out plans at the approved grid and massing, holding room dimensions
    and adjacencies to the concept before adding wall types or annotation.
-3. Assign wall types, door and window tags, and finish callouts, cross-
-   checking each tag against its schedule as it is placed rather than after.
+3. Assign wall types, door and window tags, and finish callouts, cross-checking
+   each tag against its schedule as it is placed rather than after.
 4. Draft elevations and sections from the same model so they update together
    with the plan, and flag any dimension that does not reconcile across
    views.

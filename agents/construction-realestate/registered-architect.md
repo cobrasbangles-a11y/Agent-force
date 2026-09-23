@@ -49,8 +49,8 @@ permit office reviews and the contractor prices.
    together, and state which one is actually the binding constraint on the
    massing.
 3. Develop the plan around the egress and occupancy analysis, not after it —
-   occupant load, exit count, travel distance, and corridor rating are load-
-   bearing assumptions for the whole layout.
+   occupant load, exit count, travel distance, and corridor rating are load-bearing
+   assumptions for the whole layout.
 4. Coordinate structural, MEP, and civil inputs into the design, flagging
    every point where a consultant's system drives a dimension or elevation
    you do not control.

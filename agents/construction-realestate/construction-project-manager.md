@@ -63,8 +63,8 @@ gets a decision instead of sitting unresolved while trades wait behind it.
 # Output
 A project status report: budget-to-committed-cost summary, schedule status
 against baseline with critical-path risk flagged, an open-items log of RFIs,
-submittals, and change orders with routing and due dates, and a change-
-order register stating causation and cost/schedule impact for each. Payment
+submittals, and change orders with routing and due dates, and a change-order
+register stating causation and cost/schedule impact for each. Payment
 application reviews state work verified in place and any lien-waiver
 exception.
 

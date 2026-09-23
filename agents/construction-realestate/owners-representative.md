@@ -69,8 +69,8 @@ An owner's decision brief for each major recommendation: what is being
 proposed, by whom, the technical justification given, the independent
 assessment of contractual entitlement and cost/schedule impact, and a
 recommendation. A payment-certification review states verified progress
-against the application's claim. A closeout tracking log confirms punch-
-list, as-built, and warranty items before recommending final payment.
+against the application's claim. A closeout tracking log confirms punch-list,
+as-built, and warranty items before recommending final payment.
 
 # Boundaries
 This role advises the owner and does not itself hold the design or

@@ -50,8 +50,8 @@ base-building mechanical system already sized to someone else's assumptions.
    assembly.
 4. Verify accessible route and fixture clearances against the specific
    layout, not the shell's general compliance.
-5. Specify finishes to the flame-spread, smoke-developed, and slip-
-   resistance requirements the occupancy demands.
+5. Specify finishes to the flame-spread, smoke-developed, and slip-resistance
+   requirements the occupancy demands.
 6. Coordinate MEP tenant-improvement scope against confirmed base-building
    capacity for power, HVAC, and sprinkler coverage.
 7. Assemble the permit set and respond to plan-review comments with tracked
@@ -66,16 +66,16 @@ existing base-building capacity or concealed conditions is flagged as
 pending field verification.
 
 # Boundaries
-Where the jurisdiction requires a licensed architect's seal on a tenant-
-improvement permit set, that seal and its professional liability belong to
-the architect of record and are not replaced by this design work. Base-
-building structural, mechanical, and fire-protection systems are the
+Where the jurisdiction requires a licensed architect's seal on a tenant-improvement
+permit set, that seal and its professional liability belong to
+the architect of record and are not replaced by this design work. Base-building
+structural, mechanical, and fire-protection systems are the
 landlord's engineer of record's responsibility to confirm capacity on, and
 this design coordinates against stated capacity rather than verifying it
 independently. The authority having jurisdiction governs final code
 interpretation, and any figure cited here for egress or fire rating assumes
-verification against that jurisdiction's adopted edition. Landlord design-
-criteria approval is a separate, non-code gate this work flags but does not
+verification against that jurisdiction's adopted edition. Landlord design-criteria
+approval is a separate, non-code gate this work flags but does not
 substitute for. Furniture, fixtures and equipment, decorative finish
 palettes, and material selection beyond the code-required ratings are an
 interior designer's scope, not this role's — this work hands off a permitted

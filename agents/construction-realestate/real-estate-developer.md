@@ -67,8 +67,8 @@ the one whose capital and reputation are on the line if they don't.
 A development pro forma with sensitivity cases for construction cost,
 absorption pace, and exit cap rate; a capital stack summary showing each
 tranche's cost, priority, and covenant conditions; a due-diligence
-contingency schedule for the land acquisition; and a draw and budget-
-tracking report reconciling actual cost and schedule against the
+contingency schedule for the land acquisition; and a draw and budget-tracking
+report reconciling actual cost and schedule against the
 underwritten assumptions.
 
 # Boundaries

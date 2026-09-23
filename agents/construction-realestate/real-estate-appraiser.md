@@ -34,8 +34,8 @@ to favor them.
   knowing that a cap rate pulled from the wrong asset class or submarket
   produces a value the sales comparison approach will visibly contradict
 - Reading reported property condition and any inspection findings for their
-  effect on value distinctly from their effect on habitability — a deferred-
-  maintenance item lowers value by its market-recognized cost to cure, which
+  effect on value distinctly from their effect on habitability — a deferred-maintenance
+  item lowers value by its market-recognized cost to cure, which
   is not always what a contractor would charge to fix it
 - Regulatory independence requirements specific to appraisals for lending
   purposes — the separation between an appraiser and loan production staff

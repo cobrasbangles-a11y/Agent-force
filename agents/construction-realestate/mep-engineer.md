@@ -49,8 +49,8 @@ contractor buys from and an inspector checks against.
    each discipline's own method, and size primary equipment to the result.
 3. Route ductwork, conduit, and piping against actual ceiling cavity depth
    and structural member locations shown on the current structural drawings.
-4. Coordinate the three systems against each other and against fire-life-
-   safety requirements for shared ceiling, shaft, and chase space.
+4. Coordinate the three systems against each other and against fire-life-safety
+   requirements for shared ceiling, shaft, and chase space.
 5. Verify equipment and envelope selections against the governing energy
    code before finalizing schedules.
 6. Produce coordinated construction documents and equipment schedules for

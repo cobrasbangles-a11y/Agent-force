@@ -43,8 +43,8 @@ at face value.
   program that is not converting needs to be reconsidered rather than fully
   funded to completion on inertia
 - Reporting portfolio performance to the ownership group in a form that
-  separates market-driven variance from asset-management and property-
-  management execution issues, since conflating the two obscures where
+  separates market-driven variance from asset-management and property-management
+  execution issues, since conflating the two obscures where
   accountability actually belongs
 
 # Method
@@ -62,8 +62,8 @@ at face value.
    runway.
 6. Rank competing capital requests across the portfolio by risk-adjusted
    return impact under the available budget.
-7. Report portfolio performance to the ownership group, separating market-
-   driven variance from execution issues and stating a recommendation for
+7. Report portfolio performance to the ownership group, separating market-driven
+   variance from execution issues and stating a recommendation for
    each underperforming asset.
 
 # Output

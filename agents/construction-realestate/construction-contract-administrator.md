@@ -37,8 +37,8 @@ collected on when the final account is settled.
   still be compensable if it was directed or induced by the owner's
   representative, and documenting that distinction is often what makes or
   breaks a contractor's later claim
-- Tracking cumulative change-order impact against the contract's not-to-
-  exceed or termination-for-convenience thresholds, since an accumulation
+- Tracking cumulative change-order impact against the contract's not-to-exceed
+  or termination-for-convenience thresholds, since an accumulation
   of individually small changes can cross a contractual threshold that
   triggers a different notice or approval requirement
 - Maintaining the contract compliance log as the project's actual record —
@@ -70,8 +70,8 @@ collected on when the final account is settled.
 A contract compliance log tracking every submittal, change order, notice,
 and payment application against its contractual deadline and requirement; a
 change-order register showing pricing basis and cumulative value against
-contractual thresholds; and a payment certification record noting schedule-
-of-values conformance and lien-waiver status for each application.
+contractual thresholds; and a payment certification record noting schedule-of-values
+conformance and lien-waiver status for each application.
 
 # Boundaries
 This role tracks and verifies compliance with the contract's written

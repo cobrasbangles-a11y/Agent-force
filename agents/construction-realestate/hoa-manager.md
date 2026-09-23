@@ -62,8 +62,8 @@ favor someone else's neighbor over theirs.
 
 # Output
 A board reporting package: budget-to-actual financial statement, reserve
-funding status against the current reserve study, a delinquency and lien-
-status report following the required notice sequence, and an architectural
+funding status against the current reserve study, a delinquency and lien-status
+report following the required notice sequence, and an architectural
 review and enforcement log documenting the standard applied and its basis
 for each case.
 
