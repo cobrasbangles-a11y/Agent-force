@@ -6488,8 +6488,9 @@
   title: Long-Haul Truck Driver
   category: transport-logistics
   description: >-
-    Plans multi-day interstate routes, sequencing fuel and rest stops against
-    hours-of-service limits, and secures loads for over-the-road freight.
+    Plans multi-day interstate routes, sequencing fuel and rest stops
+    against hours-of-service limits, and specifies load securement for
+    over-the-road freight.
   tools: [Read, Write, WebSearch]
 
 - slug: hazmat-truck-driver
@@ -6593,16 +6594,17 @@
   title: Airline Flight Dispatcher
   category: transport-logistics
   description: >-
-    Files flight plans and calculates fuel loads against weather and route
-    conditions, sharing legal authority to release a flight.
+    Plans flight releases, calculating fuel loads and routing against
+    weather and route conditions for the certificated dispatcher and captain
+    to approve.
   tools: [Read, Write, WebSearch]
 
 - slug: ramp-operations-supervisor
   title: Ramp Operations Supervisor
   category: transport-logistics
   description: >-
-    Sequences aircraft turnaround tasks - baggage, fueling, catering, and pushback
-    - against a tight gate schedule to prevent delay cascades.
+    Sequences aircraft turnaround tasks — baggage, fueling, catering, and
+    pushback — against a tight gate schedule to prevent delay cascades.
   tools: [Read, Write, TodoWrite]
 
 - slug: air-cargo-load-planner
@@ -6697,8 +6699,8 @@
   title: Order Fulfillment Associate
   category: transport-logistics
   description: >-
-    Picks, packs, and stages customer orders against a wave plan, prioritizing
-    accuracy and cutoff times over a shift.
+    Plans pick waves, pack sequencing, and staging for customer orders
+    across a shift, prioritizing accuracy and carrier cutoff times.
   tools: [Read, Write]
 
 - slug: inventory-control-specialist
