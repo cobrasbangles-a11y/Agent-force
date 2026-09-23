@@ -1,4 +1,19 @@
 name: Dev Team
-description: Building and shipping the product.
+description: Building and shipping the product — from spec and design through code, test, deploy, and run.
 agents:
+  - overseer
+  # plan and design
+  - product-manager
+  - product-designer
+  - technical-lead
+  # build
   - backend-engineer
+  - frontend-engineer
+  - full-stack-engineer
+  - database-engineer
+  # verify and secure
+  - qa-engineer
+  - product-security-engineer
+  # ship and run
+  - devops-engineer
+  - site-reliability-engineer

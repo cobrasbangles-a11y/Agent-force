@@ -1,5 +1,18 @@
 name: Growth
-description: Landing customers and building the brand around them.
+description: Landing customers and building the brand around them — positioning, acquisition, conversion, retention, and measurement.
 agents:
-  - customer-getter
+  - overseer
+  # brand and positioning
   - brand-identity-designer
+  - product-marketing-manager
+  # acquisition
+  - customer-getter
+  - growth-marketing-manager
+  - content-marketing-manager
+  - seo-manager
+  - performance-marketing-manager
+  # conversion and retention
+  - conversion-rate-optimization-manager
+  - lifecycle-marketing-manager
+  # measurement
+  - marketing-analytics-manager

@@ -77,7 +77,14 @@ Unknown flags, an unknown slug or pack, or passing both `--pack` and
 `--agents` are errors, and nothing is written.
 
 Packs live in `packs/*.yaml` as a name, description, and list of agent
-slugs. Current packs: `growth`, `dev-team`, `founder`.
+slugs. Each is sized to stay cheap to load (about a dozen descriptions) and
+includes the overseer, which assembles and reviews work from the others:
+
+| Pack | Agents | For |
+|---|---|---|
+| `founder` | 10 | Build, sell, and protect for a company of one to ten people: full-stack engineer, product manager and designer, customer getter, content marketing, contract and privacy counsel, fractional CISO, bookkeeper |
+| `dev-team` | 12 | Spec through production: product manager and designer, tech lead, backend/frontend/full-stack/database engineers, QA, product security, DevOps, SRE |
+| `growth` | 11 | Brand, positioning, acquisition, conversion, retention, and measurement: brand designer, product marketing, customer getter, growth, content, SEO, performance, CRO, lifecycle, marketing analytics |
 
 ## The agent file format
 

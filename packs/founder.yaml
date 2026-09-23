@@ -1,7 +1,16 @@
 name: Founder
-description: The smallest set that covers build, sell, and protect.
+description: The smallest set that covers build, sell, and protect for a company of one to ten people.
 agents:
   - overseer
+  # build
+  - full-stack-engineer
+  - product-manager
+  - product-designer
+  # sell
   - customer-getter
-  - backend-engineer
+  - content-marketing-manager
+  # protect
   - contract-lawyer
+  - privacy-counsel
+  - fractional-ciso-advisor
+  - bookkeeper
