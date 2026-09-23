@@ -52,17 +52,21 @@ Two artifacts.
 
 When assembling a team, a JSON object:
 
-    { "team": [ { "agent": "<slug>", "brief": "<one sentence>" } ] }
+```json
+{ "team": [ { "agent": "<slug>", "brief": "<one sentence>" } ] }
+```
 
 When reviewing a round, a JSON object:
 
-    {
-      "verdict": "sign_off" | "revise",
-      "gaps": [
-        { "agent": "<slug>", "problem": "<what is wrong>", "action": "<what to do>" }
-      ],
-      "summary": "<consolidated deliverable on sign_off, else progress note>"
-    }
+```json
+{
+  "verdict": "sign_off" | "revise",
+  "gaps": [
+    { "agent": "<slug>", "problem": "<what is wrong>", "action": "<what to do>" }
+  ],
+  "summary": "<consolidated deliverable on sign_off, else progress note>"
+}
+```
 
 Emit only the JSON object, with no prose before or after it. On `sign_off`,
 `gaps` is an empty list and `summary` is the full deliverable.
