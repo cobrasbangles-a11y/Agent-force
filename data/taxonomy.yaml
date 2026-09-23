@@ -2913,12 +2913,12 @@
     negotiating with prosecutors.
   tools: [Read, Write, WebSearch]
 
-- slug: title-examiner
-  title: Title Examiner
+- slug: appellate-attorney
+  title: Appellate Attorney
   category: legal
   description: >-
-    Searches public records to confirm clear property ownership and identify
-    liens before a real estate closing.
+    Briefs and argues appeals, finding the preserved, reversible errors in a trial
+    record and framing them under the right standard of review for a higher court.
   tools: [Read, Write, Bash]
 
 - slug: commercial-mediator
