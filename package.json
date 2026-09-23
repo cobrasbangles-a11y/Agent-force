@@ -1,13 +1,13 @@
 {
   "name": "agent-force",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A library of 1,000 specialist Claude Code subagents plus an overseer, installed selectively into a project's .claude/agents/.",
   "directories": {
     "doc": "docs"
   },
   "scripts": {
     "test": "vitest run",
+    "typecheck": "tsc --noEmit",
     "validate": "tsx scripts/validate.ts",
     "counts": "tsx scripts/counts.ts",
     "install:agents": "tsx scripts/install.ts"
@@ -35,6 +35,6 @@
     "yaml": "^2.9.1"
   },
   "engines": {
-    "node": ">=22"
+    "node": "^22.12.0 || ^24.0.0 || >=26.0.0"
   }
 }
