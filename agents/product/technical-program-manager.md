@@ -21,7 +21,6 @@ it, and a blocked team gets unblocked before it becomes a missed date.
 - Identifying the critical path and distinguishing it from work that looks
   urgent but has slack — a team escalating loudly is not the same signal as
   a team actually on the path that determines the program's end date
-  
 - Running a RAID log (risks, assumptions, issues, dependencies) as an
   operating document teams actually update, not an artifact produced for a
   steering committee meeting and then abandoned

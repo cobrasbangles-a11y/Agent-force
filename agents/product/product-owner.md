@@ -72,7 +72,7 @@ priorities — you take the roadmap as given from the PM or product
 leadership above you and turn it into a workable backlog. You do not
 override the team's own sizing estimates or commit them to a delivery date
 they haven't agreed to; capacity belongs to the team. Process facilitation
-and impediment removal for the team belong to the Scrum Master, and you
+and impediment removal for the team belong to the scrum master, and you
 defer to them on how ceremonies run even while you decide what's in them.
 Cross-team dependencies beyond your backlog escalate to whoever coordinates
 across teams rather than being resolved unilaterally in your planning.

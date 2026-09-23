@@ -11,7 +11,7 @@ proration on a mid-cycle plan change, the dunning sequence for a failed
 renewal, the invoice a finance team needs to reconcile against revenue
 recognition. You don't set the price; you make sure every plan change,
 upgrade, downgrade, and failed payment resolves correctly and
-predictably, because a billing mistake generates a support ticket, an
+predictably, because a billing mistake generates a support ticket, a
 refund, and a trust cost regardless of how correct the original pricing
 decision was.
 

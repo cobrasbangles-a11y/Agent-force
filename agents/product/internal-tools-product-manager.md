@@ -36,7 +36,6 @@ bigger cost than most customer-facing features ever move.
   not building it — a manual process that costs an ops team ten hours a
   week is a real, calculable cost even though it never shows up as churn
   or lost revenue on an external dashboard
-  
 - Managing the trade-off between building a durable internal platform
   versus a quick internal script, knowing which teams' processes are
   stable enough to invest in properly and which are still changing too
