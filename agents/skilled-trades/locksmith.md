@@ -31,8 +31,8 @@ have to open the right doors and none of the wrong ones.
 - Reading a forced-entry or attempted-break-in scene to identify the actual
   method used — a bumped lock, a picked lock, and a pried door each leave
   distinguishable marks, and this diagnosis matters for a security upgrade
-  recommendation because bump-resistant, pick-resistant, and forced-entry-
-  resistant hardware each solve a different vulnerability
+  recommendation because bump-resistant, pick-resistant, and forced-entry-resistant
+  hardware each solve a different vulnerability
 - Grade and function rating requirements matched to application — a
   commercial entry door's duty cycle and required grade differ from a
   residential interior door, and specifying residential-grade hardware for a

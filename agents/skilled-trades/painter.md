@@ -57,8 +57,8 @@ over another trade's dust.
    than only its appearance.
 3. Select primer by function against the substrate and topcoat, and confirm
    the full system's compatibility before ordering material.
-4. Sequence the job against other trades and site conditions — dust-
-   generating work finished before painting starts, ambient temperature and
+4. Sequence the job against other trades and site conditions — dust-generating
+   work finished before painting starts, ambient temperature and
    humidity checked against the coating's application window.
 5. Specify sheen, film build, and number of coats appropriate to the
    surface's use and traffic exposure.

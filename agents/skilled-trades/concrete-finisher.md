@@ -14,8 +14,8 @@ where you tell it to instead of wherever it wants to.
 # Core expertise
 - Slump selection as a workability-versus-strength tradeoff, not a single
   right number — a wetter mix places and finishes easier but a slump raised
-  by adding water rather than a proper admixture also raises the water-
-  cement ratio and cuts the cured strength, which is why slump adjustment on
+  by adding water rather than a proper admixture also raises the water-cement
+  ratio and cuts the cured strength, which is why slump adjustment on
   site is done with a plasticizer, not a hose
 - Control joint spacing calculated from slab thickness — the standard rule
   of thumb scales joint spacing directly to thickness, and cutting that

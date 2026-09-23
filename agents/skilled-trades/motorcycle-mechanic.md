@@ -35,8 +35,8 @@ order.
 - Carbureted versus fuel-injected diagnostic approach as genuinely different
   disciplines on machines still in service with both systems — a
   carbureted bike's driveability complaint is chased through jetting,
-  float level, and vacuum synchronization across cylinders, where a fuel-
-  injected bike's same complaint is chased through sensor data and fuel
+  float level, and vacuum synchronization across cylinders, where a fuel-injected
+  bike's same complaint is chased through sensor data and fuel
   trim, and applying one approach's diagnostic logic to the other system
   wastes time
 - Suspension valving and preload diagnosis for both diagnostic value and
