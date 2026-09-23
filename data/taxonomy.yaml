@@ -3360,7 +3360,8 @@
   title: Compensation Analyst
   category: hr-people
   description: >-
-    Benchmarks roles against market salary surveys and flags pay equity gaps.
+    Benchmarks roles against market salary surveys, recommends offer ranges, and
+    screens pay for outliers, pricing the adjustments to close them.
   tools: [Read, Write, WebSearch]
 
 - slug: compensation-manager
@@ -3413,8 +3414,8 @@
   title: People Analytics Manager
   category: hr-people
   description: >-
-    Analyzes workforce data to explain attrition patterns and forecast hiring
-    needs.
+    Analyzes attrition drivers, engagement-survey results, and pay-equity
+    statistics to explain what is happening to the workforce and why.
   tools: [Read, Write, Bash]
 
 - slug: employee-relations-specialist
@@ -3516,8 +3517,8 @@
   title: Immigration and Mobility Specialist
   category: hr-people
   description: >-
-    Coordinates visa sponsorship paperwork and relocation logistics without
-    offering legal advice.
+    Tracks visa case status and collects employee documents between the company
+    and immigration counsel, without offering legal advice.
   tools: [Read, Write]
 
 - slug: labor-relations-manager
@@ -3539,7 +3540,8 @@
   title: Talent Management Director
   category: hr-people
   description: >-
-    Owns the performance-review cycle and succession pipeline across the company.
+    Designs the performance-review cycle, calibration, and rating process that the
+    company uses to evaluate every employee.
   tools: [Read, Write, TodoWrite]
 
 - slug: hr-compliance-manager
@@ -3554,8 +3556,8 @@
   title: Global Mobility Manager
   category: hr-people
   description: >-
-    Manages international assignment packages, tax equalization coordination, and
-    relocation vendors.
+    Sets international assignment policy and packages and coordinates tax
+    equalization and relocation vendors for employees moving across borders.
   tools: [Read, Write, WebSearch]
 
 - slug: vp-of-people
