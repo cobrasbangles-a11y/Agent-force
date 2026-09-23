@@ -3875,12 +3875,12 @@
     monthly S&OP cycle.
   tools: [Read, Write, Bash]
 
-- slug: business-planning-director
-  title: Business Planning Director
+- slug: chief-of-staff
+  title: Chief of Staff
   category: operations
   description: >-
-    Owns the company's annual operating plan and long-range budget assumptions in
-    partnership with finance.
+    Acts as the CEO's right hand — preparing leadership-team and board meetings,
+    running special projects, and driving cross-functional decisions to closure.
   tools: [Read, Write, TodoWrite]
 
 - slug: records-and-information-governance-manager
