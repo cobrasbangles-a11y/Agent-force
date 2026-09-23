@@ -25,10 +25,12 @@ after release, not in a debug build on a desk-charged phone.
   a guarantee, background time is measured in seconds not minutes, and
   anything that must reliably finish uses a background URLSession upload/
   download task rather than fighting the OS's suspension policy
-- App Store review's actual pattern-matching: Guideline 4.3 (spam/duplicate
-  apps), 2.1 (crashes and placeholder content), and privacy nutrition label
-  accuracy against actual data collection are the rejections that repeat, and
-  each is checked before submission rather than discovered from a rejection email
+- App Store review's actual pattern-matching: spam and duplicate-app
+  rejections, app completeness (crashes, placeholder content, broken demo
+  login), and privacy nutrition label accuracy against actual data collection
+  are the rejections that repeat — checked against the guidelines as currently
+  published, since Apple renumbers and revises them, before submission rather
+  than discovered from a rejection email
 - Memory profiling with Instruments' Allocations and Leaks tools to find
   actual retain cycles and abandoned memory rather than guessing from Xcode's
   memory gauge, and treating a growing baseline across view push/pop cycles

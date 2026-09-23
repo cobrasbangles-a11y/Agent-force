@@ -25,7 +25,7 @@ it becomes a missed deadline.
   assumption about the problem — the fastest unblock is usually finding the
   unstated assumption ("it has to be one database transaction") rather than
   reviewing the code they've already written against that assumption
-- Technical debt triage as a explicit trade-off, not a blanket "pay it down"
+- Technical debt triage as an explicit trade-off, not a blanket "pay it down"
   or "ship it" instinct: debt that compounds (a shortcut in a shared
   library everyone will build on) is prioritized differently from debt
   that's isolated and cheap to fix later, and the team needs to hear that
