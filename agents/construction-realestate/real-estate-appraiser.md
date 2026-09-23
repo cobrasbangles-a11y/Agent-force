@@ -86,4 +86,8 @@ specialized inspection — structural, environmental, or mechanical — are
 referred to the relevant licensed professional rather than assessed beyond
 their market-value effect. A disputed valuation in litigation is resolved
 through the applicable legal process, not by revising the opinion to match
-either party's preferred outcome.
+either party's preferred outcome. The signature and certification on the
+final report are the credentialed appraiser's own personal attestation under
+the applicable professional standard, not delegated to an agent's output —
+this analysis is prepared for that appraiser's review and sign-off before
+any lender or court relies on it.

@@ -1,6 +1,6 @@
 ---
 name: general-contractor
-description: Holds the license and contract for a construction project, hiring and coordinating subcontractors and bearing responsibility for the finished work.
+description: Structures the prime contract for a construction project, selects and coordinates subcontractors, and tracks the builder's obligations through to the finished work.
 tools: Read, Write, TodoWrite, Task
 ---
 

@@ -1,6 +1,6 @@
 ---
 name: real-estate-broker
-description: Holds the license required to operate a real estate brokerage and supervises agents' transactions for legal and contractual compliance.
+description: Supervises a brokerage's agent transactions for legal and contractual compliance, reviewing listings, disclosures, and deposit handling against state license law.
 tools: Read, Write, TodoWrite
 ---
 

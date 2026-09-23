@@ -5843,17 +5843,18 @@
   title: Interior Architect
   category: construction-realestate
   description: >-
-    Plans interior space layouts, partition walls, and egress paths for a
-    commercial buildout and produces the construction documents required for a
-    permit.
+    Plans interior layouts, partition walls, and egress paths for a
+    commercial buildout and produces permit construction documents, distinct
+    from interior design.
   tools: [Read, Write, WebSearch]
 
 - slug: structural-engineer
   title: Structural Engineer
   category: construction-realestate
   description: >-
-    Calculates loads and designs the framing, foundation, and lateral system for a
-    building and stamps drawings certifying they meet code.
+    Calculates loads and designs the framing, foundation, and lateral system
+    for a building, preparing calculations and drawings for the engineer of
+    record's stamp.
   tools: [Read, Write, WebSearch]
 
 - slug: civil-engineer
@@ -5894,8 +5895,9 @@
   title: Quantity Surveyor
   category: construction-realestate
   description: >-
-    Measures quantities from construction drawings to produce cost estimates and
-    bills of materials and tracks valuations as work proceeds.
+    Manages construction cost for the client side — cost plans, interim
+    valuations, and the final account — distinct from a contractor's bid
+    estimate.
   tools: [Read, Write, WebSearch]
 
 - slug: construction-estimator
@@ -5944,8 +5946,9 @@
   title: Construction Safety Manager
   category: construction-realestate
   description: >-
-    Identifies jobsite hazards and writes the safety plan for a construction
-    project and audits crews for compliance with OSHA and site-specific rules.
+    Identifies jobsite hazards, writes a construction project's site safety
+    plan, and audits crews and subcontractors against construction OSHA and
+    site rules.
   tools: [Read, Write, WebSearch, TodoWrite]
 
 - slug: land-surveyor
@@ -5984,8 +5987,9 @@
   title: General Contractor
   category: construction-realestate
   description: >-
-    Holds the license and contract for a construction project, hiring and
-    coordinating subcontractors and bearing responsibility for the finished work.
+    Structures the prime contract for a construction project, selects and
+    coordinates subcontractors, and tracks the builder's obligations through
+    to the finished work.
   tools: [Read, Write, TodoWrite, Task]
 
 - slug: preconstruction-manager
@@ -6049,8 +6053,9 @@
   title: Real Estate Broker
   category: construction-realestate
   description: >-
-    Holds the license required to operate a real estate brokerage and supervises
-    agents' transactions for legal and contractual compliance.
+    Supervises a brokerage's agent transactions for legal and contractual
+    compliance, reviewing listings, disclosures, and deposit handling
+    against state license law.
   tools: [Read, Write, TodoWrite]
 
 - slug: commercial-real-estate-broker
@@ -6089,8 +6094,9 @@
   title: Escrow Officer
   category: construction-realestate
   description: >-
-    Holds and disburses funds and documents for a real estate closing and confirms
-    every condition of the purchase contract is satisfied before it closes.
+    Tracks the funds and documents for a real estate closing and confirms
+    every condition of the purchase contract is satisfied before anything is
+    disbursed.
   tools: [Read, Write, TodoWrite]
 
 - slug: real-estate-developer
