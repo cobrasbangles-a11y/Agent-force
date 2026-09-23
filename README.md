@@ -6,20 +6,16 @@ an overseer agent that assembles a team from the library, briefs it, and
 reviews the work that comes back. The taxonomy spans 1000 specialist jobs
 across 25 categories of 40 each.
 
-## Status: 6 of 1001 agents authored
+## Status: all 1001 agents authored and reviewed
 
-The taxonomy (`data/taxonomy.yaml`) is complete: all 1000 specialist job
-specs plus the overseer are defined — slug, title, category, description,
-and allowed tools for every one. Six of those 1001 have an actual agent body
-written: the overseer, plus five exemplars (`customer-getter`,
-`backend-engineer`, `brand-identity-designer`, `contract-lawyer`,
-`journeyman-electrician`).
-
-That means **994 specialist jobs are specified but not yet written.**
-Phase 1 built the taxonomy, the tooling, and the pattern. Phase 2 authors the
-remaining agents, one category per pull request. Don't assume every slug in
-the taxonomy has a working agent behind it yet — check `agents/` (or run
-`npm run validate`, below) before you rely on one.
+The taxonomy (`data/taxonomy.yaml`) defines 1000 specialist jobs plus the
+overseer — slug, title, category, description, and allowed tools for every
+one — and every one of those 1001 entries has a written agent file under
+`agents/`. The library has also been through a full review pass: duplicate
+and overlapping roles were cut or rescoped, descriptions tightened for
+agent selection, and bodies checked against the house style in
+`CONTRIBUTING.md`. `npm run validate -- --complete` fails if any taxonomy
+entry is missing its file.
 
 ## Why this is a library you install from, not a folder you copy
 
@@ -29,8 +25,9 @@ can decide which agent to route work to. That cost is paid on every request,
 whether or not the agent is used.
 
 At full strength this library has 1000 agent files. If you copied all of
-them into `.claude/agents/`, you would add roughly **25,000-30,000 tokens to
-every single request** for descriptions of agents that are relevant to the
+them into `.claude/agents/`, you would add roughly **35,000-40,000 tokens to
+every single request** (the 1001 names and descriptions alone are about
+147,000 characters) for descriptions of agents that are relevant to the
 current task maybe once in a hundred sessions — and you would hand the model
 1000 similarly-worded options to route between, which makes selection worse,
 not better, than having ten well-chosen ones.
@@ -44,7 +41,17 @@ mistake this README exists to prevent.
 ## Installing agents
 
 Agents install by copying (or symlinking) their `.md` file into a
-destination directory — typically a project's `.claude/agents/`.
+destination directory — typically a project's `.claude/agents/`. A relative
+`--dest` is resolved from the directory you run the command in, so run it
+from your project with `npm --prefix` pointing at this repo:
+
+```bash
+cd ~/my-project
+npm --prefix ~/agent-force run install:agents -- --pack founder --dest .claude/agents
+```
+
+The examples below assume that form (or an absolute `--dest`). The
+installer refuses a destination inside this repo's own `agents/` folder.
 
 Install a curated pack:
 
@@ -66,9 +73,8 @@ npm run install:agents -- --pack dev-team --dest .claude/agents --symlink
 ```
 
 Add `--force` to overwrite files that already exist at the destination.
-Installing an agent that's in the taxonomy but not yet authored fails with
-`"<slug>" is in the taxonomy but not yet authored` — that's the library
-telling you Phase 2 hasn't reached it yet, not a bug.
+Unknown flags, an unknown slug or pack, or passing both `--pack` and
+`--agents` are errors, and nothing is written.
 
 Packs live in `packs/*.yaml` as a name, description, and list of agent
 slugs. Current packs: `growth`, `dev-team`, `founder`.
@@ -117,17 +123,18 @@ hands (see CONTRIBUTING.md).
 ## Validating, counting, and testing
 
 ```bash
-npm run validate               # structural checks only (fast, safe pre-1000)
-npm run validate -- --complete # also enforces the full 25x40 + overseer count
+npm run validate               # structural and house-style checks on every file
+npm run validate -- --complete # also requires the full 25x40 + overseer taxonomy
+                               # and an agent file for every entry
 npm run counts                 # per-category authored/total breakdown
-npm test                       # unit tests for the loader, parser, and installer
+npm run typecheck              # tsc --noEmit over scripts and tests
+npm test                       # unit tests for the loader, parser, validator,
+                               # and installer (including the CLI)
 ```
 
-`npm run validate -- --complete` is the gate CI runs on every push to `main`
-and every pull request (`.github/workflows/ci.yml`). It currently passes at
-`authored: 5 / 1000` plus `overseer: authored` — five specialists and the
-overseer, with the taxonomy's full 1000-specialist count and per-category
-40-slot shape already verified complete.
+CI (`.github/workflows/ci.yml`) runs the typecheck, the tests, and
+`npm run validate -- --complete` on every push to `main` and every pull
+request. It passes at `authored: 1000 / 1000` plus `overseer: authored`.
 
 ## The 25 categories
 
@@ -147,6 +154,8 @@ lessons that are not obvious from the format alone. See
 
 ## Design docs
 
-The full design rationale — schema, validation rules, install semantics, and
-the Phase 1/Phase 2 split — lives in `docs/superpowers/specs/`, notably
-`2026-09-20-agent-force-library-design.md`.
+The original design rationale — schema, validation rules, and install
+semantics — lives in `docs/superpowers/specs/`, notably
+`2026-09-20-agent-force-library-design.md`. It predates the authoring and
+review work; where it and this README disagree, the README and the code are
+current.

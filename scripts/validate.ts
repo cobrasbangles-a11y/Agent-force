@@ -1,4 +1,4 @@
-import { validateLibrary } from './lib/validate.js';
+import { validateLibrary, SPECIALIST_TOTAL } from './lib/validate.js';
 import { CATEGORY_SLUGS } from './lib/categories.js';
 
 const complete = process.argv.includes('--complete');
@@ -9,8 +9,7 @@ for (const error of result.errors) {
   console.error(`  ✗ ${error}`);
 }
 
-const specialistTotal = 1000;
-console.log(`\nauthored: ${result.authored} / ${specialistTotal}`);
+console.log(`\nauthored: ${result.authored} / ${SPECIALIST_TOTAL}`);
 console.log(result.overseerAuthored ? 'overseer: authored' : 'overseer: not yet authored');
 
 const partial = CATEGORY_SLUGS

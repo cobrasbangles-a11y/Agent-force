@@ -14,7 +14,7 @@ export interface ValidationResult {
 }
 
 const SLUG_RE = /^[a-z][a-z0-9-]*$/;
-const SPECIALIST_TOTAL = 1000;
+export const SPECIALIST_TOTAL = 1000;
 const PER_CATEGORY = 40;
 
 // CONTRIBUTING.md's four machine-checkable house-style rules (its numbered
@@ -27,16 +27,8 @@ const METHOD_STEPS_MIN = 4;
 const METHOD_STEPS_MAX = 7;
 const DESCRIPTION_MAX_CHARS = 200;
 
-// CONTRIBUTING.md rule 6 defines "the body" as everything after the
-// frontmatter's closing `---`. Taken literally, that reading fails files
-// already on `main`: the tightest currently-committed file
-// (agents/hr-people/hris-analyst.md) is exactly 60 lines counting the
-// whole file, but only ~55 lines counting just what follows the closing
-// `---`. A strict post-frontmatter count would put it, and at least one
-// other file, below the documented 60-line floor. So this checks the
-// *whole file's* line count (what `wc -l` reports, frontmatter included)
-// — the reading every currently-authored file actually satisfies — rather
-// than a literal post-frontmatter count that nothing on `main` would pass.
+// Length is measured over the whole file, frontmatter included — what
+// `wc -l` reports. CONTRIBUTING.md rule 6 states the rule the same way.
 function countFileLines(raw: string): number {
   const withoutTrailingNewline = raw.endsWith('\n') ? raw.slice(0, -1) : raw;
   return withoutTrailingNewline.length === 0 ? 0 : withoutTrailingNewline.split('\n').length;
@@ -49,9 +41,15 @@ function countTopLevelBullets(section: string): number {
   return section.split('\n').filter((line) => /^[-*] /.test(line)).length;
 }
 
-// A numbered step is a line beginning with one or more digits then a ".".
-function countNumberedSteps(section: string): number {
-  return section.split('\n').filter((line) => /^\d+\./.test(line)).length;
+// A numbered step is a column-0 line of one or two digits, a ".", then
+// whitespace — so a wrapped prose line such as "2024. was a bad year" or
+// "3.5% of revenue" isn't counted. Steps must be numbered 1..n in order.
+function numberedSteps(section: string): number[] {
+  return section
+    .split('\n')
+    .map((line) => /^(\d{1,2})\.\s/.exec(line))
+    .filter((m): m is RegExpExecArray => m !== null)
+    .map((m) => Number(m[1]));
 }
 
 function emptyByCategory(): ValidationResult['byCategory'] {
@@ -162,9 +160,16 @@ export function validateLibrary(root: string, opts: { complete: boolean }): Vali
 
   let authored = 0;
   let overseerAuthored = false;
+  const authoredSlugs = new Set<string>();
   for (const file of walkAgents(root)) {
     const rel = relative(root, file);
-    const raw = readFileSync(file, 'utf8');
+    let raw: string;
+    try {
+      raw = readFileSync(file, 'utf8');
+    } catch (err) {
+      errors.push(`${rel}: unreadable (${(err as NodeJS.ErrnoException).code ?? (err as Error).message})`);
+      continue;
+    }
     let agent;
     try {
       agent = parseAgentFile(raw, rel);
@@ -198,11 +203,14 @@ export function validateLibrary(root: string, opts: { complete: boolean }): Vali
       );
     }
 
-    const methodSteps = countNumberedSteps(agent.sections['Method']);
+    const steps = numberedSteps(agent.sections['Method']);
+    const methodSteps = steps.length;
     if (methodSteps < METHOD_STEPS_MIN || methodSteps > METHOD_STEPS_MAX) {
       errors.push(
         `${rel}: "Method" has ${methodSteps} step(s), must be ${METHOD_STEPS_MIN}-${METHOD_STEPS_MAX}`,
       );
+    } else if (steps.some((n, i) => n !== i + 1)) {
+      errors.push(`${rel}: "Method" steps must be numbered 1-${methodSteps} in order — found ${steps.join(', ')}`);
     }
 
     if (agent.description.length >= DESCRIPTION_MAX_CHARS) {
@@ -233,6 +241,7 @@ export function validateLibrary(root: string, opts: { complete: boolean }): Vali
       );
     }
 
+    authoredSlugs.add(entry.slug);
     if (entry.category === OVERSEER_CATEGORY) {
       overseerAuthored = true;
     } else {
@@ -242,8 +251,26 @@ export function validateLibrary(root: string, opts: { complete: boolean }): Vali
     }
   }
 
+  // A complete library means every taxonomy entry has a file, not just that
+  // the taxonomy has the right shape — otherwise deleting an agent file
+  // would leave CI green.
+  if (opts.complete) {
+    for (const entry of entries) {
+      if (!authoredSlugs.has(entry.slug)) {
+        const where =
+          entry.category === OVERSEER_CATEGORY
+            ? `agents/${entry.slug}.md`
+            : `agents/${entry.category}/${entry.slug}.md`;
+        errors.push(`${entry.slug}: taxonomy entry has no agent file (expected ${where})`);
+      }
+    }
+  }
+
   const knownSlugs = new Set(bySlug.keys());
   for (const pack of loadPacksSafe(root, errors)) {
+    for (const issue of pack.issues) {
+      errors.push(`packs/${pack.file}: ${issue}`);
+    }
     for (const slug of pack.agents) {
       if (!knownSlugs.has(slug)) {
         errors.push(`packs/${pack.file}: references unknown agent "${slug}"`);

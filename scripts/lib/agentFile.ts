@@ -22,26 +22,29 @@ export function parseAgentFile(raw: string, path: string): AgentFile {
     const message = err instanceof Error ? err.message : String(err);
     throw new AgentFileError(`${path}: malformed YAML frontmatter: ${message}`);
   }
-  if (typeof meta !== 'object' || meta === null) {
+  if (typeof meta !== 'object' || meta === null || Array.isArray(meta)) {
     throw new AgentFileError(`${path}: frontmatter must be a mapping`);
   }
-  for (const key of Object.keys(meta)) {
+  const fields = meta as Record<string, unknown>;
+  for (const key of Object.keys(fields)) {
     if (!ALLOWED_KEYS.has(key)) {
       throw new AgentFileError(
         `${path}: unknown frontmatter key "${key}" — only name, description, tools are allowed`,
       );
     }
   }
-  for (const key of ['name', 'description']) {
-    if (typeof meta[key] !== 'string' || meta[key].trim() === '') {
-      throw new AgentFileError(`${path}: missing or empty "${key}"`);
-    }
+  const { name, description, tools: toolList } = fields;
+  if (typeof name !== 'string' || name.trim() === '') {
+    throw new AgentFileError(`${path}: missing or empty "name"`);
   }
-  if (typeof meta.tools !== 'string' || meta.tools.trim() === '') {
+  if (typeof description !== 'string' || description.trim() === '') {
+    throw new AgentFileError(`${path}: missing or empty "description"`);
+  }
+  if (typeof toolList !== 'string' || toolList.trim() === '') {
     throw new AgentFileError(`${path}: "tools" must be a comma-separated string`);
   }
 
-  const tools = meta.tools.split(',').map((t: string) => t.trim()).filter(Boolean);
+  const tools = toolList.split(',').map((t) => t.trim()).filter(Boolean);
   for (const tool of tools) {
     if (!isToolName(tool)) {
       throw new AgentFileError(`${path}: "${tool}" is not a Claude Code tool`);
@@ -53,8 +56,8 @@ export function parseAgentFile(raw: string, path: string): AgentFile {
 
   return {
     path,
-    name: meta.name.trim(),
-    description: meta.description.replace(/\s+/g, ' ').trim(),
+    name: name.trim(),
+    description: description.replace(/\s+/g, ' ').trim(),
     tools,
     category,
     sections: parseSections(body, path),

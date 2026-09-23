@@ -1,5 +1,5 @@
-import { copyFileSync, existsSync, lstatSync, mkdirSync, rmSync, symlinkSync } from 'node:fs';
-import { join, resolve, sep } from 'node:path';
+import { copyFileSync, existsSync, lstatSync, mkdirSync, realpathSync, rmSync, symlinkSync } from 'node:fs';
+import { basename, join, resolve, sep } from 'node:path';
 import { loadTaxonomy } from './taxonomy.js';
 import { loadPacks } from './packs.js';
 import { CATEGORY_SLUGS } from './categories.js';
@@ -27,6 +27,7 @@ export function resolveAgents(root: string, opts: InstallOptions): string[] {
   if (opts.pack) {
     const pack = loadPacks(root).find((p) => p.file === `${opts.pack}.yaml`);
     if (!pack) throw new InstallError(`no pack named "${opts.pack}" in packs/`);
+    if (pack.agents.length === 0) throw new InstallError(`pack "${opts.pack}" lists no agents`);
     slugs = pack.agents;
   } else if (opts.agents && opts.agents.length > 0) {
     slugs = opts.agents;
@@ -68,8 +69,21 @@ export function installAgents(root: string, opts: InstallOptions): InstallResult
   const entries = loadTaxonomy(join(root, 'data', 'taxonomy.yaml'));
   const bySlug = new Map(entries.map((e) => [e.slug, e]));
 
+  // Never install into the library itself: with --force, the "existing"
+  // target would be the source file, which rmSync would delete before the
+  // copy (or, with --symlink, replace with a link to itself). Compare real
+  // paths so a symlinked destination can't slip past the check.
+  const agentsDir = realpathOrResolve(join(root, 'agents'));
+  const intendedDest = realpathOrResolve(opts.dest);
+  if (intendedDest === agentsDir || intendedDest.startsWith(agentsDir + sep)) {
+    throw new InstallError(`--dest "${opts.dest}" is inside the library's agents/ folder; install into a project's .claude/agents/ instead`);
+  }
+
   mkdirSync(opts.dest, { recursive: true });
-  const resolvedDest = resolve(opts.dest);
+  const resolvedDest = realpathOrResolve(opts.dest);
+  if (resolvedDest === agentsDir || resolvedDest.startsWith(agentsDir + sep)) {
+    throw new InstallError(`--dest "${opts.dest}" resolves inside the library's agents/ folder`);
+  }
 
   const written: string[] = [];
   const skipped: string[] = [];
@@ -83,7 +97,7 @@ export function installAgents(root: string, opts: InstallOptions): InstallResult
         : join(root, 'agents', entry.category, `${slug}.md`);
 
     const filename = `${slug}.md`;
-    const target = join(opts.dest, filename);
+    const target = join(resolvedDest, filename);
     const resolvedTarget = resolve(target);
 
     // Guard 3: ensure target is within dest (defense in depth)
@@ -106,6 +120,21 @@ export function installAgents(root: string, opts: InstallOptions): InstallResult
   }
 
   return { written, skipped };
+}
+
+// realpath for the longest existing prefix of `path`, with the rest appended,
+// so a destination that doesn't exist yet still resolves through symlinks.
+function realpathOrResolve(path: string): string {
+  const abs = resolve(path);
+  let head = abs;
+  const tail: string[] = [];
+  while (!existsSync(head)) {
+    const parent = resolve(head, '..');
+    if (parent === head) return abs;
+    tail.unshift(basename(head));
+    head = parent;
+  }
+  return join(realpathSync(head), ...tail);
 }
 
 function pathExists(path: string): boolean {
