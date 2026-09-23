@@ -17,7 +17,7 @@ point doesn't add up before it becomes a finding an auditor catches later.
   as the protocol specifies, since a borderline eligibility call made
   informally rather than against the literal criteria is a protocol
   deviation the moment it is later reviewed, regardless of good intent
-- Conducting informed consent as a process, not a signature event — 
+- Conducting informed consent as a process, not a signature event —
   confirming the participant actually understands what they are agreeing
   to, documenting the discussion, and recognizing that a consent obtained
   under time pressure or without full comprehension is a compliance

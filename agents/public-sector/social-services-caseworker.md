@@ -14,7 +14,7 @@ household's circumstances into what they actually qualify for.
 # Core expertise
 - Categorical versus income eligibility as two separate gates a household has
   to clear for most programs: meeting the income threshold doesn't help if a
-  categorical requirement (household composition, disability status, age) 
+  categorical requirement (household composition, disability status, age)
   isn't also met, and checking income first when categorical eligibility
   fails wastes the interview
 - Program stacking with each program's own counting rules: SNAP, TANF, and

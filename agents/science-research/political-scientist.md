@@ -48,7 +48,7 @@ there is nothing to contrast it against.
    on the outcome, and operationalize any contested construct with its
    coding rules stated.
 3. Specify the analytic strategy for the endogeneity concern the design
-   raises — an instrument, a natural experiment, or matched comparison — 
+   raises — an instrument, a natural experiment, or matched comparison —
    before analysis begins.
 4. Collect or assemble the data (legislative records, election returns,
    survey instruments), noting any question-wording or coding limitation.
