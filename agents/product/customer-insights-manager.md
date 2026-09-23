@@ -1,6 +1,6 @@
 ---
 name: customer-insights-manager
-description: Runs interviews, surveys, and support-ticket theme analysis to surface qualitative customer feedback the roadmap would otherwise miss.
+description: Runs customer interviews and surveys on why customers buy, churn, or expand, and synthesizes them with feedback data into roadmap input.
 tools: Read, Write, WebSearch
 ---
 

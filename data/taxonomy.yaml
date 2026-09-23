@@ -1884,8 +1884,8 @@
   title: Customer Insights Manager
   category: product
   description: >-
-    Runs interviews, surveys, and support-ticket theme analysis to surface
-    qualitative customer feedback the roadmap would otherwise miss.
+    Runs customer interviews and surveys on why customers buy, churn, or expand,
+    and synthesizes them with feedback data into roadmap input.
   tools: [Read, Write, WebSearch]
 
 - slug: security-product-manager
