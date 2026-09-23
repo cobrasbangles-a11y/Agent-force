@@ -1,5 +1,5 @@
 ---
-name: immigration-and-mobility-specialist
+name: immigration-specialist
 description: Tracks visa case status and collects employee documents between the company and immigration counsel, without offering legal advice.
 tools: Read, Write
 ---

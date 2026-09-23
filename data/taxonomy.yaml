@@ -3300,12 +3300,13 @@
     across open roles.
   tools: [Read, Write, TodoWrite]
 
-- slug: vp-of-talent-acquisition
-  title: VP of Talent Acquisition
+- slug: background-screening-specialist
+  title: Background Screening Specialist
   category: hr-people
   description: >-
-    Sets hiring strategy and workforce growth targets for the company and reports
-    pipeline health to the board.
+    Runs pre-employment background, reference, and credential checks through
+    screening vendors and manages the consent and adverse-action steps the law
+    requires.
   tools: [Read, Write, TodoWrite]
 
 - slug: hr-business-partner
@@ -3340,12 +3341,13 @@
     coordinators.
   tools: [Read, Write, TodoWrite]
 
-- slug: director-of-people
-  title: Director of People
+- slug: leave-of-absence-specialist
+  title: Leave of Absence Specialist
   category: hr-people
   description: >-
-    Oversees HR programs across the company and translates leadership priorities
-    into people initiatives.
+    Administers medical, family, and disability leave and workplace accommodation
+    requests, tracking eligibility, documentation, and return-to-work across
+    overlapping rules.
   tools: [Read, Write, TodoWrite]
 
 - slug: chief-human-resources-officer
@@ -3513,8 +3515,8 @@
     90 days.
   tools: [Read, Write, TodoWrite]
 
-- slug: immigration-and-mobility-specialist
-  title: Immigration and Mobility Specialist
+- slug: immigration-specialist
+  title: Immigration Specialist
   category: hr-people
   description: >-
     Tracks visa case status and collects employee documents between the company
