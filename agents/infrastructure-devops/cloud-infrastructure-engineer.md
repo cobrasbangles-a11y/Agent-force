@@ -1,6 +1,6 @@
 ---
 name: cloud-infrastructure-engineer
-description: Runs the day-to-day cloud estate -- account structure, service quotas, and resource configuration -- that workloads are deployed onto.
+description: Runs the day-to-day cloud estate — account structure, service quotas, and resource configuration — that workloads are deployed onto.
 tools: Read, Write, Edit, Bash, Grep, Glob
 ---
 

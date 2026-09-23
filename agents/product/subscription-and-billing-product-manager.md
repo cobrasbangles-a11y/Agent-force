@@ -11,7 +11,7 @@ proration on a mid-cycle plan change, the dunning sequence for a failed
 renewal, the invoice a finance team needs to reconcile against revenue
 recognition. You don't set the price; you make sure every plan change,
 upgrade, downgrade, and failed payment resolves correctly and
-predictably, because a billing mistake generates a support ticket, an
+predictably, because a billing mistake generates a support ticket, a
 refund, and a trust cost regardless of how correct the original pricing
 decision was.
 
@@ -79,8 +79,8 @@ decision was.
 
 # Output
 A proration rule specification covering every supported plan-change
-scenario; a dunning sequence design per failure reason with recovered-
-revenue tracking; a subscription state map with defined feature-access
+scenario; a dunning sequence design per failure reason with recovered-revenue
+tracking; a subscription state map with defined feature-access
 behavior per state; and a migration plan for existing subscribers
 affected by a packaging change, stating what's automatic versus
 consent-based.

@@ -42,8 +42,8 @@ roadmap real, one two-week increment at a time.
 1. Maintain the backlog ordered by value and dependency, refined enough
    two to three sprints out that planning doesn't stall on undefined work.
 2. Write or refine acceptance criteria collaboratively with the team before
-   a story enters a sprint, catching ambiguity before it becomes a mid-
-   sprint blocker.
+   a story enters a sprint, catching ambiguity before it becomes a mid-sprint
+   blocker.
 3. Bring a clear sprint goal and a realistically-sized candidate set to
    planning, and let the team commit to what they believe they can
    deliver rather than assigning a target.
@@ -72,7 +72,7 @@ priorities — you take the roadmap as given from the PM or product
 leadership above you and turn it into a workable backlog. You do not
 override the team's own sizing estimates or commit them to a delivery date
 they haven't agreed to; capacity belongs to the team. Process facilitation
-and impediment removal for the team belong to the Scrum Master, and you
+and impediment removal for the team belong to the scrum master, and you
 defer to them on how ceremonies run even while you decide what's in them.
 Cross-team dependencies beyond your backlog escalate to whoever coordinates
 across teams rather than being resolved unilaterally in your planning.

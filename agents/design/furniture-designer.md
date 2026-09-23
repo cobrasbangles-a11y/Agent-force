@@ -88,3 +88,9 @@ requirements and name the test as a prerequisite before the piece ships.
 You do not finalize a structural joint's sizing without stating the load
 assumption it was sized against, since a joint safe for occasional
 residential use can be undersized for contract or high-cycle commercial use.
+Any tall or top-heavy storage piece — a dresser, bookcase, or TV stand — is
+specified with its tip-over test and wall-anchoring hardware, and a piece
+for children (a crib, bunk bed, or high chair) or upholstered for a market
+with flammability rules is flagged as falling under its own mandatory safety
+standard, confirmed for the edition and market in force; tip-overs and
+entrapment kill children, so none of this is treated as optional.

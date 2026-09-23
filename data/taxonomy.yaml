@@ -119,8 +119,8 @@
   title: Game Engine Programmer
   category: engineering
   description: >-
-    Builds the core engine systems -- rendering pipeline, physics, entity
-    management -- that game teams build gameplay on top of.
+    Builds the core engine systems — rendering pipeline, physics, entity
+    management — that game teams build gameplay on top of.
   tools: [Read, Write, Edit, Bash, Grep, Glob]
 
 - slug: graphics-engineer
@@ -143,8 +143,8 @@
   title: Database Engineer
   category: engineering
   description: >-
-    Designs schemas, tunes queries, and operates database engines for correctness,
-    throughput, and recovery under load.
+    Designs schemas, data models, and queries, and tunes indexes and execution
+    plans so applications read and write data correctly and fast.
   tools: [Read, Write, Edit, Bash, Grep, Glob]
 
 - slug: api-architect
@@ -159,8 +159,8 @@
   title: Software Architect
   category: engineering
   description: >-
-    Defines system-wide technical structure and boundaries, weighing trade-offs
-    across teams before implementation begins.
+    Defines system-wide structure, service boundaries, and architecture decision
+    records, weighing trade-offs across teams before implementation begins.
   tools: [Read, Write, Edit, Grep, Glob]
 
 - slug: performance-engineer
@@ -199,16 +199,16 @@
   title: Release Engineer
   category: engineering
   description: >-
-    Owns the technical process that ships code from a merged branch into
-    production, including versioning, packaging, and rollback.
+    Owns versioning, packaging, release artifacts, and rollback so a merged branch
+    ships to production repeatably and can be reversed safely.
   tools: [Read, Write, Edit, Bash, Grep, Glob]
 
 - slug: developer-experience-engineer
   title: Developer Experience Engineer
   category: engineering
   description: >-
-    Builds internal tooling, scaffolding, and documentation that make other
-    engineers faster and reduce friction in daily workflows.
+    Builds the local development loop, SDKs, scaffolding, and documentation that
+    make other engineers faster and reduce friction in daily workflows.
   tools: [Read, Write, Edit, Bash, Grep, Glob]
 
 - slug: accessibility-engineer
@@ -231,8 +231,8 @@
   title: Search Engineer
   category: engineering
   description: >-
-    Builds and tunes search indexing and ranking infrastructure so queries return
-    relevant results at scale.
+    Builds and tunes search indexing, sharding, and query-serving infrastructure
+    so queries return fast, complete results at scale.
   tools: [Read, Write, Edit, Bash, Grep, Glob]
 
 - slug: payments-engineer
@@ -295,8 +295,8 @@
   title: Browser Engineer
   category: engineering
   description: >-
-    Works on browser engine internals -- rendering, JavaScript execution, or
-    networking -- that web pages run on top of.
+    Works on browser engine internals — rendering, JavaScript execution, or
+    networking — that web pages run on top of.
   tools: [Read, Write, Edit, Bash, Grep, Glob]
 
 - slug: operating-systems-engineer
@@ -359,8 +359,8 @@
   title: Principal Engineer
   category: engineering
   description: >-
-    Sets technical direction across multiple teams, resolving the hardest
-    cross-cutting design problems an organization faces.
+    Leads the hardest cross-team technical problems hands-on as a senior
+    individual contributor, prototyping and de-risking them before teams commit.
   tools: [Read, Write, Edit, Grep, Glob, TodoWrite]
 
 - slug: data-engineer
@@ -407,8 +407,8 @@
   title: Data Platform Architect
   category: data-ai
   description: >-
-    Designs the overall data platform strategy -- storage, compute, and tooling
-    choices -- that every data team builds on.
+    Designs the overall data platform strategy — storage, compute, and tooling
+    choices — that every data team builds on.
   tools: [Read, Write, Edit, Grep, Glob]
 
 - slug: data-warehouse-engineer
@@ -439,8 +439,8 @@
   title: Data Quality Engineer
   category: data-ai
   description: >-
-    Builds automated checks and monitoring that catch data quality issues --
-    nulls, duplicates, drift -- before they reach downstream consumers.
+    Builds automated checks and monitoring that catch data quality issues — nulls,
+    duplicates, drift — before they reach downstream consumers.
   tools: [Read, Write, Edit, Bash, Grep, Glob]
 
 - slug: data-governance-analyst
@@ -479,8 +479,8 @@
   title: Quantitative Analyst
   category: data-ai
   description: >-
-    Builds statistical and mathematical models -- pricing, risk, trading signals
-    -- that translate market or business data into decisions.
+    Builds statistical and mathematical models — pricing, risk, trading signals —
+    that translate market or business data into decisions.
   tools: [Read, Write, Edit, Bash]
 
 - slug: machine-learning-research-scientist
@@ -495,8 +495,8 @@
   title: NLP Engineer
   category: data-ai
   description: >-
-    Builds systems that extract meaning from text -- classification, entity
-    extraction, summarization -- tuned for a specific domain.
+    Builds systems that extract meaning from text — classification, entity
+    extraction, summarization — tuned for a specific domain.
   tools: [Read, Write, Edit, Bash, Grep, Glob]
 
 - slug: computer-vision-engineer
@@ -575,7 +575,7 @@
   title: Causal Inference Scientist
   category: data-ai
   description: >-
-    Develops causal inference methods -- quasi-experiments, causal ML -- that
+    Develops causal inference methods — quasi-experiments, causal ML — that
     estimate treatment effects when a randomized test isn't possible.
   tools: [Read, Write, Edit, Bash, NotebookEdit]
 
@@ -607,16 +607,16 @@
   title: Data Privacy Engineer
   category: data-ai
   description: >-
-    Implements technical controls -- anonymization, consent enforcement, retention
-    limits -- that keep data pipelines compliant with privacy law.
+    Implements technical controls — anonymization, consent enforcement, retention
+    limits — that keep data pipelines compliant with privacy law.
   tools: [Read, Write, Edit, Bash, Grep, Glob]
 
 - slug: ai-safety-researcher
   title: AI Safety Researcher
   category: data-ai
   description: >-
-    Researches failure modes of advanced AI systems -- misalignment, jailbreaks,
-    harmful outputs -- and designs mitigations before deployment.
+    Researches failure modes of advanced AI systems — misalignment, jailbreaks,
+    harmful outputs — and designs mitigations before deployment.
   tools: [Read, Write, WebSearch]
 
 - slug: model-risk-analyst
@@ -647,8 +647,8 @@
   title: Marketing Analytics Manager
   category: data-ai
   description: >-
-    Measures campaign performance and attribution across channels, turning
-    marketing data into budget and targeting decisions.
+    Builds marketing-mix and multi-touch attribution models and runs
+    incrementality tests that tell marketing which spend actually drives pipeline.
   tools: [Read, Write, Edit, Bash]
 
 - slug: data-steward
@@ -743,8 +743,9 @@
   title: Application Security Engineer
   category: security
   description: >-
-    Sets the appsec program for a portfolio of applications -- threat modeling,
-    secure design review, and coordinating pentests and bug bounty findings.
+    Runs the appsec program across a portfolio of applications — secure
+    development standards, scanning coverage, and pentest and bug bounty
+    coordination.
   tools: [Read, Write, Edit, Grep, Glob]
 
 - slug: cloud-security-engineer
@@ -815,8 +816,9 @@
   title: Privacy Officer
   category: security
   description: >-
-    Oversees how personal data is collected, used, and retained, ensuring
-    practices meet privacy law and internal commitments.
+    Runs the privacy program — data inventory, DPIAs, and data-subject request
+    handling — so personal data practices meet privacy law and internal
+    commitments.
   tools: [Read, Write, WebSearch]
 
 - slug: physical-security-consultant
@@ -903,8 +905,8 @@
   title: Fraud Prevention Analyst
   category: security
   description: >-
-    Detects and blocks fraudulent transactions and account activity by tuning
-    rules and models against evolving fraud patterns.
+    Detects and blocks transaction and account-takeover fraud by tuning rules and
+    models against evolving fraud patterns.
   tools: [Read, Write, Bash, Grep]
 
 - slug: insider-threat-analyst
@@ -991,8 +993,8 @@
   title: Software Supply Chain Security Engineer
   category: security
   description: >-
-    Secures the dependency and build pipeline -- SBOMs, package provenance,
-    signing -- against tampering and malicious packages.
+    Secures the dependency and build pipeline — SBOMs, package provenance, signing
+    — against tampering and malicious packages.
   tools: [Read, Write, Edit, Bash, Grep, Glob]
 
 - slug: payment-security-analyst
@@ -1008,7 +1010,7 @@
   category: infrastructure-devops
   description: >-
     Keeps production systems reliable by defining SLOs, automating toil out of
-    operations, and leading response to availability incidents.
+    operations, and fixing the systemic causes of availability incidents.
   tools: [Read, Write, Edit, Bash, Grep, Glob]
 
 - slug: platform-engineer
@@ -1023,8 +1025,8 @@
   title: Cloud Infrastructure Engineer
   category: infrastructure-devops
   description: >-
-    Runs the day-to-day cloud estate -- account structure, service quotas, and
-    resource configuration -- that workloads are deployed onto.
+    Runs the day-to-day cloud estate — account structure, service quotas, and
+    resource configuration — that workloads are deployed onto.
   tools: [Read, Write, Edit, Bash, Grep, Glob]
 
 - slug: devops-engineer
@@ -1039,16 +1041,16 @@
   title: Infrastructure as Code Engineer
   category: infrastructure-devops
   description: >-
-    Builds the IaC practice itself -- module design, state management, drift
-    detection, and policy-as-code -- that every team's provisioning relies on.
+    Builds the IaC practice itself — module design, state management, drift
+    detection, and policy-as-code — that every team's provisioning relies on.
   tools: [Read, Write, Edit, Bash, Grep, Glob]
 
 - slug: kubernetes-administrator
   title: Kubernetes Administrator
   category: infrastructure-devops
   description: >-
-    Operates Kubernetes clusters -- upgrades, RBAC, resource quotas, and node
-    health -- that other teams deploy workloads onto.
+    Operates Kubernetes clusters — upgrades, RBAC, resource quotas, and node
+    health — that other teams deploy workloads onto.
   tools: [Read, Write, Edit, Bash, Grep, Glob]
 
 - slug: service-mesh-engineer
@@ -1095,16 +1097,16 @@
   title: Virtualization Engineer
   category: infrastructure-devops
   description: >-
-    Operates the hypervisor layer -- VM provisioning, resource pools, live
-    migration -- that on-prem or private cloud workloads run on.
+    Operates the hypervisor layer — VM provisioning, resource pools, live
+    migration — that on-prem or private cloud workloads run on.
   tools: [Read, Write, Edit, Bash, Grep, Glob]
 
 - slug: data-center-operations-engineer
   title: Data Center Operations Engineer
   category: infrastructure-devops
   description: >-
-    Keeps physical data center facilities running -- power, cooling, racking, and
-    hardware faults -- for on-prem infrastructure.
+    Keeps data center facilities running — power, cooling, floor space, and
+    structured cabling — for the hardware on-prem infrastructure runs on.
   tools: [Read, Write, Bash, Grep, Glob]
 
 - slug: observability-engineer
@@ -1175,8 +1177,8 @@
   title: Database Reliability Engineer
   category: infrastructure-devops
   description: >-
-    Owns production databases end to end -- replication, failover, backup,
-    patching, access control, and capacity -- so the data layer stays available.
+    Owns production databases end to end — replication, failover, backup,
+    patching, access control, and capacity — so the data layer stays available.
   tools: [Read, Write, Edit, Bash, Grep, Glob]
 
 - slug: messaging-infrastructure-engineer
@@ -1199,8 +1201,8 @@
   title: Incident Commander
   category: infrastructure-devops
   description: >-
-    Runs the coordination and communication during a major incident, keeping
-    responders focused while status goes out to stakeholders.
+    Runs the coordination during a major incident, keeping responders focused and
+    handing customer-facing updates to support.
   tools: [Read, Write, TodoWrite]
 
 - slug: chaos-engineering-lead
@@ -1223,24 +1225,25 @@
   title: On-Premises Infrastructure Engineer
   category: infrastructure-devops
   description: >-
-    Builds and maintains server, storage, and network hardware in owned data
-    centers rather than public cloud.
+    Builds and maintains server, storage, and network systems in owned data
+    centers — hardware selection, firmware, and lifecycle — rather than public
+    cloud.
   tools: [Read, Write, Edit, Bash, Grep, Glob]
 
 - slug: windows-systems-administrator
   title: Windows Systems Administrator
   category: infrastructure-devops
   description: >-
-    Administers Windows Server fleets, Active Directory, and Group Policy across
-    an organization's Windows estate.
+    Administers Windows Server fleets — Group Policy, server roles, and PowerShell
+    automation — across an organization's Windows estate.
   tools: [Read, Write, Bash, Grep, Glob]
 
 - slug: linux-systems-administrator
   title: Linux Systems Administrator
   category: infrastructure-devops
   description: >-
-    Administers Linux server fleets -- patching, hardening, and troubleshooting --
-    across an organization's Unix-like estate.
+    Administers Linux server fleets — hardening, performance tuning, and
+    troubleshooting — across an organization's Unix-like estate.
   tools: [Read, Write, Bash, Grep, Glob]
 
 - slug: it-infrastructure-manager
@@ -1343,16 +1346,16 @@
   title: UI Designer
   category: design
   description: >-
-    Crafts the visual interface -- layout, color, type, and component states --
-    that brings a UX flow to pixel-accurate life.
+    Crafts the visual interface — layout, color, type, and component states — that
+    brings a UX flow to pixel-accurate life.
   tools: [Read, Write, Edit]
 
 - slug: ux-researcher
   title: UX Researcher
   category: design
   description: >-
-    Runs interviews, usability tests, and surveys that tell design and product
-    teams what users actually need and where they struggle.
+    Runs usability tests, contextual inquiry, and task-based studies that show
+    where users struggle with a specific design or flow.
   tools: [Read, Write, WebSearch]
 
 - slug: interaction-designer
@@ -1367,8 +1370,8 @@
   title: Visual Designer
   category: design
   description: >-
-    Applies typography, color, and composition to marketing and product surfaces
-    so they read as polished and on-brand.
+    Applies typography, color, and composition to marketing and brand surfaces —
+    campaigns, web pages, decks — so they read as polished and on-brand.
   tools: [Read, Write, Edit]
 
 - slug: design-systems-designer
@@ -1399,7 +1402,7 @@
   title: Packaging Designer
   category: design
   description: >-
-    Designs the graphic surface of product packaging -- label, color, hierarchy --
+    Designs the graphic surface of product packaging — label, color, hierarchy —
     so it stands out on shelf and communicates the brand.
   tools: [Read, Write, WebSearch]
 
@@ -1479,8 +1482,9 @@
   title: Interior Designer
   category: design
   description: >-
-    Plans interior layouts, materials, and lighting for residential or commercial
-    spaces to fit how the space will be used.
+    Selects finishes, furnishings, and lighting for residential or commercial
+    interiors; defers partitions, egress, and permit documents to an interior
+    architect.
   tools: [Read, Write, WebSearch]
 
 - slug: editorial-designer
@@ -1519,8 +1523,8 @@
   title: Accessibility Designer
   category: design
   description: >-
-    Designs interface patterns -- contrast, focus order, target size -- that keep
-    a product usable for people with disabilities.
+    Designs interface patterns — contrast, focus order, target size — that keep a
+    product usable for people with disabilities.
   tools: [Read, Write]
 
 - slug: information-designer
@@ -1535,8 +1539,8 @@
   title: Exhibition Designer
   category: design
   description: >-
-    Designs museum exhibits and trade show booths, planning layout, lighting, and
-    displays that guide how visitors move through a space.
+    Designs museum exhibits and trade show booths from a curator's selection and
+    narrative, planning layout, lighting, and displays visitors move through.
   tools: [Read, Write, WebSearch]
 
 - slug: toy-designer
@@ -1575,8 +1579,8 @@
   title: Packaging Structural Designer
   category: design
   description: >-
-    Engineers the die-lines and physical structure of packaging -- folds,
-    cavities, closures -- so it protects the product and assembles correctly.
+    Engineers the die-lines and physical structure of packaging — folds, cavities,
+    closures — so it protects the product and assembles correctly.
   tools: [Read, Write]
 
 - slug: ar-vr-interaction-designer
@@ -1881,8 +1885,8 @@
   title: Customer Insights Manager
   category: product
   description: >-
-    Runs interviews, surveys, and support-ticket theme analysis to surface
-    qualitative customer feedback the roadmap would otherwise miss.
+    Runs customer interviews and surveys on why customers buy, churn, or expand,
+    and synthesizes them with feedback data into roadmap input.
   tools: [Read, Write, WebSearch]
 
 - slug: security-product-manager

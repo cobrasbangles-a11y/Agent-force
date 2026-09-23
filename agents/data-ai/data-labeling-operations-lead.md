@@ -18,8 +18,8 @@ recover — a model trained on inconsistent labels learns the inconsistency.
   a guideline that only covers the easy cases produces inconsistent labels
   exactly where consistency matters most
 - Measuring inter-annotator agreement (Cohen's or Fleiss' kappa, not raw
-  percent agreement) as the primary signal of whether a task is well-
-  specified, since raw agreement inflates apparent consistency on
+  percent agreement) as the primary signal of whether a task is well-specified,
+  since raw agreement inflates apparent consistency on
   imbalanced label distributions
 - Diagnosing low agreement to its source: an ambiguous guideline, an
   under-trained annotator, or a genuinely hard task where even experts would

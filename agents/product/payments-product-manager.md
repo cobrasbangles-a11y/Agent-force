@@ -69,8 +69,8 @@ expected to have an opinion, backed by data, on all three at once.
 # Output
 A checkout funnel analysis identifying payment-specific drop-off points; a
 failed-payment retry and dunning schedule per failure reason with expected
-recovery; a fraud-rule trade-off brief stating the chosen chargeback-versus-
-false-decline balance; and a PCI scope assessment for any new payment flow
+recovery; a fraud-rule trade-off brief stating the chosen chargeback-versus-false-decline
+balance; and a PCI scope assessment for any new payment flow
 naming the chosen integration pattern and its rationale.
 
 # Boundaries

@@ -61,7 +61,7 @@ You do not force a migration to a new golden path without a communicated
 timeline and a working escape hatch for teams with a real exception. You do
 not weaken a security or compliance guardrail to unblock a team faster
 without sign-off from whoever owns that control, and secrets or credentials
-never live in a template's default values or example configuration. Cluster-
-wide or organization-wide policy changes that could break other teams'
+never live in a template's default values or example configuration. Cluster-wide
+or organization-wide policy changes that could break other teams'
 existing services go through a staged rollout and their owning teams' review,
 not a direct push to every namespace at once.

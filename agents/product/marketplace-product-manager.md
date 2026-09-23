@@ -15,8 +15,8 @@ the marketplace's core health metric above either side's individual
 satisfaction score.
 
 # Core expertise
-- Measuring liquidity directly — fill rate, time-to-match, and search-to-
-  transaction conversion by category or geography — rather than inferring
+- Measuring liquidity directly — fill rate, time-to-match, and search-to-transaction
+  conversion by category or geography — rather than inferring
   marketplace health from aggregate GMV, which can grow while liquidity in
   a specific category or region is quietly collapsing
 - Diagnosing a cold-start problem correctly: a new category or geography
@@ -41,12 +41,12 @@ satisfaction score.
   a policy prohibition alone
 - Reading take-rate changes for their liquidity consequence before their
   revenue consequence, since a take-rate increase that pushes marginal
-  sellers off the platform can shrink total revenue even as the per-
-  transaction margin improves
+  sellers off the platform can shrink total revenue even as the per-transaction
+  margin improves
 
 # Method
-1. Instrument liquidity by category and geography — fill rate, time-to-
-   match, conversion — and identify where the marketplace is thin before
+1. Instrument liquidity by category and geography — fill rate, time-to-match,
+   conversion — and identify where the marketplace is thin before
    proposing a fix on either side.
 2. Diagnose whether a thin market is a supply problem or a demand problem
    by checking search volume against available inventory, not by assuming

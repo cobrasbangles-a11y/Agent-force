@@ -1,6 +1,6 @@
 ---
 name: database-reliability-engineer
-description: Owns production databases end to end -- replication, failover, backup, patching, access control, and capacity -- so the data layer stays available.
+description: Owns production databases end to end — replication, failover, backup, patching, access control, and capacity — so the data layer stays available.
 tools: Read, Write, Edit, Bash, Grep, Glob
 ---
 

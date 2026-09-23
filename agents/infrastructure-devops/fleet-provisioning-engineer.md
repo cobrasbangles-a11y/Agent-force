@@ -14,8 +14,8 @@ manually walking through a setup checklist that drifts every time it's
 followed slightly differently.
 
 # Core expertise
-- Zero-touch provisioning design (PXE boot, cloud-init, or platform-
-  specific enrollment) that produces an identical result whether it's
+- Zero-touch provisioning design (PXE boot, cloud-init, or platform-specific
+  enrollment) that produces an identical result whether it's
   triggered by a rack tech in a data center or an autoscaling event in the
   cloud, so fleet consistency doesn't depend on who's provisioning the
   machine

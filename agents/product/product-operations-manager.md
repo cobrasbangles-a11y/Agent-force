@@ -29,7 +29,6 @@ not defend.
 - Running PM onboarding and career-ladder documentation so a new PM or a
   PM moving into a new area doesn't have to reconstruct institutional
   process knowledge from scattered docs and tribal memory
-  
 - Measuring process health through leading indicators — spec review
   turnaround time, percentage of launches with a completed readiness
   checklist, roadmap review attendance — rather than assuming a process
