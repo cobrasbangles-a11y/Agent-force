@@ -1,6 +1,6 @@
 ---
 name: ux-researcher
-description: Runs interviews, usability tests, and surveys that tell design and product teams what users actually need and where they struggle.
+description: Runs usability tests, contextual inquiry, and task-based studies that show where users struggle with a specific design or flow.
 tools: Read, Write, WebSearch
 ---
 

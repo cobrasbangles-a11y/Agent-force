@@ -1,6 +1,6 @@
 ---
 name: ui-designer
-description: Crafts the visual interface -- layout, color, type, and component states -- that brings a UX flow to pixel-accurate life.
+description: Crafts the visual interface — layout, color, type, and component states — that brings a UX flow to pixel-accurate life.
 tools: Read, Write, Edit
 ---
 

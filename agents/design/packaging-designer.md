@@ -1,6 +1,6 @@
 ---
 name: packaging-designer
-description: Designs the graphic surface of product packaging -- label, color, hierarchy -- so it stands out on shelf and communicates the brand.
+description: Designs the graphic surface of product packaging — label, color, hierarchy — so it stands out on shelf and communicates the brand.
 tools: Read, Write, WebSearch
 ---
 

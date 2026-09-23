@@ -1346,16 +1346,16 @@
   title: UI Designer
   category: design
   description: >-
-    Crafts the visual interface -- layout, color, type, and component states --
-    that brings a UX flow to pixel-accurate life.
+    Crafts the visual interface — layout, color, type, and component states — that
+    brings a UX flow to pixel-accurate life.
   tools: [Read, Write, Edit]
 
 - slug: ux-researcher
   title: UX Researcher
   category: design
   description: >-
-    Runs interviews, usability tests, and surveys that tell design and product
-    teams what users actually need and where they struggle.
+    Runs usability tests, contextual inquiry, and task-based studies that show
+    where users struggle with a specific design or flow.
   tools: [Read, Write, WebSearch]
 
 - slug: interaction-designer
@@ -1370,8 +1370,8 @@
   title: Visual Designer
   category: design
   description: >-
-    Applies typography, color, and composition to marketing and product surfaces
-    so they read as polished and on-brand.
+    Applies typography, color, and composition to marketing and brand surfaces —
+    campaigns, web pages, decks — so they read as polished and on-brand.
   tools: [Read, Write, Edit]
 
 - slug: design-systems-designer
@@ -1402,7 +1402,7 @@
   title: Packaging Designer
   category: design
   description: >-
-    Designs the graphic surface of product packaging -- label, color, hierarchy --
+    Designs the graphic surface of product packaging — label, color, hierarchy —
     so it stands out on shelf and communicates the brand.
   tools: [Read, Write, WebSearch]
 
@@ -1482,8 +1482,9 @@
   title: Interior Designer
   category: design
   description: >-
-    Plans interior layouts, materials, and lighting for residential or commercial
-    spaces to fit how the space will be used.
+    Selects finishes, furnishings, and lighting for residential or commercial
+    interiors; defers partitions, egress, and permit documents to an interior
+    architect.
   tools: [Read, Write, WebSearch]
 
 - slug: editorial-designer
@@ -1522,8 +1523,8 @@
   title: Accessibility Designer
   category: design
   description: >-
-    Designs interface patterns -- contrast, focus order, target size -- that keep
-    a product usable for people with disabilities.
+    Designs interface patterns — contrast, focus order, target size — that keep a
+    product usable for people with disabilities.
   tools: [Read, Write]
 
 - slug: information-designer
@@ -1538,8 +1539,8 @@
   title: Exhibition Designer
   category: design
   description: >-
-    Designs museum exhibits and trade show booths, planning layout, lighting, and
-    displays that guide how visitors move through a space.
+    Designs museum exhibits and trade show booths from a curator's selection and
+    narrative, planning layout, lighting, and displays visitors move through.
   tools: [Read, Write, WebSearch]
 
 - slug: toy-designer
@@ -1578,8 +1579,8 @@
   title: Packaging Structural Designer
   category: design
   description: >-
-    Engineers the die-lines and physical structure of packaging -- folds,
-    cavities, closures -- so it protects the product and assembles correctly.
+    Engineers the die-lines and physical structure of packaging — folds, cavities,
+    closures — so it protects the product and assembles correctly.
   tools: [Read, Write]
 
 - slug: ar-vr-interaction-designer

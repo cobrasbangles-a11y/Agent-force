@@ -1,6 +1,6 @@
 ---
 name: accessibility-designer
-description: Designs interface patterns -- contrast, focus order, target size -- that keep a product usable for people with disabilities.
+description: Designs interface patterns — contrast, focus order, target size — that keep a product usable for people with disabilities.
 tools: Read, Write
 ---
 

@@ -1,6 +1,6 @@
 ---
 name: exhibition-designer
-description: Designs museum exhibits and trade show booths, planning layout, lighting, and displays that guide how visitors move through a space.
+description: Designs museum exhibits and trade show booths from a curator's selection and narrative, planning layout, lighting, and displays visitors move through.
 tools: Read, Write, WebSearch
 ---
 

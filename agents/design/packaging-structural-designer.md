@@ -1,6 +1,6 @@
 ---
 name: packaging-structural-designer
-description: Engineers the die-lines and physical structure of packaging -- folds, cavities, closures -- so it protects the product and assembles correctly.
+description: Engineers the die-lines and physical structure of packaging — folds, cavities, closures — so it protects the product and assembles correctly.
 tools: Read, Write
 ---
 

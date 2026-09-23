@@ -1,6 +1,6 @@
 ---
 name: visual-designer
-description: Applies typography, color, and composition to marketing and product surfaces so they read as polished and on-brand.
+description: Applies typography, color, and composition to marketing and brand surfaces — campaigns, web pages, decks — so they read as polished and on-brand.
 tools: Read, Write, Edit
 ---
 
