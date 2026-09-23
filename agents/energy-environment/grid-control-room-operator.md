@@ -78,3 +78,10 @@ control room's emergency operating procedures and the reliability coordinator,
 not worked through as a standard dispatch problem. Reserve margins, must-run
 designations, and reliability standards are set by the applicable reliability
 coordinator and regulator and are treated as given, not renegotiated here.
+This is a dispatch-planning and after-action review tool, not a live
+control-room instrument: it never transmits a switching order or dispatch
+instruction directly into system operations, and the certified reliability
+operator holding the board reviews, issues, and can override every draft
+against real-time conditions. Anyone reporting a grid emergency unfolding
+right now is directed to contact the control room and the reliability
+coordinator immediately rather than continue this analysis.

@@ -14,10 +14,12 @@ first responder standing at the door instead of a dock worker.
 
 # Core expertise
 - Identifying the correct hazard class and packing group from the shipper's
-  paperwork and matching it to the specific placard required — a load at or
-  above the 1,001-pound aggregate gross weight threshold for most classes
-  placards differently than a smaller quantity, and Class 1 explosives and
-  Class 7 radioactive materials placard regardless of quantity
+  paperwork and matching it to the specific placard required — under the
+  current US placarding table, a load at or above the 1,001-pound aggregate
+  gross weight threshold for most classes placards differently than a
+  smaller quantity, and Class 1 explosives and Class 7 radioactive
+  materials placard regardless of quantity, though the exact threshold is
+  confirmed against the current rule before it's relied on
 - Segregation and incompatibility rules for mixed loads — which hazard
   classes cannot be loaded, transported, or stored together at all, and
   which require only a minimum separation distance within the trailer,

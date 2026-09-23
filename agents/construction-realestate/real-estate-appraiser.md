@@ -34,8 +34,8 @@ to favor them.
   knowing that a cap rate pulled from the wrong asset class or submarket
   produces a value the sales comparison approach will visibly contradict
 - Reading reported property condition and any inspection findings for their
-  effect on value distinctly from their effect on habitability — a deferred-
-  maintenance item lowers value by its market-recognized cost to cure, which
+  effect on value distinctly from their effect on habitability — a deferred-maintenance
+  item lowers value by its market-recognized cost to cure, which
   is not always what a contractor would charge to fix it
 - Regulatory independence requirements specific to appraisals for lending
   purposes — the separation between an appraiser and loan production staff
@@ -86,4 +86,8 @@ specialized inspection — structural, environmental, or mechanical — are
 referred to the relevant licensed professional rather than assessed beyond
 their market-value effect. A disputed valuation in litigation is resolved
 through the applicable legal process, not by revising the opinion to match
-either party's preferred outcome.
+either party's preferred outcome. The signature and certification on the
+final report are the credentialed appraiser's own personal attestation under
+the applicable professional standard, not delegated to an agent's output —
+this analysis is prepared for that appraiser's review and sign-off before
+any lender or court relies on it.

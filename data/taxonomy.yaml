@@ -5510,9 +5510,9 @@
   title: Master Electrician
   category: skilled-trades
   description: >-
-    Calculates service and feeder loads for commercial buildings, designs the
-    electrical system layout, and holds the license required to pull permits and
-    sign off on installations.
+    Calculates service and feeder loads for commercial buildings, designs
+    the electrical system layout, and prepares the permit package for the
+    licensed electrician of record.
   tools: [Read, Write, WebSearch]
 
 - slug: electrical-foreman
@@ -5536,8 +5536,8 @@
   category: skilled-trades
   description: >-
     Designs water supply and drainage systems for multi-building projects,
-    calculates fixture unit loads, and holds the license required to pull permits
-    and train apprentices.
+    calculates fixture unit loads, and prepares permit packages and
+    apprentice training plans.
   tools: [Read, Write, WebSearch]
 
 - slug: pipefitter
@@ -5553,9 +5553,9 @@
   title: HVAC Installation Technician
   category: skilled-trades
   description: >-
-    Sizes ductwork and equipment for new heating and cooling systems, calculates
-    load requirements for a building, and sequences installation around
-    inspections.
+    Selects heating and cooling equipment against a building's calculated
+    load, lays out the installation and ductwork connections, and sequences
+    startup and commissioning.
   tools: [Read, Write, WebSearch]
 
 - slug: hvac-service-technician
@@ -5861,17 +5861,18 @@
   title: Interior Architect
   category: construction-realestate
   description: >-
-    Plans interior space layouts, partition walls, and egress paths for a
-    commercial buildout and produces the construction documents required for a
-    permit.
+    Plans interior layouts, partition walls, and egress paths for a
+    commercial buildout and produces permit construction documents, distinct
+    from interior design.
   tools: [Read, Write, WebSearch]
 
 - slug: structural-engineer
   title: Structural Engineer
   category: construction-realestate
   description: >-
-    Calculates loads and designs the framing, foundation, and lateral system for a
-    building and stamps drawings certifying they meet code.
+    Calculates loads and designs the framing, foundation, and lateral system
+    for a building, preparing calculations and drawings for the engineer of
+    record's stamp.
   tools: [Read, Write, WebSearch]
 
 - slug: civil-engineer
@@ -5912,8 +5913,9 @@
   title: Quantity Surveyor
   category: construction-realestate
   description: >-
-    Measures quantities from construction drawings to produce cost estimates and
-    bills of materials and tracks valuations as work proceeds.
+    Manages construction cost for the client side — cost plans, interim
+    valuations, and the final account — distinct from a contractor's bid
+    estimate.
   tools: [Read, Write, WebSearch]
 
 - slug: construction-estimator
@@ -5962,8 +5964,9 @@
   title: Construction Safety Manager
   category: construction-realestate
   description: >-
-    Identifies jobsite hazards and writes the safety plan for a construction
-    project and audits crews for compliance with OSHA and site-specific rules.
+    Identifies jobsite hazards, writes a construction project's site safety
+    plan, and audits crews and subcontractors against construction OSHA and
+    site rules.
   tools: [Read, Write, WebSearch, TodoWrite]
 
 - slug: land-surveyor
@@ -6002,8 +6005,9 @@
   title: General Contractor
   category: construction-realestate
   description: >-
-    Holds the license and contract for a construction project, hiring and
-    coordinating subcontractors and bearing responsibility for the finished work.
+    Structures the prime contract for a construction project, selects and
+    coordinates subcontractors, and tracks the builder's obligations through
+    to the finished work.
   tools: [Read, Write, TodoWrite, Task]
 
 - slug: preconstruction-manager
@@ -6067,8 +6071,9 @@
   title: Real Estate Broker
   category: construction-realestate
   description: >-
-    Holds the license required to operate a real estate brokerage and supervises
-    agents' transactions for legal and contractual compliance.
+    Supervises a brokerage's agent transactions for legal and contractual
+    compliance, reviewing listings, disclosures, and deposit handling
+    against state license law.
   tools: [Read, Write, TodoWrite]
 
 - slug: commercial-real-estate-broker
@@ -6107,8 +6112,9 @@
   title: Escrow Officer
   category: construction-realestate
   description: >-
-    Holds and disburses funds and documents for a real estate closing and confirms
-    every condition of the purchase contract is satisfied before it closes.
+    Tracks the funds and documents for a real estate closing and confirms
+    every condition of the purchase contract is satisfied before anything is
+    disbursed.
   tools: [Read, Write, TodoWrite]
 
 - slug: real-estate-developer
@@ -6500,8 +6506,9 @@
   title: Long-Haul Truck Driver
   category: transport-logistics
   description: >-
-    Plans multi-day interstate routes, sequencing fuel and rest stops against
-    hours-of-service limits, and secures loads for over-the-road freight.
+    Plans multi-day interstate routes, sequencing fuel and rest stops
+    against hours-of-service limits, and specifies load securement for
+    over-the-road freight.
   tools: [Read, Write, WebSearch]
 
 - slug: hazmat-truck-driver
@@ -6605,16 +6612,17 @@
   title: Airline Flight Dispatcher
   category: transport-logistics
   description: >-
-    Files flight plans and calculates fuel loads against weather and route
-    conditions, sharing legal authority to release a flight.
+    Plans flight releases, calculating fuel loads and routing against
+    weather and route conditions for the certificated dispatcher and captain
+    to approve.
   tools: [Read, Write, WebSearch]
 
 - slug: ramp-operations-supervisor
   title: Ramp Operations Supervisor
   category: transport-logistics
   description: >-
-    Sequences aircraft turnaround tasks - baggage, fueling, catering, and pushback
-    - against a tight gate schedule to prevent delay cascades.
+    Sequences aircraft turnaround tasks — baggage, fueling, catering, and
+    pushback — against a tight gate schedule to prevent delay cascades.
   tools: [Read, Write, TodoWrite]
 
 - slug: air-cargo-load-planner
@@ -6709,8 +6717,8 @@
   title: Order Fulfillment Associate
   category: transport-logistics
   description: >-
-    Picks, packs, and stages customer orders against a wave plan, prioritizing
-    accuracy and cutoff times over a shift.
+    Plans pick waves, pack sequencing, and staging for customer orders
+    across a shift, prioritizing accuracy and carrier cutoff times.
   tools: [Read, Write]
 
 - slug: inventory-control-specialist
@@ -6855,8 +6863,8 @@
   title: Legislative Aide
   category: public-sector
   description: >-
-    Drafts bill language and floor-speech talking points and researches policy
-    positions for an elected official's office.
+    Manages an elected official's legislative calendar, drafts bill language
+    and talking points, and tracks bills through committee.
   tools: [Read, Write, WebSearch]
 
 - slug: patrol-officer
@@ -6975,8 +6983,8 @@
   title: Property Tax Assessor
   category: public-sector
   description: >-
-    Values real property against comparable sales and improvement records to set
-    its assessed value for taxation.
+    Sets assessed values for taxation through mass appraisal of a
+    jurisdiction's parcels and defends those values at the board of review.
   tools: [Read, Write]
 
 - slug: social-services-caseworker
@@ -7231,8 +7239,9 @@
   title: Pipeline Control Room Operator
   category: energy-environment
   description: >-
-    Monitors pipeline flow, pressure, and leak-detection alarms across a network
-    and sequences valve operations to respond to anomalies.
+    Monitors transmission pipeline flow, pressure, and leak-detection alarms
+    through SCADA and sequences mainline valve operations to respond to
+    anomalies.
   tools: [Read, Write]
 
 - slug: refinery-process-operator
@@ -7319,8 +7328,9 @@
   title: Environmental Health and Safety Manager
   category: energy-environment
   description: >-
-    Runs an industrial facility's EHS compliance program, auditing conditions and
-    investigating incidents against regulatory standards.
+    Runs EHS compliance for industrial and process facilities (plants,
+    refineries, utilities), including environmental permits, audits, and
+    incident investigation.
   tools: [Read, Write, WebSearch, TodoWrite]
 
 - slug: air-quality-compliance-specialist
@@ -7377,8 +7387,9 @@
   title: Natural Gas Utility Operator
   category: energy-environment
   description: >-
-    Monitors distribution-system pressure and odorization levels and sequences
-    valve operations to respond to a gas leak.
+    Monitors local gas distribution pressure and odorization levels and
+    sequences valve operations and crew dispatch to respond to a reported
+    leak.
   tools: [Read, Write]
 
 - slug: utility-rate-case-analyst
@@ -7433,16 +7444,18 @@
   title: Utility Vegetation Management Coordinator
   category: energy-environment
   description: >-
-    Plans tree-trimming and clearance cycles along power line corridors to reduce
-    outage and wildfire-ignition risk.
+    Plans tree-trimming and clearance cycles along power line corridors,
+    setting trim specs and contractor schedules by circuit, distinct from
+    shutoff planning.
   tools: [Read, Write, TodoWrite]
 
 - slug: wildfire-mitigation-program-manager
   title: Wildfire Mitigation Program Manager
   category: energy-environment
   description: >-
-    Prioritizes grid-hardening projects and public safety power shutoff protocols
-    across a utility's highest wildfire-risk circuits.
+    Prioritizes grid-hardening projects and public safety power shutoff
+    protocols across a utility's highest wildfire-risk circuits, distinct
+    from routine tree trimming.
   tools: [Read, Write, TodoWrite, Task]
 
 - slug: load-forecasting-analyst
@@ -7521,8 +7534,9 @@
   title: Feedlot Manager
   category: agriculture
   description: >-
-    Formulates feed rations and tracks weight-gain and health protocols for cattle
-    finishing toward slaughter weight.
+    Runs a cattle feedlot's pen allocation, bunk management, and health
+    protocols, tracking intake and close-out performance against a
+    nutritionist's rations.
   tools: [Read, Write, TodoWrite, Task]
 
 - slug: agronomist
@@ -7569,8 +7583,9 @@
   title: Agricultural Drone Operations Specialist
   category: agriculture
   description: >-
-    Plans aerial imagery and spray-mission flight paths for crop scouting and
-    targeted treatment across a field.
+    Plans unmanned aircraft missions for crop scouting imagery and
+    spot-spray treatment, including flight paths, waivers, and small-block
+    application rates.
   tools: [Read, Write]
 
 - slug: forester
@@ -7633,8 +7648,8 @@
   title: Commercial Greenhouse Grower
   category: agriculture
   description: >-
-    Sets planting schedules and climate-control setpoints for greenhouse vegetable
-    or ornamental crop production.
+    Sets planting schedules, substrate, and ventilation and heating strategy
+    for soil or substrate-grown greenhouse vegetable or ornamental crops.
   tools: [Read, Write]
 
 - slug: nursery-production-manager
@@ -7689,8 +7704,9 @@
   title: Rangeland Management Specialist
   category: agriculture
   description: >-
-    Plans grazing rotation, forage assessment, and fencing or water infrastructure
-    across public or private rangeland.
+    Assesses range condition and carrying capacity for public or private
+    grazing allotments and plans grazing, fencing, and water improvements to
+    match.
   tools: [Read, Write]
 
 - slug: apiary-manager
@@ -7769,17 +7785,17 @@
   title: Controlled Environment Agriculture Manager
   category: agriculture
   description: >-
-    Sets nutrient, lighting, and climate schedules for a hydroponic or
-    vertical-farming operation's crop cycles.
+    Designs nutrient-solution recipes, LED photoperiod, and climate
+    schedules for a hydroponic or vertical farm, and specifies its
+    growing-system layout.
   tools: [Read, Write, TodoWrite, Task]
 
 - slug: agricultural-pilot
   title: Agricultural Pilot
   category: agriculture
   description: >-
-    Plans aerial application flight patterns, calculates spray or seed mixing
-    rates, and calibrates boom width for a fixed-wing or helicopter run over
-    a field.
+    Plans manned fixed-wing or helicopter aerial application runs,
+    calculating spray or seed mixing rates and swath width for a field.
   tools: [Read, Write, WebSearch]
 
 - slug: stage-actor

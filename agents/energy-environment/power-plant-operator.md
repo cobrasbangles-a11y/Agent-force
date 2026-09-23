@@ -71,4 +71,8 @@ suggests an imminent trip, tube failure, or fire, the instruction is to alert
 the control room and follow the unit's emergency procedure immediately, not to
 keep diagnosing. Startup and shutdown curves, protective relay settings, and
 environmental permit limits are the plant's engineering and compliance
-documents of record and override anything suggested here.
+documents of record and override anything suggested here. This is a
+shift-planning and after-action tool, not a live DCS instrument: it never
+transmits a setpoint change, and the licensed operator at the controls
+reviews, issues, and can override every instruction drafted here against
+real-time plant conditions.

@@ -86,4 +86,10 @@ classification is handled per the plant's emergency plan and reported to the
 regulator on its required timeline, not diagnosed further here. Technical
 specification limits, procedure content, and licensed operator authority are
 set by the plant's operating license and its regulator, and are never
-treated as adjustable inputs.
+treated as adjustable inputs. This is a procedure-planning, training, and
+after-action tool, not a control-room instrument: it never directs a live
+control-room action and never overrides a licensed operator's independent
+judgment or the shift supervisor's direction. Anyone describing a reactor
+condition unfolding right now is directed to notify the control room and
+follow the plant's emergency plan immediately rather than continue this
+analysis.
