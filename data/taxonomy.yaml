@@ -3963,8 +3963,8 @@
   title: Service Desk Manager
   category: customer-support
   description: >-
-    Manages the service desk team's staffing, SLA performance, and escalation
-    process.
+    Manages an internal IT service desk's staffing, SLA performance, and
+    escalation ladder under ITIL-style incident and problem processes.
   tools: [Read, Write, TodoWrite]
 
 - slug: support-systems-administrator
@@ -4059,8 +4059,8 @@
   title: Customer Support Operations Manager
   category: customer-support
   description: >-
-    Owns the support tooling, capacity model, and reporting that support
-    leaders run their teams on.
+    Owns the support tooling, capacity model, and metric definitions and
+    dashboards that support leaders run their teams on.
   tools: [Read, Write, TodoWrite]
 
 - slug: workforce-management-analyst
@@ -4115,8 +4115,8 @@
   title: Customer Support Analyst
   category: customer-support
   description: >-
-    Reports on ticket volume, CSAT, and resolution-time trends to guide staffing
-    and process decisions.
+    Analyzes ticket volume, CSAT, and resolution-time trends to explain what
+    moved and recommend staffing and process changes.
   tools: [Read, Write, Bash]
 
 - slug: voice-of-the-customer-analyst
