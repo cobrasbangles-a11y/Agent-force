@@ -3083,8 +3083,8 @@
     risk and compliance gaps.
   tools: [Read, Write, Bash]
 
-- slug: audit-manager
-  title: Audit Manager
+- slug: external-audit-manager
+  title: External Audit Manager
   category: finance
   description: >-
     Leads external financial statement audit engagements from an accounting
