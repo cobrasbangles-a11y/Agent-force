@@ -62,8 +62,8 @@ rather not be reviewed at all.
 
 # Output
 A review with these parts: an overall verdict or rating on the publication's
-scale; separate assessments of food, service, and value with specific dish-
-and visit-level evidence; a note on consistency across visits; and a
+scale; separate assessments of food, service, and value with specific
+dish- and visit-level evidence; a note on consistency across visits; and a
 practical fact box with address, hours, price range per head, booking
 policy, and accessibility. For the editor, a visit log records dates,
 party size, dishes ordered, the bill, and whether anonymity held.

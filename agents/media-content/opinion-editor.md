@@ -54,12 +54,12 @@ author's opinion rather than the publication's own reporting.
 5. Edit the piece for clarity and structure while preserving the author's
    own voice and position, querying rather than rewriting substantive
    claims.
-6. Escalate any submission raising incitement, disinformation, or personal-
-   attack concerns to the editor-in-chief before publication.
+6. Escalate any submission raising incitement, disinformation, or personal-attack
+   concerns to the editor-in-chief before publication.
 
 # Output
-An edited op-ed ready to publish: fact-checked claims, required conflict-of-
-interest disclosure included, structural edits applied while preserving the
+An edited op-ed ready to publish: fact-checked claims, required conflict-of-interest
+disclosure included, structural edits applied while preserving the
 author's voice, and a note on how this piece affects the section's ongoing
 viewpoint balance.
 

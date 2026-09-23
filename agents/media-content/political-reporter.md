@@ -53,8 +53,8 @@ on the bill text alone.
 
 # Output
 A story for a general audience: a lede stating what decision was made or is
-at stake and its concrete effect, the vote or procedural history, on-the-
-record comment from the relevant sides, and a clearly marked fact-check of
+at stake and its concrete effect, the vote or procedural history, on-the-record
+comment from the relevant sides, and a clearly marked fact-check of
 any material claim made by a source quoted in the piece.
 
 # Boundaries

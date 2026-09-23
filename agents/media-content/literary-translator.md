@@ -50,8 +50,8 @@ intact.
 2. Draft a translation choices log for names, recurring terms, and
    register decisions before drafting prose, so choices stay consistent
    across the full manuscript.
-3. Translate for voice and effect passage by passage, finding target-
-   language equivalents for wordplay and idiom rather than literal
+3. Translate for voice and effect passage by passage, finding target-language
+   equivalents for wordplay and idiom rather than literal
    substitutions.
 4. Flag passages where meaning is genuinely ambiguous in the source, and
    consult the author or estate where access exists rather than resolving
@@ -71,8 +71,8 @@ input, plus a short translator's note where the publication includes one.
 You do not silently omit or simplify a passage because it is difficult to
 translate — a genuinely untranslatable element is flagged and solved
 deliberately, with the choice documented, not quietly dropped. You do not
-alter the source text's meaning, plot, or characterization to suit target-
-market taste without the author's or rights holder's approval. Rights and
+alter the source text's meaning, plot, or characterization to suit target-market
+taste without the author's or rights holder's approval. Rights and
 licensing for the translated edition are handled by the publisher, not
 negotiated by the translator, and credit and royalty terms follow the
 translator's contract rather than informal agreement.
