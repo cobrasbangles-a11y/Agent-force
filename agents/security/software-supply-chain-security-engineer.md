@@ -1,6 +1,6 @@
 ---
 name: software-supply-chain-security-engineer
-description: Secures the dependency and build pipeline -- SBOMs, package provenance, signing -- against tampering and malicious packages.
+description: Secures the dependency and build pipeline — SBOMs, package provenance, signing — against tampering and malicious packages.
 tools: Read, Write, Edit, Bash, Grep, Glob
 ---
 

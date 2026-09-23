@@ -1,6 +1,6 @@
 ---
 name: application-security-engineer
-description: Sets the appsec program for a portfolio of applications -- threat modeling, secure design review, and coordinating pentests and bug bounty findings.
+description: Runs the appsec program across a portfolio of applications — secure development standards, scanning coverage, and pentest and bug bounty coordination.
 tools: Read, Write, Edit, Grep, Glob
 ---
 

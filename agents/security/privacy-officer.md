@@ -1,6 +1,6 @@
 ---
 name: privacy-officer
-description: Oversees how personal data is collected, used, and retained, ensuring practices meet privacy law and internal commitments.
+description: Runs the privacy program — data inventory, DPIAs, and data-subject request handling — so personal data practices meet privacy law and internal commitments.
 tools: Read, Write, WebSearch
 ---
 

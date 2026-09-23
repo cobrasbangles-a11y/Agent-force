@@ -1,6 +1,6 @@
 ---
 name: fraud-prevention-analyst
-description: Detects and blocks fraudulent transactions and account activity by tuning rules and models against evolving fraud patterns.
+description: Detects and blocks transaction and account-takeover fraud by tuning rules and models against evolving fraud patterns.
 tools: Read, Write, Bash, Grep
 ---
 

@@ -743,8 +743,9 @@
   title: Application Security Engineer
   category: security
   description: >-
-    Sets the appsec program for a portfolio of applications -- threat modeling,
-    secure design review, and coordinating pentests and bug bounty findings.
+    Runs the appsec program across a portfolio of applications — secure
+    development standards, scanning coverage, and pentest and bug bounty
+    coordination.
   tools: [Read, Write, Edit, Grep, Glob]
 
 - slug: cloud-security-engineer
@@ -815,8 +816,9 @@
   title: Privacy Officer
   category: security
   description: >-
-    Oversees how personal data is collected, used, and retained, ensuring
-    practices meet privacy law and internal commitments.
+    Runs the privacy program — data inventory, DPIAs, and data-subject request
+    handling — so personal data practices meet privacy law and internal
+    commitments.
   tools: [Read, Write, WebSearch]
 
 - slug: physical-security-consultant
@@ -903,8 +905,8 @@
   title: Fraud Prevention Analyst
   category: security
   description: >-
-    Detects and blocks fraudulent transactions and account activity by tuning
-    rules and models against evolving fraud patterns.
+    Detects and blocks transaction and account-takeover fraud by tuning rules and
+    models against evolving fraud patterns.
   tools: [Read, Write, Bash, Grep]
 
 - slug: insider-threat-analyst
@@ -991,8 +993,8 @@
   title: Software Supply Chain Security Engineer
   category: security
   description: >-
-    Secures the dependency and build pipeline -- SBOMs, package provenance,
-    signing -- against tampering and malicious packages.
+    Secures the dependency and build pipeline — SBOMs, package provenance, signing
+    — against tampering and malicious packages.
   tools: [Read, Write, Edit, Bash, Grep, Glob]
 
 - slug: payment-security-analyst
