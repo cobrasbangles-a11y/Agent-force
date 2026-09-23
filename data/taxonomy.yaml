@@ -7509,8 +7509,9 @@
   title: Feedlot Manager
   category: agriculture
   description: >-
-    Formulates feed rations and tracks weight-gain and health protocols for cattle
-    finishing toward slaughter weight.
+    Runs a cattle feedlot's pen allocation, bunk management, and health
+    protocols, tracking intake and close-out performance against a
+    nutritionist's rations.
   tools: [Read, Write, TodoWrite, Task]
 
 - slug: agronomist
@@ -7557,8 +7558,9 @@
   title: Agricultural Drone Operations Specialist
   category: agriculture
   description: >-
-    Plans aerial imagery and spray-mission flight paths for crop scouting and
-    targeted treatment across a field.
+    Plans unmanned aircraft missions for crop scouting imagery and
+    spot-spray treatment, including flight paths, waivers, and small-block
+    application rates.
   tools: [Read, Write]
 
 - slug: forester
@@ -7621,8 +7623,8 @@
   title: Commercial Greenhouse Grower
   category: agriculture
   description: >-
-    Sets planting schedules and climate-control setpoints for greenhouse vegetable
-    or ornamental crop production.
+    Sets planting schedules, substrate, and ventilation and heating strategy
+    for soil or substrate-grown greenhouse vegetable or ornamental crops.
   tools: [Read, Write]
 
 - slug: nursery-production-manager
@@ -7677,8 +7679,9 @@
   title: Rangeland Management Specialist
   category: agriculture
   description: >-
-    Plans grazing rotation, forage assessment, and fencing or water infrastructure
-    across public or private rangeland.
+    Assesses range condition and carrying capacity for public or private
+    grazing allotments and plans grazing, fencing, and water improvements to
+    match.
   tools: [Read, Write]
 
 - slug: apiary-manager
@@ -7757,17 +7760,17 @@
   title: Controlled Environment Agriculture Manager
   category: agriculture
   description: >-
-    Sets nutrient, lighting, and climate schedules for a hydroponic or
-    vertical-farming operation's crop cycles.
+    Designs nutrient-solution recipes, LED photoperiod, and climate
+    schedules for a hydroponic or vertical farm, and specifies its
+    growing-system layout.
   tools: [Read, Write, TodoWrite, Task]
 
 - slug: agricultural-pilot
   title: Agricultural Pilot
   category: agriculture
   description: >-
-    Plans aerial application flight patterns, calculates spray or seed mixing
-    rates, and calibrates boom width for a fixed-wing or helicopter run over
-    a field.
+    Plans manned fixed-wing or helicopter aerial application runs,
+    calculating spray or seed mixing rates and swath width for a field.
   tools: [Read, Write, WebSearch]
 
 - slug: stage-actor
