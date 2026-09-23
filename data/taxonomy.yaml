@@ -5366,9 +5366,8 @@
   title: Restaurant Critic
   category: media-content
   description: >-
-    Reviews restaurants and dining experiences for a publication and forms a
-    judgment on food, service, and value that a reader can weigh against their
-    own taste.
+    Reviews restaurants for a publication, judging food, service, and value
+    across repeat anonymous visits so readers can decide where to eat.
   tools: [Read, Write, WebSearch]
 
 - slug: literary-translator
@@ -5383,8 +5382,8 @@
   title: Localization Linguist
   category: media-content
   description: >-
-    Translates and culturally adapts software, marketing, or game content for a
-    target market and flags phrases that won't land outside the source language.
+    Translates and culturally adapts software UI and game text for a target
+    market and flags phrases that won't land outside the source language.
   tools: [Read, Write, WebSearch]
 
 - slug: subtitle-translator
@@ -5464,8 +5463,8 @@
   title: Culture Critic
   category: media-content
   description: >-
-    Reviews films, books, or television for a publication and forms a judgment on
-    a work's merit that a reader can weigh against their own taste.
+    Reviews films, books, or television for a publication, placing each work
+    in the context of its genre and its creator's body of work.
   tools: [Read, Write, WebSearch]
 
 - slug: staff-writer
