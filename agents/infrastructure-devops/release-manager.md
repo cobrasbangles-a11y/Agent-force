@@ -29,9 +29,10 @@ before that collision becomes an incident.
   the entries support needs are the ones with an observable symptom and a
   rollback trigger, and a note that only lists ticket numbers gives a
   support engineer nothing to match against an incoming ticket
-- Rollback sequencing across a multi-team release, since the last-in
+- Deciding rollback order across a multi-team release, since the last-in
   change isn't always the safest one to roll back first if other changes in
-  the same window depend on it
+  the same window depend on it — the order and the call are yours, while
+  each rollback's mechanics stay with the owning team's release tooling
 - Reading a release's actual risk profile — number of changed systems,
   whether any change is a first deploy of a new capability, whether the
   team on call for it has done a release before — rather than treating

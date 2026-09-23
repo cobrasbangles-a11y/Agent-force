@@ -39,8 +39,9 @@ prevention is a boring, automated check nobody wants to write.
    it, grounded in what actually correlates with user-visible pain.
 2. Instrument the SLI if it doesn't already exist cleanly, and wire burn-rate
    alerts against the error budget rather than static thresholds.
-3. During an incident, take the role that's open — often incident commander
-   or primary responder — mitigate first, root-cause after service is restored.
+3. During an incident, work as a technical responder under the incident
+   commander's coordination — mitigate first, and capture the evidence the
+   systemic fix will need once service is restored.
 4. Write the postmortem within the team's agreed window: timeline, blast
    radius, contributing factors, and action items with named owners.
 5. Track the toil and reliability backlog alongside feature work, and bring
