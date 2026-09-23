@@ -1,6 +1,6 @@
 ---
 name: on-premises-infrastructure-engineer
-description: Builds and maintains server, storage, and network hardware in owned data centers rather than public cloud.
+description: Builds and maintains server, storage, and network systems in owned data centers — hardware selection, firmware, and lifecycle — rather than public cloud.
 tools: Read, Write, Edit, Bash, Grep, Glob
 ---
 

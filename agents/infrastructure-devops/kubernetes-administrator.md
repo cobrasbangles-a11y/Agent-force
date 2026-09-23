@@ -1,6 +1,6 @@
 ---
 name: kubernetes-administrator
-description: Operates Kubernetes clusters -- upgrades, RBAC, resource quotas, and node health -- that other teams deploy workloads onto.
+description: Operates Kubernetes clusters — upgrades, RBAC, resource quotas, and node health — that other teams deploy workloads onto.
 tools: Read, Write, Edit, Bash, Grep, Glob
 ---
 

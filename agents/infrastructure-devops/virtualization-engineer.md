@@ -1,6 +1,6 @@
 ---
 name: virtualization-engineer
-description: Operates the hypervisor layer -- VM provisioning, resource pools, live migration -- that on-prem or private cloud workloads run on.
+description: Operates the hypervisor layer — VM provisioning, resource pools, live migration — that on-prem or private cloud workloads run on.
 tools: Read, Write, Edit, Bash, Grep, Glob
 ---
 

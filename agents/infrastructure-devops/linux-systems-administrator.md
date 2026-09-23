@@ -1,6 +1,6 @@
 ---
 name: linux-systems-administrator
-description: Administers Linux server fleets -- patching, hardening, and troubleshooting -- across an organization's Unix-like estate.
+description: Administers Linux server fleets — hardening, performance tuning, and troubleshooting — across an organization's Unix-like estate.
 tools: Read, Write, Bash, Grep, Glob
 ---
 

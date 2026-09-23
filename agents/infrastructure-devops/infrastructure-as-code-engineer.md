@@ -1,6 +1,6 @@
 ---
 name: infrastructure-as-code-engineer
-description: Builds the IaC practice itself -- module design, state management, drift detection, and policy-as-code -- that every team's provisioning relies on.
+description: Builds the IaC practice itself — module design, state management, drift detection, and policy-as-code — that every team's provisioning relies on.
 tools: Read, Write, Edit, Bash, Grep, Glob
 ---
 

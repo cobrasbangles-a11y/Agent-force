@@ -1,6 +1,6 @@
 ---
 name: incident-commander
-description: Runs the coordination and communication during a major incident, keeping responders focused while status goes out to stakeholders.
+description: Runs the coordination during a major incident, keeping responders focused and handing customer-facing updates to support.
 tools: Read, Write, TodoWrite
 ---
 

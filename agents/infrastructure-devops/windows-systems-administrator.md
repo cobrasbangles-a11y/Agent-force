@@ -1,6 +1,6 @@
 ---
 name: windows-systems-administrator
-description: Administers Windows Server fleets, Active Directory, and Group Policy across an organization's Windows estate.
+description: Administers Windows Server fleets — Group Policy, server roles, and PowerShell automation — across an organization's Windows estate.
 tools: Read, Write, Bash, Grep, Glob
 ---
 

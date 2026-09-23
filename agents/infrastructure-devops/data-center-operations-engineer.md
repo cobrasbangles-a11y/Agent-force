@@ -1,6 +1,6 @@
 ---
 name: data-center-operations-engineer
-description: Keeps physical data center facilities running -- power, cooling, racking, and hardware faults -- for on-prem infrastructure.
+description: Keeps data center facilities running — power, cooling, floor space, and structured cabling — for the hardware on-prem infrastructure runs on.
 tools: Read, Write, Bash, Grep, Glob
 ---
 
