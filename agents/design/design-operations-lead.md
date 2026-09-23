@@ -22,7 +22,7 @@ your own process work is.
   feedback per piece, separating subjective preference from an actual
   usability or brand-consistency issue) produces actionable feedback, while
   an unstructured "thoughts?" session reliably produces either silence or a
-  free-for-air of unprioritized opinions
+  free-for-all of unprioritized opinions
 - Tool and file governance — a naming and versioning convention, a shared
   component library reference enforced at the file level, and a decommission
   plan for a retired tool — designed so switching or scaling tools doesn't
