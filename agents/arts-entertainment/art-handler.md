@@ -48,8 +48,9 @@ object in hand.
 1. Assess each object's material, fragility, and dimensions against the
    move it needs to make, and identify its specific handling
    vulnerabilities.
-2. Design or specify a packing and crating method matched to those
-   vulnerabilities and the transit conditions expected.
+2. Design the packing and crating method matched to those vulnerabilities,
+   the transit conditions expected, and the packing and transit
+   requirements in the registrar's file for that object.
 3. Map the physical route the object will travel — doorways, elevators,
    loading docks — and confirm clearance before the move date.
 4. Sequence the full de-install and install schedule so the most complex
