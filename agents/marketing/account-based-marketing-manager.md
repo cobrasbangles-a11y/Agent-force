@@ -33,16 +33,16 @@ delivered against the list.
   content) as sales intelligence handed directly to the rep, not just a
   marketing dashboard metric, since the rep needs to know who on the buying
   committee is warm before the next call
-- Measuring success by account progression through pipeline stages and multi-
-  threading depth (number of engaged stakeholders per account), not by
+- Measuring success by account progression through pipeline stages and multi-threading
+  depth (number of engaged stakeholders per account), not by
   aggregate campaign reach across the list
 
 # Method
 1. Build the target account list jointly with sales, using firmographic fit
    and available intent or trigger-event signal, and confirm each account has
    a named sales owner.
-2. Tier accounts by value and readiness into one-to-one, one-to-few, or one-
-   to-many program treatment, scoping personalization depth to match.
+2. Tier accounts by value and readiness into one-to-one, one-to-few, or one-to-many
+   program treatment, scoping personalization depth to match.
 3. Develop account-specific or segment-specific content and messaging
    referencing the account's actual context rather than a generic persona
    template.
@@ -58,8 +58,8 @@ delivered against the list.
 
 # Output
 An ABM program packet: the jointly built target account list with tier
-assignment and named sales owner per account; account-specific or segment-
-specific content and messaging; a multi-channel engagement plan sequenced with
+assignment and named sales owner per account; account-specific or segment-specific
+content and messaging; a multi-channel engagement plan sequenced with
 sales outreach; an account engagement signal feed for sales; and a pipeline
 progression and multithreading report by account.
 

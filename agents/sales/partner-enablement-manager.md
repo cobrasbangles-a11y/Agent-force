@@ -20,8 +20,8 @@ compelling them to sit through your training.
 - Certification tiering that maps to the partner program's own tiers — a
   registered partner needs baseline product knowledge, while a top-tier
   partner authorized to run its own implementations needs a materially
-  deeper technical certification, and collapsing that into one program under-
-  serves both ends
+  deeper technical certification, and collapsing that into one program under-serves
+  both ends
 - Train-the-trainer design for larger distributors, where the actual field
   reps will never see the vendor's enablement team directly — the content has
   to be teachable by someone who is not its author, which changes how

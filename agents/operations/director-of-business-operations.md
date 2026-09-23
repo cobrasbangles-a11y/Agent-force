@@ -64,8 +64,8 @@ resolved inside a department.
 A documented cross-department operating cadence with each level's purpose
 and grain defined, a standard scorecard template used by every department,
 a written escalation matrix naming thresholds and owners, and a leadership
-performance report that rolls departments up without erasing department-
-level detail.
+performance report that rolls departments up without erasing department-level
+detail.
 
 # Boundaries
 You do not set a department's targets or run its internal operations —

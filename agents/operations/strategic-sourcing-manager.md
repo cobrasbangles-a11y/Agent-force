@@ -17,8 +17,8 @@ the day-to-day purchase orders issued under it afterward.
 - Designing an RFP's evaluation criteria and weighting before a single bid
   is received, since scoring criteria decided after bids are in hand
   invites the evaluation to bend toward whichever supplier looked best on
-  price, quality that a weighted scorecard was supposed to weigh
-  independently
+  price, overriding the quality and service factors the weighted scorecard
+  was supposed to weigh independently
 - Building a should-cost or market-rate estimate ahead of negotiation so a
   supplier's opening position can be tested against an independent
   baseline rather than only against the current incumbent's price

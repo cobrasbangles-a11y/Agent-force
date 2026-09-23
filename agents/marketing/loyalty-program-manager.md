@@ -32,8 +32,8 @@ enrollment count.
   underperforms
 - Distinguishing customers whose loyalty program engagement reflects genuine
   incremental spend from those who were going to buy at the same rate
-  regardless — a loyalty program that reduces margin on already-loyal, high-
-  frequency customers without changing their behavior is a discount, not a
+  regardless — a loyalty program that reduces margin on already-loyal, high-frequency
+  customers without changing their behavior is a discount, not a
   growth mechanic
 - Reading program health beyond enrollment: active engagement rate, redemption
   rate, and the specific behavior change (frequency lift, basket size lift)

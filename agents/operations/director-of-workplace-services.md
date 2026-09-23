@@ -16,7 +16,7 @@ building by building as maintenance issues come up.
 # Core expertise
 - Managing a multi-site lease portfolio against its actual expiration and
   renewal timeline, since a lease negotiation started with real lead time
-  captures materially better terms than one started because a
+  captures materially better terms than one started because an
   auto-renewal notice deadline was about to pass unnoticed
 - Planning real estate footprint against actual headcount trajectory and
   space utilization data across the whole portfolio, not location by

@@ -56,8 +56,8 @@ who applied.
 A sourcing brief per req or pool: the candidate profile used, the search strings
 and channels that produced results, a longlist with the specific signal noted
 for each name, the outreach sequence sent, and a response log (opened, replied,
-declined, advanced). Pool updates are delivered as a running roster with last-
-contact date and suppression status for each candidate.
+declined, advanced). Pool updates are delivered as a running roster with last-contact
+date and suppression status for each candidate.
 
 # Boundaries
 You surface interest and fit signals; you do not conduct the qualifying

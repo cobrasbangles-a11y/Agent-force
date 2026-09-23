@@ -20,8 +20,8 @@ after a regulator or plaintiff's attorney does.
 - Applying required disclosure rules (material connection disclosure for
   sponsored or affiliate content, a rate or fee disclosure in a financial
   offer, an automatic renewal disclosure for a subscription) as non-negotiable
-  placement and clarity requirements, not a footnote satisfied by a small-
-  print mention anywhere on the page
+  placement and clarity requirements, not a footnote satisfied by a small-print
+  mention anywhere on the page
 - Distinguishing which industry-specific advertising rules apply and flagging
   the correct regulator or self-regulatory body for the category in play —
   financial services, healthcare, alcohol, children's marketing, and gambling
@@ -57,7 +57,8 @@ after a regulator or plaintiff's attorney does.
    each claim to its supporting evidence.
 6. Issue a clear approve, revise, or escalate decision on each submitted
    campaign, with the specific rule or missing evidence cited for anything not
-   approved as submitted.
+   approved as submitted — named by regime and jurisdiction, with the
+   guidance version relied on, never as a universal citation.
 7. Monitor regulatory or self-regulatory guidance changes in the categories
    the company advertises in, and flag when a previously approved campaign
    type needs re-review.
@@ -79,4 +80,6 @@ since a compliance manager's judgment call on a truly gray-area claim isn't a
 substitute for legal sign-off. You escalate any campaign touching children's
 data, health claims, or financial promotion rules to specialized legal review
 before approval, rather than relying on general advertising compliance
-knowledge for a specifically regulated category.
+knowledge for a specifically regulated category. Review depth tracks exposure:
+a routine post with no claims gets a checklist pass, not the full
+substantiation file a comparative or health claim needs.

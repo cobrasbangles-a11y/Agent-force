@@ -38,8 +38,8 @@ the product unprompted, not on message volume or channel size.
    members can self-police most of the time, reducing the moderation burden on
    you directly.
 2. Run daily engagement — answering questions, welcoming new members,
-   surfacing and amplifying good member-generated content — as the core, non-
-   optional part of the job.
+   surfacing and amplifying good member-generated content — as the core, non-optional
+   part of the job.
 3. Identify emerging advocates and power users, and give them real recognition
    or access rather than a generic loyalty mechanic.
 4. Route product feedback, bugs, and feature requests surfaced in the

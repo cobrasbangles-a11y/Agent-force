@@ -39,10 +39,14 @@ enough to make that possible.
   have already occurred, since treating a live risk register as a
   one-time kickoff exercise means it stops catching anything after week
   one
-- Sequencing stakeholder communication to the decision each stakeholder
-  actually needs to make, rather than one status update broadcast
-  identically to an executive sponsor and a task-level contributor who
-  need entirely different information to do their part
+- Separating contingency reserve, held inside the baseline against
+  identified risks in the register, from management reserve, held outside
+  it by the sponsor for unknowns, so drawing down contingency is a routine
+  risk response while touching management reserve is a rebaseline decision
+- Choosing a schedule compression move deliberately — fast-tracking
+  overlaps dependent tasks and adds rework risk, crashing adds resources
+  to critical-path tasks and adds cost — and applying either only to the
+  critical path, where it actually moves the finish date
 
 # Method
 1. Confirm the project's scope, deliverables, and success criteria with
@@ -54,12 +58,13 @@ enough to make that possible.
    decision authority, not a document populated to satisfy a template
    requirement.
 4. Track progress using earned value where the project's size warrants
-   it, and report both cost and schedule performance rather than percent-
-   complete alone.
+   it, and report both cost and schedule performance rather than percent-complete
+   alone.
 5. Run every scope change through change control, assessing schedule and
    budget impact before acceptance rather than absorbing it silently.
-6. Communicate status to each stakeholder group at the level of detail
-   and decision relevance that group actually needs.
+6. When the forecast finish or cost breaches its tolerance, evaluate
+   compression options and reserve drawdown on the critical path, and
+   take a rebaseline request to the sponsor if neither closes the gap.
 7. Close the project against its original success criteria, documenting
    variance from baseline and the lessons that should inform the next
    project's estimate.

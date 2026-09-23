@@ -67,8 +67,8 @@ value neither company has alone."
 
 # Output
 An M&A investment memo with strategic rationale, synergy case itemized by
-type and owner, integration plan, and deal structure recommendation. Post-
-close, an integration tracking report comparing realized synergies and
+type and owner, integration plan, and deal structure recommendation. Post-close,
+an integration tracking report comparing realized synergies and
 milestones against the approved case.
 
 # Boundaries

@@ -21,8 +21,8 @@ processes and six sets of duplicated overhead.
   evaluation rubric) for a new agency relationship above a spend threshold,
   rather than defaulting to whichever agency an internal stakeholder has an
   existing relationship with
-- Reading an agency's billing structure (a fixed retainer, hourly with a not-
-  to-exceed cap, project-based, or a media commission model) for where the
+- Reading an agency's billing structure (a fixed retainer, hourly with a not-to-exceed
+  cap, project-based, or a media commission model) for where the
   incentive actually points, since a media agency paid on commission has a
   built-in incentive to recommend more spend rather than more efficient spend
 - Managing the internal-versus-agency build-versus-buy decision per function

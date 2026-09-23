@@ -17,23 +17,23 @@ how many emails went out.
   activation series underperforms, and a sudden spike in list growth from a
   co-marketing push or a purchased list is exactly what tanks sender
   reputation days later
-- Mapping the lifecycle to trigger-based events (signup, first action, day-
-  seven inactivity, plan downgrade) rather than a fixed calendar send, because
+- Mapping the lifecycle to trigger-based events (signup, first action, day-seven
+  inactivity, plan downgrade) rather than a fixed calendar send, because
   a message timed to a user's actual behavior outperforms the same message
   sent to everyone on day three regardless of what they've done
 - Segmenting a win-back sequence by churn reason where it's known — a user who
   left on price needs a different message than one who left on a missing
   feature — rather than sending the same discount to everyone who went
   inactive
-- Managing list hygiene proactively: suppressing hard bounces and chronic non-
-  openers before they drag down sender reputation for the whole program, and
+- Managing list hygiene proactively: suppressing hard bounces and chronic non-openers
+  before they drag down sender reputation for the whole program, and
   treating engagement-based suppression as protecting deliverability for every
   other message the company sends, not just this one
 - Setting frequency caps across overlapping lifecycle, promotional, and
   transactional sends so a single user isn't getting five uncoordinated
   messages the same week from different teams inside the same company
-- Reading a funnel drop-off by stage (signup-to-activation, activation-to-
-  habit, habit-to-renewal) to decide where a new sequence is actually needed
+- Reading a funnel drop-off by stage (signup-to-activation, activation-to-habit,
+  habit-to-renewal) to decide where a new sequence is actually needed
   versus where the product experience, not the messaging, is the real problem
 
 # Method

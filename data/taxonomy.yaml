@@ -15,8 +15,9 @@
   title: Customer Getter
   category: sales
   description: >-
-    Finds, qualifies, and lands new customers end to end — ICP definition,
-    prospect sourcing, outreach sequences, objection handling, and close.
+    Finds, qualifies, and closes new customers single-handed for a founder or
+    small team with no prospecting/closing split — ICP, sourcing, outreach
+    sequences, objections, and close.
   tools: [Read, Write, WebSearch]
 
 - slug: backend-engineer
@@ -2022,8 +2023,8 @@
   title: Field Marketing Manager
   category: marketing
   description: >-
-    Runs regional in-person campaigns and events tied to sales territories to
-    generate and accelerate local pipeline.
+    Runs regional pipeline programs — executive dinners, roadshows, local partner
+    events — tied to named sales territories to create and accelerate local deals.
   tools: [Read, Write, TodoWrite]
 
 - slug: partner-marketing-manager
@@ -2046,8 +2047,8 @@
   title: Growth Marketing Manager
   category: marketing
   description: >-
-    Runs paid, organic, and lifecycle experiments across the acquisition
-    funnel to move a company-wide growth metric.
+    Owns the acquisition-to-activation funnel model for a self-serve business,
+    choosing which channel experiments run next and sizing their expected impact.
   tools: [Read, Write, TodoWrite]
 
 - slug: demand-generation-manager
@@ -2094,7 +2095,7 @@
   title: Marketing Technology Manager
   category: marketing
   description: >-
-    Administers the marketing automation and CRM tool stack, owning
+    Administers the marketing automation, CDP, and attribution tool stack, owning
     integrations and vendor selection rather than campaign strategy.
   tools: [Read, Write, TodoWrite]
 
@@ -2191,8 +2192,8 @@
   title: Market Research Analyst
   category: marketing
   description: >-
-    Sizes markets and surveys customers to inform go-to-market strategy and
-    segmentation, separate from a product analyst's usage data.
+    Sizes markets, segments buyers, and runs customer surveys that inform
+    go-to-market strategy and positioning.
   tools: [Read, Write, WebSearch]
 
 - slug: international-marketing-manager
@@ -2207,9 +2208,9 @@
   title: Marketing Localization Manager
   category: marketing
   description: >-
-    Adapts existing campaign creative and copy for local markets —
-    translation, cultural review, format changes — for a global marketing
-    plan.
+    Transcreates campaign concepts, taglines, ad copy, and app-store and
+    marketplace listings for each target market and runs in-market cultural review
+    before launch.
   tools: [Read, Write, TodoWrite]
 
 - slug: loyalty-program-manager
@@ -2232,8 +2233,8 @@
   title: E-commerce Marketing Manager
   category: marketing
   description: >-
-    Owns onsite merchandising, promotions, and product page optimization to
-    convert visitors on the company's own online store.
+    Runs the promotions calendar, onsite merchandising, and marketplace listings
+    that sell through the company's own store and third-party marketplaces.
   tools: [Read, Write, TodoWrite]
 
 - slug: conversion-rate-optimization-manager
@@ -2281,8 +2282,8 @@
   title: Media Buyer
   category: marketing
   description: >-
-    Negotiates and purchases ad inventory across publishers and platforms,
-    executing the placements a performance marketing plan calls for.
+    Negotiates reserved and traditional media — TV, radio, out-of-home, direct and
+    programmatic-guaranteed deals — on rate, placement, and make-goods.
   tools: [Read, Write, WebSearch]
 
 - slug: app-store-optimization-manager
@@ -2433,8 +2434,8 @@
   title: Revenue Operations Manager
   category: sales
   description: >-
-    Owns the systems and data that connect sales, marketing, and customer
-    success — CRM architecture, forecasting models, comp plan design.
+    Owns the systems and data connecting sales, marketing, and customer success —
+    CRM architecture, forecasting models, and territory and quota modeling.
   tools: [Read, Write, TodoWrite]
 
 - slug: sales-operations-analyst
@@ -2473,8 +2474,9 @@
   title: Renewal Specialist
   category: sales
   description: >-
-    Works a book of accounts through the renewal negotiation directly,
-    distinct from the manager who owns the renewal program's overall process.
+    Negotiates renewal pricing, term length, and paperwork across a book of
+    accounts, owning the commercial close of each renewal rather than product
+    adoption.
   tools: [Read, Write, TodoWrite]
 
 - slug: account-manager
@@ -2489,8 +2491,8 @@
   title: Technical Account Manager
   category: sales
   description: >-
-    Serves as the technical trusted advisor for a portfolio of enterprise
-    accounts, distinct from the commercially focused account manager.
+    Owns the technical health of named enterprise accounts — architecture reviews,
+    upgrade planning, and account-level escalation advocacy into engineering.
   tools: [Read, Write, Grep, Glob]
 
 - slug: rfp-and-proposal-manager
@@ -2505,8 +2507,9 @@
   title: Business Development Manager
   category: sales
   description: >-
-    Identifies and negotiates strategic business partnerships and alliances
-    outside the standard quota-carrying sales motion.
+    Negotiates non-sales commercial deals — distribution, licensing, OEM, and
+    joint-venture agreements — that open a new route to revenue outside
+    quota-carrying sales.
   tools: [Read, Write, WebSearch]
 
 - slug: strategic-alliances-manager
@@ -2610,16 +2613,16 @@
   title: Automotive Sales Consultant
   category: sales
   description: >-
-    Sells vehicles to individual buyers, structuring financing and trade-in
-    terms as part of the negotiation.
+    Sells vehicles to individual buyers, negotiating price and trade-in value and
+    preparing the deal for the dealership's finance office.
   tools: [Read, Write, WebSearch]
 
 - slug: corporate-counsel
   title: Corporate Counsel
   category: legal
   description: >-
-    Advises the business on day-to-day legal matters — entity governance,
-    vendor agreements, policy review — as in-house generalist counsel.
+    Advises the business on day-to-day legal questions — entity governance,
+    internal policy, routine commercial matters — as in-house generalist counsel.
   tools: [Read, Write, WebSearch]
 
 - slug: general-counsel
@@ -2642,8 +2645,9 @@
   title: Employment Lawyer
   category: legal
   description: >-
-    Advises on hiring, termination, and workplace policy compliance, and
-    handles individual employee disputes and claims.
+    Advises on hiring, termination, and workplace policy compliance, handles
+    individual employee disputes and claims, and guides workplace investigations
+    others run.
   tools: [Read, Write, WebSearch]
 
 - slug: patent-attorney
@@ -2675,7 +2679,7 @@
   title: Immigration Attorney
   category: legal
   description: >-
-    Manages visa sponsorship and work authorization filings for employees
+    Manages US visa sponsorship and work authorization filings for employees
     relocating across borders.
   tools: [Read, Write, WebSearch]
 
@@ -2691,7 +2695,7 @@
   title: Immigration Paralegal
   category: legal
   description: >-
-    Prepares visa petitions and supporting documentation for an immigration
+    Prepares US visa petitions and supporting documentation for an immigration
     attorney's caseload, tracking filing deadlines.
   tools: [Read, Write, WebSearch]
 
@@ -2699,16 +2703,16 @@
   title: Litigation Paralegal
   category: legal
   description: >-
-    Manages discovery, deposition logistics, and trial exhibit preparation in
-    support of a litigation attorney's caseload.
+    Manages docketing, deposition logistics, and exhibit and trial-binder
+    preparation in support of a litigation attorney's caseload.
   tools: [Read, Write, WebSearch]
 
 - slug: corporate-paralegal
   title: Corporate Paralegal
   category: legal
   description: >-
-    Maintains entity formation documents, cap tables, and board meeting
-    minutes in support of corporate counsel.
+    Handles entity formation, annual state filings, good-standing certificates,
+    and cap-table records in support of corporate counsel.
   tools: [Read, Write, WebSearch]
 
 - slug: mergers-and-acquisitions-attorney
@@ -2756,8 +2760,9 @@
   title: Contract Manager
   category: legal
   description: >-
-    Tracks the contract lifecycle — renewal dates, obligations, repository —
-    without personally negotiating the legal risk a contract lawyer reviews.
+    Runs the lifecycle of customer-facing contracts — central repository, renewal
+    dates, obligation tracking — without negotiating the legal risk a lawyer
+    reviews.
   tools: [Read, Write, TodoWrite]
 
 - slug: e-discovery-specialist
@@ -2780,8 +2785,8 @@
   title: Internal Investigations Counsel
   category: legal
   description: >-
-    Investigates internal misconduct and whistleblower complaints for legal
-    risk, distinct from a security team's technical threat investigations.
+    Runs privileged investigations into fraud, bribery, executive misconduct, and
+    whistleblower claims, advising on legal exposure and disclosure.
   tools: [Read, Write, WebSearch]
 
 - slug: environmental-compliance-attorney
@@ -2932,8 +2937,8 @@
   title: Staff Accountant
   category: finance
   description: >-
-    Records journal entries and reconciles accounts as part of the monthly
-    close process under a controller's review.
+    Reconciles subledgers and balance-sheet accounts and prepares routine journal
+    entries during the monthly close under a controller's review.
   tools: [Read, Write, Bash]
 
 - slug: accounts-payable-specialist
@@ -2948,8 +2953,9 @@
   title: Accounts Receivable Specialist
   category: finance
   description: >-
-    Issues customer invoices and applies incoming payments, distinct from the
-    collections manager who chases overdue balances.
+    Applies incoming payments to open invoices, reconciles customer accounts, and
+    resolves short-pays and unapplied cash, distinct from the collector chasing
+    overdue balances.
   tools: [Read, Write, Bash]
 
 - slug: payroll-manager
@@ -2964,8 +2970,8 @@
   title: General Ledger Accountant
   category: finance
   description: >-
-    Owns the chart of accounts and month-end close entries that roll up into
-    the company's financial statements.
+    Maintains the chart of accounts and books the intercompany, accrual, and
+    consolidation entries that roll up into the financial statements.
   tools: [Read, Write, Bash]
 
 - slug: cost-accountant
@@ -3061,8 +3067,8 @@
   title: International Tax Manager
   category: finance
   description: >-
-    Manages transfer pricing and cross-border tax structuring across the
-    jurisdictions the company operates in.
+    Prepares transfer-pricing documentation and foreign tax filings and computes
+    global minimum tax exposure across the jurisdictions the company operates in.
   tools: [Read, Write, Bash]
 
 - slug: sales-and-use-tax-specialist
@@ -3358,7 +3364,8 @@
   title: Compensation Analyst
   category: hr-people
   description: >-
-    Benchmarks roles against market salary surveys and flags pay equity gaps.
+    Benchmarks roles against market salary surveys, recommends offer ranges, and
+    screens pay for outliers, pricing the adjustments to close them.
   tools: [Read, Write, WebSearch]
 
 - slug: compensation-manager
@@ -3411,8 +3418,8 @@
   title: People Analytics Manager
   category: hr-people
   description: >-
-    Analyzes workforce data to explain attrition patterns and forecast hiring
-    needs.
+    Analyzes attrition drivers, engagement-survey results, and pay-equity
+    statistics to explain what is happening to the workforce and why.
   tools: [Read, Write, Bash]
 
 - slug: employee-relations-specialist
@@ -3514,8 +3521,8 @@
   title: Immigration and Mobility Specialist
   category: hr-people
   description: >-
-    Coordinates visa sponsorship paperwork and relocation logistics without
-    offering legal advice.
+    Tracks visa case status and collects employee documents between the company
+    and immigration counsel, without offering legal advice.
   tools: [Read, Write]
 
 - slug: labor-relations-manager
@@ -3537,7 +3544,8 @@
   title: Talent Management Director
   category: hr-people
   description: >-
-    Owns the performance-review cycle and succession pipeline across the company.
+    Designs the performance-review cycle, calibration, and rating process that the
+    company uses to evaluate every employee.
   tools: [Read, Write, TodoWrite]
 
 - slug: hr-compliance-manager
@@ -3552,8 +3560,8 @@
   title: Global Mobility Manager
   category: hr-people
   description: >-
-    Manages international assignment packages, tax equalization coordination, and
-    relocation vendors.
+    Sets international assignment policy and packages and coordinates tax
+    equalization and relocation vendors for employees moving across borders.
   tools: [Read, Write, WebSearch]
 
 - slug: vp-of-people
@@ -3600,8 +3608,9 @@
   title: VP of Operations
   category: operations
   description: >-
-    Owns the company's overall operating model and efficiency targets across every
-    business unit.
+    Runs a company's delivery operations — fulfillment, service delivery, field
+    ops — setting throughput, cost-per-unit, and SLA targets for the teams under
+    it.
   tools: [Read, Write, TodoWrite]
 
 - slug: chief-operating-officer
@@ -3640,8 +3649,8 @@
   title: Continuous Improvement Manager
   category: operations
   description: >-
-    Runs kaizen events and improvement projects that turn analysts' findings into
-    adopted process changes.
+    Owns the improvement portfolio — project pipeline, prioritization, benefits
+    tracking — and makes sure gains hold after each project closes.
   tools: [Read, Write, TodoWrite]
 
 - slug: lean-six-sigma-black-belt
@@ -3744,16 +3753,17 @@
   title: Supplier Risk Analyst
   category: operations
   description: >-
-    Assesses suppliers' financial health and continuity risk before and during an
-    engagement.
+    Assesses suppliers' financial health, geographic exposure, and single-source
+    continuity risk before and during an engagement, not their
+    information-security posture.
   tools: [Read, Write, WebSearch]
 
 - slug: procurement-contract-specialist
   title: Procurement Contract Specialist
   category: operations
   description: >-
-    Drafts and administers purchase agreements and statements of work for sourced
-    suppliers.
+    Drafts and administers buy-side purchase agreements and statements of work for
+    sourced suppliers.
   tools: [Read, Write]
 
 - slug: contract-compliance-analyst
@@ -3792,8 +3802,9 @@
   title: Workplace Safety Manager
   category: operations
   description: >-
-    Runs the company's workplace safety program and investigates incidents to stay
-    compliant with safety rules.
+    Runs the general-industry safety program for offices, warehouses, and retail
+    sites — injury logs, required training, ergonomics, and incident
+    investigations.
   tools: [Read, Write, WebSearch]
 
 - slug: business-continuity-manager
@@ -3848,8 +3859,8 @@
   title: Business Analyst
   category: operations
   description: >-
-    Documents current-state business processes and requirements for a
-    cross-departmental initiative.
+    Gathers requirements and runs fit-gap analysis for selecting and implementing
+    packaged enterprise systems such as ERP, CRM, or HRIS.
   tools: [Read, Write, Bash]
 
 - slug: operations-research-analyst

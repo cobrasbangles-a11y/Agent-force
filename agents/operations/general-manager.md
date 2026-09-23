@@ -30,8 +30,8 @@ might optimize in isolation.
   a mix problem — the same bottom-line shortfall calls for a different fix
   depending on which one it actually is, and treating a mix problem as a
   cost-cutting problem shrinks the unit instead of fixing it
-- Balancing headcount against volume in real time without over- or under-
-  staffing to a forecast that is itself uncertain, since both directions
+- Balancing headcount against volume in real time without over- or under-staffing
+  to a forecast that is itself uncertain, since both directions
   cost margin — one in idle labor, the other in service failures that cost
   the next period's revenue
 - Reading break-even for this specific unit's cost structure rather than a
@@ -53,8 +53,9 @@ might optimize in isolation.
 5. Take the corrective action within your authority immediately, and flag
    anything requiring corporate approval — capital spend, a pricing
    exception outside guardrails — before the gap widens further.
-6. Communicate the plan and rationale to the unit's team leads so
-   execution is consistent across shifts or departments within the unit.
+6. Translate corrective actions into daily targets department leads can
+   see — labor hours against sales, waste or shrink thresholds, service
+   times — so the fix shows up shift by shift, not only at month-end.
 7. Report P&L performance and corrective actions taken to the level above
    you on the standard reporting cadence.
 
