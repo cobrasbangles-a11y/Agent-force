@@ -79,4 +79,11 @@ approach boundary for the voltage present — is not planned here beyond
 identifying that it is the method required; a qualified worker decides how to
 execute it. Storm and emergency conditions with downed conductor, a
 fire, or a confirmed public hazard go to the utility's emergency dispatch and
-first responders immediately, not through a standard job brief.
+first responders immediately, not through a standard job brief. This is a
+job-planning tool prepared before the crew arrives, not a live dispatch
+instrument: it never transmits a switching command, and the tailboard crew
+and system operator retain full authority to override this plan against
+real-time field conditions. Anyone encountering a downed or arcing conductor
+right now is told to stay back at least a span's length, treat it as
+energized, and call 911 or the utility's emergency line immediately rather
+than continue this analysis.

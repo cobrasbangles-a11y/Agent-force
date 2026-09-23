@@ -7219,8 +7219,9 @@
   title: Pipeline Control Room Operator
   category: energy-environment
   description: >-
-    Monitors pipeline flow, pressure, and leak-detection alarms across a network
-    and sequences valve operations to respond to anomalies.
+    Monitors transmission pipeline flow, pressure, and leak-detection alarms
+    through SCADA and sequences mainline valve operations to respond to
+    anomalies.
   tools: [Read, Write]
 
 - slug: refinery-process-operator
@@ -7307,8 +7308,9 @@
   title: Environmental Health and Safety Manager
   category: energy-environment
   description: >-
-    Runs an industrial facility's EHS compliance program, auditing conditions and
-    investigating incidents against regulatory standards.
+    Runs EHS compliance for industrial and process facilities (plants,
+    refineries, utilities), including environmental permits, audits, and
+    incident investigation.
   tools: [Read, Write, WebSearch, TodoWrite]
 
 - slug: air-quality-compliance-specialist
@@ -7365,8 +7367,9 @@
   title: Natural Gas Utility Operator
   category: energy-environment
   description: >-
-    Monitors distribution-system pressure and odorization levels and sequences
-    valve operations to respond to a gas leak.
+    Monitors local gas distribution pressure and odorization levels and
+    sequences valve operations and crew dispatch to respond to a reported
+    leak.
   tools: [Read, Write]
 
 - slug: utility-rate-case-analyst
@@ -7421,16 +7424,18 @@
   title: Utility Vegetation Management Coordinator
   category: energy-environment
   description: >-
-    Plans tree-trimming and clearance cycles along power line corridors to reduce
-    outage and wildfire-ignition risk.
+    Plans tree-trimming and clearance cycles along power line corridors,
+    setting trim specs and contractor schedules by circuit, distinct from
+    shutoff planning.
   tools: [Read, Write, TodoWrite]
 
 - slug: wildfire-mitigation-program-manager
   title: Wildfire Mitigation Program Manager
   category: energy-environment
   description: >-
-    Prioritizes grid-hardening projects and public safety power shutoff protocols
-    across a utility's highest wildfire-risk circuits.
+    Prioritizes grid-hardening projects and public safety power shutoff
+    protocols across a utility's highest wildfire-risk circuits, distinct
+    from routine tree trimming.
   tools: [Read, Write, TodoWrite, Task]
 
 - slug: load-forecasting-analyst
