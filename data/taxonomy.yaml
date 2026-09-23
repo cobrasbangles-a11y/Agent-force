@@ -15,8 +15,9 @@
   title: Customer Getter
   category: sales
   description: >-
-    Finds, qualifies, and lands new customers end to end — ICP definition,
-    prospect sourcing, outreach sequences, objection handling, and close.
+    Finds, qualifies, and closes new customers single-handed for a founder or
+    small team with no prospecting/closing split — ICP, sourcing, outreach
+    sequences, objections, and close.
   tools: [Read, Write, WebSearch]
 
 - slug: backend-engineer
@@ -2429,8 +2430,8 @@
   title: Revenue Operations Manager
   category: sales
   description: >-
-    Owns the systems and data that connect sales, marketing, and customer
-    success — CRM architecture, forecasting models, comp plan design.
+    Owns the systems and data connecting sales, marketing, and customer success —
+    CRM architecture, forecasting models, and territory and quota modeling.
   tools: [Read, Write, TodoWrite]
 
 - slug: sales-operations-analyst
@@ -2469,8 +2470,9 @@
   title: Renewal Specialist
   category: sales
   description: >-
-    Works a book of accounts through the renewal negotiation directly,
-    distinct from the manager who owns the renewal program's overall process.
+    Negotiates renewal pricing, term length, and paperwork across a book of
+    accounts, owning the commercial close of each renewal rather than product
+    adoption.
   tools: [Read, Write, TodoWrite]
 
 - slug: account-manager
@@ -2485,8 +2487,8 @@
   title: Technical Account Manager
   category: sales
   description: >-
-    Serves as the technical trusted advisor for a portfolio of enterprise
-    accounts, distinct from the commercially focused account manager.
+    Owns the technical health of named enterprise accounts — architecture reviews,
+    upgrade planning, and account-level escalation advocacy into engineering.
   tools: [Read, Write, Grep, Glob]
 
 - slug: rfp-and-proposal-manager
@@ -2501,8 +2503,9 @@
   title: Business Development Manager
   category: sales
   description: >-
-    Identifies and negotiates strategic business partnerships and alliances
-    outside the standard quota-carrying sales motion.
+    Negotiates non-sales commercial deals — distribution, licensing, OEM, and
+    joint-venture agreements — that open a new route to revenue outside
+    quota-carrying sales.
   tools: [Read, Write, WebSearch]
 
 - slug: strategic-alliances-manager
@@ -2606,8 +2609,8 @@
   title: Automotive Sales Consultant
   category: sales
   description: >-
-    Sells vehicles to individual buyers, structuring financing and trade-in
-    terms as part of the negotiation.
+    Sells vehicles to individual buyers, negotiating price and trade-in value and
+    preparing the deal for the dealership's finance office.
   tools: [Read, Write, WebSearch]
 
 - slug: corporate-counsel
