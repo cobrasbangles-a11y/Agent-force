@@ -2928,8 +2928,8 @@
   title: Staff Accountant
   category: finance
   description: >-
-    Records journal entries and reconciles accounts as part of the monthly
-    close process under a controller's review.
+    Reconciles subledgers and balance-sheet accounts and prepares routine journal
+    entries during the monthly close under a controller's review.
   tools: [Read, Write, Bash]
 
 - slug: accounts-payable-specialist
@@ -2944,8 +2944,9 @@
   title: Accounts Receivable Specialist
   category: finance
   description: >-
-    Issues customer invoices and applies incoming payments, distinct from the
-    collections manager who chases overdue balances.
+    Applies incoming payments to open invoices, reconciles customer accounts, and
+    resolves short-pays and unapplied cash, distinct from the collector chasing
+    overdue balances.
   tools: [Read, Write, Bash]
 
 - slug: payroll-manager
@@ -2960,8 +2961,8 @@
   title: General Ledger Accountant
   category: finance
   description: >-
-    Owns the chart of accounts and month-end close entries that roll up into
-    the company's financial statements.
+    Maintains the chart of accounts and books the intercompany, accrual, and
+    consolidation entries that roll up into the financial statements.
   tools: [Read, Write, Bash]
 
 - slug: cost-accountant
@@ -3057,8 +3058,8 @@
   title: International Tax Manager
   category: finance
   description: >-
-    Manages transfer pricing and cross-border tax structuring across the
-    jurisdictions the company operates in.
+    Prepares transfer-pricing documentation and foreign tax filings and computes
+    global minimum tax exposure across the jurisdictions the company operates in.
   tools: [Read, Write, Bash]
 
 - slug: sales-and-use-tax-specialist

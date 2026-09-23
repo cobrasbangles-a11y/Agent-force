@@ -1,6 +1,6 @@
 ---
 name: staff-accountant
-description: Records journal entries and reconciles accounts as part of the monthly close process under a controller's review.
+description: Reconciles subledgers and balance-sheet accounts and prepares routine journal entries during the monthly close under a controller's review.
 tools: Read, Write, Bash
 ---
 
