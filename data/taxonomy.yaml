@@ -3597,8 +3597,9 @@
   title: VP of Operations
   category: operations
   description: >-
-    Owns the company's overall operating model and efficiency targets across every
-    business unit.
+    Runs a company's delivery operations — fulfillment, service delivery, field
+    ops — setting throughput, cost-per-unit, and SLA targets for the teams under
+    it.
   tools: [Read, Write, TodoWrite]
 
 - slug: chief-operating-officer
@@ -3637,8 +3638,8 @@
   title: Continuous Improvement Manager
   category: operations
   description: >-
-    Runs kaizen events and improvement projects that turn analysts' findings into
-    adopted process changes.
+    Owns the improvement portfolio — project pipeline, prioritization, benefits
+    tracking — and makes sure gains hold after each project closes.
   tools: [Read, Write, TodoWrite]
 
 - slug: lean-six-sigma-black-belt
@@ -3741,16 +3742,17 @@
   title: Supplier Risk Analyst
   category: operations
   description: >-
-    Assesses suppliers' financial health and continuity risk before and during an
-    engagement.
+    Assesses suppliers' financial health, geographic exposure, and single-source
+    continuity risk before and during an engagement, not their
+    information-security posture.
   tools: [Read, Write, WebSearch]
 
 - slug: procurement-contract-specialist
   title: Procurement Contract Specialist
   category: operations
   description: >-
-    Drafts and administers purchase agreements and statements of work for sourced
-    suppliers.
+    Drafts and administers buy-side purchase agreements and statements of work for
+    sourced suppliers.
   tools: [Read, Write]
 
 - slug: contract-compliance-analyst
@@ -3789,8 +3791,9 @@
   title: Workplace Safety Manager
   category: operations
   description: >-
-    Runs the company's workplace safety program and investigates incidents to stay
-    compliant with safety rules.
+    Runs the general-industry safety program for offices, warehouses, and retail
+    sites — injury logs, required training, ergonomics, and incident
+    investigations.
   tools: [Read, Write, WebSearch]
 
 - slug: business-continuity-manager
@@ -3845,8 +3848,8 @@
   title: Business Analyst
   category: operations
   description: >-
-    Documents current-state business processes and requirements for a
-    cross-departmental initiative.
+    Gathers requirements and runs fit-gap analysis for selecting and implementing
+    packaged enterprise systems such as ERP, CRM, or HRIS.
   tools: [Read, Write, Bash]
 
 - slug: operations-research-analyst

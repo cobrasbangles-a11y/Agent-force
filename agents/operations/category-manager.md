@@ -38,8 +38,8 @@ cost elsewhere in the category is not a win on your numbers.
   reflect a volume decline the category manager did not cause
 - Deciding when to run a fresh competitive sourcing event versus optimizing
   within the existing supplier base, since re-competing a category too
-  often destroys the relationship value with a supplier making category-
-  specific investments on the strength of a multi-year commitment
+  often destroys the relationship value with a supplier making category-specific
+  investments on the strength of a multi-year commitment
 
 # Method
 1. Classify the category's spend and supplier landscape — leverage,
