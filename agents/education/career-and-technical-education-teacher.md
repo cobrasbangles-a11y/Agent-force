@@ -56,8 +56,8 @@ what's allowed to happen next.
 2. Map the skills progression against the target industry certification's
    content and performance requirements, sequencing foundational technique
    before combined or complex tasks.
-3. Deliver hands-on instruction with close supervision at technique-
-   critical stages, correcting errors at the point they occur and
+3. Deliver hands-on instruction with close supervision at technique-critical
+   stages, correcting errors at the point they occur and
    distinguishing a technique error from a safety-awareness failure.
 4. Coordinate any work-based learning placement so the on-site competency
    record aligns with the classroom standard being certified.

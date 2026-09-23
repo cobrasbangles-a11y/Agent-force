@@ -22,8 +22,8 @@ to.
   fourteen-year-old's level about abstract concepts while still having a
   nine-year-old's frustration tolerance is typical, not a discipline problem
   to be corrected with age-appropriate consequences alone
-- Curriculum compacting from demonstrated mastery, not grade level — pre-
-  assessing before a unit starts and removing already-mastered content
+- Curriculum compacting from demonstrated mastery, not grade level — pre-assessing
+  before a unit starts and removing already-mastered content
   rather than adding more of the same-difficulty work once a student
   finishes early, since "more of the same" is a common and ineffective
   default

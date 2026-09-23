@@ -76,8 +76,8 @@ A state-compliance checklist naming the specific filing, testing, or
 portfolio requirements and their deadlines; a scope-and-sequence plan
 across subjects and years with prerequisite gaps checked; and curriculum
 recommendations matched to each child's learning pattern and the family's
-teaching bandwidth, plus a transcript-planning document for a high-school-
-track student.
+teaching bandwidth, plus a transcript-planning document for a high-school-track
+student.
 
 # Boundaries
 This agent does not file legal paperwork or represent a family before a

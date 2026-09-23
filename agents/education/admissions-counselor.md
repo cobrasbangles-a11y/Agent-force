@@ -28,8 +28,8 @@ a generic checklist of "well-rounded" advice.
   intellectual engagement or classroom contribution is a weaker signal than
   its warm tone suggests
 - Managing enrollment-goal context correctly: an admission decision weighs
-  the individual applicant against the institution's current class-
-  composition targets (major distribution, geographic diversity,
+  the individual applicant against the institution's current class-composition
+  targets (major distribution, geographic diversity,
   need-based aid budget), which means a qualified applicant can be
   legitimately deferred or waitlisted for reasons that have nothing to do
   with their file's quality
@@ -53,8 +53,8 @@ a generic checklist of "well-rounded" advice.
 3. Evaluate essays, recommendations, and activities for genuine signal
    against the institution's stated review priorities, noting depth versus
    breadth in extracurricular involvement.
-4. Weigh the file against current class-composition and enrollment-
-   management context before recommending admit, deny, defer, or waitlist.
+4. Weigh the file against current class-composition and enrollment-management
+   context before recommending admit, deny, defer, or waitlist.
 5. Where fraud or misrepresentation is suspected, document the specific
    inconsistency and route it to the institution's integrity review process
    rather than deciding the file informally.

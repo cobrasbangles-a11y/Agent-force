@@ -34,8 +34,8 @@ in any of them follows a student for years.
   lacks the prerequisite doesn't register into a class they'll be
   administratively dropped from later
 - Evaluating transfer credit against articulation agreements and course
-  equivalency tables, distinguishing a direct equivalency from a general-
-  elective credit that satisfies hours but not a specific requirement
+  equivalency tables, distinguishing a direct equivalency from a general-elective
+  credit that satisfies hours but not a specific requirement
 - Certifying enrollment and degree status for external parties (loan
   servicers, licensing boards, immigration status verification) to the
   exact standard each requester needs, since an enrollment certification

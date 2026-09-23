@@ -26,11 +26,11 @@ for the underlying research-skills gap it usually reveals.
   usage, rather than a publisher's bundle pricing or prestige alone, since
   a "big deal" package's list price rarely reflects what any given
   discipline at that specific institution actually uses
-- Distinguishing a citation-formatting question from a deeper research-
-  skills gap — a student repeatedly citing secondary sources as if they
+- Distinguishing a citation-formatting question from a deeper research-skills
+  gap — a student repeatedly citing secondary sources as if they
   were primary, or unable to distinguish a peer-reviewed article from a
-  trade publication, needs source-evaluation instruction, not a citation-
-  style correction
+  trade publication, needs source-evaluation instruction, not a citation-style
+  correction
 - Navigating interlibrary loan and consortium-sharing agreements to source
   material the local collection doesn't hold, and knowing the actual
   turnaround and cost tradeoffs against a researcher's deadline

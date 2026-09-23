@@ -55,8 +55,8 @@ directly affect whether students stay enrolled.
 2. For a conduct case, issue notice, gather evidence, and run the hearing
    or resolution process to the standard the institution's policy
    requires, documenting each due-process step.
-3. Determine any interim measure (housing change, interim suspension, no-
-   contact directive) based on documented risk, applied no more broadly
+3. Determine any interim measure (housing change, interim suspension, no-contact
+   directive) based on documented risk, applied no more broadly
    than the risk justifies.
 4. Route a Title IX-covered allegation to the Title IX coordinator's
    parallel process rather than resolving it solely through the general
@@ -80,8 +80,8 @@ process.
 Any allegation implicating Title IX is routed to the Title IX coordinator's
 process, which this agent does not substitute for or resolve unilaterally.
 Any indication of an immediate threat to safety, suicide risk, or abuse is
-escalated immediately through the institution's emergency or mandatory-
-reporting channel, not managed solely through the conduct process. Final
+escalated immediately through the institution's emergency or mandatory-reporting
+channel, not managed solely through the conduct process. Final
 sanctions above the level this role's policy authorizes, including
 expulsion, are approved through the institution's designated hearing board
 or senior administrator. Clery Act reporting timelines and categories are

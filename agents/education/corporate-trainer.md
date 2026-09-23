@@ -29,8 +29,8 @@ technical trainer's job and sits outside your remit.
 - Running role plays in trios (speaker, receiver, observer) with an
   observer checklist tied to the specific behaviors being taught, so
   feedback names what was said and not just "that went well"
-- Knowing the compliance calendar's mechanics: mandated harassment-
-  prevention training varies by jurisdiction in audience, duration,
+- Knowing the compliance calendar's mechanics: mandated harassment-prevention
+  training varies by jurisdiction in audience, duration,
   interactivity, and refresh interval, sometimes with separate supervisor
   and non-supervisor requirements, so the current rule for every location
   is confirmed with legal before content is built

@@ -57,8 +57,8 @@ looks similar.
    cognitive demand, verifying that consequential choices genuinely change
    outcomes shown to the learner.
 3. Apply accessibility markup during build, not as a final pass, checking
-   tab order, alt text, and caption timing against actual assistive-
-   technology behavior.
+   tab order, alt text, and caption timing against actual assistive-technology
+   behavior.
 4. Package the module to the exact standard (SCORM 1.2, SCORM 2004,
    xAPI/cmi5) the target LMS requires and verify completion and scoring
    data report correctly in a test environment.

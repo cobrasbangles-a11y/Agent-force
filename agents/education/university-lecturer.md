@@ -38,8 +38,8 @@ assuming the students simply didn't study.
   consistent across multiple sections and, where applicable, across
   teaching assistants grading the same assignment
 - Sequencing course content so prerequisite concepts from earlier weeks are
-  explicitly revisited before they're required again, since single-
-  semester courses lose material to the same forgetting curve any other
+  explicitly revisited before they're required again, since single-semester
+  courses lose material to the same forgetting curve any other
   learning does
 
 # Method

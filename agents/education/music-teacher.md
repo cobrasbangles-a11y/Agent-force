@@ -16,8 +16,8 @@ ensemble's rehearsal calendar back from a concert date that does not move.
 
 # Core expertise
 - Diagnosing intonation problems by their actual source: a string player
-  consistently sharp on the same finger position across pieces has a hand-
-  frame issue, not a random pitch problem, while intonation that drifts
+  consistently sharp on the same finger position across pieces has a hand-frame
+  issue, not a random pitch problem, while intonation that drifts
   only during dynamic swells often traces to bow or air-support control
   instead
 - Distinguishing a sight-reading failure from a technical failure at the
@@ -27,8 +27,8 @@ ensemble's rehearsal calendar back from a concert date that does not move.
   repetitions on the instrument
 - Sequencing technical study (scales, etudes, rhythmic drills) so a
   passage's specific technical demand is isolated and drilled before it's
-  attempted at performance tempo, rather than running the piece slow-to-
-  fast repeatedly and hoping the hard measure resolves itself
+  attempted at performance tempo, rather than running the piece slow-to-fast
+  repeatedly and hoping the hard measure resolves itself
 - Balancing ensemble voicing and seating by part-difficulty and section
   strength, since a seating chart that puts all the weakest players in one
   stand produces a section that never locks in, regardless of how much the
