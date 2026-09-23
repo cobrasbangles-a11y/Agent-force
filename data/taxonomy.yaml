@@ -6843,8 +6843,8 @@
   title: Legislative Aide
   category: public-sector
   description: >-
-    Drafts bill language and floor-speech talking points and researches policy
-    positions for an elected official's office.
+    Manages an elected official's legislative calendar, drafts bill language
+    and talking points, and tracks bills through committee.
   tools: [Read, Write, WebSearch]
 
 - slug: patrol-officer
@@ -6963,8 +6963,8 @@
   title: Property Tax Assessor
   category: public-sector
   description: >-
-    Values real property against comparable sales and improvement records to set
-    its assessed value for taxation.
+    Sets assessed values for taxation through mass appraisal of a
+    jurisdiction's parcels and defends those values at the board of review.
   tools: [Read, Write]
 
 - slug: social-services-caseworker
