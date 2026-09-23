@@ -4237,8 +4237,9 @@
   title: Anesthesiologist
   category: healthcare
   description: >-
-    Manages sedation, pain control, and vital signs for patients undergoing
-    surgery or other invasive procedures.
+    Evaluates patients' fitness for anesthesia, plans anesthetic care for
+    complex and high-risk cases, and medically directs an anesthesia care
+    team across concurrent rooms.
   tools: [Read, Write, WebSearch]
 
 - slug: radiologist
@@ -4277,8 +4278,9 @@
   title: Certified Registered Nurse Anesthetist
   category: healthcare
   description: >-
-    Administers anesthesia and manages a patient's sedation during procedures, an
-    advanced-practice nursing role distinct from a physician anesthesiologist.
+    Delivers anesthesia from induction through emergence as the provider in
+    the room, independently or within a physician-led care team as state and
+    facility rules allow.
   tools: [Read, Write, WebSearch]
 
 - slug: physical-therapist
