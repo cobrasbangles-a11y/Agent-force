@@ -1,10 +1,11 @@
 # Contributing to Agent Force
 
-Phase 1 authored 6 of 1001 agents and left the other 994 job specs defined
-but unwritten. Phase 2 fills those in, one category (40 agents) per pull
-request. This document is the accumulated judgment from reviewing the first
-six — the rules that are not obvious from looking at one finished agent file
-in isolation, written for someone who was not in the room for that review.
+All 1001 agents — 1000 specialists and the overseer — are written, and the
+library has been through a full review pass. Contributions now improve
+existing agents, rescope overlapping ones, or replace a weak role with a
+better one. This document is the accumulated judgment from authoring and
+reviewing them — the rules that are not obvious from looking at one finished
+agent file in isolation, written for someone who was not in the room.
 
 Read `agents/skilled-trades/journeyman-electrician.md` once before you start.
 It is the model for a non-desk role and the longest `Boundaries` section in
@@ -69,7 +70,8 @@ other keys) and a body of exactly five `# Heading` sections, in order:
    output. See the length note below — this is the section most likely to be
    copied at the wrong length from the electrician exemplar.
 
-6. **Body length: 60-120 lines.** Shorter usually means `Core expertise` or
+6. **File length: 60-120 lines,** counted over the whole file with the
+   frontmatter included (what `wc -l` reports). Shorter usually means `Core expertise` or
    `Method` is thin; longer usually means `Boundaries` grew disclaimers it
    didn't need (see the non-desk stance) or `Core expertise` drifted into
    restating `Method`.
@@ -87,10 +89,9 @@ other keys) and a body of exactly five `# Heading` sections, in order:
 
 **Rules 2, 3, 6, and 7 are enforced by `npm run validate`,** not just
 reviewed: a `Core expertise` bullet count outside 4-8, a `Method` step count
-outside 4-7, a body length outside 60-120 (measured as the whole file's line
-count, frontmatter included, not just the lines after the closing `---`), or
-a `description` at 200 characters or more all fail the validator, and so
-fail CI, rather than surfacing as a review comment.
+outside 4-7 (or steps not numbered 1..n in order), a file length outside
+60-120, or a `description` at 200 characters or more all fail the
+validator, and so fail CI, rather than surfacing as a review comment.
 
 ## Taxonomy authoring rules
 
@@ -192,7 +193,7 @@ the *thinking* part of that job looks like.
 
 - **`Boundaries` length should track the role's actual hazard and
   regulatory exposure, not the electrician exemplar's length.** The
-  electrician's 18-line `Boundaries` section reflects a job with live-voltage
+  electrician's 17-line `Boundaries` section reflects a job with live-voltage
   hazards, permit law, and licensure requirements — that length is earned by
   the actual risk in the job. A barista does not carry that risk and does
   not need that length of `Boundaries`; two or three lines about food-safety
@@ -226,7 +227,7 @@ the *thinking* part of that job looks like.
 For most agents, the move-test above (`Core expertise`, "could this bullet
 move verbatim to another profession") is the right check. For agents whose
 job is coordinating or reviewing *other people's or agents' work* — the
-overseer is the only one in this position today — there's a sharper test:
+overseer above all — there's a sharper test:
 **would this bullet be false or useless if the workers being reviewed were
 competent humans?** The overseer's `Core expertise` bullets pass this test
 because they describe failure modes specific to *reviewing generated work*
@@ -238,18 +239,21 @@ competent-humans test to them will just tell you to delete correct bullets.
 
 ## Process
 
-- Run `npm run validate` before opening a PR. It runs the structural checks
-  (frontmatter keys, section order, uniqueness, referential integrity)
-  without the `--complete` count gate, so it's safe to run before a category
-  is finished. Its `authored:` counter excludes the overseer — the
-  denominator counts specialists only — so with the overseer plus five
-  specialists authored you'll see `authored: 5 / 1000` on its own line
-  followed by a separate `overseer: authored` line, not `6 / 1000`; that's
-  the same six agents the README's "6 of 1001" framing counts, just split
-  across two lines instead of one. CI runs `npm run validate -- --complete`
-  on every push to `main` and every PR — that gate stays green because the
-  taxonomy's counts are already complete; your PR only adds authored bodies,
-  it never changes counts.
+- Run `npm run typecheck`, `npm test`, and `npm run validate -- --complete`
+  before opening a PR — CI runs all three. `--complete` checks the taxonomy's
+  shape (1000 specialists, 40 per category, one overseer) and that every
+  entry has an agent file. Its `authored:` line counts specialists only, so a
+  complete library reads `authored: 1000 / 1000` followed by a separate
+  `overseer: authored` line.
+- Change a description in `data/taxonomy.yaml` and the agent's frontmatter in
+  the same commit; the validator fails if they differ.
+- Adding, removing, or renaming a slug breaks installs for anyone who
+  references the old name. Keep the category at 40, check the whole taxonomy
+  for near-synonyms of the new title, and start the commit message with
+  `BREAKING:` and the old -> new slugs so the PR can call it out.
+- Wrap prose at about 78 columns, but never break a hyphenated word across a
+  line: Markdown joins wrapped lines with a space, so "multi-" then "year"
+  renders as "multi- year".
 - One category per PR (40 agents). Don't mix categories in a single PR —
   it makes the "at least 2.5:1 practitioner-to-management" check and the
   cross-category duplicate check harder to do honestly.
