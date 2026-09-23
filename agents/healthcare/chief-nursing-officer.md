@@ -33,10 +33,12 @@ and risk get weighed against every other executive priority in the room.
   nursing staffing and competency requirement before the organization
   commits to it, since a service line that looks financially attractive
   can be operationally unstaffable without lead time to hire and train
-- Representing nursing's operational and safety perspective in
-  executive capital and strategic planning decisions, where a facility or
-  technology investment decided without nursing input often creates a
-  workflow the unit cannot actually run safely
+- Building a shared-governance structure — unit practice councils feeding
+  a nursing practice council — that puts bedside nurses in the decisions
+  on practice, equipment, and workflow, and benchmarking nurse-sensitive
+  indicators against a national nursing-quality database, both of which a
+  Magnet or Pathway to Excellence designation survey examines as evidence
+  rather than intent
 - Overseeing nursing professional development and specialty certification
   pipelines strategically, ensuring the organization has the credentialed
   nursing capacity a planned service expansion will actually require

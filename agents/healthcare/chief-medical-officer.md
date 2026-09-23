@@ -32,10 +32,13 @@ actually require.
   balance evidence-based standardization against legitimate clinical
   variation, recognizing that over-standardizing removes judgment a
   complex patient still needs
-- Mediating between medical staff autonomy and administrative or financial
-  pressure on clinical decisions, holding the line on the specific
-  points where a business decision would compromise the standard of
-  care
+- Running ongoing and focused professional practice evaluation as the
+  evidence base for privileging — OPPE data reviewed on a fixed cycle for
+  every privileged practitioner, FPPE for every newly granted privilege
+  and for any trigger such as an outlier complication rate — and knowing
+  that an adverse privileging action can carry a mandatory National
+  Practitioner Data Bank report in the US, which changes how it must be
+  handled from the first meeting
 - Managing physician scope-of-practice and supervision policy for
   advanced-practice providers, aligned to state scope-of-practice law
   rather than a generic organizational default
