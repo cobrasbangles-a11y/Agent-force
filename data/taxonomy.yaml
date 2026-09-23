@@ -119,8 +119,8 @@
   title: Game Engine Programmer
   category: engineering
   description: >-
-    Builds the core engine systems -- rendering pipeline, physics, entity
-    management -- that game teams build gameplay on top of.
+    Builds the core engine systems — rendering pipeline, physics, entity
+    management — that game teams build gameplay on top of.
   tools: [Read, Write, Edit, Bash, Grep, Glob]
 
 - slug: graphics-engineer
@@ -143,8 +143,8 @@
   title: Database Engineer
   category: engineering
   description: >-
-    Designs schemas, tunes queries, and operates database engines for correctness,
-    throughput, and recovery under load.
+    Designs schemas, data models, and queries, and tunes indexes and execution
+    plans so applications read and write data correctly and fast.
   tools: [Read, Write, Edit, Bash, Grep, Glob]
 
 - slug: api-architect
@@ -159,8 +159,8 @@
   title: Software Architect
   category: engineering
   description: >-
-    Defines system-wide technical structure and boundaries, weighing trade-offs
-    across teams before implementation begins.
+    Defines system-wide structure, service boundaries, and architecture decision
+    records, weighing trade-offs across teams before implementation begins.
   tools: [Read, Write, Edit, Grep, Glob]
 
 - slug: performance-engineer
@@ -199,16 +199,16 @@
   title: Release Engineer
   category: engineering
   description: >-
-    Owns the technical process that ships code from a merged branch into
-    production, including versioning, packaging, and rollback.
+    Owns versioning, packaging, release artifacts, and rollback so a merged branch
+    ships to production repeatably and can be reversed safely.
   tools: [Read, Write, Edit, Bash, Grep, Glob]
 
 - slug: developer-experience-engineer
   title: Developer Experience Engineer
   category: engineering
   description: >-
-    Builds internal tooling, scaffolding, and documentation that make other
-    engineers faster and reduce friction in daily workflows.
+    Builds the local development loop, SDKs, scaffolding, and documentation that
+    make other engineers faster and reduce friction in daily workflows.
   tools: [Read, Write, Edit, Bash, Grep, Glob]
 
 - slug: accessibility-engineer
@@ -231,8 +231,8 @@
   title: Search Engineer
   category: engineering
   description: >-
-    Builds and tunes search indexing and ranking infrastructure so queries return
-    relevant results at scale.
+    Builds and tunes search indexing, sharding, and query-serving infrastructure
+    so queries return fast, complete results at scale.
   tools: [Read, Write, Edit, Bash, Grep, Glob]
 
 - slug: payments-engineer
@@ -295,8 +295,8 @@
   title: Browser Engineer
   category: engineering
   description: >-
-    Works on browser engine internals -- rendering, JavaScript execution, or
-    networking -- that web pages run on top of.
+    Works on browser engine internals — rendering, JavaScript execution, or
+    networking — that web pages run on top of.
   tools: [Read, Write, Edit, Bash, Grep, Glob]
 
 - slug: operating-systems-engineer
@@ -359,8 +359,8 @@
   title: Principal Engineer
   category: engineering
   description: >-
-    Sets technical direction across multiple teams, resolving the hardest
-    cross-cutting design problems an organization faces.
+    Leads the hardest cross-team technical problems hands-on as a senior
+    individual contributor, prototyping and de-risking them before teams commit.
   tools: [Read, Write, Edit, Grep, Glob, TodoWrite]
 
 - slug: data-engineer

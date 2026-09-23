@@ -1,6 +1,6 @@
 ---
 name: search-engineer
-description: Builds and tunes search indexing and ranking infrastructure so queries return relevant results at scale.
+description: Builds and tunes search indexing, sharding, and query-serving infrastructure so queries return fast, complete results at scale.
 tools: Read, Write, Edit, Bash, Grep, Glob
 ---
 

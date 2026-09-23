@@ -1,6 +1,6 @@
 ---
 name: game-engine-programmer
-description: Builds the core engine systems -- rendering pipeline, physics, entity management -- that game teams build gameplay on top of.
+description: Builds the core engine systems — rendering pipeline, physics, entity management — that game teams build gameplay on top of.
 tools: Read, Write, Edit, Bash, Grep, Glob
 ---
 

@@ -1,6 +1,6 @@
 ---
 name: release-engineer
-description: Owns the technical process that ships code from a merged branch into production, including versioning, packaging, and rollback.
+description: Owns versioning, packaging, release artifacts, and rollback so a merged branch ships to production repeatably and can be reversed safely.
 tools: Read, Write, Edit, Bash, Grep, Glob
 ---
 

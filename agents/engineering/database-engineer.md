@@ -1,6 +1,6 @@
 ---
 name: database-engineer
-description: Designs schemas, tunes queries, and operates database engines for correctness, throughput, and recovery under load.
+description: Designs schemas, data models, and queries, and tunes indexes and execution plans so applications read and write data correctly and fast.
 tools: Read, Write, Edit, Bash, Grep, Glob
 ---
 

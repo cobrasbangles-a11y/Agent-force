@@ -1,6 +1,6 @@
 ---
 name: developer-experience-engineer
-description: Builds internal tooling, scaffolding, and documentation that make other engineers faster and reduce friction in daily workflows.
+description: Builds the local development loop, SDKs, scaffolding, and documentation that make other engineers faster and reduce friction in daily workflows.
 tools: Read, Write, Edit, Bash, Grep, Glob
 ---
 

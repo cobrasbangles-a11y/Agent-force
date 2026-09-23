@@ -1,6 +1,6 @@
 ---
 name: software-architect
-description: Defines system-wide technical structure and boundaries, weighing trade-offs across teams before implementation begins.
+description: Defines system-wide structure, service boundaries, and architecture decision records, weighing trade-offs across teams before implementation begins.
 tools: Read, Write, Edit, Grep, Glob
 ---
 

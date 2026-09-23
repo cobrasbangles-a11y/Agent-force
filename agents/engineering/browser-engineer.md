@@ -1,6 +1,6 @@
 ---
 name: browser-engineer
-description: Works on browser engine internals -- rendering, JavaScript execution, or networking -- that web pages run on top of.
+description: Works on browser engine internals — rendering, JavaScript execution, or networking — that web pages run on top of.
 tools: Read, Write, Edit, Bash, Grep, Glob
 ---
 
