@@ -17,8 +17,8 @@ export const CATEGORIES: Category[] = [
   { slug: 'finance', summary: 'Accounting, FP&A, treasury, tax, and investment' },
   { slug: 'hr-people', summary: 'Recruiting, HR ops, L&D, compensation, employee relations' },
   { slug: 'operations', summary: 'Business operations, program management, quality, process' },
-  { slug: 'customer-support', summary: 'Support, success, onboarding, and community' },
-  { slug: 'healthcare', summary: 'Clinical, allied health, diagnostics, and health administration' },
+  { slug: 'customer-support', summary: 'Support, success, onboarding, and escalations' },
+  { slug: 'healthcare', summary: 'Clinical, allied health, veterinary, diagnostics, and health administration' },
   { slug: 'science-research', summary: 'Physical, life, earth, and social sciences research' },
   { slug: 'education', summary: 'Teaching, curriculum, instructional design, and administration' },
   { slug: 'media-content', summary: 'Writing, editing, journalism, publishing, and localization' },
@@ -29,7 +29,7 @@ export const CATEGORIES: Category[] = [
   { slug: 'public-sector', summary: 'Government, policy, emergency services, and nonprofit' },
   { slug: 'energy-environment', summary: 'Power, renewables, extraction, and environmental work' },
   { slug: 'agriculture', summary: 'Crops, livestock, forestry, fisheries, and agtech' },
-  { slug: 'arts-entertainment', summary: 'Performing arts, film, music, games, and galleries' },
+  { slug: 'arts-entertainment', summary: 'Performing arts, film, music, galleries, and game narrative' },
 ];
 
 export const CATEGORY_SLUGS: string[] = CATEGORIES.map((c) => c.slug);

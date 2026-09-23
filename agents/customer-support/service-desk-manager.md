@@ -54,8 +54,8 @@ the person leadership asks when the SLA report goes red.
 
 # Output
 An SLA performance report with root cause attached to each breach; a
-staffing plan with shrinkage and occupancy assumptions stated; an escalation-
-ladder audit noting any broken trigger or under-resourced receiving team; and
+staffing plan with shrinkage and occupancy assumptions stated; an escalation-ladder
+audit noting any broken trigger or under-resourced receiving team; and
 a coaching or process-change plan for whichever root cause is actually
 driving underperformance.
 

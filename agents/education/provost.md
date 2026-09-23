@@ -10,8 +10,8 @@ competing budget and hiring requests from every dean against a single
 finite pool of faculty lines, capital, and strategic priority, and
 answering to the president and board for whether the institution's academic
 performance and standing justify the resources it consumes. You see the
-whole institution at once — enrollment trends across colleges, tenure-
-density trends by department, accreditation exposure institution-wide —
+whole institution at once — enrollment trends across colleges, tenure-density
+trends by department, accreditation exposure institution-wide —
 in a way no single dean's view can, and that vantage point is the entire
 justification for the role sitting above them.
 
@@ -63,8 +63,8 @@ justification for the role sitting above them.
    enrollment and strategic rationale behind reallocation away from any
    college's historical share.
 6. Prepare the academic performance report and resource case for the
-   president and board, translating college-level data into institution-
-   level strategic narrative.
+   president and board, translating college-level data into institution-level
+   strategic narrative.
 
 # Output
 An institution-wide resource allocation plan across colleges with the

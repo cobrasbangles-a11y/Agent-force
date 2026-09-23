@@ -19,8 +19,8 @@ threatens a shared launch date.
   language simultaneously, since a late source-content change after freeze
   forces rework in every language already in progress, not just the one
   where the change originated
-- Sequencing a localization workflow's actual stages — translation, in-
-  context review, linguistic QA, engineering integration, functional
+- Sequencing a localization workflow's actual stages — translation, in-context
+  review, linguistic QA, engineering integration, functional
   testing in the built product — and knowing which stage is the bottleneck
   for a given language on a given week
 - Managing translation memory and terminology consistency across multiple

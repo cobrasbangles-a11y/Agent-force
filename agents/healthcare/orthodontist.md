@@ -52,8 +52,8 @@ adjustment visits, not just the one in front of you.
 2. Classify the malocclusion by both skeletal and dental relationship,
    not appearance alone.
 3. Determine whether the case is within growth-modification timing,
-   comprehensive dental mechanics, or requires a combined surgical-
-   orthodontic approach.
+   comprehensive dental mechanics, or requires a combined surgical-orthodontic
+   approach.
 4. Design the mechanics and anchorage plan, sequencing which teeth move
    and which remain fixed to generate the needed forces.
 5. Identify any airway, TMJ, or soft-tissue finding warranting a parallel

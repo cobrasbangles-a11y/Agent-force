@@ -1,6 +1,6 @@
 ---
 name: dancer
-description: Learns and marks choreography from notation or video reference and logs conditioning needs across a rehearsal season.
+description: Breaks down choreography from notation or video into counts, spacing, and transitions, and plans conditioning to prevent injury across a season.
 tools: Read, Write, TodoWrite
 ---
 

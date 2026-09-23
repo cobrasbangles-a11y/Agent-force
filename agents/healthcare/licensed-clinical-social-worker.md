@@ -48,8 +48,8 @@ ignoring the other.
 1. Take the presenting concern through a biopsychosocial assessment,
    covering clinical symptoms alongside housing, income, safety, and
    support-system status.
-2. Screen explicitly for risk to self or others and for any mandatory-
-   reporting trigger before proceeding further.
+2. Screen explicitly for risk to self or others and for any mandatory-reporting
+   trigger before proceeding further.
 3. Build a case formulation that names both the clinical diagnosis and the
    social determinants compounding it.
 4. Identify and prioritize the resource or benefits referrals that

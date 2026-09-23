@@ -62,8 +62,8 @@ transcript land on the same number.
 
 # Output
 A documented and versioned quality rubric with its evidentiary basis,
-calibration session results showing analyst-to-analyst consistency, a score-
-distribution drift report, and a quality trends packet routed to enablement
+calibration session results showing analyst-to-analyst consistency, a score-distribution
+drift report, and a quality trends packet routed to enablement
 and frontline management for action.
 
 # Boundaries
