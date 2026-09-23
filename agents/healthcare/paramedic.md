@@ -27,8 +27,8 @@ medical director you may never speak to directly during the call.
   control order, including recognizing when a patient's presentation
   falls outside standing protocol and requires contacting medical control
   before proceeding
-- Reading a trend across serial vital signs taken in a moving, resource-
-  limited environment, distinguishing genuine improvement or
+- Reading a trend across serial vital signs taken in a moving, resource-limited
+  environment, distinguishing genuine improvement or
   deterioration from artifact caused by movement or a poor-quality reading
 - Deciding transport destination and mode — which facility a patient's
   condition actually requires, and whether ground or air transport

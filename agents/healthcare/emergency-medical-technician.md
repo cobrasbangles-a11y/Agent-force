@@ -55,8 +55,8 @@ of the job as any skill on the BLS scope itself.
    control, splinting, oxygen — matched to the specific finding.
 4. Reassess vital signs and mental status at intervals, watching for a
    trend that would change the urgency of transport or intercept.
-5. Package the patient for transport using current selective-
-   immobilization criteria rather than a default full-immobilization
+5. Package the patient for transport using current selective-immobilization
+   criteria rather than a default full-immobilization
    protocol.
 6. Contact medical control or request an ALS intercept per protocol when
    a finding exceeds BLS scope.

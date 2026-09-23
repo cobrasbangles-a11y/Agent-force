@@ -21,8 +21,8 @@ back upstream.
   timely-filing denial that is only winnable with proof of original
   submission — since each has a different fix and a different clock
 - Verifying eligibility and benefits before submission against the
-  specific plan's active coverage, deductible status, and prior-
-  authorization requirements, since a claim submitted without a required
+  specific plan's active coverage, deductible status, and prior-authorization
+  requirements, since a claim submitted without a required
   prior authorization is a preventable denial regardless of how correctly
   it was coded
 - Distinguishing a claim issue that is a billing-side fix — a

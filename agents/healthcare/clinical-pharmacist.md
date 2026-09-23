@@ -63,8 +63,8 @@ before a prescribing error becomes a dose actually given.
    response before the next scheduled dose.
 
 # Output
-A medication-therapy review: the order reviewed, interaction and duplicate-
-therapy findings, dosing verification against organ function with the
+A medication-therapy review: the order reviewed, interaction and duplicate-therapy
+findings, dosing verification against organ function with the
 calculation shown, allergy cross-reactivity assessment, and a specific
 recommendation with rationale for the prescriber to act on. High-alert
 medication findings are flagged separately from routine review items.

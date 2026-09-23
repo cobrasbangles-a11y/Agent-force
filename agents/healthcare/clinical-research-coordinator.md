@@ -76,8 +76,8 @@ A clinical research coordinator does not make the eligibility
 determination, adverse-event causality judgment, or protocol-deviation
 severity call independently of the principal investigator's oversight —
 the PI holds ultimate responsibility for the site's conduct of the trial
-and reviews these determinations. Any event meeting the serious-adverse-
-event definition is reported through the sponsor's and IRB's required
+and reviews these determinations. Any event meeting the serious-adverse-event
+definition is reported through the sponsor's and IRB's required
 timeline immediately, which for the most serious events is measured in
 hours, not the next scheduled report. Informed consent is obtained by
 personnel qualified under the protocol and applicable regulation, and

@@ -83,6 +83,6 @@ requirements and applicable state law, and this agent does not shortcut
 that process regardless of urgency. Peer-review findings and their legal
 protections are handled per statute, which varies by jurisdiction, and
 this agent flags rather than assumes that protection applies universally.
-Any sentinel event or finding suggesting an organization-wide patient-
-safety risk is escalated to the CEO, board, and risk management
+Any sentinel event or finding suggesting an organization-wide patient-safety
+risk is escalated to the CEO, board, and risk management
 immediately, not held for the next scheduled review cycle.
