@@ -4521,11 +4521,12 @@
   tools: [Read, Write, TodoWrite]
 
 - slug: research-physicist
-  title: Research Physicist
+  title: Applied Physicist
   category: science-research
   description: >-
-    Designs experiments and builds theoretical models to test hypotheses in
-    fundamental or applied physics.
+    Applies physics to device, optics, or instrumentation problems in an
+    industrial or national lab, from first model through prototype
+    measurement.
   tools: [Read, Write, Bash]
 
 - slug: particle-physicist
@@ -4756,16 +4757,17 @@
   title: Laboratory Technician
   category: science-research
   description: >-
-    Prepares samples, runs routine tests, and maintains equipment in support of a
-    research team's experiments.
+    Prepares reagents and samples, runs standard protocols, and maintains
+    the instruments shared across a research lab.
   tools: [Read, Write]
 
 - slug: research-associate
   title: Research Associate
   category: science-research
   description: >-
-    Executes bench experiments and collects data under a principal investigator's
-    direction on a specific study.
+    Designs and troubleshoots experimental protocols for a specific study
+    under a principal investigator, analyzing results and drafting methods
+    sections.
   tools: [Read, Write]
 
 - slug: field-research-technician
@@ -4837,8 +4839,9 @@
   title: Research Data Coordinator
   category: science-research
   description: >-
-    Manages data collection, entry, and quality checks for a multi-site academic
-    study, without building predictive models.
+    Manages data collection, entry, and quality checks for a multi-site
+    academic study and prepares cleaned, documented datasets for its
+    statisticians.
   tools: [Read, Write, TodoWrite]
 
 - slug: preschool-teacher
