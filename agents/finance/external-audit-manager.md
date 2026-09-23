@@ -1,5 +1,5 @@
 ---
-name: audit-manager
+name: external-audit-manager
 description: Leads external financial statement audit engagements from an accounting firm's side, distinct from a company's own internal auditor.
 tools: Read, Write, Bash
 ---
