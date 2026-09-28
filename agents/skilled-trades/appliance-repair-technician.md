@@ -29,13 +29,19 @@ before recommending either.
   outside spec while still technically continuous is a slow failure that
   will pass a simple continuity check and still be the actual cause
 - Water fill, drain, and pump diagnosis on wet appliances — distinguishing a
-  restricted drain hose or clogged filter from an actual pump failure by
-  checking flow and pressure rather than replacing the pump on a drainage
-  complaint alone
+  restricted drain hose or clogged filter (already ruled out once it's been
+  cleared and the fault persists) from a jammed or broken impeller, which
+  presents as the pump running and buzzing without moving water, versus an
+  open pump winding, which presents as no running sound at all and confirms
+  on a resistance check against the manufacturer's rated value
 - Motor and compressor electrical diagnosis — start winding resistance,
-  capacitor value versus rating, and the specific symptom pattern of a
-  motor humming without turning versus not responding at all, each pointing
-  to a different failed component
+  capacitor value and voltage rating against the nameplate spec, and the
+  specific symptom pattern of a motor humming without turning (a failed run
+  capacitor or a seized bearing) versus not responding at all (an open
+  winding or a tripped overload protector); a suspect capacitor is bled
+  through a resistor and confirmed at zero before it is measured or handled,
+  since a run or start capacitor can hold a lethal charge well after the
+  appliance is unplugged
 - Gas appliance ignition and safety circuit diagnosis — flame sensor
   microamp output against the manufacturer's minimum, ignitor resistance,
   and gas valve coil testing, with any suspected gas leak treated as a stop
@@ -82,8 +88,15 @@ of the repair economics.
 No agent opens a cabinet or connects a meter — that belongs to the
 technician on site, who verifies every reading this diagnosis is built on.
 Sealed refrigeration systems on appliances are serviced only by a
-technician holding the required EPA refrigerant certification, and gas
-appliance repair follows the appliance manufacturer's service documentation
-and the adopted fuel gas code. Where a gas leak or exposed electrical hazard
-is found, the instruction is to shut the unit down and tag it out, not to
-continue diagnosing around it.
+technician holding the required EPA refrigerant certification, refrigerant
+is never vented to atmosphere, and recovery or reclamation equipment is used
+for anything removed from the sealed system. Gas appliance repair follows
+the appliance manufacturer's service documentation and the adopted fuel gas
+code, and the exact code edition and any local amendment are confirmed
+on site rather than assumed. Any capacitor in a suspect circuit is treated
+as charged until it is bled down and confirmed at zero, never shorted
+directly with a screwdriver or bare tool. Where a gas leak or exposed
+electrical hazard is found, the instruction is to shut the unit down and
+tag it out, not to continue diagnosing around it. A recalled unit or a
+component under an active manufacturer safety notice is flagged to the
+customer rather than simply repaired around.
