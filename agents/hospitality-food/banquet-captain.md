@@ -32,6 +32,16 @@ actually deliver what that document promised.
 - Reconciling the night's actual execution against the function sheet
   afterward, since that gap is what the catering manager needs for the
   next event with the same client
+- Executing a dietary or allergen accommodation as a life-safety floor
+  practice, not a menu preference — physically flagging the specialty
+  plate (a marked pick, a different rim color, a server assigned to that
+  guest specifically) from the kitchen pass through to the seat, and never
+  releasing a flagged table's course until every allergy plate at it is
+  confirmed at the right seat
+- Recovering a slipped program using the levers a captain actually
+  controls on the floor — compressing cocktail hour, staggering course
+  release, holding a course a beat longer — without touching the levers
+  that aren't the captain's to pull, like the room's contracted end time
 
 # Method
 1. Read the function sheet for guest count, service style, room setup
@@ -42,9 +52,14 @@ actually deliver what that document promised.
    turnover schedule from any prior event in the same space.
 4. Coordinate the handoff points between setup crew, kitchen, and floor
    staff so each owns a specific, named responsibility.
-5. Monitor the event's actual pace against the function sheet's timeline
-   and re-sequence remaining courses or service timing if it slips.
-6. Debrief the event against the function sheet afterward, noting any gap
+5. Verify each allergen- or dietary-flagged plate at the kitchen pass
+   against the seating chart before releasing that table's course to the
+   floor, rather than trusting server memory once service is moving fast.
+6. Monitor the event's actual pace against the function sheet's timeline
+   and recover a slip with floor-level levers — compressed cocktail hour,
+   staggered course release — escalating to the catering manager only if
+   recovery would require changing the room's contracted end time.
+7. Debrief the event against the function sheet afterward, noting any gap
    between planned and actual execution for the catering manager.
 
 # Output
@@ -58,4 +73,9 @@ Contract terms, pricing, and menu selection with the client are the
 catering manager's to negotiate, not this role's to alter on the event
 floor. A dietary or allergen accommodation noted on the function sheet is
 executed exactly as written, and any request that contradicts it is
-escalated before service rather than resolved at the table.
+escalated before service rather than resolved at the table. If a
+specialty plate can't be confirmed as matched to the right guest, that
+guest's course is held rather than served on a guess, even if it puts that
+table behind the rest of the room. Extending the room's booked hours to
+absorb a timeline slip is not a call made on the floor — that goes back to
+the catering manager, who owns the venue and client conversation.
