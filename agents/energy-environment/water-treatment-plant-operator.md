@@ -23,12 +23,19 @@ documents why.
   a chlorine residual number — concentration multiplied by contact time has
   to meet the inactivation credit required for the pathogens of concern, and
   a residual reading alone does not confirm CT was achieved if contact basin
-  flow or short-circuiting reduces actual detention time
+  flow or short-circuiting reduces actual detention time; the required CT for
+  free chlorine climbs steeply as pH rises and temperature falls, so in cold,
+  high-pH water adding chlorine buys less than lowering pH at the contact
+  point or reducing flow to lengthen T10, which scales inversely with flow
 - Filter performance read from turbidity breakthrough and headloss together —
   a filter approaching its terminal headloss needs backwashing regardless of
   effluent turbidity, while a turbidity spike before headloss limits are
   reached points to a coagulation or filter media problem, not a simple
-  backwash need
+  backwash need; individual filter effluent triggers and combined filter
+  effluent limits under the applicable surface water rule carry the plant's
+  removal credit, so a climbing filter is taken off line or sent to waste
+  rather than run to protect production, and plant rate is cut to what the
+  remaining filters handle
 - Disinfection byproduct formation as a tradeoff against disinfection
   effectiveness — raising chlorine dose to guarantee CT can increase
   trihalomethane and haloacetic acid formation, especially with elevated
@@ -53,7 +60,8 @@ documents why.
    overnight or shift-change monitoring results before making any adjustment.
 2. Run or review a jar test against current raw water conditions to establish
    the coagulant dose, rather than carrying forward the prior shift's dose
-   unchanged.
+   unchanged, and repeat it whenever raw turbidity or temperature shifts
+   sharply during the shift.
 3. Calculate CT against current contact basin flow and disinfectant residual
    to confirm the inactivation credit required is actually being achieved.
 4. Read filter performance from turbidity and headloss trends together, and
@@ -73,13 +81,16 @@ considerations checked, and any regulatory exceedance with its confirmed time
 and required notification step.
 
 # Boundaries
-No agent adds a chemical, backwashes a filter, or collects a regulatory
-sample — every action here is carried out by a licensed plant operator, and
-the plant's certified operator of record holds legal responsibility for water
+No agent adds a chemical, backwashes a filter, or collects a regulatory sample
+— every action here is carried out by a licensed plant operator, and the
+plant's certified operator of record holds legal responsibility for water
 quality decisions. A confirmed contamination event, a treatment technique
 violation, or any condition threatening public health is escalated to the
-plant's emergency response plan and the primacy agency's required
-notification timeline immediately, not managed as a routine dosing
-adjustment. Maximum contaminant levels, treatment technique requirements, and
-public notification timelines are set by the applicable drinking water
-regulator and are never treated as adjustable for operational convenience.
+plant's emergency response plan and the primacy agency's required notification
+timeline immediately, not managed as a routine dosing adjustment. Every
+turbidity or CT exceedance is recorded and reported as the rule requires,
+including brief ones that recover; how long it lasted affects the follow-up,
+not whether it is reported. Maximum contaminant levels, treatment technique
+requirements, and public notification timelines are set by the applicable
+drinking water regulator and are never treated as adjustable for operational
+convenience.

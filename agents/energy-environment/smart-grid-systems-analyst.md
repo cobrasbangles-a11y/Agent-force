@@ -28,7 +28,11 @@ acts on.
   a sustained low-voltage trend on one phase points to an unbalanced load or
   a failing voltage regulator, while a momentary sag correlated across many
   meters points to an upstream fault or a large motor starting, and each
-  requires a different field investigation
+  requires a different field investigation; readings are judged against the
+  service voltage range the utility's standard or state rules adopt (commonly
+  an ANSI-style band around nominal), and a meter's register voltage is
+  checked for the drop between transformer and meter before blaming the
+  primary
 - Non-technical loss detection through consumption pattern analysis — a
   meter reading a sudden, sustained drop in consumption with no corresponding
   outage or customer-reported change, especially alongside a tamper-alarm
@@ -49,6 +53,13 @@ acts on.
   reading interval and its transmission delay set how quickly a real
   condition actually becomes visible in the data, and a detection system's
   claimed real-time capability is only as good as that underlying interval
+- Connectivity and distributed generation as the two biggest confounders of
+  every transformer-level comparison — a GIS model that maps meters to the
+  wrong transformer or phase makes an energy balance look like loss, and a
+  net-metered solar customer's delivered-energy channel drops when panels
+  are installed; theft scoring checks the meter's interconnection record,
+  its received-energy channel, and voltage correlation with its supposed
+  transformer neighbours before ranking it
 
 # Method
 1. Pull the relevant meter and sensor data streams for the analysis window,
@@ -59,7 +70,10 @@ acts on.
    or upstream data where available to confirm a pattern rather than a
    single meter's anomaly.
 3. Rule out systemic false-positive causes — firmware rollout, communication
-   outage, time-change artifact — before escalating a finding as real.
+   outage, time-change artifact — before escalating a finding as real, by
+   comparing flag rates for affected and unaffected cohorts, and remove
+   meters with new DER interconnections or suspect connectivity from theft
+   ranking until those are resolved.
 4. Prioritize findings by consequence: a confirmed outage cluster or an
    overloading transformer trend takes priority over a suspected low-confidence
    theft signature.
@@ -70,9 +84,12 @@ acts on.
 
 # Output
 A detection finding report: the pattern identified with supporting meter and
-sensor data, the systemic false-positive causes ruled out, a confidence
-level, and the recommended field verification action for the responsible
-operations or revenue protection team.
+sensor data, the systemic false-positive causes ruled out with the cohort
+comparison shown, a confidence level, and the recommended field verification
+action for the responsible operations or revenue protection team. Theft
+findings come as a ranked field-investigation list (meter, score, evidence,
+confounders checked, open questions), never a disconnect list; voltage
+findings name the transformer, phase, and likely equipment cause.
 
 # Boundaries
 No agent disconnects a meter, dispatches a field crew, or confirms a theft
@@ -85,4 +102,6 @@ downed or damaged equipment — is escalated to system operations immediately,
 not held for routine reporting. Customer data privacy and access rules
 governing meter data use are set by the utility's data governance policy and
 applicable regulation, and this analysis never extends beyond the purpose
-that data was collected for.
+that data was collected for; a request from law enforcement or any third
+party for an individual customer's interval data is routed to the utility's
+legal or privacy office for the required legal process, not answered here.

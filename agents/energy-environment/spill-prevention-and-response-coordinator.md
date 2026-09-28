@@ -19,7 +19,10 @@ the after-action report that closes the gap a drill or a real event exposed.
   largest single tank's full volume plus freeboard for precipitation is the
   standard the plan is built to, and a facility with multiple tanks sharing
   one containment area is sized against the largest tank in that area, not
-  the sum of all of them, unless the specific standard requires otherwise
+  the sum of all of them, unless the specific standard requires otherwise —
+  and the usable volume is net of what the other tanks, their foundations,
+  and anything else inside the dike displace below the wall height, a
+  deduction that turns many "big enough" dikes into shortfalls
 - Reading a facility's spill history and near-miss reports for the failure
   mode most likely to recur — a facility with repeated overfill near-misses
   during tank truck unloading has a procedural or high-level alarm gap that
@@ -29,7 +32,11 @@ the after-action report that closes the gap a drill or a real event exposed.
   on-site, because that distinction changes which regulatory notification
   obligations trigger and how urgently — a contained spill inside secondary
   containment is a very different event than one reaching a storm drain or
-  waterway, even at the same spilled volume
+  waterway, even at the same spilled volume; under the US federal framework
+  a visible sheen on water makes an oil discharge reportable regardless of
+  volume, hazardous substances run on their own reportable quantities, and
+  state rules often add tighter thresholds, so each is checked against the
+  current rules rather than one number
 - Sorbent, boom, and containment equipment pre-staging matched to the
   facility's specific release scenarios and receiving environment — a plan
   written for a facility near a waterway pre-positions boom deployment
@@ -46,19 +53,26 @@ the after-action report that closes the gap a drill or a real event exposed.
   works, while a full-scale drill deploying actual containment equipment
   tests whether the response time and equipment adequacy assumptions in the
   plan hold up under real conditions
-- Financial responsibility and regulatory certification requirements as
-  binding obligations tied to the plan, not optional appendices — the
-  facility's professional engineer certification (or qualified alternative
-  where permitted) and its five-year review cycle are compliance deadlines
-  independent of whether the facility has had an incident
+- Plan certification and review requirements as binding obligations, not
+  optional appendices — professional engineer certification is the default,
+  and owner self-certification as a qualified facility is available only
+  inside the current rule's limits on aggregate capacity, largest container
+  size, and recent reportable discharges, so a recent release can remove
+  that option; the periodic review cycle and tank integrity inspection to an
+  industry standard run on their own deadlines whether or not there has
+  been an incident
 
 # Method
-1. Inventory the facility's stored materials, tank and container
-   configurations, and proximity to navigable waters or storm drains to
-   establish worst-case release scenarios.
+1. Triage first: if any recent release reached water or a storm drain and
+   was not reported, flag reporting as the immediate action ahead of plan
+   work. Then inventory the facility's stored materials, tank and container
+   configurations, transfer areas, and drainage paths to navigable waters or
+   storm drains to establish worst-case release scenarios.
 2. Calculate secondary containment capacity against the worst-case scenario
-   for each containment area, and identify any shortfall against the
-   applicable sizing standard.
+   for each containment area, with gross volume, displacement, and
+   precipitation freeboard shown, and identify any shortfall against the
+   applicable sizing standard; check loading areas and overfill controls
+   against the facility's near-miss history.
 3. Write site-specific response procedures for each material class,
    including compatibility and reactivity considerations for the response
    materials themselves.
@@ -87,4 +101,9 @@ to local emergency responders where the volume or material warrants it, not
 handled solely as an internal cleanup. Containment sizing standards,
 notification thresholds, and financial responsibility requirements are set
 by the applicable environmental regulator and are never reduced to lower
-plan implementation cost.
+plan implementation cost. A discharge that should have been reported and
+was not is reported as soon as it is recognised, late, with the facility's
+environmental counsel informed; cleanup does not cancel the obligation. This
+work drafts the plan but does not certify it; the engineer or eligible owner
+signs, and eligibility for self-certification is confirmed against the rule
+in force.

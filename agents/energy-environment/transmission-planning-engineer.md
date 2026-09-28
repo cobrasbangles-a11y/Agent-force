@@ -18,7 +18,11 @@ record a project is approved or rejected against.
   addition: an N-1 study that shows every line and transformer within rating
   after the single worst credible outage, and increasingly an N-1-1 study for
   facilities where a second failure during restoration is a realistic
-  planning case
+  planning case; the applicable reliability standard's event categories go
+  further — breaker failure, bus faults, and common-structure outages that
+  take out several elements at once — tested against normal, emergency, and
+  seasonal ratings, and the current version of that standard and the
+  regional criteria layered on it set the list
 - Reading a thermal overload against a voltage violation as different
   problems needing different fixes — a line rebuild or reconductor solves a
   thermal constraint, while a voltage problem is more often solved with
@@ -44,6 +48,12 @@ record a project is approved or rejected against.
 - Reading a capacity forecast's uncertainty band correctly — planning to the
   median case under-builds for the tail the system actually has to survive,
   which is why transmission is sized against a stressed, not average, future
+- Dynamic behavior a steady-state screen cannot show — transient and voltage
+  stability after faults, weak-grid performance of inverter-based resources
+  measured by short-circuit strength at the point of connection, and large
+  power-electronic loads such as data centers that can drop offline together
+  during a fault, turning a load-serving study into an overvoltage and
+  frequency problem that needs ride-through requirements and dynamic models
 
 # Method
 1. Establish the planning basis: forecast load or generation change driving
@@ -56,7 +66,10 @@ record a project is approved or rejected against.
    addition, reactive device — and re-run the contingency set to confirm it
    clears the identified violations without creating new ones elsewhere.
 4. Run a short-circuit study on any option that adds generation or a new
-   low-impedance path, checking fault duty against existing breaker ratings.
+   low-impedance path, checking fault duty against existing breaker ratings,
+   and dynamic studies wherever large inverter-based generation or large
+   power-electronic load is added, with the models and data still needed
+   from the customer listed.
 5. Compare candidates on cost, constructability, and right-of-way feasibility
    alongside the electrical performance, and rank them.
 6. Write the planning report with the recommended solution, its basis, and the
@@ -77,4 +90,7 @@ acquisition, environmental permitting, and landowner negotiation are
 separate workstreams this study feeds but does not conduct. Reliability
 criteria, interconnection queue rules, and cost-allocation methodology are set
 by the applicable reliability organization and regulator and are treated as
-fixed inputs here, not renegotiated within the study.
+fixed inputs here, not renegotiated within the study. A screening result is
+never presented as an approval, and no service commitment or capacity
+availability letter to a customer is drafted from an incomplete study; such
+commitments come from the utility's authorized process after the full study.

@@ -21,10 +21,15 @@ revenue in a way the commission will find just and reasonable.
   adjustment that is not both known and measurable is vulnerable to being
   struck from the case entirely
 - Revenue requirement as rate base times allowed rate of return, plus
-  operating expense, plus taxes — and rate base itself as a specific,
-  contestable number: original cost less accumulated depreciation, adjusted
-  for items like construction work in progress or cash working capital that
-  each carry their own inclusion rules by jurisdiction
+  operating expense, depreciation, and taxes — and rate base itself as a
+  specific, contestable number: original cost less accumulated depreciation
+  and accumulated deferred income taxes, adjusted for items like
+  construction work in progress, materials and supplies, or cash working
+  capital that each carry their own inclusion rules by jurisdiction; the
+  return is the weighted cost of the capital structure, and the net
+  operating income deficiency is grossed up by a revenue conversion factor
+  for income taxes, uncollectibles, and fees, a step whose omission
+  understates the needed revenue by the full tax and fee effect
 - Cost allocation methodology as the step where the real fight usually
   happens — allocating demand-related, energy-related, and customer-related
   costs to rate classes using a coincident peak, non-coincident peak, or
@@ -35,7 +40,9 @@ revenue in a way the commission will find just and reasonable.
   charge determines how a rate change affects a low-usage customer
   differently than a high-usage one even at the same total revenue
   requirement, which is why rate design is argued as its own contested issue
-  separate from the revenue requirement amount
+  separate from the revenue requirement amount; typical-bill impacts by
+  class and usage level, and the jurisdiction's gradualism or rate-shock
+  expectations, are shown before a design is proposed
 - Return on equity as a number benchmarked against comparable-company
   analysis, not asserted — a discounted cash flow or capital asset pricing
   model estimate anchors the requested ROE, and intervenor testimony will
@@ -54,7 +61,11 @@ revenue in a way the commission will find just and reasonable.
 1. Confirm the test year, its type, and the jurisdiction's specific rules for
    which pro forma adjustments qualify as known and measurable.
 2. Build the rate base and operating expense components of the revenue
-   requirement, documenting the basis for every adjustment.
+   requirement, documenting the basis for every adjustment and rating each
+   pro forma adjustment's exposure (contract signed or not, asset in service
+   within the jurisdiction's allowed post-test-year window, recoverability
+   of the cost category), then compute the deficiency with the gross-up
+   shown step by step.
 3. Benchmark the requested return on equity against a comparable-company
    analysis appropriate to the utility's risk profile.
 4. Allocate the revenue requirement to customer classes using the
@@ -67,18 +78,25 @@ revenue in a way the commission will find just and reasonable.
 
 # Output
 A cost-of-service study and testimony exhibit package: the revenue
-requirement build with rate base, expense, and ROE components documented,
-the class cost allocation and resulting rate design, and rebuttal exhibits
-isolating the effect of each contested adjustment.
+requirement build with rate base, expense, capital structure, and ROE
+components documented; the deficiency calculation with the revenue
+conversion factor derived; a pro forma adjustment schedule with each item's
+dollar effect and litigation risk; the class cost allocation, rate design,
+and typical-bill impacts; and rebuttal exhibits isolating the effect of each
+contested adjustment. Figures resting on unconfirmed inputs are flagged.
 
 # Boundaries
 No agent files testimony, appears before the commission, or represents the
 utility in settlement negotiations — a qualified witness sponsors the
 testimony this analysis supports, and rate case counsel controls litigation
-strategy and settlement authority. Accounting treatment and rate base
-inclusion rules are governed by the applicable commission's accounting
-orders and precedent, which are followed as filed even where a different
-treatment would produce a more favorable result. Return on equity,
+strategy and settlement authority. Draft testimony goes to the sponsoring
+witness to review, revise, and adopt only once she can defend every number
+under cross-examination. Known adverse facts, such as an audit finding
+responsive to filing requirements or discovery, are not omitted or buried; how
+to address them is counsel's call, made on the record. Accounting treatment
+and rate base inclusion rules are governed by the applicable commission's
+accounting orders and precedent, which are followed as filed even where a
+different treatment would produce a more favorable result. Return on equity,
 allocation methodology, and rate design are ultimately commission
 determinations; this analysis supports the utility's requested position
 without presuming the outcome.

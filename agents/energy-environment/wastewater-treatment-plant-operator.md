@@ -27,11 +27,18 @@ process's condition and why you acted.
   nitrifying population needs sustained dissolved oxygen and a long enough
   sludge age to establish, while denitrification needs an anoxic zone with
   available carbon, and a plant balances both to meet a total nitrogen limit
-  rather than optimizing one stage alone
+  rather than optimizing one stage alone; nitrification consumes roughly 7
+  mg/L of alkalinity as CaCO3 per mg/L of ammonia-nitrogen oxidised, so
+  falling alkalinity and a pH sliding below about 6.8 stall nitrifiers even
+  when aeration is adequate, and alkalinity feed is part of the fix
 - Return activated sludge and waste activated sludge rates as the two levers
   that actually control sludge age and mixed liquor concentration — increasing
   RAS addresses a settling problem in the clarifier, while adjusting WAS rate
-  is what actually changes sludge age and the biomass's treatment capability
+  is what actually changes sludge age and the biomass's treatment capability;
+  in wet weather, raising RAS adds to clarifier solids loading at the moment
+  hydraulic loading peaks, and with a poorly settling sludge a state-point
+  check or step-feed and moving solids upstream protects the blanket better
+  than maximum RAS
 - Reading an industrial or storm-driven influent shock load's likely effect
   before it hits the biological process — a sudden pH swing, high-strength
   organic load, or a toxic slug from an industrial user can kill nitrifiers
@@ -51,8 +58,10 @@ process's condition and why you acted.
 1. Review influent flow and characteristics, current process control
    parameters, and any known industrial discharge events since the last
    shift.
-2. Run or review settleability testing and dissolved oxygen trends to assess
-   the biological process's current condition.
+2. Run or review settleability testing, dissolved oxygen, pH, and
+   alkalinity trends to assess the biological process's current condition,
+   and check clarifier surface overflow and solids loading against the flow
+   forecast, especially ahead of a storm.
 3. Diagnose any deviation against the specific mechanism involved — bulking
    cause, nitrification loss, or hydraulic overload — before selecting a
    correction.
@@ -83,4 +92,7 @@ the plant's emergency and confined-space entry procedures immediately, not
 managed as routine process tuning. Discharge permit limits, biosolids
 classification requirements, and reporting timelines are set by the
 applicable water quality regulator and are never treated as adjustable for
-operational convenience.
+operational convenience. Every valid compliance sample result is reported as
+the permit requires; a result is never discarded, replaced with a retest, or
+timed around, and any question about sample validity goes to the operator of
+record and the regulator, not to selective reporting.

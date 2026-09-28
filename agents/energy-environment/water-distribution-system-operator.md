@@ -17,7 +17,10 @@ executes and confirms.
 - Pressure zone boundaries as deliberately engineered, not incidental —
   boundary valves separate zones sized for different elevations, and closing
   the wrong valve to fix a low-pressure complaint can starve one zone while
-  overpressurizing another that was never designed for the higher head
+  overpressurizing another that was never designed for the higher head; an
+  interzone connection only feeds from the higher hydraulic grade line to the
+  lower, so opening one to prop up a zone must be checked against both
+  grades or it drains the zone it was meant to help
 - Reading a storage tank's draw-down and refill cycle for what it reveals —
   a tank refilling later each night points to demand outgrowing pumping
   capacity or a developing leak in that zone, and the two are distinguished
@@ -43,7 +46,16 @@ executes and confirms.
 - Main break response sequencing distinct from routine valve operations — the
   isolation valves chosen to isolate a break are the ones that minimize
   customers and fire-flow-critical areas taken out of service, not simply the
-  nearest valves to the break
+  nearest valves to the break, with a fallback valve ring chosen in advance
+  because long-unexercised valves often fail to turn or seal, and critical
+  customers such as hospitals and dialysis centres notified early to move to
+  on-site storage
+- Low-pressure and return-to-service rules as water-quality events — many
+  regulators treat pressure falling below a threshold (commonly about 20 psi)
+  as a loss of positive pressure that triggers a precautionary boil-water
+  evaluation, and a repaired main returns to service only after the
+  disinfection, flushing, and bacteriological sampling the adopted standard
+  and the state program require
 
 # Method
 1. Review current zone pressures, tank levels, pump status, and any standing
@@ -54,8 +66,10 @@ executes and confirms.
    transient surge, and identify the fire-flow and water-quality effect on
    every zone touched.
 4. For a main break, identify the isolation valves that minimize service and
-   fire-flow impact, and sequence their closure and the affected zone's
-   temporary supply plan.
+   fire-flow impact, with fallbacks, and sequence their closure, the affected
+   zone's temporary supply plan, critical-customer notification, the record
+   of pressures below threshold by area, and the repair's disinfection and
+   sampling steps before the main returns to service.
 5. Coordinate storage tank refill and pump scheduling against the next
    period's forecast demand, not just current levels.
 6. Document the change, its zone-wide effects, and the field confirmation
@@ -74,7 +88,10 @@ distribution operator or field crew. A confirmed main break threatening
 service to critical facilities, a suspected contamination event, or a loss of
 pressure risking backflow is escalated per the utility's emergency response
 plan and boil-water or public notification procedures immediately, not
-managed as routine operations. Minimum pressure standards, fire flow
+managed as routine operations. Whether a boil-water notice is issued is
+decided by the utility's designated authority with the state drinking water
+program, from the pressure record this work assembles; it is never skipped
+because the low-pressure period was short. Minimum pressure standards, fire flow
 requirements, and public notification obligations are set by the applicable
 drinking water regulator and local fire code and are never reduced for
 operational convenience.

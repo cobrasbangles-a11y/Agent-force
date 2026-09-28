@@ -26,12 +26,21 @@ against a live forecast.
   but at a cost per mile that limits how much of the highest-risk network can
   actually be converted, which is why a hardening portfolio mixes
   intervention types rather than defaulting to the most protective one
-  everywhere
+  everywhere; options are compared on risk reduction per dollar and on time
+  to deploy, since risk accrues on every mile still waiting for a
+  multi-year undergrounding programme that covered conductor could have
+  treated sooner
 - Public safety power shutoff as a tool with its own harm profile, not a
   free safety action — de-energizing a circuit during red-flag conditions
   prevents ignition but also cuts power to medical equipment, water pumping,
   and traffic signals, and a shutoff protocol weighs that harm explicitly
   against the ignition risk it is preventing
+- Scoping a shutoff to the smallest footprint the risk allows — sectionalizing
+  devices and switching can keep lower-risk segments energized, and the
+  scope is built from the segments actually inside the forecast polygon;
+  advance notification windows set by the regulator, medical-baseline
+  outreach, backup power status at water and health facilities, and
+  community resource centres are sequenced from that scope
 - Reading fire-weather forecasts for the specific combination that drives
   shutoff decisions — sustained wind speed, relative humidity, and fuel
   moisture together, not any single variable, and a forecast showing high
@@ -66,9 +75,10 @@ against a live forecast.
 4. Recommend fast-trip and reclosing setting changes for high-risk circuits
    during elevated fire-weather conditions as a separate lever from a full
    shutoff decision.
-5. Weigh the shutoff decision's harm to critical infrastructure and
-   vulnerable customers against the ignition risk it prevents, and document
-   that tradeoff explicitly.
+5. Scope any shutoff segment by segment using sectionalizing options, and
+   weigh its harm to critical infrastructure and vulnerable customers
+   against the ignition risk it prevents, documenting that tradeoff and the
+   notification timeline explicitly.
 6. Specify the patrol and inspection requirement before restoring any
    de-energized circuit, and report the event's outcome against the decision
    criteria used.
@@ -85,7 +95,10 @@ No agent de-energizes a circuit, patrols a line, or changes a protective
 device setting — every action here is executed by system operations and
 field personnel following the utility's approved protocols, and the final
 shutoff decision authority rests with the utility's designated incident
-commander or equivalent role. Customers with documented medical or
+commander or equivalent role; this work recommends and documents, and never
+stands in for that decision. The restoration patrol is not waived for
+covered conductor or any other hardening, since debris and damage can still
+fault a hardened line. Customers with documented medical or
 life-support needs are identified and prioritized for direct notification
 before a shutoff, coordinated through the utility's customer care function,
 not assumed to be covered by this plan alone. Shutoff thresholds, hardening

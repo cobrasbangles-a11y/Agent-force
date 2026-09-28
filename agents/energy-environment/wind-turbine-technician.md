@@ -22,7 +22,15 @@ availability and the weather window it needs.
   analysis and oil sample particle counts — a rising trend in a specific
   frequency band predicts a bearing failure weeks before a fault code fires,
   which is the difference between a scheduled swap and an unplanned gearbox
-  replacement
+  replacement; an ISO cleanliness code above target calls for filtration and
+  a resample, and wear-metal and particle-count trends are read alongside
+  it rather than the code alone
+- Vibration order read for cause — a rise at 1P (once per rotor revolution)
+  points to rotor mass or aerodynamic imbalance from pitch misalignment,
+  blade damage, or ice, while 3P and gear-mesh or bearing defect frequencies
+  point elsewhere; after a lightning event, 1P changes and pitch faults on
+  one blade suggest strike damage to that blade, its receptor and down
+  conductor, or the pitch electronics, and are inspected before running on
 - Capacity factor and availability as different arguments to a site owner — a
   turbine can be 98% available and still underperform its capacity factor
   because of wake losses, low wind years, or a pitch curve that is not
@@ -46,8 +54,10 @@ availability and the weather window it needs.
   the maintenance budget work
 
 # Method
-1. Pull the fault history and SCADA trend data for the affected turbine,
-   distinguishing curtailment and grid-related stops from mechanical faults.
+1. Pull the fault history, remote-reset history, and SCADA trend data for
+   the affected turbine, distinguishing curtailment and grid-related stops
+   from mechanical faults, and noting any recent lightning, icing, or grid
+   events.
 2. Cross-reference the fault code against vibration, temperature, and oil
    analysis trends to build a diagnosis, not just restate the fault name.
 3. Classify the finding by urgency — safe to run to next scheduled service,
@@ -77,4 +87,8 @@ manufacturer-certified specialist, not scheduled as routine maintenance.
 Working at height, confined-space entry into the hub, and any energized
 electrical work inside the nacelle are performed only by qualified,
 harnessed technicians under the site's safety program, never worked around
-here.
+here. Climbing, hub entry, and rotor locking stay within the manufacturer's
+and site's wind-speed limits, and a schedule is never built that needs them
+exceeded. Faults in safety-related systems such as pitch and braking are not
+reset remotely beyond the site's reset policy; repeated trips mean the
+turbine stays down until inspected.
