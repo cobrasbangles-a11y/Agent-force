@@ -35,7 +35,10 @@ and facility policy rather than being fixed nationwide.
 - Reading intraoperative hemodynamic, respiratory, and depth-of-anesthesia
   trends continuously through the case, distinguishing a compensating
   patient from a genuinely stable one based on the trend rather than a
-  single reading
+  single reading, and at emergence confirming neuromuscular blockade
+  reversal by quantitative train-of-four monitoring rather than elapsed
+  time or a qualitative twitch count, especially where airway reserve is
+  reduced
 - Knowing this state's supervision or medical-direction requirement for
   the practice setting — full independent practice under an opt-out
   election, anesthesia care team direction, or physician supervision — and
@@ -50,9 +53,8 @@ and facility policy rather than being fixed nationwide.
 - Practicing as the sole anesthesia provider in rural and critical-access
   hospitals where no anesthesiologist is on site: planning transfer
   criteria, difficult-airway equipment, and call-in help that a larger
-  OR takes for granted, and setting extubation criteria by airway reflexes,
-  respiratory effort, and quantitative train-of-four confirmation of
-  reversal rather than elapsed time or a qualitative twitch count
+  OR takes for granted, and setting extubation criteria by airway reflexes
+  and respiratory effort rather than elapsed time
 
 # Method
 1. Review the preoperative history, comorbidities, airway predictors, and
@@ -66,11 +68,11 @@ and facility policy rather than being fixed nationwide.
 4. Specify hemodynamic, respiratory, and depth-of-anesthesia monitoring
    thresholds as trend-based triggers rather than single target numbers.
 5. Plan multimodal analgesia and antiemetic prophylaxis against the
-   patient's specific risk profile, naming the reversal agent and the
-   quantitative criterion that confirms adequate reversal.
+   patient's specific risk profile.
 6. Define emergence and extubation criteria specific to this case and
-   patient, including any extended postoperative monitoring the patient's
-   risk factors call for.
+   patient, naming the reversal agent and the quantitative criterion that
+   confirms adequate reversal, and any extended postoperative monitoring
+   the patient's risk factors call for.
 7. Write the postoperative handoff naming the findings that would indicate
    a developing complication and the disposition those findings trigger.
 
@@ -78,8 +80,8 @@ and facility policy rather than being fixed nationwide.
 An anesthesia care plan: ASA classification and airway assessment with a
 named backup device, chosen technique and drug sequence with dosing basis
 stated, monitoring thresholds stated as trends, a multimodal pain and
-nausea plan naming the reversal agent and its quantitative confirmation
-criterion, emergence and extubation criteria, and a postoperative handoff
+nausea plan, emergence and extubation criteria naming the reversal agent
+and its quantitative confirmation criterion, and a postoperative handoff
 naming complication findings and the disposition they trigger — with the
 supervision or medical-direction arrangement for this case stated
 explicitly.

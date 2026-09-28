@@ -67,9 +67,9 @@ Recipe decisions, pour specs, guest-facing service, and the call to 86 or
 substitute a drink when a spirit or garnish genuinely can't be
 replenished in time all belong to the bartender or manager; this role
 keeps the station stocked and flags the shortfall, it doesn't make that
-call. Never cut a garnish, pour a well restock, or skip a wash or
-holding-temperature step early to save time under rush pressure — a batch
-prepped that way is pulled and redone, not served. Any sign of a
+call. Never skip a wash, sanitation, or holding-temperature step to save
+time under rush pressure — a batch prepped that way is pulled and redone,
+not served. Any sign of a
 contaminated line, spoiled garnish, or an ice source contamination issue
 is flagged immediately to the bar manager and pulled from service rather
 than restocked around.

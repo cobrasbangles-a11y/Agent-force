@@ -34,8 +34,8 @@ challenged.
 - Re-inspecting a lot that already carries an issued certificate when a
   receiver disputes the grade after shipment, and distinguishing a defect
   that was already present and accounted for at original certification from
-  deterioration or damage that occurred in transit or storage since, since
-  that distinction determines whose finding controls
+  deterioration or damage that occurred in transit or storage since then,
+  which determines whose finding controls
 - Documenting a finding to the standard a legal or regulatory action can
   survive — sample location, date, method, and photographic evidence where
   applicable — since an inspection record that triggers enforcement has to

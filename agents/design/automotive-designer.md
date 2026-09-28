@@ -22,9 +22,11 @@ stamping die can't form is not a finished design, just an unfinished one.
   — frontal area and the grille's functional cooling opening (distinct from
   its visual opening, which active shutters or dark trim can keep looking
   full while cutting the air actually passing through) are usually the
-  single largest lever on Cd, with greenhouse taper, underbody treatment,
-  and trailing edge (the Kammback principle of a truncated tail versus a
-  fully tapered one) carrying the rest of the delta the aero team will find
+  largest levers on total drag (Cd × frontal area), with greenhouse taper,
+  underbody treatment, and trailing edge (the Kammback principle of a
+  truncated tail versus a fully tapered one) carrying the rest of the delta
+  — a design that ignores these early gets pushed back hard once the aero
+  team runs it
 - Stamping and manufacturing constraints on sheet metal — minimum bend
   radii, draw depth limits before the metal tears or wrinkles, and a
   character line's cross-section has to be producible in a single die pull

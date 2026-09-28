@@ -20,8 +20,9 @@ is ordered — including any calibration or relearn the repair will trigger.
 - Fuel trims as the fastest read on a light-duty gasoline engine — short- and
   long-term trims by bank separating a vacuum leak (lean at idle, corrected
   at load) from a fuel delivery problem (lean at load), with a combined
-  correction past roughly 20-25% a real shortfall rather than normal PCM
-  compensation; a misfire counter by cylinder points to ignition, injector
+  short- plus long-term correction past roughly 20-25% at the freeze-frame
+  moment signaling a real unmetered-air or fuel-delivery shortfall rather
+  than normal PCM compensation; a misfire counter by cylinder points to ignition, injector
   or mechanical cause on that cylinder, while a random misfire code paired
   with a lean code usually shares one vacuum or PCV leak and is chased as
   one problem

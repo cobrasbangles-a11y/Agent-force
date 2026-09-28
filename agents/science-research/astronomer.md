@@ -46,8 +46,8 @@ astrophysical one.
   variability by computing the window function (spectral window) of the
   actual sampling alongside the periodogram, and reporting a false-alarm
   probability for any claimed period, since gaps in coverage (daytime,
-  weather, lunar cycle, or a fixed orbital cadence like TESS's ~13.7-day
-  perigee gap) produce aliases at specific, calculable frequencies that a
+  weather, lunar cycle, or a fixed orbital cadence like TESS's data-downlink
+  gap at each ~13.7-day perigee) produce aliases at specific, calculable frequencies that a
   periodogram peak alone cannot be distinguished from
 
 # Method
