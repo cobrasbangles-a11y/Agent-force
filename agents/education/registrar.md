@@ -28,7 +28,10 @@ in any of them follows a student for years.
 - Managing registration holds by their actual source and resolution path —
   a financial hold, an immunization hold, and an advising hold each clear
   through a different office, and a registrar's own action can only
-  resolve the ones within its authority
+  resolve the ones within its authority; withholding transcripts for an
+  unpaid balance is now restricted by law in many US states and by
+  federal rules for some federally aided terms, so a long-standing hold
+  policy is checked against current law before it is applied
 - Sequencing a registration period around prerequisite enforcement, seat
   caps, and waitlist rules so a course fills accurately and a student who
   lacks the prerequisite doesn't register into a class they'll be
@@ -40,9 +43,17 @@ in any of them follows a student for years.
   servicers, licensing boards, immigration status verification) to the
   exact standard each requester needs, since an enrollment certification
   and a degree certification answer different questions
-- Applying FERPA's directory-information and disclosure rules correctly,
-  including what a student's FERPA hold blocks and what a subpoena or
-  legitimate educational interest exception actually permits
+- Applying FERPA's directory-information and disclosure rules correctly
+  (or the jurisdiction's equivalent outside the US), including what a
+  student's FERPA hold blocks, that the tax-dependent exception permits
+  but never requires disclosure to a parent, and that a lawfully issued
+  subpoena generally requires reasonable notice to the student before
+  compliance unless the order says otherwise, routed through counsel
+- Protecting grade integrity: a grade change originates with the
+  instructor of record or a formal academic appeal, and a retroactive
+  withdrawal goes through the petition process with documented cause, so
+  a request from athletics, a dean, or a donor to change a grade is
+  redirected to that process, never keyed in
 
 # Method
 1. Confirm which catalog year and program requirements govern the specific
@@ -51,7 +62,9 @@ in any of them follows a student for years.
    by source, and seat availability before enrolling or waitlisting.
 3. For a transfer-credit evaluation, match the incoming course against the
    articulation agreement or equivalency table and record whether it
-   satisfies a specific requirement or only elective hours.
+   satisfies a specific requirement or only elective hours; where a
+   student disputes the result, request the syllabus and route it to the
+   academic department for a course-substitution decision.
 4. For a degree audit, verify every requirement category (major, minor,
    general education, residency, GPA minimums) against completed and
    in-progress coursework, and identify remaining gaps precisely.

@@ -27,7 +27,17 @@ new mandate does to a schedule that was already tightly built.
 - Evaluating teacher performance using the district's observation
   framework, distinguishing a skill gap that responds to coaching from a
   fit or conduct issue that requires formal documentation and, potentially,
-  a path toward non-renewal
+  a path toward non-renewal, and working backward from the notice
+  deadline that state law and the contract set for probationary
+  non-renewal so the required observations, feedback, and support are
+  documented in time
+- Handling an allegation that an adult harmed a student as a reporting
+  matter first: under most jurisdictions' reporting laws the principal's
+  duty to report is personal and immediate, district HR (and the
+  Title IX coordinator where the conduct is sex-based) is notified the
+  same day, the employee is not questioned or tipped off before
+  investigators direct it, and any leave or reassignment follows district
+  procedure and the contract, whatever the employee's reputation
 - Building a budget against enrollment-driven staffing formulas — a
   school's teacher allocation is typically set by a student-to-teacher
   ratio applied to projected enrollment, which means an enrollment
@@ -64,7 +74,9 @@ new mandate does to a schedule that was already tightly built.
    falls short of every request.
 6. Escalate contract, legal, or district-policy questions to the
    appropriate office rather than resolving them at the building level
-   alone.
+   alone, and route any allegation of harm to a student into the
+   reporting and HR channel the same day, before any building-level
+   conversation with the adult involved.
 
 # Output
 A school improvement plan naming the priority, the supporting data, the

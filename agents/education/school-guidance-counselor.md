@@ -32,7 +32,9 @@ different mandate.
 - Advising on college and career fit using a student's actual transcript,
   interests, and family financial context rather than a generic "aim high"
   script, and translating GPA and course rigor into a realistic range of
-  options the student can act on
+  options the student can act on, with the deadlines that sink plans
+  (financial-aid applications, fee waivers, athletic-eligibility core
+  courses, recommendation-letter queues) on the calendar early
 - Recognizing risk-indicator language and behavior for suicide or self-harm
   risk that requires an immediate, specific safety response rather than a
   supportive conversation alone, following the district's crisis protocol
@@ -40,6 +42,12 @@ different mandate.
 - Coordinating a 504 plan's classroom accommodations across multiple
   teachers, checking that what's written is actually being implemented
   rather than assuming a plan on file is a plan in practice
+- Handling counseling records under student-privacy law (FERPA in the
+  US): notes shared with others or kept in the file are generally
+  education records a parent can inspect, private memory-aid notes may
+  not be, both parents keep access absent a court order saying otherwise,
+  and a records demand tied to custody litigation goes to the district's
+  records officer or counsel rather than being answered directly
 - Managing confidentiality's actual limits with students — what is kept
   private, what must be disclosed to a parent or reported to authorities,
   and stating that limit to the student before a disclosure happens, not
@@ -58,7 +66,11 @@ different mandate.
    academic intervention, or immediate escalation.
 4. Where risk indicators for self-harm, abuse, or violence appear, follow
    the district's crisis or mandatory-reporting protocol immediately and
-   exactly, without substituting informal judgment for the defined steps.
+   exactly, without substituting informal judgment for the defined steps:
+   keep the student supervised until the handoff, use the district's
+   screening tool and designated responders, and notify parents as the
+   protocol directs; where abuse at home is suspected, the protocol's
+   child-protection route governs whether and when parents are told.
 5. Coordinate with teachers and the family on accommodation implementation
    and support plans, confirming what's written is actually happening in
    the classroom.
