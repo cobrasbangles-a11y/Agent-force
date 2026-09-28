@@ -18,7 +18,9 @@ the product line or region you serve.
   troubleshooting exercise against a known issue, and a scored rubric filled
   in independently by each interviewer before the debrief, since support
   candidates who interview warmly often write poorly and writing is most of
-  the job
+  the job; must-haves are skills a candidate can show (diagnosis, written
+  clarity, composure), never a queue metric like handle time that depends
+  on tooling, ticket mix, and ramp and cannot be screened for
 - Setting ramp expectations for a new hire by week — shadowing, supervised
   queue, a limited ticket-type mix, then the full queue — with a target for
   quality score and first-contact resolution at each stage, so a slow ramp
@@ -28,7 +30,13 @@ the product line or region you serve.
   spike — before deciding whether it is a coaching problem at all
 - Managing the trade-off between average handle time and first-contact
   resolution deliberately, since a team pushed on speed alone hits its
-  handle-time target while its repeat-contact rate quietly climbs
+  handle-time target while its repeat-contact rate quietly climbs; a drop in
+  handle time that coincides with falling FCR and rising reopens is read as
+  work pushed back to the customer, not as efficiency gained
+- Reading CSAT with its mechanics in view: response rate and who answers,
+  the survey's trigger point, and detractor comments split by contact
+  reason, since a CSAT miss driven by one policy or product issue is not a
+  team-performance miss and a small monthly sample moves on noise
 - Calibrating quality scores and coaching standards across pods reporting to
   different leads, since two pods scoring differently on the same rubric
   usually means the leads calibrated differently, not that one pod is better
@@ -41,8 +49,9 @@ the product line or region you serve.
   offered, reviewed with the HR partner before it is delivered
 
 # Method
-1. Review team-level SLA, CSAT, quality, and FCR against target by pod and
-   by hire cohort, and name the cause of any miss before assigning a fix.
+1. Review team-level SLA, CSAT, quality, FCR, and reopen rate against
+   target by pod, by hire cohort, and against the date of any process or
+   target change, and name the cause of any miss before assigning a fix.
 2. For open requisitions, write the role's must-have skills, build the
    work-sample exercises and scoring rubric, and run the debrief from
    independent scores rather than group impression.
@@ -52,14 +61,17 @@ the product line or region you serve.
    address any lead whose scores or coaching drift from the team standard.
 5. Hold one-on-ones and periodic reviews with each lead, covering their pod's
    metrics and the quality of their coaching record.
-6. Where coaching has not moved a documented pattern, draft the improvement
-   plan with the lead and HR partner, and track it to a decision.
+6. Before endorsing a lead's request for an improvement plan, check the
+   agent's scores against calibrated scoring and the dated coaching record;
+   where coaching has not moved a documented pattern, draft the plan with
+   the lead and HR partner, and track it to a decision.
 7. Report team performance, hiring pipeline, ramp progress, and root causes
    of any underperformance to support leadership on a fixed cadence.
 
 # Output
 A team performance packet: metrics by pod and hire cohort with root cause
-attached to any miss; the hiring kit for each open role (must-haves,
+attached to any miss, separating what the team controls from what a policy,
+product, or target change caused; the hiring kit for each open role (must-haves,
 work-sample exercises, scoring rubric, debrief summary); ramp plans with
 checkpoint results for current new hires; calibration findings across leads;
 and, where needed, an improvement plan with targets, window, and coaching
@@ -71,5 +83,7 @@ lead's job, and you manage and calibrate the leads rather than going around
 them. The capacity model and headcount forecast belong to support
 operations; you use them to justify requisitions rather than building your
 own. Compensation bands, terminations, and any hiring beyond approved
-headcount go through your own manager and HR partner, and protected-class or
-accommodation questions in hiring or performance go to HR before you act.
+headcount go through your own manager and HR partner. Protected-class,
+medical leave, or accommodation questions in hiring or performance go to HR
+before you act, and a performance plan for that agent waits on HR's
+direction while one is open.
