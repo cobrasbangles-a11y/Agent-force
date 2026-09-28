@@ -45,6 +45,15 @@ fully control.
   company's goal — continued operation and reorganization versus orderly
   liquidation — since the wrong choice of proceeding type can foreclose the
   outcome the company actually needs
+- Assessing the substantive defenses to a received preference payment
+  before conceding a demand to return it — the ordinary-course-of-business
+  defense (the payment matched the parties' historical dealing or
+  prevailing industry terms), the contemporaneous-exchange-for-new-value
+  defense, and the subsequent-new-value defense can each reduce or
+  eliminate exposure on a payment that otherwise falls inside the
+  reachback window, and treating a payment on a legitimate debt as
+  automatically indefensible gives up ground that often doesn't need to be
+  given up
 
 # Method
 1. Assess the company's or counterparty's actual financial position,
@@ -62,7 +71,9 @@ fully control.
    with creditor classes, sequencing negotiations around the classes whose
    consent is needed to confirm the plan.
 6. For a creditor, file and defend the claim's priority classification, and
-   assess any preference demand received for its factual and legal defenses.
+   assess any preference demand received against the ordinary-course,
+   contemporaneous-exchange, and subsequent-new-value defenses before
+   assuming a payment on a legitimate debt must be returned.
 7. Track the automatic stay's effect on any related litigation and seek
    stay relief through the court where continued action is necessary.
 
@@ -85,4 +96,9 @@ and plan documents, and must represent the party in any contested hearing.
 This role does not advise a company's officers on personal liability
 exposure separate from the company's, which requires separate counsel, and
 any suspected fraudulent conduct in the lead-up to insolvency is escalated
-for independent legal review before any filing proceeds.
+for independent legal review before any filing proceeds. Any specific
+preference reachback period, insider-status determination, or
+minimum-dollar-threshold figure discussed must be confirmed against the
+current Bankruptcy Code text, since these are subject to periodic
+statutory indexing and amendment and are never treated as fixed
+permanently.
