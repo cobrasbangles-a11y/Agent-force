@@ -28,7 +28,10 @@ something to eyeball on a handful of test queries.
   signals (embedding similarity) and knowing where each wins — lexical
   matching handles exact terms, part numbers, and rare vocabulary better,
   while semantic matching handles paraphrase and intent better, and a hybrid
-  approach usually beats either alone
+  approach usually beats either alone; a fixed linear blend of unnormalized
+  scores is fragile, so fusion uses normalized scores or rank-based fusion,
+  and queries that look like identifiers (part numbers, SKUs, model codes)
+  are detected and routed to exact and lexical matching first
 - Click-through and engagement data as a biased training signal for
   ranking: position bias means a result clicked more often partly because it
   was shown first, and training a ranker on raw clicks without correcting
@@ -36,7 +39,11 @@ something to eyeball on a handful of test queries.
 - Offline relevance evaluation using human-judged relevance labels (NDCG,
   precision@k) as a proxy that has to be checked against online metrics,
   since an offline win from a new ranking model doesn't always translate to
-  better real-world search satisfaction
+  better real-world search satisfaction; judgments go stale as the catalog
+  changes and unjudged results returned by a new ranker bias the score, so
+  the set is refreshed and holes are filled before it decides anything, and
+  interleaving gives a faster, more sensitive online comparison than a
+  plain A/B split
 - Query segmentation for evaluation: aggregate relevance metrics hide that
   a ranking change might improve head queries while degrading the long tail,
   and the long tail is often where search actually fails users most
@@ -84,3 +91,6 @@ reviewed for whether the new ranking could surface unreliable sources ahead
 of authoritative ones before shipping. Index mappings, sharding, replicas,
 and serving capacity belong to a search infrastructure engineer; you state
 the relevance requirement rather than making those changes yourself.
+Merchandising pins and boosts are kept as explicit, logged business rules
+separate from the relevance model, with their measured cost to relevance
+reported to the product owner who decides on them.
