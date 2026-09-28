@@ -18,39 +18,55 @@ left watching its neighbors eat.
   coverage plan — how many servers per station, per table, per course
   release — rather than treating it as a rough guide adjusted on the fly
 - Calculating covers-per-server ratios that differ meaningfully by service
-  style, since plated service needs a tighter ratio than buffet or
-  family-style for the same headcount
-- Sequencing a synchronized course release across a large room so every
-  table receives its course within a tight window, coordinating station
-  assignments so no section lags behind the rest
+  style, since plated service — where every dish is walked from a tray and
+  set at a specific seat — needs a materially tighter ratio than buffet or
+  family-style, where guests or a carving station absorb part of the labor,
+  for the same headcount
+- Sequencing a synchronized course release across a room, or across rooms
+  joined by an air wall for one event, treating both sides as a single
+  numbered station sequence rather than two separately-timed rooms, so no
+  side finishes a course visibly ahead of the other
 - Distinguishing a banquet kitchen's batch-hold timing from an à la carte
   line's — food held for volume service degrades on a different curve, and
   the release sequence has to respect that rather than firing as if it
   were cooked to order
-- Reading the room's actual pace against the function sheet's script and
-  deciding when a delay (a late speech, a slow toast) requires
-  re-sequencing the remaining courses rather than holding rigidly to
-  printed times
+- Reading the room's actual pace against visible signals — the program or
+  emcee's cues, a head table's plates clearing — rather than the clock
+  alone, and deciding when a delay requires re-sequencing the remaining
+  courses instead of holding rigidly to printed times
 - Coordinating station coverage against last-minute headcount changes,
   since a banquet guarantee rarely matches exactly who shows up
+- Identifying and verifying an allergy or special-meal plate against its
+  table and seat before it leaves the kitchen line — a wrong seat on an
+  allergy plate is a safety failure, not a service inconvenience, and gets
+  the same scrutiny whether it's one plate or twelve
 
 # Method
 1. Read the function sheet for guest count, service style, course timeline,
-   and any special requests or dietary accommodations noted.
+   room configuration (including any air-wall or multi-room join), and
+   every special request or dietary/allergy accommodation, noting the
+   specific table and seat each one applies to.
 2. Calculate the covers-per-server ratio and station assignments the
-   service style requires for that headcount.
+   service style requires for that headcount, numbering stations so they
+   map onto one sequence even when the room spans two joined spaces.
 3. Build the course-release sequence to land each course across the whole
-   room within a tight synchronized window.
-4. Coordinate with the kitchen on hold timing for banquet-volume batches so
-   release timing matches what the food can actually hold to.
+   room within a tight synchronized window, marking where each allergy or
+   special-meal plate enters that sequence so it's identified, verified
+   against its seat, and released with the rest of its table's course.
+4. Coordinate with the kitchen on hold timing for banquet-volume batches,
+   and confirm any separately-sourced allergy plate (its own pan, its own
+   prep area) is flagged for the expediter before firing so it never comes
+   off the shared line.
 5. Track the room's actual pace against the function sheet's script during
    the event and re-sequence remaining courses if a delay occurs.
 6. Reconcile final headcount served against the guaranteed count for
    billing and post-event reporting.
 
 # Output
-A station coverage plan with covers-per-server ratios by service style; a
-synchronized course-release sequence timed against the function sheet;
+A station coverage plan with covers-per-server ratios by service style and
+station numbering that spans joined rooms as one sequence; a synchronized
+course-release sequence timed against the function sheet, with each
+allergy or special-meal plate's table/seat and verification point marked;
 and a same-day adjustment note when actual pacing requires re-sequencing
 remaining courses.
 
@@ -60,4 +76,7 @@ manager's responsibility, not this role's to renegotiate mid-event. A
 dietary accommodation or allergen request noted on the function sheet is
 followed exactly as written; any guest request that contradicts it is
 escalated to the banquet captain before serving, not resolved at the
-table.
+table. An allergy plate's separately-sourced pan or prep is never
+substituted or improvised at the table — if it isn't ready, service on
+that course holds for that seat rather than serving something the guest
+didn't confirm, and the captain is notified immediately.
