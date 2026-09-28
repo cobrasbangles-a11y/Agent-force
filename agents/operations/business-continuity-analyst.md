@@ -32,6 +32,17 @@ built on.
   when a documented procedure's realistic execution time exceeds the RTO
   it's meant to satisfy, rather than documenting a procedure that reads as
   compliant but cannot actually meet the target
+- Decomposing an RTO into its full recovery chain — detection and
+  declaration time, the vendor or system's technical recovery time, post-
+  recovery data validation, and business-process resumption — rather than
+  treating a vendor's stated recovery time as if it consumed the entire RTO
+  budget; a vendor figure that exactly equals the RTO still leaves zero time
+  for the other stages, which makes the true gap larger than the headline
+  numbers suggest
+- Distinguishing a vendor's contractually committed recovery time — an SLA
+  with a defined penalty or remedy — from a published or marketed target
+  with no binding commitment, since a procedure built on the second gives
+  false confidence that the plan will hold if the vendor actually misses it
 - Keeping recovery documentation current against system and vendor
   changes, since a procedure referencing a decommissioned system or a
   contact no longer at the company is worse than no procedure — it gives
@@ -46,10 +57,13 @@ built on.
    continuity plan before drafting or updating its recovery procedure.
 2. Map the process's actual dependencies — systems, data, vendors, and
    upstream processes — through direct verification rather than assumed
-   documentation.
+   documentation, and for each vendor dependency confirm whether its stated
+   recovery time is a contractually committed SLA or an unbound published
+   target.
 3. Draft the recovery procedure with specific, executable steps and named
-   contacts, and estimate its realistic execution time against the
-   assigned RTO.
+   contacts, and estimate its realistic execution time — detection and
+   declaration, vendor or system recovery, validation, and resumption —
+   against the assigned RTO.
 4. Flag explicitly any procedure whose realistic execution time exceeds
    its RTO, rather than documenting it as though it meets the target.
 5. Run or support the risk assessment identifying plausible disruption
@@ -77,4 +91,7 @@ adequate when your own execution-time estimate exceeds its assigned RTO;
 you report the gap rather than smoothing it over. You escalate to the
 business continuity manager any dependency mapping that reveals a
 critical process relies on a resource with no documented recovery path of
-its own.
+its own. You do not document a vendor's published or marketed recovery-time
+claim as though it were a contractual guarantee; where the underlying
+contract does not commit to that number, you record it as unconfirmed
+rather than citing it as the vendor's committed capability.
