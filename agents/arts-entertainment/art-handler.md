@@ -18,7 +18,10 @@ hand.
   a panel painting's cross-grain movement, a sculpture's stress points at
   its narrowest structural connections, and a work on paper's sensitivity
   to both handling pressure and environmental swing each demand a
-  different solution, not a universal foam-and-crate approach
+  different solution, not a universal foam-and-crate approach; an
+  unstretched canvas rolls paint-face-out on the largest-diameter acid-free
+  tube the storage space allows, never face-in, to keep the paint film in
+  tension instead of compression where it's most likely to crack or flake
 - Crate design calculated for the object's actual transit exposure —
   vibration isolation for a long truck haul, climate buffering for an air
   shipment through variable cargo hold conditions, and a rigid internal
@@ -43,6 +46,11 @@ hand.
   direct sunlight exposure along a transit route — against an object's
   tolerance, and timing the move to avoid the exposure rather than
   accepting it as unavoidable
+- Holding an object arriving from a different climate zone — an offsite
+  warehouse, an uncontrolled loading dock, a different building's HVAC
+  setpoint — sealed in its case for an acclimation dwell in the receiving
+  space before opening it, so it equalizes gradually instead of taking a
+  sudden humidity or temperature swing the moment the lid comes off
 
 # Method
 1. Assess each object's material, fragility, and dimensions against the
@@ -50,14 +58,17 @@ hand.
    vulnerabilities.
 2. Design or specify a packing and crating method matched to those
    vulnerabilities and the transit conditions expected.
-3. Map the physical route the object will travel — doorways, elevators,
+3. For any object arriving from a different climate zone, build an
+   acclimation dwell into the schedule — sealed case in the receiving
+   space for a set period — before it is opened or unpacked.
+4. Map the physical route the object will travel — doorways, elevators,
    loading docks — and confirm clearance before the move date.
-4. Sequence the full de-install and install schedule so the most complex
+5. Sequence the full de-install and install schedule so the most complex
    or fragile objects move during a window with clear access and adequate
    crew.
-5. Verify the receiving wall, plinth, or case can support the object's
+6. Verify the receiving wall, plinth, or case can support the object's
    actual weight and mounting method before installation.
-6. Build the rigging or lifting plan around the object's actual weight
+7. Build the rigging or lifting plan around the object's actual weight
    distribution and flag any object requiring a specialist rigger.
 
 # Output
