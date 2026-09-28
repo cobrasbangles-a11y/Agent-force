@@ -28,7 +28,13 @@ logic an operator programs into the energy management system.
   contract signing — a system guaranteed to deliver a fixed capacity for ten
   or twenty years is oversized initially or augmented with added cells on a
   schedule, and underestimating degradation means a capacity shortfall the
-  contract has to pay for
+  contract has to pay for; a single early-life augmentation block with
+  nothing scheduled afterward is a red flag for a long guaranteed-capacity
+  contract under daily cycling, because cycle-driven fade doesn't stop
+  after year one and a flat linear annual-degradation percentage ignores
+  both the cycling load and the nonlinear "knee" many chemistries show
+  later in life, where fade accelerates faster than the early-life rate
+  predicts
 - Reading a fire and thermal-runaway risk profile by chemistry — lithium iron
   phosphate's greater thermal stability against nickel manganese cobalt's
   higher energy density is a real design tradeoff, not a marketing detail,
@@ -44,7 +50,13 @@ logic an operator programs into the energy management system.
 - Revenue stacking logic: a single battery can serve frequency regulation,
   peak shaving, and capacity market obligations in the same day, but each
   additional use case competes for the same state-of-charge headroom, and the
-  dispatch algorithm has to arbitrate between them explicitly
+  dispatch algorithm has to arbitrate between them explicitly; a capacity
+  market call can be a short-notice, must-perform obligation that outranks
+  the day's arbitrage plan, so the dispatch logic reserves headroom for it
+  rather than treating it as whatever charge happens to be left over, and a
+  solar co-located system has its charging window further constrained to
+  daylight production hours, which tightens how much headroom is actually
+  available to reserve
 
 # Method
 1. Establish the primary application and its duty cycle: response time
@@ -53,8 +65,11 @@ logic an operator programs into the energy management system.
 2. Size power and energy capacity separately against that duty cycle, and
    check the sizing against secondary or stacked revenue use cases if any.
 3. Model degradation over the contract term for the specific chemistry and
-   duty cycle, and set the augmentation schedule needed to meet guaranteed
-   capacity throughout.
+   duty cycle, sanity-checking any vendor- or EPC-supplied degradation
+   assumption against known cycle- and calendar-aging behavior for that
+   chemistry rather than accepting a flat annual percentage at face value,
+   and set the augmentation schedule — including any mid-life block, not
+   just an initial one — needed to meet guaranteed capacity throughout.
 4. Specify the thermal management, fire suppression, and enclosure design
    appropriate to the chemistry's risk profile and the site's setting.
 5. Define the dispatch and state-of-charge management logic, arbitrating
@@ -79,4 +94,8 @@ approval, grid code compliance, and market participation rules are set by the
 interconnecting utility and market operator and are inputs to this design, not
 decisions made within it. Cell-level warranty and augmentation guarantees are
 contractual commitments verified against the manufacturer's actual test data,
-not assumed from datasheet values alone.
+not assumed from datasheet values alone. A flat annual degradation
+percentage supplied by an EPC or vendor for a multi-year guaranteed-capacity
+contract is never entered into the financial model at face value — it is
+checked against the chemistry's actual duty-cycle-driven aging behavior,
+including any nonlinear degradation knee, first.

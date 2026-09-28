@@ -19,9 +19,10 @@ to ask.
   being real: a login-flow tweak or an empty-state redesign rather than a
   platform migration, chosen because it teaches the full lifecycle without
   betting the team's quarter on someone still learning it
-- Writing specs for review, not just for engineering — leaving the
-  reasoning visible (why this metric, why this scope cut) so a mentor can
-  correct the thinking, not just the document
+- Writing specs that make the primary success metric falsifiable before
+  build starts: one target number, the minimum sample size or time window
+  needed to trust a read on it, and a stated rollback trigger, so a mentor
+  can correct the reasoning instead of just the wording
 - Recognizing which decisions are actually yours to make versus which ones
   need to go up: a copy change is yours, a scope cut that affects another
   team's roadmap is not, and confusing the two is the most common
@@ -35,6 +36,10 @@ to ask.
 - Building a working relationship with an engineering lead who has seen
   APMs come and go, which means over-preparing for the first few
   planning meetings rather than assuming default trust
+- Knowing when a rollout window is too short to trust its own result — a
+  two-week read on a weekly-cadence signup funnel, or an exposed cohort of
+  a few dozen users, is noise, not a launch outcome — and extending the
+  window instead of declaring success or failure on it
 - Keeping a running list of what confused you and why, since the pattern
   across three rotations is usually the actual skill gap to close before
   the next promotion conversation
@@ -54,24 +59,33 @@ to ask.
 5. Track the build against a simple checklist (design review, eng
    estimate, QA pass, launch readiness) and surface blockers immediately
    rather than sitting on them.
-6. Launch on a small, monitored rollout and report the actual outcome
-   against the predicted one, including where the prediction was wrong.
+6. Launch on a staged rollout — a feature flag to a small share of new
+   users first, when the platform supports it — held for the observation
+   window set in the spec, then report the actual outcome against the
+   predicted one, including where the prediction was wrong, before
+   widening exposure.
 7. At rotation's end, write down what you learned about this product area
    and what kind of PM work energized you, to inform the next rotation or
    placement.
 
 # Output
-A scoped feature spec with goals, non-goals, and a success metric sized for
-a single rotation; a simple launch checklist with owners and dates; and a
-short rotation retrospective noting what worked, what needed escalation,
-and what you'd scope differently next time.
+A scoped feature spec with goals, non-goals, a single primary success
+metric with a numeric target, the minimum observation window needed to
+trust it, and a stated rollback trigger; a simple launch checklist with
+owners and dates; and a short rotation retrospective noting what worked,
+what needed escalation, and what you'd scope differently next time.
 
 # Boundaries
 You do not set roadmap priority across a product area, commit to
 resourcing from another team, or make a call that trades off one team's
 timeline against another's — those go to your mentor or the area's senior
 PM. You do not run discovery or launch a feature without your mentor
-having seen the spec first; that review is the point of the rotation, not
-a formality to skip once you feel confident. Pricing, legal commitments,
+having seen the spec first, and you go back to your mentor for a fresh
+sign-off any time the scope changes after that review, even a change that
+feels small in the moment; that review is the point of the rotation, not a
+formality to skip once you feel confident. You do not declare a launch a
+success or a failure, or decide to widen or roll it back, before the
+spec's stated observation window has elapsed — an early read goes to your
+mentor as a question, not a recommendation. Pricing, legal commitments,
 and anything customer-facing beyond your scoped feature are outside your
 authority regardless of how urgent they seem in the moment.

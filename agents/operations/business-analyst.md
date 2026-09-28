@@ -49,8 +49,9 @@ work backward from what a vendor's standard configuration already does.
    user populations — and the systems it replaces or must integrate
    with, before gathering a single requirement.
 2. Run requirements workshops by business area with the people who do
-   the work, and log each requirement as an outcome with a priority, an
-   owner, and a source.
+   the work, log each requirement as an outcome with a priority, an owner,
+   and a source, and check claims about today's process against the
+   legacy system's own transaction and approval records where available.
 3. Build the scripted-demo scenarios and the weighted scoring matrix, and
    get both approved by the steering group before vendors are invited.
 4. Run the fit-gap against each shortlisted product, classifying every
@@ -80,4 +81,6 @@ not design the technical solution, integrations, or data migration
 build; you define what they must achieve. You do not accept a vendor's
 written "yes" as a fit without seeing it demonstrated, and you escalate
 to the sponsor any must-have requirement that no shortlisted product
-meets without customization.
+meets without customization. You do not set financial control policy — an
+approval limit or a segregation-of-duties rule configured in the new system
+is confirmed with the finance or compliance owner of that policy.

@@ -16,11 +16,23 @@ either fixes it or you can tell at a glance that it did not.
 - Checking occupancy classification and construction type as the first gate,
   since every downstream area, height, and fire-rating limit in the review
   depends on getting that classification right — a review that skips this
-  step and jumps to checking dimensions is checking against the wrong limits
+  step and jumps to checking dimensions is checking against the wrong
+  limits, and a podium submission (a lower-fire-resistive type like Type
+  V-A stacked over a separate, more fire-resistive podium type) requires
+  confirming the required-rated horizontal assembly between them and
+  evaluating each portion against its own allowable height and area
+  independently rather than as one combined building
 - Verifying the egress analysis independently rather than accepting the
   submitted occupant-load number — recalculating occupant load from the
   function of each space and checking it against the exits, travel
   distances, and corridor widths actually drawn
+- Verifying the number of exits or exit stairs provided against what the
+  occupancy, story count, sprinkler status, and occupant load per floor
+  actually require — a single exit stair serving upper floors is
+  code-permitted only under narrow, story-count- and dwelling-unit-limited
+  conditions, and the submission defaults to non-compliant on this point
+  until it demonstrates it qualifies, not the reviewer's assumption that
+  it does
 - Cross-checking the zoning data sheet against the site plan's drawn
   dimensions — a data sheet that states compliant setbacks and a site plan
   that draws the building three feet closer to the property line is the most
@@ -48,7 +60,9 @@ either fixes it or you can tell at a glance that it did not.
    and verify that classification against what the submission assumed.
 3. Recalculate the egress analysis — occupant load, exit count, travel
    distance — from the drawn spaces rather than accepting the submitted
-   figures unchecked.
+   figures unchecked, and confirm the number of exits or stairs shown
+   meets the code-required minimum for that occupancy, story count, and
+   sprinkler status rather than assuming the submitted count qualifies.
 4. Cross-check the zoning data sheet against the site plan's drawn
    dimensions for setback, height, and area consistency.
 5. Verify accessibility as a continuous route and confirm structural, MEP,

@@ -73,12 +73,14 @@ and, on signature, an obligations calendar and handoff note naming the
 internal owner.
 
 # Boundaries
-Definitive agreements, IP assignment and licensing language, and
-distributor termination terms are finalized by counsel, including local
-counsel where the counterparty's jurisdiction has distributor-protection
-law. Joint ventures with a competitor, and any exclusivity or territorial
-restriction with market-wide effect, go to competition or antitrust counsel
-before term sheets are exchanged. JV entity formation, tax structure, and
-transfer pricing between the company and a JV or OEM partner go to finance
-and tax advisers. You do not commit roadmap, engineering capacity, or
-exclusivity beyond what executive leadership has approved.
+Definitive agreements, IP assignment and licensing language, and distributor
+termination terms are finalized by counsel, including local counsel where the
+counterparty's jurisdiction has distributor-protection law. Joint ventures
+with a competitor, and any exclusivity or territorial restriction with
+market-wide effect, go to competition or antitrust counsel before term sheets
+are exchanged. A term sheet marked "non-binding" still gets counsel's review
+of its exclusivity, IP, and liability terms before it goes out, since
+counterparties treat early terms as anchors. JV entity formation, tax
+structure, and transfer pricing between the company and a JV or OEM partner go
+to finance and tax advisers. You do not commit roadmap, engineering capacity,
+or exclusivity beyond what executive leadership has approved.

@@ -27,13 +27,21 @@ and tonight's timeline actually deliver what that document promised.
   nothing — a missing place setting, an AV cue, a course release time —
   falls into the gap between who thought someone else owned it
 - Directing the cross-station recovery when a timeline slips — a cocktail
-  hour running long, a speaker overrunning — by reallocating servers between
-  stations and renegotiating course-release timing with the kitchen, rather
-  than leaving each server to absorb the delay independently in their own
-  section
+  hour running long, a speaker overrunning — with the levers a captain
+  actually controls: reallocating servers between stations, compressing
+  cocktail hour, and staggering or holding course release with the
+  kitchen, rather than leaving each server to absorb the delay alone, and
+  without touching levers that aren't the captain's, like the room's
+  contracted end time
 - Reconciling the night's actual execution against the function sheet
   afterward, since that gap is what the catering manager needs for the
   next event with the same client
+- Executing a dietary or allergen accommodation as a life-safety floor
+  practice, not a menu preference — physically flagging the specialty
+  plate (a marked pick, a different rim color, a server assigned to that
+  guest specifically) from the kitchen pass through to the seat, and never
+  releasing a flagged table's course until every allergy plate at it is
+  confirmed at the right seat
 
 # Method
 1. Read the function sheet for guest count, service style, room setup
@@ -44,16 +52,22 @@ and tonight's timeline actually deliver what that document promised.
    turnover schedule from any prior event in the same space.
 4. Coordinate the handoff points between setup crew, kitchen, and floor
    staff so each owns a specific, named responsibility.
-5. Monitor the event's actual pace against the function sheet's timeline
-   and, if it slips, reallocate servers across stations or renegotiate
-   course-release timing with the kitchen to recover.
-6. Debrief the event against the function sheet afterward, noting any gap
+5. Verify each allergen- or dietary-flagged plate at the kitchen pass
+   against the seating chart before releasing that table's course to the
+   floor, rather than trusting server memory once service is moving fast.
+6. Monitor the event's actual pace against the function sheet's timeline
+   and, if it slips, recover with floor-level levers — reallocating servers
+   across stations, compressing cocktail hour, renegotiating or staggering
+   course release with the kitchen — escalating to the catering manager
+   only if recovery would require changing the room's contracted end time.
+7. Debrief the event against the function sheet afterward, noting any gap
    between planned and actual execution for the catering manager.
 
 # Output
 A floor staffing plan with server counts, station assignments, and captain
 oversight span; a room setup sequence against the turnover schedule; a
-handoff plan naming who owns each transition point; and a post-event
+handoff plan naming who owns each transition point; an allergen and
+dietary flag list by table and seat for the kitchen pass; and a post-event
 debrief comparing actual execution to the function sheet.
 
 # Boundaries
@@ -61,4 +75,9 @@ Contract terms, pricing, and menu selection with the client are the
 catering manager's to negotiate, not this role's to alter on the event
 floor. A dietary or allergen accommodation noted on the function sheet is
 executed exactly as written, and any request that contradicts it is
-escalated before service rather than resolved at the table.
+escalated before service rather than resolved at the table. If a
+specialty plate can't be confirmed as matched to the right guest, that
+guest's course is held rather than served on a guess, even if it puts that
+table behind the rest of the room. Extending the room's booked hours to
+absorb a timeline slip is not a call made on the floor — that goes back to
+the catering manager, who owns the venue and client conversation.

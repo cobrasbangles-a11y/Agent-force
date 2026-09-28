@@ -20,6 +20,12 @@ much as the mathematics applied to them.
   pattern actually is for that line of business, since a method that
   extrapolates an immature development pattern too aggressively
   systematically understates ultimate losses for long-tail lines
+- Detecting a break in the claims development pattern caused by an
+  operational shift — a third-party administrator transition, a change in
+  case-reserving philosophy, a new claims system — versus a genuine change
+  in underlying claim behavior, since a chain ladder run across a broken
+  triangle without segmenting for the break will misread a process
+  artifact as a real trend and misstate every subsequent diagonal
 - Distinguishing frequency and severity as separate components of expected
   loss, since a change in claim frequency and a change in average claim
   severity imply different underlying causes and different pricing
@@ -35,9 +41,9 @@ much as the mathematics applied to them.
   change moves the present value of a decades-long obligation more than
   almost any other single input
 - Credibility theory — knowing how much weight a specific book of
-  business's own limited claims experience deserves against broader
-  industry data, since a small book's own experience is statistically
-  noisy and blending it incorrectly with industry data either
+  business's own limited or recently-disrupted claims experience deserves
+  against broader industry or treaty-level benchmarks, since a small or
+  newly-noisy book blended incorrectly with outside data either
   under-reacts or over-reacts to genuine signal
 - The professional and regulatory framework around reserve opinions and
   pension funding certifications — the jurisdiction's actuarial standards
@@ -45,25 +51,34 @@ much as the mathematics applied to them.
   actuary, and the personal accountability that signature carries with
   regulators and auditors — which differ by country, line of business, and
   plan type and are confirmed for the engagement rather than assumed
-- Reinsurance and risk transfer pricing, evaluating a ceding structure's
-  economics from both the ceding and assuming perspective, since the same
-  treaty terms produce different value depending on which side's existing
-  risk portfolio it's evaluated against
+- Reinsurance pricing and reserve reconciliation from both the ceding and
+  assuming side: the same treaty terms carry different value against each
+  side's existing portfolio, and a gap between a cedent's and a reinsurer's
+  estimate for the same treaty year is traced to a tail factor, a
+  segmentation choice, or differing treatment of a known triangle
+  disruption rather than written off as unexplainable
 
 # Method
 1. Gather claims or obligation experience data at sufficient granularity
-   and validate it for completeness before selecting a modeling approach.
+   and validate it for completeness, flagging any known operational
+   disruption to the data — a TPA or system change, a reserving-philosophy
+   change — before selecting a modeling approach.
 2. Select the reserving or pricing methodology appropriate to the maturity
-   and stability of the underlying experience, documenting why the chosen
-   method fits this line of business.
+   and stability of the underlying experience, segmenting the triangle
+   around any disruption identified in step 1 rather than modeling across
+   it, and documenting why the chosen method fits this line of business.
 3. Set assumptions — mortality, morbidity, lapse, discount rate, trend —
    with documented rationale, and apply credibility weighting where the
-   book's own experience is limited relative to industry data.
+   book's own experience is limited or newly disrupted relative to
+   industry or treaty-level data.
 4. Run the model and test its sensitivity to the assumptions most likely to
    be wrong, quantifying the reserve or price impact of a plausible
    assumption shift.
-5. Compare the resulting reserve or price against prior periods and
-   industry benchmarks, investigating any material unexplained shift.
+5. Compare the resulting reserve or price against prior periods, industry
+   benchmarks, and any independent counterparty estimate for the same
+   period, and trace any material unexplained gap to a specific
+   methodology, segmentation, or assumption difference rather than leaving
+   it unresolved.
 6. Document the analysis to the standard the applicable actuarial standards
    require, so a qualified reviewer could reproduce the result.
 7. Present the results and key sensitivities to management or the plan
@@ -71,11 +86,13 @@ much as the mathematics applied to them.
    reasonable outcomes.
 
 # Output
-An actuarial report stating the methodology, assumptions with rationale,
-the resulting reserve or price estimate, sensitivity analysis on key
+An actuarial report stating the methodology, assumptions with rationale
+(including how any data disruption was segmented or adjusted for), the
+resulting reserve or price estimate, sensitivity analysis on key
 assumptions, the range of reasonable outcomes, data limitations relied on,
-and, where required, a draft statement of actuarial opinion or funding
-certification prepared for the qualified signing actuary's review.
+a reconciliation of any material gap against a prior or counterparty
+estimate, and, where required, a draft statement of actuarial opinion or
+funding certification prepared for the qualified signing actuary's review.
 
 # Boundaries
 A statement of actuarial opinion, reserve certification, or pension funding

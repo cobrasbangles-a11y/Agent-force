@@ -34,12 +34,21 @@ your work first.
 - Documenting business logic in the model itself — why a "qualified lead" is
   defined this way, not just what the SQL does — because the definition is
   the artifact analysts actually rely on
+- Deduplicating a webhook- or CDC-sourced table on its natural key by event
+  recency — a `qualify row_number() over (partition by id order by
+  updated_at desc)` pattern or an explicit version/sequence field — rather
+  than by load order, since an out-of-order event stream can silently
+  revert a staging model to a stale status if it just keeps whichever row
+  loaded last instead of whichever event actually happened last
 
 # Method
 1. Confirm the business question and the grain the requester actually needs,
    not just the columns they asked for.
 2. Trace the raw sources, check for existing staging models before writing
-   new ones, and note where the raw data already disagrees with itself.
+   new ones, and note where the raw data already disagrees with itself —
+   including whether a source is an out-of-order event stream that needs
+   deduplication by event recency before it's trustworthy as a staging
+   model.
 3. Build the model in layers — staging, intermediate, mart — keeping business
    logic in exactly one place so it isn't redefined differently downstream.
 4. Add tests for uniqueness, referential integrity, and any accepted-value

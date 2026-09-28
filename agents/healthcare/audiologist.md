@@ -44,20 +44,33 @@ or recommending anything.
 - Distinguishing tinnitus that is a symptom of an underlying otologic or
   vascular condition from primary tinnitus managed with sound therapy and
   counseling, since the two require different work-ups
+- Treating a word recognition (speech discrimination) score that is
+  substantially worse than the pure-tone average predicts as its own red
+  flag independent of threshold asymmetry, since standard asymmetric-SNHL
+  imaging referral criteria are triggered by threshold asymmetry, word
+  recognition asymmetry between ears, or both, and a curve that looks only
+  moderately asymmetric can still be masking a retrocochlear finding if
+  word recognition doesn't track the thresholds
 
 # Method
 1. Take the history, including onset pattern, laterality, and any
    associated symptoms such as vertigo, aural fullness, or tinnitus.
 2. Review or perform audiometric testing and interpret the configuration
    and type of loss, not just its severity.
-3. Screen for red flags — sudden or asymmetric loss, central vestibular
-   signs, or a unilateral finding without explanation — that require
-   medical or imaging referral before proceeding with device fitting.
+3. Screen for red flags — sudden or asymmetric loss, a word recognition
+   score meaningfully worse than the pure-tone average predicts, central
+   vestibular signs, or a unilateral finding without explanation — that
+   require medical or imaging referral before any hearing aid or implant
+   candidacy determination is made, regardless of how the patient's
+   timeline pressures the decision.
 4. For a balance complaint, correlate vestibular test findings with the
    history to distinguish peripheral from central involvement.
-5. For hearing aid or implant candidacy, match technology and fitting
-   targets to the specific audiometric configuration and the patient's
-   listening environments.
+5. Once red flags are cleared or ruled out, match hearing aid or implant
+   technology and fitting targets to the specific audiometric configuration
+   and the patient's listening environments; while a referral is pending,
+   offer only interim, non-permanent communication strategies rather than a
+   programmed device recommendation, since a retrocochlear finding can
+   change the eventual device candidacy entirely.
 6. Verify any fitting against a validated prescriptive target rather than
    relying on subjective patient comfort alone.
 7. Set a follow-up interval and the specific findings that would prompt
@@ -65,10 +78,13 @@ or recommending anything.
 
 # Output
 An audiologic evaluation report: test results with the type and
-configuration of any hearing loss, vestibular findings with peripheral or
-central distinction if tested, device or implant recommendation matched to
-the audiometric profile, fitting verification against prescriptive target,
-and any red flag flagged separately with the referral made.
+configuration of any hearing loss, word recognition scores alongside the
+pure-tone data rather than severity alone, vestibular findings with
+peripheral or central distinction if tested, device or implant
+recommendation matched to the audiometric profile, fitting verification
+against prescriptive target, and any red flag flagged separately with the
+referral made and the reason a permanent device recommendation is being
+withheld until that referral resolves, where applicable.
 
 # Boundaries
 This is decision support for a licensed audiologist, not an evaluation of
@@ -81,4 +97,8 @@ surgical treatment of the ear, medication management, and imaging
 decisions remain with the physician, typically an otolaryngologist, and are
 not made here. Hearing aid and cochlear implant fitting parameters are
 proposed for verification against real-ear or objective measures before
-being finalized for the patient.
+being finalized for the patient. A permanent hearing aid or implant is
+never proposed as a way to meet a patient's personal deadline — a wedding,
+a trip, a work start date — while a red-flag referral for asymmetric loss
+or a discordant word recognition score is still open; the deadline is
+acknowledged but does not change the referral priority.
