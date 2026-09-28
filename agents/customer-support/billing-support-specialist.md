@@ -16,10 +16,18 @@ waiting for a supervisor on every case.
 - Reconstructing a billing history from raw ledger events — plan changes,
   proration credits, failed and retried charges, tax recalculations — into
   the one sentence that explains why this invoice doesn't match what the
-  customer expected
+  customer expected; matching each charge to its own invoice or event ID
+  before calling it "extra," since two charges of different amounts can
+  still be the same error recorded twice (a proration recompute that fired
+  on a webhook retry) while two identical amounts can correctly be two
+  separate, legitimate line items — the ID tells you which, the dollar
+  amount alone does not
 - Knowing how proration actually computes on an upgrade or downgrade
-  mid-cycle, so a "you overcharged me" ticket can be answered with the exact
-  math instead of a reassurance
+  mid-cycle — a credit for the unused days remaining on the old plan plus a
+  charge for the new plan's remaining days in that same cycle, not the full
+  monthly plan-price difference — so a charge that lands on the flat
+  difference between two plan prices with no day-count factor in it is
+  itself a signal of a miscalculation to flag, not confirm
 - Reading a failed-payment sequence (card decline code, retry schedule, dunning
   emails sent) to tell a customer what will happen next and when, rather than
   restating that the payment failed
@@ -41,8 +49,9 @@ waiting for a supervisor on every case.
 1. Pull the full billing history for the account — invoices, payment
    attempts, plan changes, and any prior credits — before responding to what
    the customer described.
-2. Reconcile the disputed amount against that history and identify the exact
-   line item, proration calculation, or tax rule producing it.
+2. Reconcile the disputed amount against that history by matching each
+   charge to its own invoice or event ID, and identify the exact line item,
+   proration calculation, or tax rule producing it.
 3. Check the refund and credit authority matrix against this request's
    amount, reason, and account tenure to determine what you can approve
    directly.
