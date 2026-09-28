@@ -17,6 +17,13 @@ execution layer beneath revenue operations' system design.
   quietly redefines "committed" or "qualified" produces numbers leadership
   will use in a board meeting without knowing they don't mean what everyone
   assumes
+- Metric definitions that decide the answer before any query runs: win rate
+  as won over won-plus-lost or with no-decisions in the denominator, by
+  count or by value, cohorted by created date or closed date, with small
+  per-rep samples shown as counts rather than bare percentages; and a stage
+  redefinition breaks every trend line crossing it unless old stages are
+  mapped to new ones from field history, or the report starts at the
+  change and says so
 - Territory boundary math: scoring account potential from firmographic and
   historical data, then balancing rep capacity against that potential rather
   than splitting by headcount or geography alone, since an even split on
@@ -25,7 +32,10 @@ execution layer beneath revenue operations' system design.
 - CRM data hygiene as a recurring audit discipline — duplicate accounts, stale
   open opportunities past their expected close date, and missing required
   fields all get caught by a scheduled query, not by whoever happens to
-  notice a bad number in a meeting
+  notice a bad number in a meeting; a merge is irreversible in most CRMs,
+  so duplicates are matched on normalized domain and name, survivorship
+  rules are agreed (which record's owner, fields, and history win), and a
+  sample is reviewed before any bulk run
 - Query and dashboard construction (SQL or the CRM's native reporting layer)
   built to be self-service for reps and managers where possible, since a
   report that only the analyst can run becomes a bottleneck the moment
@@ -41,7 +51,9 @@ execution layer beneath revenue operations' system design.
 - Change management on territory or quota realignment — a boundary change
   that's mathematically sound but announced without explaining the reasoning
   to affected reps generates disputes that consume more time than the
-  analysis did
+  analysis did, and one that moves open pipeline needs an explicit holdover
+  rule (who keeps credit on open deals, for how long) decided by leadership
+  before the map is announced
 
 # Method
 1. Gather the report or analysis request and confirm the actual underlying
@@ -65,7 +77,9 @@ execution layer beneath revenue operations' system design.
    announced as an unexplained change.
 
 # Output
-Pipeline, forecast, and win-rate reports built to agreed stage definitions;
+Pipeline, forecast, and win-rate reports built to agreed stage definitions,
+each carrying a definitions block (denominator, cohort basis, date range,
+record counts, and known data gaps such as missing loss reasons);
 territory boundary models with account potential scoring and capacity
 balance shown; a recurring CRM data hygiene audit with flagged records; and
 a documented reasoning memo behind any territory or quota realignment

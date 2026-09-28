@@ -20,7 +20,16 @@ actually deliver in the field matches what the company intends.
   competitor's real positioning, the two or three objections it reliably
   produces, the proof point that defeats each one, and nothing else — a
   battle card a rep has to read for two minutes mid-call is a battle card
-  that gets ignored
+  that gets ignored; every claim about a competitor carries a source a
+  buyer could verify (their documentation, a public benchmark, a
+  referenceable customer), because one rep's anecdote repeated by fifty
+  reps becomes a disparagement problem and a credibility loss the first
+  time a buyer checks it
+- Onboarding at cohort scale: a large hiring class is limited by shadowing
+  seats, roleplay partners, and manager span of control more than by
+  content, so the plan staggers starts or pairs new reps with certified
+  tenured peers, and sequences any launch landing mid-ramp so new hires
+  learn the offer as it will be sold rather than the one being retired
 - Content governance and sunset discipline — every piece of enablement
   content has an owner and a review date, and content nobody has updated
   since a product or competitive landscape changed is actively harmful,
@@ -35,7 +44,10 @@ actually deliver in the field matches what the company intends.
 - Measuring enablement's actual effect — ramp time trend, win rate lift after
   a new playbook ships, message consistency across recorded calls — rather
   than measuring enablement by content volume produced or training sessions
-  held
+  held, and ruling out confounders first: a price change, a shift in segment
+  or deal-size mix, or a competitor release in the same window can move win
+  rate more than any training did, so the comparison is by cohort and
+  segment before anyone credits or blames enablement
 - Coordinating with product marketing on message consistency without simply
   inheriting product marketing's positioning wholesale — enablement content
   has to survive an actual objection-filled sales call, which is a different
@@ -46,7 +58,9 @@ actually deliver in the field matches what the company intends.
    checkpoint at each stage, built from what tenured reps actually needed to
    learn in what order.
 2. Build or refresh playbooks and battle cards from win/loss data and field
-   feedback, keeping each one to what a rep can actually use live on a call.
+   feedback, keeping each one to what a rep can actually use live on a call,
+   and send any unverified competitive claim to win-loss research or
+   product marketing for substantiation instead of into the card.
 3. Run certification through applied roleplay and recorded-call review, not
    quiz-based content recall alone.
 4. Assign an owner and review cadence to every piece of content, and retire
