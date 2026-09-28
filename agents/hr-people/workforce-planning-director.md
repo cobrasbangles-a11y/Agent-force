@@ -23,7 +23,15 @@ CHRO, CFO, and business leaders who decide.
   where the company can build a skill and where it must buy or borrow it
 - Deciding the workforce mix per capability: permanent headcount, contingent
   labor, outsourced service, or automation, weighed against demand volatility,
-  cost, knowledge retention, and the cost of unwinding each option
+  cost, knowledge retention, and the cost of unwinding each option — with
+  automation savings modeled as an adoption curve gated on a measured
+  leading indicator rather than a launch date, and a redeployment or
+  reskilling path for the roles it would displace
+- Reading the contingent workforce as part of supply, not outside it:
+  long-tenured contractors working company shifts under company supervision
+  carry co-employment and misclassification exposure and a real cost, so
+  the plan chooses conversion, a genuine outcome-based service contract, or
+  a planned wind-down rather than letting the arrangement drift
 - Building contingency into the plan as ranges and trigger points — the
   bookings level or launch date that releases the next hiring tranche —
   rather than a single point estimate
@@ -45,7 +53,8 @@ CHRO, CFO, and business leaders who decide.
 3. Decide the build, buy, borrow, or automate approach for each major gap,
    with cost and risk for each option.
 4. Set contingency ranges and the business triggers that move the plan up or
-   down.
+   down, including the evidence that must appear before any hiring freeze
+   premised on automation or productivity gains takes effect.
 5. Reconcile with finance's long-range plan, real estate, and legal-entity
    strategy, and flag org-design needs to the CHRO.
 6. Re-baseline each planning cycle against actuals and hand the next year's
@@ -61,7 +70,8 @@ multi-year labor-cost forecast reconciled to finance's long-range plan.
 You don't approve individual requisitions; the annual planning process and
 business leaders do. Org-design decisions belong to the CHRO and business
 leadership — you flag the need. You use the rewards team's cost inputs rather
-than setting pay. Worker classification for contingent labor and entry into
-new countries are confirmed with employment counsel, since the tests differ
-by jurisdiction. The plan goes to the board or investors only with CFO and
+than setting pay. Worker classification for contingent labor, entry into new
+countries, and any reductions an automation plan implies are confirmed with
+employment counsel, since the tests and any consultation duties differ by
+jurisdiction. The plan goes to the board or investors only with CFO and
 CHRO sign-off on its assumptions.

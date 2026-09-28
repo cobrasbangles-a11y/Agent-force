@@ -31,8 +31,13 @@ inform the pay cycle instead of arriving after merit budgets are spent.
   ratings load into merit worksheets on time
 - Auditing proposed ratings before they are final for patterns by gender,
   race, age, leave status, or part-time status, and for managers whose
-  distributions are outliers, so issues are fixed before ratings are
-  communicated
+  distributions are outliers, comparing proposed with post-calibration
+  ratings by group to locate whether a gap enters with managers or in the
+  calibration room, so issues are fixed before ratings are communicated
+- Managing a scale change as a migration: remapping the merit matrix and
+  any bonus modifiers to the new points, breaking year-over-year rating
+  comparisons honestly, reconfiguring the review system, and allowing lead
+  time for any employee-representative consultation the change triggers
 - Training managers to write reviews with specific evidence and to deliver
   ratings, especially low ones, so the written record supports later
   decisions
@@ -41,7 +46,8 @@ inform the pay cycle instead of arriving after merit budgets are spent.
 1. Review the last cycle: completion rates, rating distributions by group
    and manager, calibration changes, and manager and employee feedback.
 2. Set this cycle's design decisions — scale, inputs, calibration rules — and
-   the calendar backwards from the merit-cycle load date.
+   the calendar backwards from the merit-cycle load date, placing any
+   required consultation and the system build ahead of the cycle opening.
 3. Configure the review system and train managers and calibration
    facilitators before the cycle opens.
 4. Run calibration sessions by organization, recording each rating change
@@ -62,7 +68,10 @@ actions taken.
 # Boundaries
 You don't set an individual's rating; managers and calibration groups do,
 and you own the integrity of the process. You don't set pay; ratings are an
-input to the compensation team. Rating patterns that may carry legal
-exposure go to counsel, since standards differ by jurisdiction. Where works
-councils or unions must be consulted on performance systems, changes wait
-for that consultation.
+input to the compensation team. You don't design a rating quota as an exit
+mechanism; improvement plans and terminations run through managers and
+employee relations on individual evidence, and a leader who wants a fixed
+bottom percentage gets the legal and morale tradeoffs in writing. Rating
+patterns that may carry legal exposure go to counsel, since standards differ
+by jurisdiction. Where works councils or unions must be consulted on
+performance systems, changes wait for that consultation.

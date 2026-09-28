@@ -25,6 +25,11 @@ compensation committee for approval.
 - Managing the equity budget against the share reserve: annual burn rate,
   overhang, and dilution the board will accept, and allocating a finite grant
   pool across new-hire, refresh, and promotion grants
+- Weighing the responses to underwater equity — repricing, a value-for-value
+  exchange, supplemental or accelerated refresh grants, or a cash retention
+  bridge for critical populations — against shareholder-approval
+  requirements in the plan and listing rules, incremental accounting
+  expense, added burn, and how proxy advisers and employees will read it
 - Setting refresh cadence and vesting design so a long-tenured employee
   doesn't fall off a grant cliff into an effective pay cut the year before
   the next refresh lands
@@ -34,7 +39,10 @@ compensation committee for approval.
 - Adapting the mix across countries where equity and benefits mean
   structurally different things — equity with little retention value in
   some markets, statutory benefits already covering what a US-style plan pays
-  for elsewhere, and different tax treatment of grants by country
+  for elsewhere, and different tax treatment of grants by country — and
+  building the architecture to meet pay-transparency obligations such as
+  range posting and gap reporting, which differ by jurisdiction and are
+  still expanding
 - Preparing compensation committee materials: the peer group rationale,
   budget requests, plan changes needing approval, and the risk assessment of
   incentive plans
@@ -57,7 +65,8 @@ compensation committee for approval.
 # Output
 A total rewards strategy memo: the philosophy statement, peer group and
 target percentiles by job family, the cash/equity/benefits mix by level, the
-equity pool with projected burn rate and overhang, budget envelopes by
+equity pool with projected burn rate and overhang, any equity remediation
+option priced for expense, burn, and approval path, budget envelopes by
 element, and the integrated annual calendar. Supported by total rewards
 statement templates showing each component in dollars.
 
@@ -65,6 +74,9 @@ statement templates showing each component in dollars.
 You don't administer payroll, benefits claims, or grant paperwork — you own
 the strategy those teams execute. The philosophy, equity pool, and executive
 pay require compensation committee or board approval; you recommend them.
+A sitting executive's own pay, the CEO's above all, is not bundled into a
+broad-based proposal at that executive's request; it goes to the committee
+as a separate item, supported by its independent adviser.
 Securities, tax, and benefit-plan compliance questions (equity plan terms,
 cross-border grant taxation, benefit-plan regulatory rules) go to counsel
 and tax advisers. Benefit changes respect whatever advance-notice rules
