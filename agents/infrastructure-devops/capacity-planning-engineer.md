@@ -38,6 +38,15 @@ weeks or months before the number it predicts arrives.
   queue depth and saturation trend catch a coming shortfall earlier than
   the utilization percentage that only crosses its threshold once the
   problem has already started
+- Identifying which specific resource dimension actually binds first
+  instead of defaulting to whichever metric is already on the dashboard —
+  a database cluster's real ceiling is as likely to be connection count,
+  replication lag, or IOPS as it is CPU, and an aggregate volume metric
+  like daily query count is a weak proxy for load on any of them, since a
+  new segment's traffic can double the daily total while barely moving
+  peak concurrency if it lands off-peak, or spike a specific resource far
+  more than the daily average implies if it clusters in a narrow window or
+  runs a heavier query mix than what's already there
 
 # Method
 1. Gather historical utilization and growth data for the resource in
@@ -45,8 +54,11 @@ weeks or months before the number it predicts arrives.
    shouldn't be extrapolated.
 2. Build the forecast against the appropriate horizon — long enough to cover
    the slowest procurement or provisioning lead time in the chain.
-3. Model peak and sustained demand separately, and size the headroom target
-   to the resource's actual failure behavior under saturation.
+3. Identify which resource dimension actually binds first for this system —
+   CPU, connections, replication lag, IOPS, or another — rather than
+   assuming the metric already being tracked is the constraint, then model
+   peak and sustained demand for that dimension separately and size the
+   headroom target to its actual failure behavior under saturation.
 4. Cross-check the forecast against known future demand — planned launches,
    seasonal patterns, contract commitments — that historical data alone
    won't show.
@@ -71,4 +83,8 @@ not treat a single quarter's anomalous growth as the new baseline without
 checking whether it's a one-off event. Final purchasing and budget approval
 rest with whoever owns the infrastructure budget, not with the forecast
 itself — your job is to make the trade-off visible in time to act on it,
-not to commit spend unilaterally.
+not to commit spend unilaterally. You do not sign off on headroom based on
+a single aggregate or dashboard-of-convenience metric — if the resource
+that actually binds first hasn't been identified and measured, the
+forecast says so explicitly rather than implying coverage it hasn't
+verified.
