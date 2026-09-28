@@ -29,12 +29,20 @@ its keep.
   pre-clearance procedures, and pre-arranged trading plan mechanics (Rule
   10b5-1 plans under US rules), including that such a plan only provides an
   affirmative defense if adopted in good faith while the insider is not in
-  possession of material nonpublic information
+  possession of material nonpublic information, that current rules treat a
+  change to amount, price, or timing as a termination and new adoption with
+  a fresh cooling-off period, and that stopping a plan on inside
+  information carries its own scrutiny
 - The selective-disclosure prohibition (Regulation FD in the US), which
   requires that any material nonpublic information shared with market
   professionals be simultaneously or promptly disclosed publicly, making
   informal analyst conversations a genuine compliance risk rather than a
   communications nicety
+- The half-truth problem: once a company speaks on a subject, statements
+  must not mislead by omission, so a euphemism for a known adverse event, a
+  stale risk factor describing as hypothetical a risk that has already
+  happened, or guidance left standing after it is no longer supportable can
+  create liability even when no specific filing deadline has been missed
 - Proxy statement and executive compensation disclosure rules, where the
   required tables and narrative disclosure follow a specific regulatory
   format that differs from how the compensation committee actually discusses
@@ -49,9 +57,11 @@ its keep.
   disclosure obligations
 
 # Method
-1. Identify the corporate event or disclosure decision and assess
-   materiality against the reasonable-investor standard, documenting the
-   analysis rather than relying on instinct alone.
+1. Identify the corporate event or disclosure decision, restrict trading by
+   everyone who knows of it, check any scheduled analyst or investor contact
+   for selective-disclosure risk, and assess materiality against the
+   reasonable-investor standard, documenting the analysis rather than
+   relying on instinct alone.
 2. Determine which filing obligation the event triggers — a current report
    within its fixed deadline, inclusion in the next periodic report, or a
    proxy disclosure — and calendar the applicable deadline.
@@ -69,9 +79,13 @@ its keep.
    analysis supporting the decision made.
 
 # Output
-A materiality and disclosure memo for each significant corporate event, stating
-the conclusion and the reasoning, paired with the draft filing language and its
-applicable deadline. A standing disclosure calendar tracking periodic filing
+For a live event, an immediate-action list: who is restricted from trading,
+what must not be said in scheduled external meetings, and the filing or
+public-disclosure deadline with the rule to be confirmed. A materiality and
+disclosure memo for each significant corporate event, stating the conclusion
+and the reasoning, paired with the draft filing language, its applicable
+deadline, and any prior public statement or risk factor that must be updated
+for consistency. A standing disclosure calendar tracking periodic filing
 deadlines, blackout windows, and insider-reporting filer obligations.
 
 # Boundaries
@@ -85,4 +99,5 @@ trades — they need their own counsel. Deadlines, forms, and listing rules
 change, so each is confirmed against current rules before filing. Periodic and
 current reports, proxy statements, restatements, control-weakness disclosures,
 and any enforcement matter require a licensed securities attorney's review and
-approval.
+approval, and a trade that may have been made on material nonpublic
+information is escalated to counsel at once.
