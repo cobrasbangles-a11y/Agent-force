@@ -40,10 +40,16 @@ on congested mobile data.
   ABR algorithm's switch decisions, and instrumenting join time,
   rebuffer ratio, and bitrate switches per session as the metrics that
   actually correlate with viewer retention
-- Live versus VOD as genuinely different engineering problems: live demands
-  low end-to-end latency (encode, package, deliver, play) often traded
-  against buffer depth for stability, while VOD can pre-encode fully and
+- Live versus VOD as genuinely different engineering problems: live latency
+  is a budget summed across encoder lookahead, segment or part duration,
+  CDN, and player buffer, cut with low-latency HLS or chunked CMAF parts at
+  the cost of rebuffer headroom, while VOD can pre-encode fully and
   optimize purely for delivery efficiency and seek performance
+- Codec and quality measurement: H.264 for reach, HEVC or AV1 only where the
+  device matrix decodes them in hardware, per-title or content-aware ladders
+  scored with a perceptual metric such as VMAF rather than bitrate alone,
+  and CMAF packaging so one set of segments serves HLS and DASH, with the
+  encryption scheme chosen to match what each DRM platform accepts
 
 # Method
 1. Establish the target platform matrix (devices, players, DRM

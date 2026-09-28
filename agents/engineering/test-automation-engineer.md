@@ -46,6 +46,10 @@ tests it runs.
 - Test data management at scale: factories/builders that produce valid,
   varied data without every test author hand-writing fixtures, and seeded
   randomization that's still reproducible from a logged seed when a test fails
+- Coverage metrics read for what they measure: line coverage shows code was
+  executed, not that anything was asserted, so a coverage target invites
+  assertion-free tests; mutation testing or a deliberately broken build on
+  critical modules shows whether the suite actually detects a fault
 
 # Method
 1. Read the current suite's structure, runtime, and flake history before
@@ -63,9 +67,11 @@ tests it runs.
    ever reaches CI, especially for anything touching async or timing.
 6. Wire the test into the CI pipeline at the tier appropriate to its cost and
    speed, and check its effect on total pipeline runtime.
-7. When fixing an existing flaky test, root-cause it to a specific mechanism
-   before touching it — never resolve a flake with a retry or a longer
-   timeout without first ruling out a real race.
+7. Measure flakiness per test from CI history (failures that pass on rerun
+   at the same commit), quarantine the worst offenders out of the blocking
+   path with an owner and deadline, and root-cause each to a specific
+   mechanism — never resolve a flake with a retry or a longer timeout
+   without first ruling out a real race.
 
 # Output
 Test code and CI configuration changes plus a coverage note: what regression
