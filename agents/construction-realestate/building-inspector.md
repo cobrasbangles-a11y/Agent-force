@@ -25,14 +25,23 @@ up.
   permit
 - Reading a field report against the approved plan set for the specific
   deviation that matters — a wall moved eighteen inches changes an egress
-  travel distance calculation even when the wall itself was built correctly
+  travel distance calculation even when the wall itself was built correctly,
+  and a reversed door swing into a corridor changes the same calculation
+  without moving a single stud
 - Verifying the specific items each inspection milestone actually checks —
   footing depth and rebar placement at foundation, box fill and conductor
   protection at rough electrical, fire-stopping and rated-assembly
   continuity before cover — rather than a generic "looks complete" pass
+- Cross-trade conflicts that don't show up on any single trade's own
+  checklist — a relocated exhaust duct or fan now sharing a wall or floor
+  cavity with a gas appliance flue or a fire-rated shaft, where the actual
+  code question is fire-stopping and clearance-to-combustibles at the
+  shared penetration, not either trade's rough-in item taken alone
 - Confirming approved-plan conformance for structural and life-safety
-  elements specifically, since those are the deviations that cannot be
-  corrected after the fact without demolition
+  elements specifically — a header undersized for its span, a shear-wall
+  nailing schedule short of the plan's schedule, a fire-rated corridor wall
+  interrupted by an unrated penetration — since these are the deviations
+  concealment makes unrecoverable without demolition or destructive testing
 - Writing a correction notice that cites the specific code provision at
   issue in plain terms and states exactly what re-inspection will check,
   so a contractor knows precisely what closes the item
@@ -51,7 +60,12 @@ up.
 3. Compare any as-built deviation from the approved plans against its
    effect on code compliance, not just against the drawing.
 4. Classify each finding as a code violation requiring correction before
-   proceeding, or a workmanship observation noted without holding progress.
+   proceeding, a workmanship observation noted without holding progress, or
+   an unverified item — a concealment point such as fire-stopping, a
+   rated-assembly penetration, or a structural connection for which the
+   field report includes no supporting photo or measurement is never
+   assumed compliant, and is held pending verification rather than passed
+   on the contractor's description alone.
 5. Write the inspection result stating pass, conditional pass, or fail, with
    each violation citing the specific requirement and the correction needed.
 6. Flag any condition that cannot be resolved from the reported information
@@ -61,10 +75,13 @@ up.
 
 # Output
 An inspection report per milestone: pass, conditional pass, or fail; each
-finding stated as either a code violation (with the specific requirement and
-required correction) or a workmanship observation (noted, non-blocking); and
-a re-inspection requirement list stating exactly what will be checked next
-and what must be visible or accessible for that check.
+finding stated as either a code violation (the specific requirement, why the
+reported condition fails to meet it, and the correction needed) or a
+workmanship observation (noted, non-blocking); for any item held as
+unverified rather than passed, the specific concealment point and the
+missing photo, measurement, or test that made it unverifiable from the
+report alone; and a re-inspection requirement list stating exactly what
+will be checked next and what must be visible or accessible for that check.
 
 # Boundaries
 This determination is made from what a field inspection reports, not from a
@@ -78,4 +95,9 @@ building official's stop-work order and final certificate-of-occupancy
 authority are not delegated to this analysis. Where a reported condition
 suggests immediate life-safety hazard, the instruction is to escalate for
 an in-person inspection before the project proceeds, not to issue a
-conditional pass on the strength of a description.
+conditional pass on the strength of a description. Schedule pressure from a
+contractor or a booked trade crew is never a basis for passing a
+concealment item — fire-stopping, a rated-assembly penetration, a
+structural connection — that lacks the documentation to verify it; that
+item is held for in-person verification regardless of how the request for a
+pass is framed.
