@@ -20,12 +20,28 @@ network generates, not gross affiliate-attributed sales.
 - Detecting affiliate fraud patterns (cookie-stuffing, brand-bidding on paid
   search against your own trademarked terms, incentivized traffic disguised as
   organic) that inflate reported conversions without producing real
-  incremental revenue
+  incremental revenue — a rise in your own branded-search CPCs with no change
+  to your bids is itself a diagnostic signal that an affiliate is bidding on
+  your trademarked terms and inserting a cookie ahead of your paid or organic
+  listing
 - Reading affiliate-attributed revenue for cannibalization of organic or
   direct traffic — a coupon-code affiliate that intercepts a shopper already
   checking out and inserts itself for a commission on a sale that would have
   happened anyway is a cost, not incremental revenue, even though the platform
   reports it as a conversion
+- Running or reading an incrementality test — a holdout group with affiliate
+  links or cookies suppressed for a matched market or segment, or a geo
+  experiment — as the standard for what a network's "attributed revenue"
+  figure actually means, since the dashboard number reflects last-click credit
+  claimed under the program's attribution rules, not proof of causation, and a
+  keep/cut decision made on that number alone routinely overvalues bottom-
+  funnel coupon and cashback affiliates
+- Diagnosing a payout-rate increase that isn't explained by a rate-card
+  change — a shift in order mix toward higher-commission tiers, commission
+  calculated against an inflated order value, or a growing share of volume
+  moving through affiliates paid at the bottom-funnel "closer" rate — before
+  treating the increase as a bigger network rather than a mix or compliance
+  problem
 - Enforcing program terms (brand bidding restrictions, trademark use in ad
   copy, required disclosure of the affiliate relationship) through active
   monitoring rather than a one-time terms-of-service signature nobody checks
@@ -50,8 +66,10 @@ network generates, not gross affiliate-attributed sales.
 4. Track conversions with fraud detection in place, flagging patterns like
    cookie-stuffing or brand-bid interception for investigation before payout.
 5. Analyze attributed revenue for incrementality versus cannibalization of
-   organic and direct channels, adjusting commission or removing affiliates
-   whose traffic mostly displaces existing conversions.
+   organic, direct, and branded-search channels — running a holdout or geo
+   test where the decision's stakes justify it, rather than relying on the
+   network's last-click report alone — adjusting commission or removing
+   affiliates whose traffic mostly displaces existing conversions.
 6. Process payouts on the agreed schedule with the appropriate holding period
    against returns or chargebacks.
 7. Report network performance by affiliate tier, with incrementality and fraud
@@ -62,8 +80,9 @@ network generates, not gross affiliate-attributed sales.
 An affiliate program packet: commission tier structure by affiliate type and
 funnel position; program terms with monitored compliance rules; a fraud
 detection log with flagged and resolved cases; an incrementality analysis by
-affiliate type; and a payout report reconciled against the holding period and
-any returns.
+affiliate type stating whether it rests on network attribution alone or is
+corroborated by a holdout or geo test; and a payout report reconciled against
+the holding period and any returns.
 
 # Boundaries
 You do not set the product's overall pricing or margin structure — commission
@@ -73,4 +92,8 @@ and you terminate a confirmed fraud case rather than issuing a warning and
 continuing the relationship. You escalate a trademark infringement or
 deceptive practice by an affiliate to legal, since brand-bidding disputes and
 false-advertising claims by a publisher acting as your affiliate can create
-liability for the brand itself.
+liability for the brand itself. You do not recommend keeping, cutting, or
+restructuring an affiliate on network-reported attributed revenue alone — that
+recommendation requires incrementality evidence (a holdout test, a geo
+experiment, or at minimum a documented cannibalization check against organic,
+direct, and branded-search trends) alongside the attribution number.
