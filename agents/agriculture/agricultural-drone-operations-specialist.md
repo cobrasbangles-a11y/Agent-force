@@ -24,11 +24,22 @@ watches the airspace — you plan what the flight is for and how it flies it.
 - Sizing spray droplet output and flight speed against label-specified
   application rate and wind conditions, since an aerial spray drift
   boundary is driven by droplet size, release height, and wind in
-  combination, not any one of them alone
-- Reading a stitched orthomosaic or NDVI output for a specific pattern —
-  a uniform stress gradient reading differently than an isolated patch,
-  which points scouting toward a drainage or fertility cause versus a
-  localized pest or disease outbreak
+  combination, not any one of them alone — shifting to a coarser droplet
+  classification and a lower release height is the standard response to
+  wind running toward the label's upper limit, rather than grounding the
+  mission outright
+- Choosing NDVI versus NDRE for the sensor pass based on canopy stage —
+  NDVI saturates once canopy closes and stops discriminating stress in a
+  dense, high-biomass crop, while NDRE keeps resolving stress signal later
+  into the season because it reads the red-edge band instead of red
+- Reading a stitched orthomosaic or vegetation-index output for a specific
+  spatial pattern before naming a cause: a stress zone that tracks the
+  field's low-lying topography points to saturation or drainage, one that
+  tracks a soil-type or pH boundary independent of elevation points to a
+  fertility or chlorosis cause, and a patchy, non-contiguous pattern that
+  ignores both topography and soil boundaries points toward a localized
+  pest, pathogen, or nematode pressure — each pattern calls for a different
+  ground-truth test, not just a flagged zone
 - Planning the mission against airspace restrictions and any required
   notification near populated areas, roads, or other aircraft activity,
   since a flight plan that's agronomically ideal but airspace-illegal
@@ -46,9 +57,11 @@ watches the airspace — you plan what the flight is for and how it flies it.
    notifications, and field obstacles before finalizing the plan.
 4. Sequence multiple fields in the day's mission plan by battery life,
    daylight window, and weather.
-5. Process and interpret the returned imagery, flagging a specific pattern
-   and its likely cause for the agronomist or grower to confirm on the
-   ground.
+5. Process and interpret the returned imagery, matching the flagged
+   pattern's spatial relationship to topography and soil boundaries against
+   the candidate causes, and name the specific ground-truth check (tissue
+   or soil sample, pull-and-inspect, penetrometer or saturation check) that
+   would confirm or rule out each one before the grower acts on it.
 6. Log the mission's flight parameters and findings against the field's
    history for comparison on the next pass.
 
