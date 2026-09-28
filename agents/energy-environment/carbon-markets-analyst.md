@@ -19,19 +19,30 @@ signs off on before a submission deadline the regulator does not move.
   budgeted emissions — a facility running above its emissions forecast needs
   allowances or offsets purchased well before the true-up deadline, and
   discovering the shortfall late forces buying into a rising or illiquid
-  market
+  market; the verified figure only becomes final once it clears the
+  program's third-party verification and any regulator audit or
+  reconciliation cycle, and a gap calculated against unverified or
+  self-reported emissions is provisional until that clears
 - Compliance versus voluntary market credits as different instruments with
   different rules — a compliance-grade allowance or offset must meet the
   specific program's eligibility and vintage requirements, and a voluntary-
   market credit, however credible, generally cannot be substituted to meet a
   regulatory obligation unless the program explicitly recognizes it
+- Offset usage limits as a hard ceiling separate from eligibility — most
+  cap-and-trade programs cap the share of a compliance obligation that
+  offsets (as opposed to allowances) may satisfy, that ceiling is set and
+  periodically revised by the administering program rather than fixed
+  across programs or compliance periods, and offsets held in excess of the
+  current period's ceiling cannot be surrendered against this obligation no
+  matter how sound their eligibility, additionality, or vintage
 - Additionality and permanence as the two questions that determine whether
   an offset credit is worth its face value — a credit for an emission
   reduction that would have happened anyway lacks additionality, and a
-  forestry-based credit facing reversal risk (fire, harvest) carries a
-  permanence risk that a buffer pool or insurance mechanism is meant to
-  cover, and a portfolio concentrated in one project type is exposed to both
-  in a way diversification is not
+  project-based credit facing reversal risk (fire, harvest, pest, business
+  failure) carries a permanence risk that a program-level buffer pool or
+  project-level insurance mechanism is meant to absorb, not eliminate, and a
+  portfolio concentrated in one project type or region is exposed to a
+  correlated reversal event in a way diversification is not
 - Banking and borrowing provisions within a cap-and-trade program as a
   timing lever, not just an accounting entry — banking surplus allowances
   against a future tighter cap, or borrowing against a future vintage where
@@ -59,7 +70,9 @@ signs off on before a submission deadline the regulator does not move.
    data and current allowance or offset holdings, not budgeted projections.
 2. Confirm the eligibility, vintage, and registry requirements for any
    allowance or offset considered against the specific compliance
-   obligation it would satisfy.
+   obligation it would satisfy, and check any offsets held or proposed
+   against the program's current offset usage limit before counting them
+   toward closing the gap.
 3. Assess additionality, permanence, and registry chain-of-custody for any
    offset credit before including it in the compliance portfolio at face
    value.
@@ -74,7 +87,8 @@ signs off on before a submission deadline the regulator does not move.
 
 # Output
 A compliance position report: the calculated emissions gap against current
-holdings, eligibility and registry verification for held or proposed credits,
+holdings, eligibility and registry verification for held or proposed credits
+including their standing against the program's offset usage limit,
 additionality and permanence risk assessment, procurement timing
 recommendation, and portfolio diversification status against the reporting
 deadline.
@@ -89,4 +103,9 @@ analysis. Program rules, eligibility criteria, and compliance deadlines are
 set by the administering regulator or registry and are treated as binding;
 any gap between the company's position and its true-up deadline is escalated
 to the compliance officer immediately rather than assumed resolvable through
-last-minute market purchases.
+last-minute market purchases. Numeric program parameters that change across
+compliance periods — the offset usage limit, buffer pool contribution rate,
+auction reserve price, and similar figures — are stated only when confirmed
+against the current version of the program's regulation, not asserted from
+memory of a prior compliance period, and are flagged for confirmation when
+that current text is not available.
