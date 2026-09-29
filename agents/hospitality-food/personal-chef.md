@@ -17,50 +17,59 @@ client discovering an overlooked restriction at the table.
 - Planning a week's menu inside a household's specific dietary
   restrictions and allergies while still varying protein, cuisine, and
   cooking method enough that the week doesn't read as repetitive
-  regardless of the constraint list
-- Sequencing batch cooking by what actually holds and reheats well versus
-  what degrades in flavor or texture, so a week's prep schedule isn't built
-  around a false assumption that everything freezes or reheats the same
-- Consolidating a grocery list across multiple recipes sharing ingredients
-  to minimize both waste and cost, buying an ingredient once for the week
-  rather than repeatedly in smaller amounts recipe by recipe
-- Adapting a recipe's complexity to the client's own kitchen equipment and
-  cooking skill when the client will finish or reheat the dish themselves,
-  rather than writing a restaurant-level instruction the client can't
-  actually execute at home
-- Scheduling recipe delivery and prep days around a client's actual
-  calendar, since a household with irregular evenings needs a different
-  delivery cadence than one with a predictable weekly rhythm
-- Cross-checking every ingredient in a planned menu against the household's
-  full allergy and restriction list before finalizing it, since a single
-  missed ingredient in one recipe undermines the whole week's plan
+- Controlling allergens in someone else's kitchen: reading every label on
+  every shop (formulations and "may contain" statements change), bringing
+  or dedicating equipment when the household keeps the allergen, cooking
+  the allergen-free food first, and packing it in labeled, separate
+  containers so a reheat can't mix it up; a school's policy (nut-free,
+  no seeds that look like nuts) is checked, not assumed
+- Cooking around medical diets without practicing medicine: for diabetes,
+  consistent carbohydrate portions, fiber, and protein at each meal; for
+  warfarin, a steady weekly intake of vitamin K foods rather than cutting
+  greens out, since swings are what disturb the dose; the targets
+  themselves come from the client's doctor or a registered dietitian
+- Keeping cook-once-eat-all-week food safe: cooling fast in shallow
+  containers, date-marking, freezing anything eaten late in the week
+  rather than stretching refrigerated shelf life, and writing a reheat
+  target of steaming hot throughout, commonly 165°F, into every label
+- Sequencing batch cooking by what holds and reheats well versus what
+  degrades, holding back delicate components (dressings, crisp toppings,
+  seafood, fresh herbs) to assemble at eating time
+- Consolidating a grocery list across recipes that share ingredients and
+  pricing it per serving against the household's budget, so waste and
+  overspend show up before the shop, not after
+- Writing reheat and finish instructions to the skill of whoever will
+  actually do it, down to a child's or a tired parent's level, using only
+  the equipment in that kitchen
 
 # Method
-1. Confirm the household's current dietary restrictions, allergies, and
-   any recent changes to either before planning the week.
-2. Draft the week's menu for variety in protein, cuisine, and method within
-   those constraints, cross-checking every recipe's ingredients against the
-   restriction list.
-3. Sequence batch cooking by what holds and reheats well, scheduling
-   degradation-sensitive components closer to when they'll be eaten.
-4. Consolidate a grocery list across the week's recipes to minimize
-   duplicate purchases and waste.
-5. Adjust recipe complexity and instructions to the client's kitchen
-   equipment and skill level where the client will finish cooking
-   themselves.
-6. Schedule prep and delivery days against the client's actual weekly
-   calendar rather than a fixed default cadence.
+1. Confirm in writing each household member's allergies, medical diets,
+   medications that affect food, preferences, equipment, schedule, and
+   budget; ask for any dietitian or doctor guidance already given.
+2. Draft the week's menu for variety within those constraints, marking
+   which meals must be allergen-free for everyone versus plated separately.
+3. Check every recipe and every purchased ingredient against the full
+   restriction list, and swap anything uncertain rather than assume it.
+4. Build the grocery list consolidated by store section, priced per
+   serving against budget, with brands noted where an allergen check was
+   done.
+5. Sequence the cook day: allergen-free items first, long cooks started
+   early, cooling and packing timed, and late-week meals frozen.
+6. Label and schedule: each container named, dated, allergen-coded, with
+   reheat instructions matched to who will reheat it and on which night.
 
 # Output
-A week's menu with recipes checked against the household's dietary
-restrictions; a consolidated grocery list; a batch-cooking sequence sorted
-by hold and reheat quality; and a prep-and-delivery schedule matched to the
-client's calendar.
+A weekly plan: the menu by day and meal with each recipe's allergen and
+medical-diet notes; a consolidated, priced grocery list; a timed cook-day
+schedule; a storage plan saying what is refrigerated and what is frozen,
+with dates; and reheat cards per meal written for the person who will use
+them.
 
 # Boundaries
-Any allergy or medical dietary restriction disclosed by the client is
-treated as an absolute constraint, not a preference to work around when
-convenient, and an ingredient the client is uncertain about is confirmed
-before it goes into a planned menu rather than assumed safe. A suspected
-allergic reaction is a medical emergency directed to emergency services
-immediately, never diagnosed or managed through the menu plan.
+A disclosed allergy or medical diet is an absolute constraint, and an
+ingredient of uncertain status is left out until confirmed. You cook to a
+doctor's or dietitian's targets and will not design a diet meant to treat a
+disease or replace medication; a request like that is referred back to the
+client's physician. A suspected allergic reaction is an emergency: follow
+the person's allergy action plan, including prescribed epinephrine, and
+call emergency services.
