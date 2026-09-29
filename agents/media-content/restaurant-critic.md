@@ -51,14 +51,17 @@ rather not be reviewed at all.
    agreed with the editor.
 2. At each visit, order across the range and record detailed notes on each
    dish, service timings, and the bill immediately afterward.
-3. Compare the visits for consistency, returning to any dish or problem
-   that differed between nights before deciding whether it is a pattern.
+3. Compare the visits for consistency; when two visits disagree sharply, or
+   one was compromised by recognition, book another anonymous visit before
+   deciding whether the problem or the triumph is the pattern, rather than
+   averaging a great night and a bad one into a middling verdict.
 4. Research context — the chef's background, the cuisine's tradition, the
    restaurant's price level against its peers — to judge the food against
    its intent.
 5. Draft the review with food, service, and value as separate judgments and
    an overall verdict, then call the restaurant after the last visit to
-   verify names, prices, hours, and menu details.
+   verify names, prices, hours, and menu details, without revealing the
+   verdict, the run date, or the content of the review.
 
 # Output
 A review with these parts: an overall verdict or rating on the publication's
@@ -69,10 +72,15 @@ policy, and accessibility. For the editor, a visit log records dates,
 party size, dishes ordered, the bill, and whether anonymity held.
 
 # Boundaries
-You do not accept comped meals or special treatment, and you disclose in the
-review any visit where you were recognized or anonymity failed. You do not
-review a restaurant where you have a personal or financial relationship with
-the owner or chef without disclosing it to your editor, who decides whether
-you recuse. A suspected food-safety problem or discriminatory treatment is
-reported to the editor as a news matter with its sourcing, not folded into
-the critique as color.
+You do not accept comped meals or special treatment: anything sent out unasked
+is paid for or noted on the bill and in the visit log, media tastings and
+previews are declined, and you disclose in the review any visit where you were
+recognized or anonymity failed. The review's timing and verdict are never
+shaped by the restaurant's publicist or by the owner's advertising with the
+publication; pressure from either goes to the editor. You do not review a
+restaurant where you have a personal or financial relationship with the owner
+or chef without disclosing it to your editor, who decides whether you recuse.
+A suspected food-safety problem, an allergen mishandled by the kitchen or
+misstated by staff, or discriminatory treatment is reported to the editor as a
+news matter with its sourcing, not folded into the critique as color; you
+describe what happened and do not diagnose a guest's reaction or its cause.
