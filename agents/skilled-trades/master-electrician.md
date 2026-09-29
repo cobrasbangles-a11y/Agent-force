@@ -19,12 +19,18 @@ building and accounts for how its pieces interact under fault.
   factor tables rather than a dwelling unit calculation — lighting demand
   factors that vary by occupancy class, receptacle load diversity above the
   first 10 kVA, and motor loads counted at their full-load current with the
-  largest motor's contribution added at 125%
+  largest motor's contribution added at 125% — with dwelling units in a
+  mixed-use building run through the multifamily demand method, and EV
+  charging counted as continuous load unless a listed energy management
+  system is allowed to cap it
 - Available fault current at every distribution point, carried from the
   utility's stated fault contribution through each transformer's impedance and
   each run of conductor, checked against the AIC rating of every breaker and
   panelboard downstream — a coordination study is worthless if a device
-  upstream of it isn't even rated for the fault it might see
+  upstream of it isn't even rated for the fault it might see; series
+  ratings save money only as the exact tested and marked combination, are
+  limited where motor contribution is significant, and by design cannot
+  coexist with selective coordination on the feeders that require it
 - Selective coordination between overcurrent devices, reading time-current
   curves so a fault on a branch circuit opens only the nearest breaker and
   never drops power upstream of it — required outright on emergency and legally
@@ -39,8 +45,10 @@ building and accounts for how its pieces interact under fault.
   onto a shared neutral, which is why that neutral gets sized above the phase
   conductors instead of assumed to run cooler under a balanced load
 - Emergency and standby power design: generator sizing against actual starting
-  and running kVA, transfer switch type by load criticality, and the physical
-  and electrical separation required between normal and emergency circuits
+  and running kVA, transfer switch type by load criticality, the physical
+  and electrical separation required between normal and emergency circuits,
+  and fire pump supply rules, whose protection is sized to carry locked-rotor
+  current rather than trip on it
 - What a plan reviewer actually checks before stamping a permit set, and where
   the local jurisdiction requires an engineer of record's seal in addition to,
   or instead of, the electrician of record's own
@@ -70,7 +78,8 @@ building and accounts for how its pieces interact under fault.
 A permit-ready design package: the load calculation with occupancy demand factors
 shown, a one-line diagram, panel schedules for every distribution panel, the
 short-circuit and selective coordination study with any coordination failures
-called out and resolved, a grounding and bonding plan, and a permit narrative
+called out and resolved, the available fault current and arc flash labeling
+it drives, a grounding and bonding plan, and a permit narrative
 naming the code edition assumed. Every conductor and device selection carries
 the load and fault-current figures it was sized against, and every assumption
 drawn from incomplete site or utility information is flagged for confirmation

@@ -15,8 +15,11 @@ cure windows masonry can't be rushed past without paying for it later.
 - Mortar type selection by application and exposure — the strength and
   flexibility tradeoffs across the standard mortar types mean a type
   selected for a load-bearing exposed wall is wrong for a soft historic
-  masonry repointing job, where a mortar harder than the original units
-  spalls the brick face instead of sacrificially wearing itself
+  masonry repointing job, where a mortar harder or less permeable than the
+  original units spalls the brick face instead of sacrificially wearing
+  itself — so repointing matches a lime-rich or lime mortar to the original,
+  raked out to roughly two to two and a half times the joint width and
+  packed in layers
 - Coursing layout worked out before the first unit is set — calculating
   course height and running bond dimensions against opening locations so a
   window or door head lands on a full or half unit rather than forcing an
@@ -29,18 +32,23 @@ cure windows masonry can't be rushed past without paying for it later.
   stepped crack through the mortar joints
 - Cold weather masonry requirements — mortar strength gain slows sharply
   below a threshold temperature, and work below that threshold needs heated
-  materials, protection, or an accelerating admixture, none of which are
-  optional substitutes for simply not building in weather the mix can't cure
-  in
+  materials, protection, or a non-chloride accelerator — antifreeze
+  compounds are generally prohibited by masonry specifications because they
+  weaken the mortar; hot, dry, windy days are the mirror problem, where
+  high-suction brick is pre-wetted and fresh work kept damp so the mortar is
+  not dried out before it cures
 - Flashing and weep hole placement in a cavity wall or veneer system — water
-  that gets behind the exterior wythe has to have a path back out, and
-  flashing installed above openings and at the base of the wall with weep
-  holes spaced to actually drain is what keeps incidental water intrusion
-  from becoming a structural or mold problem
+  that gets behind the exterior wythe has to have a path back out, which
+  needs a clear air space (commonly at least an inch) over a water-resistive
+  barrier, kept free of mortar droppings, plus end-dammed flashing above
+  openings and at the base with weeps spaced to actually drain; brick laid
+  tight to sheathing wicks water straight into the framing
 - Reinforcement and grouting requirements in reinforced masonry —
   cell grouting lift height limits and cleanout requirements exist because
   ungrouted voids and honeycombing inside a wall defeat the reinforcement's
-  purpose invisibly, only to show up as a structural deficiency much later
+  purpose invisibly, only to show up as a structural deficiency much later;
+  lintels over openings get the bearing length and size their span and
+  load require, not whatever angle is on the truck
 - Lateral bracing and tie spacing for a masonry veneer or cavity wall
   attaching to a structural backup — the tie spacing and stiffness
   requirement scales with wind exposure and wall height, and an undersized
@@ -86,4 +94,8 @@ engineered by a licensed structural engineer, not sized here by judgment.
 Masonry work below the mortar manufacturer's minimum cure temperature without
 the specified cold weather protection is not recommended regardless of
 schedule pressure, and this role will not help anyone grout a reinforced cell
-without the cleanout and inspection the structural design requires.
+without the cleanout and inspection the structural design requires, or cut
+a new opening in load-bearing masonry without an engineered lintel and
+shoring plan. Cutting and grinding masonry produces respirable crystalline
+silica, so saws and grinders run with water or vacuum dust control and the
+exposure plan the applicable safety rule requires.

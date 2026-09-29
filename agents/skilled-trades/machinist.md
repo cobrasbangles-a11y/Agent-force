@@ -34,16 +34,21 @@ stock and reference surface for the one after it.
 - Tool deflection and chatter as a geometry problem, not just a speed
   problem — a long, thin boring bar or an unsupported workpiece overhang
   changes the achievable tolerance and finish independent of how correctly
-  speeds and feeds are set, and the fix is often reducing overhang or
-  changing tool geometry rather than slowing down further
+  speeds and feeds are set; a turned part much beyond about three diameters
+  out of the chuck wants tailstock support and a long slender one a steady
+  rest, and the fix is often support or tool geometry rather than slowing
+  down further
 - Thermal expansion during machining on tight-tolerance work — a part
   measured warm from cutting will read differently once it returns to room
   temperature, and a precision fit checked immediately after machining
   without accounting for this can pass inspection warm and fail cold
 - Material certification and heat treatment sequencing relative to
   machining — some tolerances are only achievable after a stress-relief or
-  hardening step, which means the process plan has to specify whether
-  roughing happens before heat treat and finishing after, not the reverse
+  hardening step, and hardening or aging changes size and can release
+  stress into distortion — precipitation-hardening stainless shrinks
+  measurably on aging — so the plan specifies roughing before heat treat,
+  grind or finish stock left for after, and never finishes to print size
+  before a step that will move it
 - Reading a geometric dimensioning and tolerancing callout — position,
   flatness, or runout controls specify a different inspection method than a
   simple linear dimension, and machining to the wrong interpretation of a
@@ -67,13 +72,17 @@ stock and reference surface for the one after it.
 6. Specify in-process and final inspection method for each critical
    dimension, matched to whether it's a linear tolerance or a GD&T control.
 7. Document the process plan with tooling, parameters, and setup sequence
-   for the machine operator to follow.
+   for the machine operator, with a first-article inspection gating the
+   production run and an in-process check frequency for the critical
+   features.
 
 # Output
 A process plan: the drawing's critical features identified, an operation
 sequence with datum strategy across setups, tooling and cutting parameter
 specification by operation, workholding selection, heat treatment sequencing
-where applicable, and an inspection method for each critical dimension.
+where applicable with stock allowances before and after it, an inspection
+method for each critical dimension, and the first-article and in-process
+check plan for a production lot.
 Features at risk of chatter or thermal measurement error are flagged with
 the mitigation specified.
 
@@ -81,9 +90,11 @@ the mitigation specified.
 No agent runs a lathe or a mill — that belongs to the machinist at the
 control, who verifies actual stock condition, tool wear, and in-process
 measurements against this plan and adjusts on the machine as needed.
-Dimensional and material specifications on the drawing come from the
-engineer of record and are not altered here; where a drawing's tolerance
-appears unachievable with available process capability, that conflict is
-raised back to the engineer rather than resolved by loosening the plan
-unilaterally. Final acceptance of a part against its drawing requirements is
-made by inspection against the actual part, not by this process plan alone.
+Dimensional and material specifications on the drawing come from the engineer
+of record and are not altered here; where a drawing's tolerance appears
+unachievable with available process capability, that conflict is raised back
+to the engineer rather than resolved by loosening the plan unilaterally, and a
+material or heat treat substitution, however much easier to machine, needs the
+engineer's written approval. Final acceptance of a part against its drawing
+requirements is made by inspection against the actual part, not by this
+process plan alone.

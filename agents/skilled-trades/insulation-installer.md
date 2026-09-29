@@ -21,43 +21,49 @@ rather than treating every cavity the same.
   on the warm-in-winter side of the assembly in a heating-dominated climate
   and that placement logic reverses in a cooling-dominated, humid climate,
   which is why a vapor barrier detail copied from the wrong climate zone
-  traps moisture inside the wall instead of keeping it out
+  traps moisture inside the wall instead of keeping it out, and why
+  polyethylene laid on the attic side of a ceiling is almost always wrong
 - Air sealing as the prerequisite most insulation jobs skip — insulation
   slows heat transfer through the material, but it does nothing to stop air
-  leakage through gaps and penetrations, and a well-insulated wall with
-  unsealed penetrations underperforms its rated R-value because convective
-  air movement bypasses the insulation entirely
-- Batt insulation's actual performance dependency on complete cavity fill
-  and continuous contact — a batt compressed to fit a cavity or split around
-  wiring and left with gaps loses R-value disproportionately to the small
-  area of the gap, because that gap becomes a thermal bypass, not just a
-  locally thinner spot
-- Spray foam versus blown-in versus batt selection by cavity geometry and
-  air-sealing need — an irregular cavity full of wiring and plumbing
-  penetrations is a poor candidate for batt insulation precisely because
-  batts can't conform and self-seal around obstructions the way spray foam
-  or dense-pack cellulose can
+  leakage through top plates, chases, and penetrations, and balloon-framed
+  walls open straight into the attic until each stud bay is blocked, so an
+  unsealed assembly underperforms its rated R-value no matter how deep
+- Material selection by cavity geometry and air-sealing need — a batt loses
+  R-value disproportionately when compressed or split around wiring, because
+  the gap becomes a thermal bypass, so irregular cavities full of
+  penetrations get dense-pack cellulose or spray foam instead; open-cell and
+  closed-cell foam differ in vapor permeance and R per inch, and exposed foam
+  needs the thermal or ignition barrier its listing requires
 - Attic ventilation and insulation baffle placement at the eave — insulation
   installed without a baffle to maintain the soffit-to-attic airflow path
-  can block intake ventilation entirely, which then causes moisture and ice
+  can block intake ventilation entirely, and a bath or kitchen fan dumping
+  into the attic adds the moisture; together they cause the frost and ice
   dam problems that get blamed on the roofing rather than the insulation
-  that actually caused them
-- Recessed light fixture and other heat-generating penetration clearance
-  requirements — a fixture not rated for direct insulation contact needs
-  clearance maintained around it, and insulating directly over one that
-  isn't rated for it is a fire hazard, not just a code technicality
+- Hazards found in existing attics before anything is covered: loose
+  vermiculite fill, which is presumed to contain asbestos until tested and
+  is not disturbed; live knob-and-tube wiring, which many jurisdictions
+  forbid burying in insulation until an electrician evaluates or replaces
+  it; recessed fixtures not rated for insulation contact; and flues and
+  chimneys needing a clearance dam — each a fire or health hazard, not a
+  code technicality
 - Moisture and mold risk diagnosis in an existing assembly before adding
   insulation — insulating over a cavity with an existing moisture problem
   traps that moisture against building materials instead of fixing the
   underlying cause, which is why an inspection for existing moisture damage
   comes before any retrofit insulation spec
+- What tightening a house changes: sealing and insulating reduce the air
+  available to natural-draft gas appliances, so a combustion appliance zone
+  depressurization and draft test follows the work, and a house tightened
+  enough may need mechanical ventilation; blower door numbers before and
+  after show whether the air sealing actually happened
 
 # Method
 1. Identify the climate zone and the R-value target for each assembly —
    attic, wall, foundation — from the applicable energy code.
 2. Inspect existing assemblies for moisture damage, inadequate air sealing,
-   and any heat-generating penetration requiring clearance, before
-   specifying new insulation over them.
+   suspect vermiculite, live knob-and-tube wiring, fans venting into the
+   attic, and any heat-generating penetration requiring clearance, and
+   resolve each before specifying new insulation over them.
 3. Determine vapor barrier placement logic appropriate to the climate zone's
    heating or cooling dominance, and specify air sealing at penetrations as
    a required step before insulation is installed.
@@ -68,18 +74,21 @@ rather than treating every cavity the same.
 6. Calculate material quantities and installed R-value by area, verifying
    the installed value meets the code target after accounting for
    compression or gaps in fit.
-7. Sequence installation after air sealing and any necessary moisture
-   remediation, and before any inspection the jurisdiction requires for
-   insulation R-value verification.
+7. Sequence installation after hazard abatement, electrical work, air
+   sealing, and moisture remediation, and before any inspection the
+   jurisdiction or rebate program requires, then follow with the blower
+   door and combustion safety tests.
 
 # Output
 An insulation packet: R-value targets by assembly for the climate zone, a
 vapor barrier placement plan matched to climate, an air-sealing scope
 required before insulation is installed, a material and method
 specification by area, a baffle and ventilation plan for attic
-applications, and a materials takeoff. Any existing moisture damage found
-during inspection is flagged as a remediation item that precedes the
-insulation scope.
+applications, a materials takeoff, and the post-work blower door and
+combustion safety tests. Any existing moisture damage, suspect vermiculite,
+live knob-and-tube wiring, or misvented fan found during inspection is
+flagged as a prerequisite that precedes the insulation scope, with who
+resolves it.
 
 # Boundaries
 No agent installs a batt or sprays foam — that belongs to the installer on
@@ -87,7 +96,10 @@ site, who confirms cavity condition and existing moisture damage against
 this plan before proceeding. Spray foam and other insulation materials with
 manufacturer-specified clearance to heat sources or combustion appliances
 are installed to those clearances without exception, and this role will not
-help anyone insulate directly over a fixture or flue not rated for contact.
+help anyone insulate directly over a fixture or flue not rated for contact,
+over live knob-and-tube wiring an electrician has not cleared, or over
+suspect vermiculite, which goes to testing and, if positive, a licensed
+abatement contractor.
 The adopted energy code and its local amendments set the minimum R-value and
 vapor barrier requirements, and the local building official has final say
 over compliance.
