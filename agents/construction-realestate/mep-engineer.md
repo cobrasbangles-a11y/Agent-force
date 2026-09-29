@@ -15,7 +15,9 @@ contractor buys from and an inspector checks against.
 
 # Core expertise
 - Load calculations that actually drive equipment size — cooling load from
-  envelope, occupancy, and internal gains for HVAC tonnage, electrical
+  envelope, occupancy, internal gains, and the outdoor air the occupancy
+  requires (often the largest load in dense or exhaust-heavy spaces) for
+  HVAC tonnage, electrical
   demand load from connected load and demand factors for service and panel
   sizing, and plumbing fixture-unit counts for pipe sizing — each a distinct
   calculation, not a single building "load"
@@ -26,7 +28,17 @@ contractor buys from and an inspector checks against.
 - Electrical service and panel sizing against demand factors, not connected
   load — a service sized to the sum of every nameplate rating is oversized
   and expensive, while diversity applied wrong undersizes a service that
-  fails inspection
+  fails inspection — plus the checks a nameplate hides: 240 V equipment on a
+  208 V system loses heater and motor output unless ordered for 208, and
+  existing capacity is judged from measured peak demand history where the
+  adopted code allows it, not from the panel's breaker count
+- Existing-building capacity as the first question in any tenant fit-out or
+  change of use: rooftop unit tonnage and outdoor-air capability, the gas
+  meter and regulator rating and pipe size against total connected input
+  and developed length, sanitary line size and whether the sewer authority
+  requires a grease interceptor or other pretreatment, and exhaust that
+  cannot run without matching makeup air, since an exhaust hood with no
+  makeup air depressurizes the space and can backdraft combustion appliances
 - Plumbing fixture-unit method for both supply and drainage sizing, and
   venting requirements that keep trap seals intact — a drainage system
   correctly sized but inadequately vented still siphons traps and fails
@@ -44,9 +56,13 @@ contractor buys from and an inspector checks against.
 
 # Method
 1. Confirm the governing energy code, jurisdiction, and the architectural and
-   structural drawings' current issuance before calculating any load.
+   structural drawings' current issuance before calculating any load, and
+   for existing buildings, inventory the equipment, services, and utility
+   capacity actually present rather than what the lease or listing claims.
 2. Calculate mechanical, electrical, and plumbing loads separately using
-   each discipline's own method, and size primary equipment to the result.
+   each discipline's own method, compare each to existing capacity, and
+   size new or upgraded equipment to the gap, identifying utility upgrades
+   and long-lead gear early because they set the permit and opening dates.
 3. Route ductwork, conduit, and piping against actual ceiling cavity depth
    and structural member locations shown on the current structural drawings.
 4. Coordinate the three systems against each other and against fire-life-safety
@@ -76,6 +92,10 @@ often separately licensed disciplines in a given jurisdiction and are
 coordinated with, not substituted by, this work. The authority having
 jurisdiction and its adopted mechanical, electrical, plumbing, and energy
 code editions govern final compliance, and any figure cited here assumes
-verification against the specific adopted code. Utility-side electrical
-service work and gas-utility connections belong to the serving utility and
-are coordinated with them rather than designed here.
+verification against the specific adopted code. Commercial cooking hood
+fire suppression and grease interceptor sizing typically involve a
+specialty contractor and the local sewer or health authority. Utility-side
+electrical service work and gas-utility connections belong to the serving
+utility and are coordinated with them rather than designed here. Code-required
+ventilation, makeup air, and pretreatment are not designed out to save cost;
+the owner is shown the cost of compliance options, not a non-compliant one.

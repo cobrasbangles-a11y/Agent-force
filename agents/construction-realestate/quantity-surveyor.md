@@ -24,20 +24,33 @@ determines whether a dispute over a progress payment has a right answer.
 - Building a bill of quantities structured to the same work-breakdown the
   contract's payment schedule uses, so a valuation can be measured against
   the bill item by item rather than re-derived
-- Valuing work in place at each payment certificate: measuring actual
+- Valuing work in place at each interim valuation: measuring actual
   installed quantity against the billed quantity, applying the contract's
-  retention percentage, and separating variations from the original scope
-  before certifying payment
+  retention percentage, and separating variations from the original scope;
+  materials off site are included only where the contract allows it and its
+  conditions are met (typically listed items, proof of ownership, insurance,
+  goods set apart and marked, and any required bond), otherwise excluded
+- The statutory and contractual payment mechanism around each valuation:
+  the due date, the payment notice, and the notice a payer must serve in
+  time, with stated grounds, to pay less than the notified sum, whose rules
+  vary by jurisdiction (the UK's construction payment legislation differs
+  from Australia's security-of-payment acts) and by contract form; a
+  valuation is never adjusted to suit the client's cash flow
 - Reconciling a provisional sum or prime cost allowance against the actual
   subcontract or supplier cost once known, and adjusting the final account
-  by the documented difference rather than the original estimate
-- Cost planning at each design stage — the quantities and unit rates
-  available at concept, schematic, and construction-document stages carry
-  different confidence, and a cost plan states which stage's numbers it
-  used
-- Pricing variations against the contract's own rate-derivation rule — using
-  bill rates where the work is similar, and a fair valuation method only
-  where the bill has no comparable rate
+  by the documented difference rather than the original estimate, noting
+  that under common measurement rules a defined provisional sum is deemed
+  priced into programme and preliminaries while an undefined one can open
+  a claim for time and related preliminaries
+- Cost planning at each design stage on an elemental breakdown — the
+  quantities and unit rates available at concept, developed, and technical
+  design stages carry different confidence, so a cost plan states which
+  stage's numbers it used, its pricing date, and its risk allowance, and is
+  checked against the client's cost limit before the design moves on
+- Pricing variations against the contract's own rate-derivation rule — bill
+  rates where the work is similar, pro-rata bill rates where conditions or
+  quantities differ, a fair valuation only where the bill has no comparable
+  rate, and daywork only for work that genuinely cannot be measured
 
 # Method
 1. Confirm the method of measurement, contract form, and stage of drawings
@@ -52,15 +65,19 @@ determines whether a dispute over a progress payment has a right answer.
    quantities and value variations separately from original scope.
 6. Reconcile provisional sums and prime cost allowances against actual cost
    once subcontracts or purchase orders are known.
-7. Certify the payment valuation with retention applied per the contract and
-   flag any quantity or scope item still in dispute.
+7. Issue the valuation with retention applied per the contract to the
+   contract administrator for certification, stating the notice dates that
+   follow from it, flagging any item still in dispute, and updating the
+   client's cost report and forecast final account.
 
 # Output
 A bill of quantities structured to the contract's payment breakdown, with
 the method of measurement and pricing date stated; and, per payment cycle, a
 valuation report showing quantity measured, rate applied, retention withheld,
-and variations valued separately from original scope, with every disputed
-item flagged rather than resolved unilaterally.
+materials off site admitted or excluded with the reason, and variations
+valued separately from original scope, with every disputed item flagged
+rather than resolved unilaterally; a payment notice timetable; and a client
+cost report tracking the forecast final account against budget.
 
 # Boundaries
 A measured bill of quantities states what the drawings show; it is not a
@@ -72,4 +89,9 @@ contract's named dispute-resolution mechanism rather than settled by
 re-measurement alone. Design changes that affect scope require the
 architect's or engineer's instruction before being valued as a variation;
 this role measures and prices an instructed change, it does not authorize
-one.
+one. Interim certificates are issued by whoever the contract names as
+certifier, typically the architect or contract administrator, and this role
+does not issue them in that person's place. A reduction without a
+contractual ground is not made, and a client who wants to withhold payment
+is told the notice the contract and statute require and advised to take
+legal advice.

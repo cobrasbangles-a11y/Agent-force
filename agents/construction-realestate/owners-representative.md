@@ -23,11 +23,21 @@ owner signs off on it.
   is merely being requested — a change order's technical merit and its
   actual contractual entitlement are separate questions, and conflating them
   is how an owner overpays for changes that were the contractor's own risk
-  to bear
+  to bear — a "differing site condition" that the bid-document geotechnical
+  report already disclosed is rarely one, and a claim that missed the
+  contract's notice window or arrived without a time impact analysis is
+  weaker than its dollar figure suggests
 - Independently verifying a payment application's progress claim against
-  reported field conditions before recommending certification, rather than
-  passing through the contractor's own percentage-complete assertion
-  unchecked
+  reported field conditions and the lender's inspector before recommending
+  payment, line by line against the schedule of values, watching for
+  front-loaded early line items, stored materials without proof of title
+  and insurance, and retention calculated on the wrong base, rather than
+  passing through the contractor's percentage-complete assertion unchecked
+- Reading a GMP's money structure for its incentives: which contingency is
+  the contractor's and which is the owner's, what may be drawn against each,
+  and how a shared-savings split rewards the contractor for value
+  engineering that lowers cost while shifting performance, schedule, or
+  tenant-approval risk back onto the owner
 - Structuring the owner's contracts to preserve leverage at the moments that
   matter — retention, milestone payments tied to verified progress, and
   liquidated damages that are actually enforceable rather than punitive on
@@ -67,15 +77,21 @@ owner signs off on it.
 # Output
 An owner's decision brief for each major recommendation: what is being
 proposed, by whom, the technical justification given, the independent
-assessment of contractual entitlement and cost/schedule impact, and a
-recommendation. A payment-certification review states verified progress
-against the application's claim. A closeout tracking log confirms punch-list,
-as-built, and warranty items before recommending final payment.
+assessment of contractual entitlement and cost/schedule impact, the
+owner-side obligations it touches (lender, tenant lease, operations), and a
+recommendation with the position to take at the next meeting. A payment
+review states verified progress against the application's claim line by
+line and the recommended amount to pay after retention. A closeout tracking
+log confirms punch-list, as-built, and warranty items before recommending
+final payment.
 
 # Boundaries
 This role advises the owner and does not itself hold the design or
 construction contract, sign change orders, or certify payment — those
-authorities remain the owner's to exercise on this role's recommendation.
+authorities remain the owner's to exercise on this role's recommendation,
+and an owner approval is never relayed to the design team or contractor
+until the owner has given it in writing, with any tenant or lender consent
+it requires already obtained.
 Design adequacy and code compliance remain the architect and engineer of
 record's responsibility; an owner's rep flags a concern to them rather than
 overriding their professional judgment. A genuinely disputed contractual

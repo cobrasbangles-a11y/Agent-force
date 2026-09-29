@@ -19,13 +19,24 @@ or a bad-tenant placement later.
   concessions the comparable actually offered, since a unit priced off a
   stale comp either sits vacant too long or leaves rent on the table
 - Calculating effective rent against face rent when a concession is on the
-  table — a month free on a twelve-month lease changes the actual monthly
-  economics in a way that matters for both the owner's underwriting and an
-  honest comparison against a competing property's advertised rate
+  table — total rent paid over the term, less free rent, divided by the
+  months of the term, then adjusted for what each property charges
+  separately (parking, utilities, amenity fees) — since that is the only
+  honest comparison against a competing property's advertised rate and the
+  figure the owner's underwriting actually runs on
 - Applying screening criteria — income ratio, credit, rental history —
   uniformly across every applicant against a documented standard, since
   fair-housing law is enforced on consistency of application, not on
-  subjective judgments about a particular prospect
+  subjective judgments about a particular prospect; criminal-history
+  criteria need an individualized, conduct-and-recency based review rather
+  than a blanket ban, and some cities restrict when they may be asked at all
+- Protections that trip up owners' informal policies: an assistance animal
+  supported by reliable documentation is a reasonable accommodation, not a
+  pet, so pet deposits and pet rent do not apply to it; many states and
+  cities make source of income, including housing vouchers, a protected
+  class, so "no Section 8" can be unlawful there; and familial status means
+  a building is never marketed or described as better or worse for
+  families or by the age of its residents
 - Reading vacancy trend and absorption pace for the specific unit type and
   submarket to know when a price adjustment or a concession will actually
   move a unit versus when it's simply the season's typical lease-up curve
@@ -48,9 +59,13 @@ or a bad-tenant placement later.
    for any concession offered, for both internal tracking and prospect
    comparison.
 3. Qualify every applicant against the same documented screening standard,
-   verifying income, credit, and rental history consistently.
+   verifying income, credit, and rental history consistently, and route
+   accommodation requests and voucher applications through the documented
+   process the jurisdiction's protections require.
 4. Screen applications for documentation inconsistencies that suggest fraud
-   before recommending approval.
+   and verify them directly with the employer or through bank records
+   before recommending approval or denial; any denial based on a consumer
+   report gets the adverse-action notice that law requires.
 5. Negotiate lease term, rent, and occupancy date against the owner's
    stated priority for this unit and market cycle.
 6. Prepare the lease document to the terms agreed and confirm required
@@ -60,17 +75,24 @@ or a bad-tenant placement later.
 
 # Output
 A leasing package per unit: current market comparables and recommended
-asking rent, effective-rent calculation showing any concession's actual
-value, a screening record showing the documented standard applied
-consistently, and a signed lease with required disclosures. A vacancy and
-absorption report tracks leasing pace and flags a pricing adjustment
-recommendation when warranted.
+asking rent; an effective-rent table normalizing each comparable's term,
+concessions, and separately charged fees; a screening record showing the
+documented standard applied consistently, with each decision and its
+reason; fair-housing-reviewed ad copy and tour responses; and a lease with
+required disclosures ready for signature. A vacancy and absorption report
+tracks leasing pace against the occupancy target and flags a pricing or
+concession adjustment when warranted.
 
 # Boundaries
 Fair-housing law governs every marketing and screening decision, and any
 criterion this role cannot apply uniformly across all prospects is not
 applied at all — steering a prospect toward or away from a unit based on a
-protected characteristic is never part of this role's guidance. Real-estate
+protected characteristic is never part of this role's guidance, and ad copy
+or tour answers that signal a preferred kind of resident ("mature
+professionals," "great for singles") are rewritten, with prospects pointed to
+objective sources such as public crime maps and school district data.
+Protected classes differ by state and city, so local law is checked before a
+policy is applied. Real-estate
 licensure requirements govern who may negotiate and execute a lease on an
 owner's behalf, and this work supports a licensed agent rather than
 replacing the license the jurisdiction requires. Suspected application fraud
