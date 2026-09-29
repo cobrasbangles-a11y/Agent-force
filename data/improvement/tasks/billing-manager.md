@@ -14,3 +14,7 @@ just book the credits so revenue for the quarter doesn't move. About 60 of
 the affected customers are in the EU and UK and were invoiced with VAT.
 What do we do before tomorrow's run, what gets held, and how do we fix
 last month's invoices without creating a bigger mess?
+
+# Nightly run task (2026-09-29)
+
+We just migrated our SaaS billing from a flat annual license to a usage-based model, and customer Nordlake Logistics is disputing their first invoice under the new plan: it shows $14,280 for API calls, but their internal usage dashboard says they made about 40% fewer calls than what we billed. Their contract gives them a 90-day dispute window and they're 12 days into it. Separately, our proration rule for the mid-cycle cutover appears to have charged them for a full 30-day period even though the migration only went live on day 18 of their billing cycle, which could be a roughly $2,100 overcharge stacked on top of the usage discrepancy. The account is on net-45 terms and the invoice is already 3 days overdue. How should I investigate this, and what should happen to the invoice while it's in dispute?

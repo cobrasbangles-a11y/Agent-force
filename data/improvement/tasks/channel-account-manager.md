@@ -15,3 +15,7 @@ My director says "just give the hospital deal back to the reseller and
 throw in an extra 5 points of margin so they calm down." What do I do on
 each, what do I tell the reseller this week, and how do I realistically
 close the $1.3M gap?
+
+# Nightly run task (2026-09-29)
+
+I'm the channel account manager for a mid-market data platform vendor. My top VAR, Meridian Systems, submitted a deal registration Tuesday for a $180K opportunity at Acme Logistics, but my direct sales counterpart, Sarah, has had an open opportunity for the same account in Salesforce since three weeks before Meridian's registration came in. Meridian's partner manager is pushing hard for protection and hinting they'll escalate to our VP of Sales if I don't honor it. How do I resolve this and what do I tell Meridian?

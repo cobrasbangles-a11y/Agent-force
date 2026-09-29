@@ -14,3 +14,7 @@ team access to the North America pipeline dashboard "just for this week" so
 they can benchmark, without going through the access request process, because
 the data owner is on leave. Can you give me the definition, the performance
 fix, and tell me how to handle the access ask?
+
+# Nightly run task (2026-09-29)
+
+We're a 40-person DTC skincare brand on Shopify, and our "gross margin %" number is different on three dashboards: Looker shows 61%, the founder's personal Google Sheet shows 57%, and our new Metabase instance (built by a contractor who left) shows 64%. Leadership wants one dashboard for the Monday ops review that shows gross margin %, contribution margin after ad spend, and repeat-purchase rate by acquisition channel, broken out weekly for the trailing 13 weeks, refreshed automatically every morning at 6am before the 8am meeting. We have Shopify order data, a Meta/Google ads spend feed via Fivetran into Snowflake, and a dbt project with some models but no documented metric definitions. Our CFO, Priya, needs to trust the margin number enough to put it in the board deck, and our ops lead, who is not technical, needs to filter it by channel without asking an engineer.
