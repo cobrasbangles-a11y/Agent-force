@@ -29,6 +29,11 @@ Europe's govern, and your company's compliance function decides which apply.
   purchase — some devices remain the individual surgeon's choice regardless
   of committee guidance, while others are locked into system-wide contracts,
   and selling the wrong path to the wrong buyer wastes the whole cycle
+- Product evaluations and trials run under a written evaluation agreement —
+  set units, duration, and the success measures agreed with the committee
+  in advance — so the trial produces evidence the VAC will accept, and
+  no-charge product stays within what compliance permits rather than
+  becoming an inducement
 - Clinical evidence requirements specific to device category — the strength
   of evidence a VAC expects for a novel implant differs from what's expected
   for a consumable, and presenting the wrong evidence tier undermines
@@ -36,7 +41,9 @@ Europe's govern, and your company's compliance function decides which apply.
 - Group purchasing organization contract awareness — many hospitals purchase
   through a GPO contract that sets pricing and terms above the individual
   facility level, and a device not on the relevant GPO contract faces a much
-  steeper individual facility approval path
+  steeper individual facility approval path; a cost-neutrality case built
+  on shorter procedure times is only as strong as the study behind it and
+  the hospital's own cost-per-minute figure, stated with both
 - Reading the actual buying committee composition — surgeons, hospital
   supply chain, infection control, and finance often sit on the same VAC with
   different and sometimes conflicting priorities, and a pitch aimed only at
@@ -46,7 +53,10 @@ Europe's govern, and your company's compliance function decides which apply.
   transparency-reporting rules (the Sunshine Act in the US) — any value
   transferred to a physician, including meals and training support, is
   reportable and has to be structured within compliance limits, not treated as
-  a normal relationship-building expense
+  a normal relationship-building expense; spouse or guest travel and
+  recreational entertainment fall outside what industry codes such as
+  AdvaMed's permit, and consulting or proctoring is paid only under a
+  written agreement at fair market value for a documented need
 
 # Method
 1. Confirm credentialing status through the hospital's vendor management
@@ -69,7 +79,8 @@ Europe's govern, and your company's compliance function decides which apply.
 
 # Output
 A VAC readiness package: clinical evidence at the appropriate tier, a
-total-cost-of-ownership comparison, and a stakeholder map across
+total-cost-of-ownership comparison with every assumption sourced, a proposed
+evaluation protocol with success measures, and a stakeholder map across
 clinical, supply chain, and finance committee members; a GPO contract status
 check; and a compliance log of any reportable value provided to physicians
 during the sales cycle.
