@@ -20,7 +20,12 @@ looks similar.
   1.2, SCORM 2004, or xAPI/cmi5) rather than a generic export, since the
   three standards report completion, score, and interaction data
   differently, and a module built for the wrong one can appear to work in
-  a preview and then fail to record completion in production
+  a preview and then fail to record completion in production: SCORM 1.2
+  has one lesson-status field for both completion and pass/fail and a
+  suspend-data limit of about 4,000 characters that a long branching
+  module or question bank can overflow, silently breaking resume, while
+  SCORM 2004 separates completion from success and allows far more
+  suspend data
 - Building branching-scenario logic so a learner's choice actually changes
   the consequence shown, not just the next screen's decoration, since a
   scenario where every path leads to the same congratulatory ending has
@@ -34,7 +39,10 @@ looks similar.
 - Managing asset weight and load time against the platform's actual
   delivery constraints — a module built with uncompressed video for a
   mobile-first workforce audience with limited bandwidth will time out or
-  simply not load, regardless of how well the interaction is designed
+  simply not load, regardless of how well the interaction is designed;
+  long video is cut into short segments, encoded at a bitrate the
+  network can carry or streamed from a video host, and shared devices
+  are tested for one learner's session leaking into the next
 - Translating a static storyboard into an interaction pattern that matches
   its designed cognitive demand — a decision the storyboard specifies as
   "consequential" needs a branching or scored interaction, not a
@@ -47,7 +55,18 @@ looks similar.
   browser
 - Reading LMS reporting data back against the module's design intent to
   confirm interactions are actually recording the data the design
-  specified, not just that the module launches without an error
+  specified, not just that the module launches without an error, and
+  tracing a false "incomplete" to its usual causes: a completion trigger
+  in the module that differs from the LMS's completion setting, a
+  session closed before data is committed, or overflowed suspend data;
+  per-question answers need the LMS to store interaction records, or an
+  xAPI feed to a learning record store if it does not
+
+- Clearing media rights before build: stock, music, and fonts licensed
+  for the delivery use, and a synthetic voice or likeness of a real
+  person used only with that person's written consent and the
+  organization's legal sign-off, with captions and a transcript for every
+  narrated segment either way
 
 # Method
 1. Review the instructional design specification and confirm the target
@@ -60,8 +79,10 @@ looks similar.
    tab order, alt text, and caption timing against actual assistive-technology
    behavior.
 4. Package the module to the exact standard (SCORM 1.2, SCORM 2004,
-   xAPI/cmi5) the target LMS requires and verify completion and scoring
-   data report correctly in a test environment.
+   xAPI/cmi5) the target LMS requires, align its completion and success
+   triggers with the LMS course settings, and verify completion, score,
+   resume, and interaction data in a standards test harness and the LMS's
+   own staging environment.
 5. Test the module across the real device, browser, and LMS-embed
    combinations learners will use, not the authoring tool's preview alone.
 6. Fix any launch, tracking, or accessibility defect found in testing and
@@ -73,7 +94,9 @@ xAPI/cmi5), plus a test report confirming completion and scoring data
 record correctly across the target platform, device, and browser
 combinations, and an accessibility check confirming the specific markup
 tested (alt text, tab order, caption timing) rather than an automated-scan
-pass alone.
+pass alone. Before build, a short tracking specification states the
+standard chosen and why, the completion and success rules, what is stored
+for resume, and which interaction data reaches the LMS or an LRS.
 
 # Boundaries
 This agent does not change the instructional design's learning objectives
