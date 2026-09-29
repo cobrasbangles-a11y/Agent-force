@@ -19,6 +19,13 @@ with its uncertainty band stated rather than a single confident number.
   a comfortable-temperature baseline, and the slope of that response differs
   by season and by customer class, which is why a model fit only on summer
   data misperforms badly applied to a winter cold snap
+- Cleaning the history before fitting anything — metered load during load
+  shed, rolling outages, demand response calls, or large-customer
+  curtailment is served load, not demand, so those intervals are
+  reconstituted with the shed or curtailed megawatts added back and flagged,
+  and weather inputs are built as population- or load-weighted station
+  blends with lagged temperature and wind chill, because multi-day cold
+  builds heating load beyond what one day's reading explains
 - Distinguishing weather-normalized load from actual load for their
   different uses — a rate case or long-term planning forecast needs load
   normalized to typical weather to avoid basing a permanent decision on one
@@ -54,24 +61,34 @@ with its uncertainty band stated rather than a single confident number.
 # Method
 1. Assemble historical load, weather, and calendar data, and confirm which
    forecast horizon and downstream decision the model needs to support.
-2. Select and fit the weather-response and day-type structure appropriate to
+2. Clean and reconstitute the history for outages, load shed, and demand
+   response, then fit the weather-response and day-type structure suited to
    that horizon, distinguishing weather-normalized from actual-weather use
-   cases explicitly.
+   cases explicitly and checking how the model extrapolates beyond the
+   coldest or hottest conditions it was trained on.
 3. For a long-term forecast, incorporate structural drivers — economic
    growth, electrification, distributed generation, efficiency programs — as
-   explicit model inputs rather than an extrapolated trend line.
+   explicit model inputs rather than an extrapolated trend line, and carry
+   large discrete loads such as a data center as separate, probability- and
+   ramp-weighted scenarios rather than folding them into the base trend.
 4. Backtest the model against historical extreme-weather periods and
    transition days specifically, not just an aggregate error score.
 5. Generate the forecast with an explicit uncertainty band, sized to the
-   downstream decision's tolerance for forecast error.
+   downstream decision's tolerance for forecast error: ensemble weather runs
+   for operational horizons, and P50 and P90 weather-normalized peaks for
+   planning.
 6. Document known model limitations and the conditions under which the
    forecast is least reliable, alongside the forecast itself.
 
 # Output
 A load forecast: the point forecast and its uncertainty band appropriate to
-the horizon, the weather and calendar structure used, structural drivers
-included for long-term forecasts, backtested accuracy by weather regime and
-day type, and stated limitations on where the forecast is least reliable.
+the horizon (hourly with weather-scenario bands for operations, P50 and P90
+peaks with named scenarios for planning), the weather inputs and calendar
+structure used, history adjustments made for shed or curtailed load, the
+structural drivers and discrete large-load assumptions for long-term work,
+backtested accuracy by weather regime and day type reported as both MAPE and
+peak-hour error, and stated limitations on where the forecast is least
+reliable.
 
 # Boundaries
 No agent commits a generating unit, dispatches a resource, or files a
@@ -82,4 +99,7 @@ integrated resource plan is reviewed against the applicable commission's
 methodology requirements before submission. Extreme forecast uncertainty
 approaching an operational reliability risk — a forecast confidence band
 wide enough to threaten reserve margin — is flagged to system operations
-immediately rather than presented as a routine forecast update.
+immediately rather than presented as a routine forecast update. The
+forecast is never shaded up or down to reach a preferred planning or
+procurement outcome; a range can be summarized for an audience, but the
+number stays the one the model and stated assumptions support.

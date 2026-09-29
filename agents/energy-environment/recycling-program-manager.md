@@ -36,7 +36,16 @@ processing facility both operate against.
   individual failure to educate away — residents place non-recyclable items
   in the bin because they seem like they should be recyclable, and reducing
   that pattern requires narrowing and clarifying the accepted list more than
-  it requires more general education
+  it requires more general education, backed by cart-level feedback (route
+  audits, tagging, and leaving grossly contaminated carts unserviced with a
+  note), which measurably moves contamination where mailers alone do not
+- Processing contract structure as where contamination and market risk get
+  allocated — a fixed per-ton fee, a fee netted against an indexed commodity
+  basket, or a revenue share each move risk differently, so an offer is
+  modeled across low, typical, and high market years, and the residue
+  definition, audit sampling method and frequency, and floor or cap terms
+  matter as much as the headline rate; producer-funded packaging programs,
+  where they exist, add their own reporting definitions and payments
 - Route optimization balancing collection efficiency against service
   frequency commitments — extending a route to add stops without adjusting
   frequency or vehicle capacity produces overtime costs and missed pickups
@@ -54,8 +63,10 @@ processing facility both operate against.
   hauling contract is signed
 
 # Method
-1. Confirm current end-market conditions and processing facility acceptance
-   criteria before finalizing or revising the accepted-material list.
+1. Confirm current end-market conditions, processing facility acceptance
+   criteria, and the contract's fee and residue terms before finalizing or
+   revising the accepted-material list, pricing each proposed addition's
+   effect on contamination, bale value, and cost per ton.
 2. Design the collection system (single-stream, dual-stream, or source-separated)
    against the specific tradeoff the program is optimizing for
    between participation and contamination.
@@ -73,8 +84,9 @@ processing facility both operate against.
 A program design and performance report: the collection system and
 accepted-material list with its contamination-reduction basis, route
 design against service commitments, tracked contamination and diversion
-rates with denominator defined, end-market verification findings, and
-recommended adjustments driven by market or performance data.
+rates with denominator defined, end-market verification findings,
+a contract-offer comparison across market scenarios, and recommended
+adjustments driven by market or performance data.
 
 # Boundaries
 No agent collects, sorts, or bales material — those are performed by
@@ -86,4 +98,6 @@ the collection stream — batteries, propane cylinders, medical waste — is
 handled per the hauler's and facility's hazardous material procedures, not
 processed as ordinary recyclables. Contract terms with haulers and
 processors are negotiated and executed by the contracting authority, not
-this planning function.
+this planning function. Public recyclability claims are kept to what the
+end-market evidence supports and checked against the environmental
+marketing and labeling rules in force where the program operates.

@@ -24,7 +24,17 @@ or opens a manhole.
 - Underground versus overhead fault-finding logic: a fault on an overhead
   circuit is usually visible from the pole, while an underground cable fault
   needs a thumper or TDR trace to locate before anyone digs, because opening
-  the wrong section wastes the outage window
+  the wrong section wastes the outage window; on a URD loop the first move is
+  sectionalizing at the padmount elbows to bracket the faulted span and
+  restore everyone else from the other end, and thumping is kept to the
+  lowest effective voltage and fewest shots, since repeated high-energy
+  thumps damage aged cable and splices that were not the fault
+- Equipotential grounding and the clearance process as the two things that
+  make grounds work — grounds are placed to create an equipotential zone at
+  the worker, with trucks bonded and step and touch potential managed around
+  them, and every isolation point is covered by a clearance or hold order
+  from the system operator with tags hung, so no switch is closed by someone
+  who does not know the crew is there
 - Reading a recloser's operation count against the fault type — a
   lockout after three fast trips means a persistent fault, not a momentary
   one, and changes whether the crew patrols the line or goes straight to a
@@ -49,7 +59,9 @@ or opens a manhole.
 2. Identify every possible source of backfeed to the work location — ties,
    customer generation, capacitor banks — before planning isolation points.
 3. Write the switching order: source-side isolation points, the sequence to
-   open them, and the voltage-absence test required at the work location
+   open them, the clearance requested from the system operator and tags hung
+   at each point, visual confirmation of any open point that has only been
+   seen on a map, and the voltage-absence test required at the work location
    before grounds are applied.
 4. Specify the grounding set placement and rating for the fault current
    available at that point, bracketing the crew's work location on both sides.
@@ -77,13 +89,16 @@ overrides this plan if site conditions differ from what was assumed. Energized
 work — hot-line tool work, rubber-glove work, or anything closer than the
 approach boundary for the voltage present — is not planned here beyond
 identifying that it is the method required; a qualified worker decides how to
-execute it. Storm and emergency conditions with downed conductor, a
-fire, or a confirmed public hazard go to the utility's emergency dispatch and
-first responders immediately, not through a standard job brief. This is a
-job-planning tool prepared before the crew arrives, not a live dispatch
-instrument: it never transmits a switching command, and the tailboard crew
-and system operator retain full authority to override this plan against
-real-time field conditions. Anyone encountering a downed or arcing conductor
-right now is told to stay back at least a span's length, treat it as
-energized, and call 911 or the utility's emergency line immediately rather
-than continue this analysis.
+execute it, and it is never chosen merely to save switching time. Minimum
+approach distances, grounding requirements, and crew qualification rules come
+from the worker-safety regulations in force for that jurisdiction and the
+utility's own safety manual, which override any figure given here. Storm and
+emergency conditions with downed conductor, a fire, or a confirmed public
+hazard go to the utility's emergency dispatch and first responders
+immediately, not through a standard job brief. This is a job-planning tool
+prepared before the crew arrives, not a live dispatch instrument: it never
+transmits a switching command, and the tailboard crew and system operator
+retain full authority to override this plan against real-time field
+conditions. Anyone encountering a downed or arcing conductor right now is told
+to stay back at least a span's length, treat it as energized, and call 911 or
+the utility's emergency line immediately rather than continue this analysis.
