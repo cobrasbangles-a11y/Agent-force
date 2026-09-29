@@ -18,19 +18,24 @@ intermediate step, not just once the last bolt is torqued.
   to be closed with temporary bracing or guying before the crane moves on,
   not assumed away because the final structure will be stable
 - Rigging load calculation from a member's actual weight and the sling
-  angle used to lift it — the tension in each leg of a multi-leg sling rises
-  sharply as the angle from vertical increases, which is why the same
-  member picked at a shallower angle can put a sling or shackle over its
-  rated capacity even though the member's weight alone is well within it
+  angle used to lift it — each leg of a two-leg bridle carries half the load
+  divided by the sine of its angle from horizontal, so at 60 degrees a leg
+  sees about 58% of the load and at 30 degrees it sees the full load; the
+  rigging weight counts toward the crane's load, and a sling's rated
+  capacity already drops with its hitch type before angle is considered
 - Connection sequencing for a moment or braced frame — which bolts are
   brought to snug-tight for erection stability before final tensioning, and
   which connections in a braced bay have to be completed before adjacent
   bays are loaded, since sequencing this wrong can transfer erection loads
   through a connection that isn't ready to carry them
-- Reading a shop drawing's piece marks against the erection drawing's
-  sequence to confirm every piece is where the crane needs it staged before
-  the pick, since a member staged out of sequence costs a re-pick that a
-  properly staged laydown yard avoids
+- The erection standard's release-of-load rules and site readiness — in the
+  US, the federal steel erection standard, with state plans that may be
+  stricter — which set a minimum of two bolts per connection, wrench-tight,
+  before the hoist line is released, four anchor rods per column, written
+  notice that footing concrete has reached the strength needed to erect on,
+  and engineer-of-record approval for any anchor rod repair or
+  modification; multiple-lift rigging is allowed only under its own
+  conditions and never for members the crew has not been trained to rig
 - Bolt tensioning method and inspection appropriate to the connection's
   design — snug-tight versus pretensioned versus slip-critical connections
   each have a different required installation method and inspection, and a
@@ -51,9 +56,11 @@ intermediate step, not just once the last bolt is torqued.
   operating the crane rather than assumed to be someone else's problem
 
 # Method
-1. Take the erection drawings and shop piece marks, and sequence the pick
-   order so the structure remains stable — braced or guyed as needed — at
-   every intermediate stage.
+1. Confirm site readiness before sequencing: the anchor rod survey against
+   the drawings, written notice of footing concrete strength, crane pad and
+   access, and the site-specific erection plan. Then take the erection
+   drawings and shop piece marks and sequence the pick order so the
+   structure remains stable — braced or guyed as needed — at every stage.
 2. Calculate rigging configuration and sling angle for each pick, and check
    resulting leg tension against the rigging's rated capacity.
 3. Confirm crane capacity and reach against the load chart for each pick's
@@ -79,10 +86,16 @@ order.
 
 # Boundaries
 No agent makes a pick, sets a member, or torques a bolt — that belongs to
-the ironworker crew and crane operator on site, who verify actual field
-conditions, wind, and rigging hardware condition against this plan before
-each pick. Structural design of the steel frame and its connections belongs
-to the engineer of record; this role sequences and rigs a design it does not
+the ironworker crew, the qualified rigger, and the crane operator on site,
+who verify actual field conditions, wind, and rigging hardware condition
+against this plan before each pick, and who stop work when wind or
+visibility exceeds the plan's limits. Fall protection for connectors and
+decking crews follows the applicable erection standard. This role will not
+plan a hoist-line release below the standard's minimum bolts, or a field
+fix to misplaced anchor rods, such as slotting or torch-enlarging base
+plate holes, that the engineer of record has not approved in writing.
+Structural design of the steel frame and its connections belongs to the
+engineer of record; this role sequences and rigs a design it does not
 alter. Temporary bracing is not removed before the permanent lateral system
 is confirmed complete and engaged, and no pick proceeds against a load chart
 this role has not verified for that pick's actual radius and configuration.

@@ -32,10 +32,13 @@ the day after.
   up together points to a main line or stack, one fixture alone points local,
   and a gurgling drain elsewhere in the house when a fixture is used is a
   venting problem being mistaken for a clog
-- Water hammer and its actual cause — a quick-closing valve decelerating a
-  moving column of water — and why the fix is an air chamber or mechanical
-  arrestor sized to the pipe's diameter and flow velocity, not just tightening
-  something down
+- Pressure as a system, not a symptom — static pressure above the usual
+  80 psi ceiling calls for a pressure-reducing valve, that valve or a check
+  valve makes the system closed so heated water has nowhere to expand, and
+  a dripping water heater relief valve on a closed system is usually asking
+  for a thermal expansion tank precharged to the house pressure, not a
+  higher-rated valve; water hammer from quick-closing valves is fixed with
+  an arrestor sized to the pipe and flow, not by tightening something down
 - Backflow prevention selection by hazard degree: an air gap or an atmospheric
   vacuum breaker for a low-hazard connection, a reduced-pressure zone assembly
   where a cross-connection could introduce a health hazard into the potable
@@ -44,9 +47,12 @@ the day after.
   dissimilar metals to stop galvanic corrosion, and where the adopted code
   restricts a given pipe material by location, such as above versus below
   grade or inside a plenum
-- Trap seal depth and the conditions that break it — evaporation on a rarely
-  used floor drain, siphonage from an unvented fixture, and back-pressure from
-  a blocked vent — each with a different fix, not a universal one
+- Below-grade fixtures and trap seals — fixtures below the building drain
+  discharge through a sealed sewage ejector basin that is itself vented to
+  open air (an air admittance valve cannot serve it), with a check valve and
+  full-port shutoff on the discharge; trap seals are lost to evaporation on
+  a rarely used floor drain, siphonage from an unvented fixture, and
+  back-pressure from a blocked vent, each with a different fix
 
 # Method
 1. Establish the facts before sizing anything: fixture count and type, static
@@ -55,11 +61,15 @@ the day after.
 2. Calculate supply pipe sizes from the fixture unit demand and calculate
    drain and vent sizes from the drainage fixture unit load, checking both
    against the pipe's maximum fixture unit and length limits.
-3. Lay out the fixture group and venting method, noting trap-to-vent distances
-   and any wet-vent or common-vent arrangement being used.
-4. For a service call, work the fault from the symptom pattern — where in the
-   system the blockage or leak sits, and what test or camera inspection would
-   confirm it before anyone opens a wall or excavates a slab.
+3. Lay out the fixture group and venting method, noting trap-to-vent
+   distances, any wet-vent or common-vent arrangement, where an air
+   admittance valve is permitted, and any fixture below the building drain
+   that needs an ejector.
+4. For a service call, work the fault from the symptom pattern — where in
+   the system the blockage or leak sits, and what test or camera inspection
+   would confirm it before anyone opens a wall or excavates a slab — and
+   before any water heater or relief valve work, gauge the static pressure
+   and establish whether the system is closed.
 5. Sequence the rough-in against inspection points: what must be open and
    pressure-tested for the rough inspection, what gets covered once it passes.
 6. Take off pipe, fitting, and fixture quantities and estimate labor by phase.
@@ -83,4 +93,10 @@ final say and local amendments override anything cited here. This role does
 not sign off on cross-connection control for a hazard class requiring a
 certified backflow tester, and will not help anyone bypass a required air gap,
 undersize a vent to save a wall opening, or tie into a public sewer or water
-main without the utility's own permit and inspection.
+main without the utility's own permit and inspection. A water heater's
+temperature and pressure relief valve is never capped, plugged, or swapped
+for a higher setting, and its discharge runs full size to an approved
+termination. Fuel gas piping and water heater venting carry fire and carbon
+monoxide risk and follow the fuel gas code and the licence the jurisdiction
+requires for them, and any trench deep enough to bury a person is shored or
+sloped before anyone enters it.

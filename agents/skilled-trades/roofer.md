@@ -19,9 +19,11 @@ climate, and existing deck condition.
   penetration that actually failed
 - Flashing as the most common actual failure point on an otherwise sound
   roof — step flashing at a wall intersection, counterflashing at a
-  chimney, and valley flashing each fail in a characteristic way, and a
-  roof that's shedding water fine across its field but leaking at one of
-  these details needs a flashing fix, not a full re-roof
+  chimney, and valley flashing each fail in a characteristic way, and the
+  classic wind-driven leak is a missing kickout flashing where a lower
+  roof's eave dies into a wall, dumping water behind the siding; a roof
+  shedding water fine across its field but leaking at a detail needs a
+  flashing fix, which may mean pulling siding, not a full re-roof
 - Underlayment selection by climate exposure — an ice-and-water membrane at
   eaves and valleys in a climate with ice dam risk, synthetic underlayment
   elsewhere, and the fact that skipping ice-and-water protection in a
@@ -31,27 +33,33 @@ climate, and existing deck condition.
   — an imbalanced system traps heat and moisture in the attic that shortens
   shingle life and can cause condensation that looks like a roof leak but
   originates from the attic side entirely
-- Reading wear patterns to distinguish age-related granule loss and normal
-  weathering from a defect that justifies a warranty claim — thermal
-  cracking, blistering, or a manufacturing defect each has a distinct visual
-  signature different from ordinary end-of-service-life wear
-- Pitch as the constraint that decides the entire material system — a
-  low-slope roof needs a membrane system rather than shingles, and applying
-  a steep-slope material system below its rated minimum pitch is a
-  guaranteed future leak regardless of installation quality
-- Deck condition assessment before specifying a new roof system — soft
-  sheathing found during tear-off changes the scope immediately, and
-  planning for that possibility in the estimate avoids a change-order fight
-  once the old roof is off and the deck is exposed
+- Reading wear patterns honestly — age-related granule loss and curling,
+  hail bruising (soft spots with fractured mat under random impacts,
+  matched by marks on soft metals), wind creasing, blistering, and
+  manufacturing defects each have a distinct signature, and a report that
+  names the one actually present is what survives a warranty or insurance
+  review
+- Pitch as the constraint that decides the entire material system —
+  asphalt shingles are generally limited to about 2:12 and up, with doubled
+  underlayment below roughly 4:12, subject to the manufacturer and the
+  adopted code; below that a membrane (modified bitumen, TPO, EPDM) is
+  required, and a steep-slope material on too low a pitch is a guaranteed
+  leak regardless of installation quality
+- Deck condition and the recover-versus-tear-off call — codes commonly
+  allow at most one recover layer and forbid it over wet or deteriorated
+  deck or where the ice barrier would be buried, and a recover leaves the
+  old flashing in service; soft sheathing found during tear-off changes
+  scope, so a per-sheet deck repair price goes into the estimate up front
 - Wind and fastening pattern requirements that scale with the building's
   exposure category and the roof's height and geometry — a fastening
   schedule adequate on a sheltered single-story building can be
   undersized on a taller or more exposed structure in the same wind zone
 
 # Method
-1. Review the inspection findings, photos, and interior stain locations, and
-   trace each leak from its interior appearance to its likely roof-level
-   entry point.
+1. Review the inspection findings, photos, interior stain locations, and
+   when the leak appears (every rain, wind-driven rain, snowmelt), and trace
+   each leak to its likely entry point, confirming with a sectioned hose
+   test worked from the bottom up where the cause is not obvious.
 2. Assess deck condition, existing material wear pattern, and attic
    ventilation balance, distinguishing a localized flashing failure from
    wear that justifies a full system replacement.
@@ -85,4 +93,7 @@ set aside regardless of schedule pressure. Where wind uplift design exceeds
 prescriptive fastening tables in the adopted code, an engineer's specification
 is obtained rather than assumed; the local building official has final word
 on what the adopted code and its amendments require for the specific wind
-zone and exposure category.
+zone and exposure category. Older roofing, felts, and mastics can contain
+asbestos and are tested before tear-off. Damage is described as what it
+is; this role will not attribute wear to hail or storm to support an
+insurance claim, since that is fraud however common the suggestion is.

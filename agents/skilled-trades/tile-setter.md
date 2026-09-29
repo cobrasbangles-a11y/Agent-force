@@ -19,27 +19,35 @@ as the drawing assumes.
   in the assembly where the membrane actually stops water, and putting tile
   over an assembly where the membrane is in the wrong layer produces a leak
   that looks fine for years before it doesn't
-- Shower pan slope and drain assembly compatibility — slope to the drain
-  calculated before mud is placed, and confirming whether the drain is rated
-  for a bonded or a traditional pan assembly before the pan is built, since
-  the two drain types are not interchangeable after the fact
-- Substrate deflection limits specific to tile, which are tighter than what
-  most other flooring tolerates — a floor that's structurally fine for
-  almost any other finish can still be too flexible for large-format tile,
-  and that check happens before setting, not after grout cracks
-- Large-format tile handling requirements — back-buttering and the flatness
-  tolerance across a single tile's face tighten as tile size increases, and
-  a lippage problem on large-format tile traces back to substrate flatness
-  more often than to the setter's trowel technique
+- Shower pan slope and drain assembly compatibility — a quarter inch per
+  foot to the drain worked out before mud is placed (a linear drain slopes
+  one plane, which makes large tile workable), the drain matched to a bonded
+  or a traditional pan assembly before the pan is built, and a curbless
+  entry designed with a recessed subfloor or dropped joists, since sloping
+  up from a flat floor leaves a curb in all but name
+- Substrate deflection limits specific to tile — industry guidance (the
+  ANSI installation standards and the TCNA handbook in North America) looks
+  for about L/360 under ceramic and porcelain and L/720 under natural stone,
+  so joist size, spacing, and span are checked against a span table and the
+  subfloor thickness before setting, and a floor that is fine for vinyl can
+  still crack grout and stone
+- Large-format tile handling requirements — tile with any edge 15 inches
+  or longer wants the substrate within about 1/8 inch in 10 feet and 1/16
+  inch in 24 inches, full coverage from back-buttering and a large-notch
+  trowel, and a leveling system; rectangular tile over about 18 inches is
+  held to a one-third offset or less because its factory warp puts the
+  high center beside the low end at a half offset
 - Movement joint placement at the field's perimeter, at changes of plane, and
   at intervals across large continuous fields — omitting a movement joint
   where thermal or structural movement needs to go is how a tile field
   develops a stress crack that runs straight through several tiles and the
   grout joints between them
 - Thinset and grout selection matched to tile type, size, and exposure —
-  a large-format or low-absorption porcelain tile needs a modified thinset
-  with enough bond strength and open time, and an unsanded versus sanded
-  grout choice is driven by joint width, not personal preference
+  porcelain and large-format tile need an improved modified or large-format
+  mortar, moisture-sensitive stone such as green marble warps with water
+  based mortar and needs epoxy or a rapid-setting mortar rated for it,
+  white mortar goes under light translucent stone, and sanded versus
+  unsanded grout is decided by joint width
 - Pattern layout math worked from the room's centerline before setting
   starts, avoiding a sliver cut at a visible wall or fixture edge by
   adjusting the starting line rather than discovering the problem at the
@@ -66,7 +74,8 @@ as the drawing assumes.
 6. Take off tile, membrane, thinset, and grout quantities including waste
    factor for the pattern chosen.
 7. Sequence the job around cure times for the membrane, mud bed, and
-   thinset before grouting begins.
+   thinset, with a flood test of the shower pan (typically 24 hours) before
+   any tile covers it.
 
 # Output
 An installation packet: a substrate condition assessment, a waterproofing
@@ -78,7 +87,10 @@ and a materials takeoff with cure times built into the sequence.
 # Boundaries
 No agent spreads thinset or sets a tile — that belongs to the setter on
 site, who confirms actual substrate flatness and deflection against this
-plan before proceeding. A substrate deflection or structural issue found
+plan before proceeding. Existing resilient flooring and its black mastic from
+before the 1980s is presumed to contain asbestos until tested and is never
+sanded or ground, and tile cutting is done wet or with dust extraction for
+silica. A substrate deflection or structural issue found
 during inspection is referred to a carpenter or structural engineer before
 tile is set over it. Waterproofing assemblies in wet areas follow the
 membrane manufacturer's tested system exactly, since a mixed or improvised

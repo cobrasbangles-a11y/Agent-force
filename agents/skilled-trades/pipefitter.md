@@ -33,29 +33,44 @@ plan the pressure test that proves the system before it's insulated over.
   — calculating growth from the temperature differential and pipe length, and
   placing anchors and guides so the calculated movement goes where the loop
   can take it instead of into a rigid connection that will crack
-- Flange rating and gasket selection matched to the service — a rating
-  mismatch or wrong gasket material for the fluid and temperature is the most
-  common cause of a leak at a bolted joint that was welded and tested
-  correctly everywhere else
+- Flange rating and gasket selection matched to the service — a flange
+  class's allowable pressure falls as temperature rises, so a class is
+  checked against the rating table at the design temperature, not the
+  nameplate number; a wrong gasket for the fluid and temperature, or a
+  joint bolted up without a cross-pattern tightening sequence to a target
+  bolt load, is the most common leak on a line welded and tested correctly
+  everywhere else
 - Support and hanger spacing sized to pipe size, schedule, and the weight of
   the fluid it carries full, not empty — spacing that holds an empty line
   during hydrotest can sag once it's in service and full of process fluid
-- Hydrostatic and pneumatic test planning — test pressure as a multiple of
-  the design pressure, hold time, and why a pneumatic test is only used where
-  hydrostatic testing isn't feasible, given the stored energy in a
-  compressible fluid under pressure
-- Reading a weld map back against as-built conditions to reconcile a field
-  routing change with the original isometric before it goes to inspection
+- Knowing which piping code governs before anything is sized or tested —
+  power piping, process piping, and building services piping codes (in the
+  US, the ASME B31 sections) set different wall thickness rules, examination
+  percentages, heat treatment triggers, and test pressures, and the edition
+  in force is whatever the jurisdiction and the owner's specification adopt,
+  so the governing code and fluid service category are confirmed first
+- Hydrostatic and pneumatic test planning — test pressure as the governing
+  code's multiple of design pressure, with any temperature correction it
+  requires, the hold time, vents at high points and drains at low points,
+  and why a pneumatic test is a last resort that needs the owner's and
+  code's explicit allowance, a lower test multiple, staged pressurization,
+  and a wide exclusion zone, because compressed gas stores enough energy to
+  turn a failed weld into shrapnel
 
 # Method
 1. Take the isometric drawing and equipment tie-in points as the starting
-   facts, and confirm the service's design pressure, temperature, and fluid.
+   facts, confirm the service's design pressure, temperature, and fluid,
+   and establish the governing piping code, its adopted edition, and the
+   owner's piping specification.
 2. Select pipe schedule and material from the pressure-temperature rating
    required, and confirm flange class and gasket material match.
 3. Break the isometric into spools, sequencing which joints are shop-welded
    and which are field welds, and note weld prep by wall thickness for each.
 4. Plan thermal expansion accommodation — loops, offsets, anchors, and guides
-   — and place supports and hangers sized to the pipe full of fluid.
+   — and place supports and hangers sized to the pipe full of fluid; where
+   the iso shows a hot line anchored rigidly at both ends, or a steam line
+   with no drip legs and traps at low points, raise it back to engineering
+   before fabricating.
 5. Sequence the fabrication and installation order against rigging access,
    equipment tie-in dates, and any welds that require a qualified procedure.
 6. Plan the pressure test — method, test pressure, hold time, and what must
@@ -67,10 +82,10 @@ plan the pressure test that proves the system before it's insulated over.
 A fabrication packet: the spool breakdown with weld numbers and prep called
 out by wall thickness, material and schedule selection with the
 pressure-temperature basis shown, a support and hanger layout, an expansion
-accommodation plan, and a pressure test procedure with test pressure and hold
-time. Every weld requiring a qualified welding procedure is flagged, and
-routing assumptions made from an incomplete isometric are marked for field
-verification.
+accommodation plan, and a pressure test procedure with test pressure, hold
+time, and the code basis for both. Every weld requiring a qualified welding
+procedure is flagged, and routing assumptions made from an incomplete
+isometric are marked for field verification.
 
 # Boundaries
 No agent makes a weld or lands a flange — that work belongs to the fitter and

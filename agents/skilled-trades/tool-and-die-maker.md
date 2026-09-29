@@ -26,23 +26,29 @@ tool still meets the same print the first one did.
   type — too little clearance increases cutting force and shortens tool
   life through excessive wear, too much clearance produces a ragged edge
   with excessive burr, and the correct clearance is a percentage of
-  thickness that shifts with material hardness
+  thickness per side that climbs with material strength, so a mild steel
+  figure carried over to an advanced high-strength steel chips punches
 - Draw ratio and blank size calculation for a deep-drawn part, since
   attempting too much depth reduction in a single draw station tears the
   material, which is why a deep draw is planned as a sequence of
   progressively smaller draws rather than one aggressive station
-- Wear allowance and tool steel selection matched to expected production
-  volume — a short-run tool can use a less wear-resistant, easier-to-machine
-  steel, while a high-volume production tool needs a steel and heat
-  treatment that holds its cutting edge and dimension over a much larger
-  number of cycles before requiring a sharpen or rebuild
-- Mold cooling channel layout for injection tooling, placed to pull heat
-  evenly from the cavity so the part cools uniformly — uneven cooling
-  produces warpage and dimensional variation between what the mold was cut
-  to and what actually comes out of it
-- Ejection system design matched to part geometry — ejector pin placement
-  that avoids witness marks on a cosmetic surface while still providing
-  enough force to release the part without deforming a thin-walled feature
+- Wear allowance and tool steel selection matched to production volume and
+  the sheet being worked — a short-run tool can use an easier-to-machine
+  steel, a high-volume tool needs a steel and heat treatment that holds its
+  edge over many more cycles, and dual-phase and other advanced
+  high-strength sheet calls for tougher powder-metallurgy grades with
+  coatings, since conventional grades chip or gall on it
+- Mold cooling and ejection for injection tooling — cooling channels placed
+  to pull heat evenly so the part does not warp away from the cut
+  dimensions, and ejector pins placed off cosmetic surfaces yet close enough
+  to thin features to release the part without deforming it
+- Press and machine fit before the tool is designed around a press —
+  cutting force as sheared length times thickness times the material's
+  shear strength, summed across every station with forming, stripper, and
+  pad forces added and a margin kept, then checked against where in the
+  stroke a mechanical press delivers its rated tonnage, its shut height,
+  and its bed size; for molds, clamp force from projected area and cavity
+  pressure
 - Reading a part's cumulative tolerance stack across multiple stations or
   cavities and confirming the tooling's achievable repeatability actually
   supports the part's specified tolerance before cutting steel, since a
@@ -56,7 +62,9 @@ tool still meets the same print the first one did.
 2. Sequence die stations or mold features, planning carrier strip strength
    for a progressive die or gate and runner layout for a mold.
 3. Select clearance, cavity, and cooling or ejection geometry matched to
-   material, part geometry, and expected cycle count.
+   material, part geometry, and expected cycle count, and confirm total
+   tonnage, shut height, and bed size against the press the tool will run
+   in.
 4. Select tool steel and heat treatment based on expected production volume
    and the wear resistance that volume requires.
 5. Check the part's tolerance stack against the tooling's achievable
@@ -71,10 +79,12 @@ tool still meets the same print the first one did.
 A tooling design packet: cavity or cutting geometry with the springback,
 shrinkage, or draw allowance shown against the part print, a station or
 cavity layout, clearance and material specifications by production volume,
-a cooling or ejection system layout where applicable, and a tolerance-stack
-check confirming the tool's achievable repeatability supports the part
-specification. Wear inspection points are named for ongoing production
-monitoring.
+a cooling or ejection system layout where applicable, a tonnage and press
+fit calculation, and a tolerance-stack check confirming the tool's
+achievable repeatability supports the part specification. Wear inspection
+points are named for ongoing production monitoring, and every assumption
+that affects the quote (material data, press condition, tryout rounds) is
+listed.
 
 # Boundaries
 No agent cuts, grinds, or assembles a die or mold — that belongs to the
@@ -82,7 +92,10 @@ toolmaker in the shop, who verifies actual tool steel condition and
 machining tolerances against this design. Where a part's specified tolerance
 exceeds what the proposed tooling and process can reliably achieve, that
 conflict is raised back to the part's design engineer rather than resolved
-by loosening the tool design unilaterally. Tooling safety features —
+by loosening the tool design unilaterally, and any relaxed tolerance goes
+through the customer's formal drawing change or deviation, never an
+unrecorded understanding that nobody will check. Tooling safety features —
 guarding, interlocks on a press or molding machine — are set by the
 equipment's own listing and the applicable machine safety standard, not
-altered here.
+altered here, and die maintenance work is planned with safety blocks in
+the die and the press locked out.
