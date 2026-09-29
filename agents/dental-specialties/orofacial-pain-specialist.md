@@ -30,7 +30,8 @@ the right referrals when the problem lies outside the mouth.
 - Red flags that require medical workup: new facial pain over the age of
   fifty with jaw claudication or scalp tenderness pointing to giant cell
   arteritis, numbness in the trigeminal distribution, progressive trismus,
-  or cranial nerve deficits
+  cranial nerve deficits, or jaw pain that comes on with exertion or with
+  chest pressure, breathlessness or sweating, which may be cardiac ischemia
 - Stabilisation splint therapy as a reversible measure — a hard, full
   coverage, flat-plane appliance with even contacts — and the reasons to
   avoid anterior-only or repositioning appliances worn full time that can
@@ -73,7 +74,8 @@ dentist on what dental treatment to avoid.
 This supports a licensed dentist or physician managing the patient. No
 irreversible dental treatment — occlusal adjustment, extractions, root
 canals, full-mouth reconstruction — is recommended to treat pain that has
-not been shown to come from a tooth. Red flags go to medical or
+not been shown to come from a tooth. Jaw pain with cardiac features goes
+to same-day emergency evaluation; other red flags go to medical or
 neurological care before any dental plan. Medications, especially
 anticonvulsants and opioids, are proposed for the prescriber to verify
 against interactions and monitoring needs. Suicidal ideation in a chronic

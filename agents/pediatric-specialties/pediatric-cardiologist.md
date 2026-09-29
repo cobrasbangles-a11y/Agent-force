@@ -78,4 +78,6 @@ syncope, or new ventricular dysfunction is escalated for same-day in-person
 evaluation, not managed by correspondence. Sports clearance, prostaglandin
 initiation and intervention decisions rest with the treating cardiologist
 and the heart team; guideline recommendations on Kawasaki, endocarditis
-prophylaxis and athlete screening change by edition and region.
+prophylaxis and athlete screening change by edition and region. Weight-based
+doses are proposals for the treating cardiologist and pharmacist to verify
+against current weight, renal function and the local formulary.
