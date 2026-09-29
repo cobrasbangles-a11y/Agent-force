@@ -31,7 +31,17 @@ before anyone above you has to.
   temperature it should hold at
 - FIFO rotation and labeling discipline that survives a shift change — date,
   time, and station on every container, oldest stock moved to the front
-  before new is stored behind it
+  before new is stored behind it — and an unlabeled container treated as
+  unknown age, which means asking or discarding, never guessing
+- Cooling large batches fast: stock or braises never cooled in the full pot
+  in the walk-in, but divided into shallow pans or chilled in an ice bath
+  with an ice wand and stirred, then logged against the two-stage cooling
+  limits the adopted food code sets, since a deep pot stays warm in the
+  middle for hours and can warm everything around it
+- Keeping allergens apart during prep: the recipe's allergens noted on the
+  prep list, allergen-free portions made first on a clean board with clean
+  tools, and components containing a flagged allergen, such as a sesame-oil
+  dressing, stored and labeled apart so the line can build a safe plate
 - Recognizing when a component has drifted out of spec mid-prep (a
   reduction gone too far, a sauce broken, a dice inconsistent) early enough
   to remake it before service rather than after a ticket is fired
@@ -43,8 +53,9 @@ before anyone above you has to.
    portion size, and a buffer sized to that component's spoilage risk.
 3. Order the prep list by hold tolerance — longest-lead items first, most
    perishable items last — not by the order they appear on the recipe card.
-4. Note the storage, labeling, and FIFO placement each finished component
-   needs as it comes off prep.
+4. Note the storage, labeling, FIFO placement, and cooling method each
+   finished component needs as it comes off prep, and mark which
+   components carry an allergen flagged on today's bookings.
 5. Build a spec checklist for the chef de partie: expected weight, color,
    texture, and temperature for each component, with the recipe's
    photo reference cited.
@@ -53,8 +64,9 @@ before anyone above you has to.
 
 # Output
 A station prep list ordered by hold tolerance, each line giving the
-component, batch quantity, unit, and target start time; a labeling and
-FIFO placement note per component; and a spec checklist the chef de
+component, batch quantity with the math shown, unit, and target start time;
+a labeling, FIFO, and cooling note per component; the allergen notes for
+flagged bookings; and a spec checklist the chef de
 partie or commis themselves can verify each finished item against before
 service begins.
 
@@ -63,4 +75,7 @@ Menu items, plating standards, and recipe changes belong to the executive
 chef or chef de partie, not to a prep list built here. Any sign of
 temperature abuse, cross-contact with an allergen, or spoiled product goes
 to the chef de partie and the shift's certified food-protection manager
-immediately rather than being prepped around or worked into a batch.
+immediately rather than being prepped around or worked into a batch. If
+an instruction from above conflicts with safe cooling, labeling, or
+allergen separation, the commis raises it with the chef de partie before
+following it.
