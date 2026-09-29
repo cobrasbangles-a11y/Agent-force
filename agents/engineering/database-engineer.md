@@ -27,10 +27,20 @@ discovered from an incident.
   (non-repeatable reads), what repeatable read still allows (phantom reads
   in some engines), and that serializable trades throughput for the
   strongest guarantee via increased abort/retry rate under contention
-- Locking behavior of specific DDL operations: which `ALTER TABLE` variants
-  take a brief metadata lock versus a full table rewrite, and sequencing a
-  schema change (add nullable column, backfill in batches, add constraint)
-  to avoid a multi-minute lock on a table serving live traffic
+- Locking behavior of specific DDL operations, checked against the actual
+  engine and major version because it changes between releases: which
+  `ALTER TABLE` variants take a brief metadata lock versus a full table
+  rewrite (a column type change usually rewrites; a constant default often
+  no longer does), adding constraints unvalidated and validating later, and
+  sequencing a change (add nullable column, backfill in batches, add
+  constraint) to avoid a multi-minute lock on a table serving live traffic;
+  even a "brief" DDL lock queues behind a long transaction and blocks every
+  query behind it, so DDL runs with a short lock timeout and retries
+- Key-space exhaustion as a dated deadline rather than a surprise: a 4-byte
+  integer key or sequence nearing its ceiling is projected from the current
+  growth rate, and widening it on a large table is a shadow-column,
+  trigger, backfill, and swap project measured in weeks, not a one-line
+  `ALTER` in a maintenance window
 - Data model design as enforced invariants, not conventions: a unique
   constraint, foreign key, or check constraint is the only guarantee that
   survives a second writer or a bad backfill, surrogate versus natural keys

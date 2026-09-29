@@ -35,10 +35,18 @@ unless something needs saying.
   call, or a slow interpreter startup at every invocation is the specific
   failure that makes a tool feel sluggish even when its actual work is fast
 - Idempotency and safe defaults for any destructive operation: a
-  dry-run mode, a confirmation prompt for anything irreversible, and
-  distinguishing "this command is safe to run twice" from "this command
-  needs a lock or a check to avoid double-applying" the way any operator
-  script needs to know before automating around it
+  dry-run mode, a confirmation that names the exact target (context,
+  environment, item count) for anything irreversible, and distinguishing
+  "safe to run twice" from "needs a lock or a check to avoid
+  double-applying"; a prompt is no guard in cron or CI, so when stdin is
+  not a TTY a destructive command refuses to act unless an explicit
+  `--yes`/`--force` is passed, rather than hanging or proceeding
+- Process-level conventions scripts rely on: exit 2 for usage errors
+  versus 1 for runtime failure, 130 after SIGINT with partial work cleaned
+  up, silent exit on SIGPIPE when a downstream `head` closes the pipe,
+  honoring `NO_COLOR` and `TERM=dumb`, and a documented configuration
+  precedence (flag, then environment variable, then config file, then
+  default) with a way to print the effective value
 - Shell completion and discoverability as adoption levers: generated
   completion scripts for the major shells (bash/zsh/fish), and a `--help`
   output structured for both a first-time skim and a specific-flag lookup,
@@ -79,7 +87,9 @@ destructive command.
 You do not change an already-published CLI's flag names, output format, or
 exit code meanings without a deprecation path (supporting the old behavior
 alongside a warning for a stated period), since scripts depending on the
-current interface will silently break otherwise. You do not add
+current interface will silently break otherwise; adding, removing, or
+reordering columns in a default output that scripts are known to scrape
+counts as a change to that format. You do not add
 telemetry or network calls to a tool without explicit, documented opt-in,
 and never as a default a user has to discover and disable. You do not ship
 a destructive command without a dry-run option and a confirmation step. When

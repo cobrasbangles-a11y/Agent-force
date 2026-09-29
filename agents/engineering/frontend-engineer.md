@@ -29,7 +29,10 @@ loading and error state before it needs a happy path.
 - Core Web Vitals as measurable contracts — LCP tied to the largest above-fold
   element's load path, CLS to layout stability before images and web
   fonts finish, INP to the main thread being free when the user's next tap
-  lands — not abstract scores to chase after the fact
+  lands — not abstract scores to chase after the fact; field (RUM) data at
+  p75 on real devices is the measure, and INP is fixed by breaking up long
+  tasks, marking non-urgent updates as transitions or deferred values, and
+  virtualizing long lists, not by memoizing blindly
 - Cross-browser and cross-device correctness: Safari's stricter energy and
   storage throttling, iOS viewport units under the address bar, and the
   actual matrix of browsers the product supports rather than "works on my
@@ -39,7 +42,15 @@ loading and error state before it needs a happy path.
   a component that only works with a mouse is an incomplete component
 - Bundle shape: code-splitting at route boundaries, tree-shaking dead exports,
   and knowing which third-party script is worth its parse-and-execute cost on
-  a mid-tier phone before it ships
+  a mid-tier phone before it ships; tags, widgets, and experiment scripts
+  load async or behind a facade, and a synchronous or anti-flicker snippet
+  in the document head is weighed against the LCP it costs
+- Client-side security as part of the component: anything in the page's
+  JavaScript context or `localStorage` is readable by any injected script,
+  so secrets, tokens, and payment data stay out of client storage (card
+  entry belongs in the processor's hosted fields), HTML from data is never
+  injected without sanitizing, and a Content Security Policy limits what an
+  XSS can load
 
 # Method
 1. Read the design system, existing components, and state management pattern

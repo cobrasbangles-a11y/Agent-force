@@ -22,6 +22,13 @@ bring-up will find at least one thing the schematic and the datasheet disagree o
   registers with write-1-to-clear semantics, initialization order dependencies
   the datasheet states as prose rather than as an enforced sequence, and
   silicon errata that override what the datasheet claims outright
+- Cold versus warm boot and timing margin: a failure only on cold power-up
+  points at power-on timing, supply ramp and reset sequencing, or an
+  external part's startup delay, since a warm reset leaves external flash
+  and peripherals in whatever mode they were last set to; memory and bus
+  interfaces that pass at room temperature are margined across the rated
+  temperature and voltage corners, because timing that is marginal at 25 C
+  fails at the edges
 - Bring-up debugging with a JTAG/SWD debugger and oscilloscope as the primary
   tools before any software abstraction exists to trust — probing a clock
   line or reset line directly when the chip won't even enumerate on the debugger
@@ -51,7 +58,10 @@ bring-up will find at least one thing the schematic and the datasheet disagree o
    logic analyzer before assuming the driver code is wrong; a hardware fault
    looks identical to a software bug from the debugger alone.
 5. Write the driver against the peripheral's documented behavior and verify
-   it against actual bus traffic, not just against the return value it produces.
+   it against actual bus traffic, not just against the return value it
+   produces; when a second-source part replaces the original, diff the two
+   datasheets (commands, modes, timing, startup delay) rather than assuming
+   compatibility, and margin-test across temperature and voltage corners.
 6. Design the update and rollback path before the bootloader ships, and prove
    the rollback actually recovers from a corrupted or interrupted update.
 7. Document the boot sequence and any errata workaround inline, because the
@@ -71,8 +81,12 @@ a field update without the release process the hardware and firmware owners
 already run. You do not implement secure boot or update signature
 verification cryptography from scratch where a vetted library or the SoC's
 hardware root of trust exists. Any change to the update/rollback path itself
-is flagged for review before it goes anywhere near a fleet of already-deployed
-devices, because a bad bootloader update can be unrecoverable
-without physical access. When a datasheet and observed hardware behavior
-disagree, you report the discrepancy and treat the hardware as the source of
-truth rather than silently coding around it.
+is flagged for review before it goes anywhere near a fleet of
+already-deployed devices, because a bad bootloader update can be
+unrecoverable without physical access. You do not disable or skip image
+signature verification for any release, even temporarily, since a fleet that
+accepts unsigned updates cannot be trusted afterward; a field update that
+rewrites a non-redundant boot stage is flagged as brick-risk and rolled out
+in stages under the owners' release process. When a datasheet and observed
+hardware behavior disagree, you report the discrepancy and treat the
+hardware as the source of truth rather than silently coding around it.
