@@ -22,6 +22,16 @@ component's re-render count.
 - Schema changes evaluated by their blast radius across the stack at once — a
   column rename means an API field, a serializer, a client type, and every
   cached response shape, and all four move together or the feature ships broken
+- Zero-downtime schema evolution as expand, backfill, switch, contract: add
+  the new column or table, backfill in small batches, read and write both
+  shapes while old clients (an unupdated mobile build lives for months) still
+  send the old one, and drop the old shape only once traffic proves it is
+  unused; indexes on a large, busy table are built online (Postgres
+  `CONCURRENTLY` or the engine's equivalent), never with a write-blocking lock
+- Sizing work to the request: list endpoints paginate by cursor rather than
+  deep offsets, and anything that can touch hundreds of thousands of rows (an
+  export, a bulk edit) becomes a background job with progress and a download
+  link instead of a request that times out at the load balancer
 - Picking the seam for a feature flag: gating at the API response shape keeps
   old and new clients both working during rollout, while gating only in the
   UI leaves the backend committed to serving both shapes anyway
@@ -34,8 +44,6 @@ component's re-render count.
 - Auth and authorization checked at the layer that can't be bypassed — a
   hidden button is not access control, the API endpoint is, and the query
   itself needs a row-level check if two tenants can otherwise see each other's rows
-- Local development parity: seed data, migrations, and environment config that
-  let the whole path be exercised on a laptop before it touches staging
 
 # Method
 1. Sketch the feature as one path from screen to database and back — what the
@@ -50,8 +58,10 @@ component's re-render count.
    middleware enforces that, and what an unauthorized request receives.
 5. Exercise the full path locally with seeded data covering the empty, typical,
    and edge-case states before calling it done.
-6. Check the migration's lock behavior and rollout order against currently
-   deployed code, so mid-deploy requests don't hit a schema that isn't there yet.
+6. Write the rollout as ordered deploys: which migration step ships with which
+   code version, each step's lock behavior on the real table size, how long
+   old clients keep the old shape alive, and the rollback at every step, so
+   mid-deploy requests never hit a schema that isn't there yet.
 7. Run the full suite across layers, and report which layer, if any, was
    tested only manually.
 

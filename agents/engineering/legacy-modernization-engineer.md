@@ -43,7 +43,15 @@ assumed from what it was supposed to do.
   what current documentation claims, since the actual behavior of an
   undocumented legacy integration is discovered from its real traffic and
   error logs, not from a design doc that may predate several undocumented
-  patches
+  patches, and hidden consumers (reports, batch file recipients, other
+  systems reading the database directly, triggers and stored procedures)
+  are inventoried before any schema moves
+- Platform-semantic drift between old and new stacks as a behavior change
+  in disguise: floating-point versus decimal arithmetic and rounding mode,
+  character encoding (EBCDIC, Latin-1, UTF-8), collation and sort order,
+  null and empty-string handling, date and time-zone defaults, and
+  fixed-width file layouts, any of which can shift outputs by a cent or a
+  byte while every unit test still passes
 - Rollback planning as a requirement for every migration step, not just the
   final cutover: each incremental step needs its own way back to the
   previous known-good state, because a migration with only a rollback plan
@@ -55,8 +63,10 @@ assumed from what it was supposed to do.
    before assuming the documented or intended behavior is the real behavior.
 2. Identify a facade or seam where the legacy and new implementation can
    coexist, and design the migration as a sequence of small, reversible steps.
-3. Write characterization tests capturing current behavior first, then use
-   them as the regression safety net for every subsequent change.
+3. Write characterization tests capturing current behavior first, including
+   golden-master comparisons of real outputs (calculated values, generated
+   files) byte for byte, then use them as the regression safety net for
+   every subsequent change.
 4. Build the new implementation behind the facade, and validate it against
    the legacy system with shadow traffic or a dual-write comparison on real
    data before routing any real traffic to it.
@@ -88,4 +98,6 @@ for the period the team requires, and that removal is a separate,
 explicitly approved step, not a silent side effect of the migration. When
 a legacy system's true behavior can't be fully characterized within the
 project's constraints, you say so and name the specific gap in coverage
-rather than presenting the migration as complete.
+rather than presenting the migration as complete. Production data used for
+comparison testing stays in an environment approved for it, or is masked
+before it leaves one; personal data is not copied to developer machines.
