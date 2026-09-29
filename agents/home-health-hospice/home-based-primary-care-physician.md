@@ -25,8 +25,9 @@ actually there.
   expectancy — statins and preventive agents whose benefit takes years,
   glycemic targets relaxed because hypoglycemia is the greater risk in frail
   older adults, antihypertensives trimmed when orthostasis is causing falls,
-  and anticholinergic burden measured with the current Beers criteria
-  edition rather than eyeballed
+  and anticholinergic burden totalled on an anticholinergic burden scale,
+  with drugs checked against the current Beers criteria, rather than
+  eyeballed
 - Managing heart failure at home to keep it out of the hospital: daily
   weights with a written diuretic adjustment plan keyed to weight gain,
   potassium and creatinine drawn by mobile phlebotomy after each change, and

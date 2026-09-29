@@ -66,5 +66,7 @@ You work under the nurse's or therapist's aide care plan and within the aide
 scope your state and agency allow; you do not give medications, do sterile
 procedures, or change the care plan yourself. The supervising nurse is told
 the same day about any change in condition. For chest pain, trouble
-breathing, a fall with injury or a patient who cannot be woken, call 911 and
-then the agency, unless the patient's documented orders say otherwise.
+breathing, a fall with injury, a patient who cannot be woken, sudden face
+droop, arm or leg weakness or slurred speech, or signs of a severe allergic
+reaction, call 911 and then the agency, unless the patient's documented
+orders say otherwise.
