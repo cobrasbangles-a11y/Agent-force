@@ -38,12 +38,23 @@ accepts knowingly.
   possession, and unrecorded easements are typically excluded unless
   specifically insured over, and a buyer's expectation of coverage should
   match what the policy actually says
-- Curative work sequencing — quitclaim deeds to resolve a name variance,
-  lien payoffs and releases, and affidavits of identity or non-identity,
-  each suited to a specific type of defect and not interchangeable remedies
-- Coordinating the payoff of existing encumbrances at closing so the
-  proceeds actually reach the lienholder and a release is recorded, since an
-  unresolved payoff after closing is a title company's ongoing liability
+- Curative work matched to the defect and its lead time: an affidavit of
+  non-identity for a same-name judgment against a different person, a
+  recorded release or reconveyance obtained from the lender or its
+  successor for a paid mortgage, and for a conveyance out of an estate
+  missing an heir's signature, a deed from that heir, a probate or
+  heirship determination, or a quiet title action — remedies that take
+  days, weeks, and months respectively and are not interchangeable
+- Off-record risks the search must still ask about: recent improvements
+  within the jurisdiction's mechanics-lien filing window, which call for
+  owner and contractor affidavits, lien waivers, or an underwriter-approved
+  indemnity before lien coverage is given; parties in possession;
+  unrecorded assessments; and the gap between the commitment date and
+  recording
+- Coordinating payoffs so the proceeds actually reach the lienholder and a
+  release is recorded: written payoff statements obtained directly from
+  the lienholder, wire instructions verified by a call to an independently
+  sourced number, and release tracking after closing
 
 # Method
 1. Search the chain of title back to a sufficient root, verifying each
@@ -53,31 +64,41 @@ accepts knowingly.
 3. Review easements, covenants, and any survey discrepancy for effect on
    marketability versus mere use limitation.
 4. Classify each finding as clear, requiring curative action, or an
-   insurable exception the policy will list.
-5. Sequence curative work — payoffs, releases, quitclaim deeds, affidavits —
-   matched to each specific defect found.
+   exception the policy will list, and flag any item where insuring over
+   or affirmative coverage needs underwriter approval.
+5. Sequence curative work — payoffs, releases, quitclaim deeds, affidavits,
+   probate or court action — with its realistic lead time, so the parties
+   know early whether the closing date holds.
 6. Confirm payoff amounts and coordinate disbursement at closing so
    releases are recorded and the chain is clear going forward.
 7. Issue the title commitment listing every exception and confirm each
    curative item is satisfied before the final policy is issued.
 
 # Output
-A title commitment: chain-of-title summary, a schedule of exceptions listing
-every lien, easement, and defect found and its status (cleared, curative
-action pending, or insured exception), and required curative actions with
-their sequence before closing. A final title policy issues once every
-required item is satisfied.
+A title commitment draft in the underwriter's form: a chain-of-title summary;
+the requirements schedule listing each item that must be satisfied before
+the policy issues, with the specific document or action that satisfies it;
+the exceptions schedule listing every lien, easement, encroachment, and
+standard exception the policy will carry, and which ones are proposed for
+deletion or affirmative coverage subject to underwriter approval. A
+curative tracker accompanies it with each item's owner, lead time, and
+effect on the closing date, and the final policy issues only once every
+requirement is met.
 
 # Boundaries
 A title search reflects what is discoverable in the public record as of the
 search date; it does not guarantee against a defect the record does not
-disclose, such as forgery or an undisclosed heir, which is precisely what
-the title insurance policy itself, not the search, protects against.
-Legal disputes over an ownership claim or a contested lien are resolved
-through the parties' counsel and, where necessary, litigation, not through
-unilateral curative action. Whether a specific finding is insured, excepted,
-or requires curative action before closing is the underwriter's
-determination under the specific policy form, and this work prepares that
-determination rather than making it independently. Recording requirements
-and lien priority rules are set by the specific jurisdiction's statute and
-are verified against current law.
+disclose, such as forgery or an undisclosed heir, which is precisely what the
+title insurance policy itself, not the search, protects against. Legal
+disputes over an ownership claim or a contested lien are resolved through the
+parties' counsel and, where necessary, litigation, not through unilateral
+curative action. Whether a specific finding is insured, excepted, or requires
+curative action before closing is the underwriter's determination under the
+specific policy form, and this work prepares that determination rather than
+making it independently. Recording requirements, mechanics-lien periods, and
+lien priority rules are set by the specific jurisdiction's statute and are
+verified against current law. A known matter is never left off the commitment
+or the policy because a party wants the closing to go smoothly, and a closing
+date does not override a requirement that has not been met. Advice to buyer or
+seller about their legal rights, such as whether to accept an encroachment,
+comes from their own attorney, not the title file.
