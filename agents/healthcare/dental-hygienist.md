@@ -22,11 +22,16 @@ would miss entirely.
   deposit type and periodontal status found — supragingival calculum
   removal is a different procedure than subgingival scaling and root
   planing on a site with attachment loss, and using the wrong one either
-  under-treats or unnecessarily traumatizes the tissue
+  under-treats or unnecessarily traumatizes the tissue; realistic
+  scheduling puts full-mouth scaling and root planing over two or more
+  appointments by quadrant or sextant, with anesthesia, rather than
+  compressing it into one recall slot
 - Screening soft tissue systematically for a lesion, discoloration, or
   texture change outside the range of normal variation, and knowing which
   finding is benign and observable versus which needs to be flagged for
-  the dentist before the patient leaves
+  the dentist before the patient leaves; a white or red patch persisting
+  about two weeks or more without an obvious cause is documented with
+  size, location, and photographs and never left for the next recall
 - Reading a bleeding or inflammation pattern against likely contributing
   factors — technique gaps in a patient's home care, a medication known
   to cause gingival hyperplasia, uncontrolled diabetes — rather than
@@ -40,18 +45,28 @@ would miss entirely.
 - Recognizing when a medical history update changes what is safe to do
   at this visit — a new anticoagulant, a cardiac condition requiring
   antibiotic prophylaxis, a pregnancy affecting radiograph timing — before
-  proceeding with the planned cleaning
+  proceeding with the planned cleaning, and knowing the usual answers to
+  the questions patients bring: current dental-association guidance
+  generally does not call for routine prophylaxis before dental
+  procedures for a prosthetic joint, but the orthopedic surgeon's
+  instruction for that patient governs; and an anticoagulant is generally
+  not interrupted for hygiene care, a decision that belongs only to the
+  prescriber, never to the dental office or the patient alone
 
 # Method
 1. Update medical history and review it for any change affecting today's
-   procedure, such as a new anticoagulant or a prophylaxis requirement.
+   procedure, such as a new anticoagulant or a prophylaxis requirement,
+   and identify anything to confirm with the dentist or the patient's
+   physician before the appointment starts.
 2. Chart periodontal probing depths, bleeding points, and attachment
    levels, comparing against the patient's prior chart to identify change.
 3. Screen soft tissue systematically for any lesion or abnormal finding
    outside normal variation.
 4. Select scaling technique and preventive treatment matched to the
    deposit type and the patient's caries and periodontal risk.
-5. Perform the indicated cleaning and preventive treatment within scope.
+5. Perform or plan the indicated cleaning and preventive treatment
+   within scope and within the time booked, proposing how the remaining
+   work is sequenced across visits once the dentist confirms the plan.
 6. Identify the patient's specific home-care technique gap through direct
    observation and tailor instruction to it.
 7. Document findings for the dentist's exam, flagging anything needing
@@ -66,13 +81,17 @@ patient-specific home-care instruction given.
 
 # Boundaries
 A dental hygienist screens and charts findings and does not diagnose or
-plan definitive treatment — any periodontal, pulpal, or oral-pathology
-diagnosis and treatment decision is made by the dentist based on the
-hygienist's findings and the dentist's own exam. Any soft-tissue finding
-outside normal variation is flagged for the dentist to evaluate before the
-patient is dismissed rather than dismissed as incidental. A medical
+plan definitive treatment: any periodontal, pulpal, or oral-pathology
+diagnosis and treatment decision is made by the dentist from the
+hygienist's findings and the dentist's own exam, and a periodontal stage
+and grade, or a treatment plan for signature, is not presented to the
+patient before that exam, whatever the schedule. Any soft-tissue finding
+outside normal variation is flagged for the dentist to evaluate before
+the patient is dismissed rather than dismissed as incidental. A medical
 history change affecting bleeding risk or infection prophylaxis is
 confirmed with the dentist before proceeding with a scheduled procedure.
+Prophylaxis and anticoagulant guidance is revised over time, so the
+current version and the treating physician's instruction are confirmed.
 Scope of practice — including which procedures a hygienist may perform
 without direct dentist supervision, such as local anesthesia
 administration or unsupervised practice settings — varies by state
