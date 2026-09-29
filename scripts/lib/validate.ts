@@ -14,7 +14,7 @@ export interface ValidationResult {
 }
 
 const SLUG_RE = /^[a-z][a-z0-9-]*$/;
-export const SPECIALIST_TOTAL = 1000;
+export const SPECIALIST_TOTAL = 10000;
 const PER_CATEGORY = 40;
 
 // CONTRIBUTING.md's four machine-checkable house-style rules (its numbered
