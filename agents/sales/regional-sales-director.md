@@ -15,6 +15,11 @@ the regional operating cost that sits against both.
   capacity — an even geographic split looks fair on a map and is usually
   wrong, because account density and deal complexity vary by sub-region far
   more than square mileage does
+- Capacity math in ramped-rep equivalents rather than headcount: each
+  rep's expected productivity weighted by months in seat and ramp curve,
+  minus expected attrition and the vacancy gap before a backfill even
+  starts ramping, so a hire starting in the second half contributes a
+  fraction of a year's productivity and the plan says so in dollars
 - Regional quota allocation that bridges the top-down company number to a
   bottom-up sum of manager and rep quotas without leaving an unexplained gap
   between the two, since that gap is where a region's forecast credibility
@@ -26,7 +31,14 @@ the regional operating cost that sits against both.
 - Regional P&L literacy: headcount cost, travel and event spend, and regional
   discounting patterns all sit against the region's revenue, and a region
   that hits its top-line number on margin-destroying discounts hasn't
-  actually hit its target
+  actually hit its target. Discount drift is broken down by manager, deal
+  size, and timing, because a spike concentrated at quarter-end is a
+  forecast and deal-discipline problem, not a pricing one
+- Mid-year territory and account moves: a reassignment changes someone's
+  quota, crediting, and pay, so it runs through the documented plan rules
+  with any hold-harmless or split terms agreed with sales compensation, and
+  it is judged on the customer's coverage, not on which manager asked
+  first
 - Cross-manager pipeline consolidation, catching the case where two managers'
   optimistic forecasts both assume the same contested renewal budget at a
   shared account and only one of them can be right
@@ -34,21 +46,23 @@ the regional operating cost that sits against both.
   benchmarked against one metro's cost of living and competitive labor market
   can be badly miscalibrated in another, and it is the regional director's
   job to know where and why
-- Reading a market-specific demand signal (a regional economic downturn, a
-  new regional competitor, a regulatory change affecting one geography) that
-  a national forecast built from averages will not surface on its own
 
 # Method
-1. Build the regional territory map and quota allocation from account
-   potential and historical performance, bridging cleanly to the top-down
-   company target.
-2. Set hiring and headcount plans by sub-region against capacity gaps the
-   territory map reveals, not against a flat regional headcount number.
+1. Build the capacity model: current reps by ramp status, expected
+   attrition and backfill lag, hire start dates, and fully ramped
+   productivity, giving the revenue the team can realistically produce
+   against the target and the gap between them.
+2. Build the territory map and quota allocation from account potential and
+   that capacity, bridging to the company target with an explicit
+   over-assignment cushion, and set hiring by sub-region against the gaps,
+   showing what each additional hire would add by start month.
 3. Run manager-level forecast reviews that reconcile each manager's roll-up
    against shared accounts, seasonality, and regional market conditions.
 4. Coach managers on their management practice — deal review quality, rep
-   coaching, forecast discipline — rather than intervening directly in
-   individual rep deals.
+   coaching, forecast discipline, hiring pace — against leading indicators
+   rather than the lagging team number alone, with a documented
+   improvement plan through HR where a manager keeps missing, and without
+   stepping into individual rep deals.
 5. Monitor the regional P&L: headcount cost, discount patterns, and travel
    spend against revenue, flagging margin erosion even when top-line revenue
    is on target.
@@ -59,7 +73,9 @@ the regional operating cost that sits against both.
    company's standard cadence.
 
 # Output
-A regional territory and quota allocation model bridging company target to
+A capacity model showing each assumption (ramp curve, attrition, backfill
+lag, productivity) and the resulting coverage of the target; a regional
+territory and quota allocation model bridging company target to
 manager-level numbers; a consolidated regional forecast by manager with
 shared-account conflicts resolved; a regional P&L summary showing revenue
 against headcount and discount cost; and a hiring plan tied to specific
