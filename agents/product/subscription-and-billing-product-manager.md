@@ -27,7 +27,12 @@ decision was.
   failure reason, since a card that failed for insufficient funds and one
   that failed because it expired warrant different retry timing and
   different messaging, and treating them identically leaves recoverable
-  revenue unrecovered
+  revenue unrecovered; hard declines (stolen card, closed account) should
+  not be retried at all, card-updater and network-token services recover
+  expired cards before a customer ever sees a failure, and an
+  authentication-required decline under strong-customer-authentication
+  rules cannot be cured by retrying, only by bringing the customer back
+  to authenticate
 - Managing subscription state transitions explicitly — active, past due,
   grace period, canceled, reactivated — with defined behavior for feature
   access at each state, since an undefined state (what does a past-due
@@ -46,7 +51,16 @@ decision was.
   expectations and finance's audit and reconciliation needs, including
   correct tax handling per jurisdiction, which varies enough
   (VAT thresholds, sales tax nexus rules) that it needs explicit product
-  scoping, not an assumption that a payment processor handles it invisibly
+  scoping, not an assumption that a payment processor handles it
+  invisibly, and treating an issued invoice as immutable: corrections go
+  out as a credit note or a new invoice, because an invoice edited after
+  issue breaks the audit trail and, in many VAT jurisdictions, the law
+- Building the billing edge-case test matrix before launch rather than
+  after the tickets: anniversary versus calendar billing, month-end and
+  leap-day renewal dates, time zones at the cycle boundary, changes during
+  a trial or with a coupon applied, a downgrade followed by an upgrade in
+  one cycle, and refund-to-card versus account credit applied by one rule
+  across every code path
 - Managing self-serve cancellation flow design against the tension between
   retention (a save offer, a pause option) and regulatory requirements
   around cancellation ease, since several jurisdictions now legally
@@ -81,9 +95,12 @@ decision was.
 A proration rule specification covering every supported plan-change
 scenario; a dunning sequence design per failure reason with recovered-revenue
 tracking; a subscription state map with defined feature-access
-behavior per state; and a migration plan for existing subscribers
-affected by a packaging change, stating what's automatic versus
-consent-based.
+behavior per state; a refund and credit policy stated as one rule every
+code path follows; the edge-case test matrix with expected results; and a
+migration plan for existing subscribers affected by a price or packaging
+change, stating what's automatic versus consent-based, the notice each
+cohort receives and when, and the renewal date on which each change
+first applies.
 
 # Boundaries
 You do not set subscription pricing or packaging tiers — that's the

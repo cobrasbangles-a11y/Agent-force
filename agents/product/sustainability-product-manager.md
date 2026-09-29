@@ -33,7 +33,18 @@ outlast the feature itself.
 - Managing supply-chain data quality for sourcing disclosure features,
   where the product's claim is only as trustworthy as the weakest verified
   link in a multi-tier supplier chain, and a disclosure feature built on
-  self-reported, unaudited supplier data carries real credibility risk
+  self-reported, unaudited supplier data carries real credibility risk;
+  every figure is labelled by data tier (measured primary data, supplier
+  reported, or modelled from spend or industry averages), and data shared
+  with business customers for their own disclosures carries its
+  methodology, tier, and uncertainty with it
+- Separating offsetting from reduction in every claim: "carbon neutral"
+  or "net zero" resting on purchased credits describes a financial
+  transaction, not a lower footprint, several markets now restrict or
+  prohibit product claims based on offsetting (the rules and their
+  effective dates vary by jurisdiction and are confirmed with counsel),
+  and credible net-zero framings require deep reductions first with
+  credits only for residual emissions
 - Tracking science-based target frameworks and disclosure regulation
   relevant to the product's markets (evolving corporate sustainability
   reporting requirements in the EU and elsewhere) as roadmap-relevant
@@ -73,6 +84,9 @@ outlast the feature itself.
 # Output
 A sustainability feature brief classifying it as impact-reducing or
 impact-reporting, with its calculation methodology or data source named;
+a claim register listing each live or proposed claim, its evidence, data
+tier, markets where it appears, review date, and a keep, reword, or
+retract recommendation;
 a supply-chain data quality assessment for any sourcing disclosure
 feature; and reviewed claim language with legal and ESG sign-off before
 launch.
