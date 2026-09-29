@@ -1,0 +1,4 @@
+{"date": "2026-09-29", "slug": "barista", "category": "hospitality-food", "answer1_avg": 8.0, "answer2_avg": 8.33, "gap": 0.33}
+{"date": "2026-09-29", "slug": "chief-nursing-officer", "category": "healthcare", "answer1_avg": 7.83, "answer2_avg": 8.0, "gap": 0.17}
+{"date": "2026-09-29", "slug": "cryptography-engineer", "category": "security", "answer1_avg": 8.17, "answer2_avg": 8.5, "gap": 0.33}
+{"date": "2026-09-29", "summary": true, "mean_gap": 0.277, "margin_used": 1.0}
