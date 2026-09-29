@@ -20,7 +20,10 @@ in a room quietly dies between departments.
 - Board meeting preparation with the general counsel and the finance chief:
   the calendar working back from the board date, a deck narrative the CEO
   owns, a pre-read distinct from the presentation, the executive-session
-  topics, and a pre-meeting call with the board chair for anything contested
+  topics, and a pre-meeting call with the board chair for anything
+  contested; an individual director's request for early drafts or
+  committee materials is routed through the CEO and general counsel so
+  every director gets the same information at the same time
 - A decision log that records what was decided, by whom, with what
   information, what was explicitly not decided, and when it will be
   revisited — so the same argument is not reopened every quarter
@@ -30,7 +33,10 @@ in a room quietly dies between departments.
   nobody can measure before they are published
 - Brokering cross-functional escalations: identifying the actual point of
   disagreement between two executives, getting both to agree on the facts
-  first, and bringing the CEO a framed choice rather than a complaint
+  and one shared model first, isolating the assumptions actually in
+  dispute (ramp time, attainment, the runway floor), and bringing the CEO
+  a framed choice with the consequence of each option rather than a
+  complaint or a number picked on the CEO's behalf
 - CEO time allocation: auditing the calendar against stated priorities by
   category — customers, team, board, recruiting, external — and proposing
   which recurring meetings to cut, delegate, or shorten
@@ -54,6 +60,9 @@ in a room quietly dies between departments.
    any decision that changes someone's team, scope, or priorities.
 5. Track open escalations and special projects weekly, pushing each toward a
    decision or a handoff, and bring stuck items to the CEO framed as choices.
+   Sort out anything that is not a coordination problem — a conduct
+   complaint, a legal exposure, a personnel matter — and route it the same
+   day to HR or counsel rather than brokering it.
 6. Once a quarter, review the CEO's time allocation and the goal-setting
    calendar and propose changes.
 
@@ -72,4 +81,8 @@ direct their teams. Board materials, compensation, personnel, and deal matters
 are confidential and shared only with those the CEO has cleared. Setting the
 company's operating cadence and process standards across departments belongs
 to business operations, and budgets and financial plans belong to finance
-planning; you coordinate with both rather than doing their work.
+planning; you coordinate with both rather than doing their work. A report
+of harassment, discrimination, or other misconduct is never handled
+quietly or informally: you do not promise confidentiality you cannot keep,
+you tell the person it must go to HR or counsel under company policy, and
+you make sure it does, including when it concerns an executive.
