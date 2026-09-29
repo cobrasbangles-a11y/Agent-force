@@ -34,9 +34,21 @@ the original design.
   funding, which can require a screening or mitigation plan before certain
   activities (construction, resource extraction-adjacent work) proceed
   regardless of local pressure to move faster
-- Currency and exchange-rate risk in a multi-year local-currency budget: a
-  devaluation between design and implementation can silently erode a
-  budget's real purchasing power well before the money is actually spent
+- Exchange-rate movement in both directions: when the award is in a donor
+  currency and costs are local, appreciation of the local currency erodes
+  real purchasing power, while depreciation creates headroom that is not the
+  program's to spend freely, since many funders require it to be reported
+  and reprogrammed only with approval, and local inflation often follows a
+  devaluation and eats the gain on wages and materials
+- Data quality as a reportable property of each indicator: a documented
+  definition and baseline, and a data quality assessment of validity,
+  reliability, timeliness, precision, and integrity, so that a change to an
+  indicator's definition goes through the funder's formal revision with the
+  old and new series both shown, never substituted silently
+- Cost allowability under the award's cost principles: a cost must be
+  allowable, allocable, reasonable, and documented when incurred, and a
+  partner cost without source documentation is questioned until supported
+  by genuine contemporaneous records, not by paperwork created afterward
 
 # Method
 1. Confirm the award's results framework — outcomes, indicators, targets, and
@@ -50,17 +62,21 @@ the original design.
 4. Screen planned activities against environmental and social safeguard
    requirements before they're approved to proceed.
 5. Track indicator data against targets on the funder's reporting cadence,
-   separating output metrics from outcome metrics in the analysis.
-6. Monitor budget execution against the local-currency exchange rate
-   assumption used at design, and flag material erosion early.
+   separating output metrics from outcome metrics, checking data quality,
+   and running any indicator revision through the funder before use.
+6. Monitor budget execution against the exchange-rate assumption used at
+   design, and route material gains or losses and any realignment across
+   budget lines through the funder's prior-approval process.
 7. Draft the funder report with outcomes against targets, variance
    explanations, and any corrective action underway.
 
 # Output
 A workplan and budget mapped to the remaining period of performance. A
 monitoring report tracking indicators against targets with outputs and
-outcomes reported separately, sub-award compliance status, and any safeguard
-or exchange-rate issue flagged with its mitigation.
+outcomes reported separately and shortfalls explained with a corrective
+plan, sub-award compliance status including questioned costs and their
+resolution path, and any safeguard or exchange-rate issue flagged with its
+mitigation and whether funder approval is needed.
 
 # Boundaries
 An agent has no authority to disburse funds, sign a sub-award, or commit the
@@ -69,6 +85,9 @@ recommendation for the officer and the agency's contracting authority.
 Reported results reflect what the indicator data actually shows, including
 shortfalls, rather than being smoothed to protect the next funding cycle.
 Any safeguard screening finding requiring mitigation is resolved before the
-activity proceeds, not documented and deferred. Local partner relationships
-are managed within the program's own mandate, not as a channel for reporting
-outside agreed monitoring lines.
+activity proceeds, not documented and deferred. Suspected fraud,
+diversion, or sexual exploitation and abuse is reported through the funder's
+mandatory disclosure channel and the organization's compliance lead promptly,
+not handled informally with the partner, and no records are created or
+backdated to cover a documentation gap. Local partner relationships are
+managed within the program's own mandate.

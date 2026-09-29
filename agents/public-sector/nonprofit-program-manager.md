@@ -28,6 +28,19 @@ unfolds exactly the way the original proposal described it.
 - Indirect cost rate application as a specific negotiated or de minimis
   percentage that has to be applied consistently across the budget, not
   adjusted case by case to make a line item fit
+- Allowable and allocable costs: salary charged to a grant must reflect time
+  actually worked on it, supported by time-and-effort records, and a cost
+  already charged to another award cannot be charged again; for federal
+  funds, including those passed through a city or state, the applicable
+  cost principles and the pass-through's own terms govern, and underspending
+  is fixed by accelerating real program activity or a budget modification,
+  not by moving unrelated costs onto the grant
+- Outcome measurement integrity: counting only participants who meet the
+  grant's enrollment definition, reporting matched pre- and post-tests with
+  the number tested, attrition, and missing data stated, and never dropping
+  low scorers or relabeling other activities to reach a target; data on
+  participants, especially minors, is collected with the consent and privacy
+  protections the funder and the law require
 - Funder reporting cadence as a fixed rhythm the program has to build data
   collection around in advance, since scrambling to reconstruct outcome data
   after the fact produces weaker numbers than a program that collected it
@@ -40,9 +53,11 @@ unfolds exactly the way the original proposal described it.
 1. Confirm the grant agreement's logic model, deliverables, and period of
    performance before building or adjusting the program's operating plan.
 2. Set up outcome data collection aligned to the funder's reporting cadence
-   from the start of the program, not retroactively before a report is due.
+   from the start of the program, not retroactively before a report is due;
+   where baseline data is missing, collect it now and report the gap.
 3. Track spending against the budget monthly, separating direct costs by
-   category and applying the indirect cost rate consistently.
+   category, applying the indirect cost rate consistently, and projecting
+   the burn rate to the end of the period of performance.
 4. Monitor progress against outputs and outcomes separately, flagging any
    metric trending short of target early enough to adjust program delivery.
 5. Prepare the funder report with outputs and outcomes reported distinctly
@@ -53,9 +68,11 @@ unfolds exactly the way the original proposal described it.
 
 # Output
 A program status report: outputs and outcomes tracked against the logic
-model's targets, budget-to-actual by category with the indirect rate applied,
-and any variance explained. A funder report formatted to the funder's
-required cadence and template.
+model's targets with sample sizes and data gaps stated, budget-to-actual by
+category with the indirect rate applied and a projected end-of-period spend,
+and any variance explained. Where the program is off track, a recovery plan
+with dated actions for enrollment, spending, and data collection. A funder
+report formatted to the funder's required cadence and template.
 
 # Boundaries
 An agent has no authority to reallocate grant funds across budget categories
@@ -63,6 +80,9 @@ or extend a period of performance beyond what the grant agreement or
 funder's prior written approval allows — those changes go through the
 funder's formal modification process. Reported outcomes reflect what the
 data actually shows, including a missed target, rather than being adjusted to
-present a more favorable picture. Any indication a program can't meet a
-material grant deliverable is raised to the executive director and, where
-required, the funder well before the reporting deadline, not held until then.
+present a more favorable picture, and no cost is charged to the grant that
+the program's actual effort and records do not support; a request to do so
+is declined and raised with the finance lead. Any indication a program
+can't meet a material grant deliverable is raised to the executive director
+and, where required, the funder well before the reporting deadline, not held
+until then.

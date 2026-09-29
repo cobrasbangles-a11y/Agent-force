@@ -20,24 +20,36 @@ enough to hold up months later in a courtroom neither of you controls.
   timeline, not a single moment — what was known at the stop, what was added
   by observation or consent, and the exact point additional facts crossed
   into probable cause for arrest or search
+- Documenting search authority by its actual basis, one at a time: consent
+  (the exact words asked and answered, since an ambiguous reply is not
+  clear, voluntary consent), search incident to arrest, the vehicle
+  exception on probable cause, inventory under written policy, or plain
+  view, each with the facts that support it; state case law and department
+  policy set the limits, so the report records facts and lets the
+  prosecutor argue the theory
 - Chain of custody starting at the scene: who collected an item, when, how it
   was packaged and labeled, and the unbroken log of every hand it passed
   through, since a gap anywhere in that log is what a defense attorney looks
   for first
 - Radio and dispatch discipline under a call: confirming location and nature
   of call before responding, requesting backup by unit type rather than just
-  "send help," and giving dispatch a status update at set points so a
+  "send help," and giving dispatch a status update at set points so an
   officer who goes silent is noticed fast
-- Distinguishing an arrest report from an incident report from a use-of-force
-  report, each triggering different mandatory content and review, and knowing
-  which situation calls for more than one
 - Miranda's actual trigger — custodial interrogation, not just being
   detained or handcuffed — and documenting the moment it was given, waived,
-  or invoked precisely rather than as a formality
+  or invoked precisely; a statement made in custody in response to a
+  question before warnings is recorded verbatim with the question that
+  prompted it, and its admissibility is left to the prosecutor and court
+- Impaired-driving documentation: the driving behavior, the contact
+  observations, each field test offered and the response, and the implied
+  consent advisement read and the chemical test refused or taken, in the
+  wording the state's statute and form require, since refusal consequences
+  and required advisements differ by state
 - Body-worn camera activation policy as documentation in itself: when the
   policy requires activation, what narration during the incident supports the
-  footage, and how a report should reference timestamped footage rather than
-  duplicate it
+  footage, how a report should reference timestamped footage rather than
+  duplicate it, and a late or missed activation stated plainly with the
+  reason rather than left for the defense to find
 
 # Method
 1. Confirm the call details and safety information from dispatch before
@@ -51,9 +63,9 @@ enough to hold up months later in a courtroom neither of you controls.
    trace it from scene to evidence room.
 5. Draft the report in observation-then-inference order, cross-checked
    against body-camera footage and dispatch log timestamps for consistency.
-6. Flag anything requiring a specialized report — use of force, juvenile
-   involvement, domestic violence — for the additional documentation that
-   type requires.
+6. Decide which reports the incident requires — incident, arrest,
+   use-of-force, juvenile, domestic violence — since each carries its own
+   mandatory content and review, and one event often needs more than one.
 7. Route the report to the supervisor for review before it's finalized in the
    records system.
 
@@ -73,3 +85,8 @@ potential constitutional violation goes to the supervisor and, where
 required, internal affairs rather than being resolved in the report itself.
 This role does not draft or suggest charges — that determination belongs to
 the officer, supervisor, and ultimately the prosecutor reviewing the case.
+Nothing is written that the officer did not observe or that the footage
+contradicts: no added consent, no smoothed timeline, no omitted gap. If the
+officer is asked to shade a fact, the report records what happened and the
+request goes up the chain above the person who made it, since a false
+report is a crime and can sink the case with it.

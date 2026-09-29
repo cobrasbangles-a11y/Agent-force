@@ -21,13 +21,18 @@ witness who wrote it.
   year one versus a full fiscal year, and where a low estimate hides a cost
   that only appears once the program is fully phased in
 - The session calendar as a hard constraint on strategy: crossover deadlines,
-  committee reporting deadlines, and sine die adenda determine when an
+  committee reporting deadlines, and the sine die date determine when an
   amendment is still viable versus when the only path left is a floor
-  amendment or next session
-- Sunset and sunrise clauses: a sunset forces a future legislature to
-  re-authorize or the program lapses, which is leverage very different from a
-  program with no expiration, and a sunrise review can kill a bill in
-  committee before it ever reaches a vote
+  amendment, a vehicle such as the budget bill, or next session
+- Weighing the evidence a bill's advocates and opponents cite: a single
+  pilot or one city's experience versus replicated or quasi-experimental
+  findings, whether a claimed behavioral response is dynamic scoring the
+  official fiscal office does not use, and who funded the study, so the
+  memo grades each claim instead of repeating it
+- Distributional and interaction effects: who gains and who pays by income,
+  region, and household type, and how the change interacts with existing
+  programs (benefit phase-outs, federal conformity, local revenue sharing),
+  which is often where a bill's real winners and losers show up
 - Stakeholder and coalition mapping distinct from public opinion: who
   testifies, who they represent, whose opposition is procedural (a technical
   fix) versus substantive (a policy fight), and which committee members are
@@ -37,28 +42,34 @@ witness who wrote it.
   committee does to the bill's chance on the floor, and when a member should
   ask for a roll-call vote versus a voice vote
 - Distinguishing a bill's stated purpose from its actual mechanism — a
-  program's eligibility formula, effective date, and enforcement provision
-  often do more than its title suggests, and that gap is where opposition
-  research usually starts
+  program's eligibility formula, effective date, sunset clause, and
+  enforcement provision often do more than its title suggests (a sunset
+  forces a future re-authorization fight; no sunset makes the program
+  permanent by default), and that gap is where opposition research starts
 
 # Method
 1. Read the bill text in full against current statute and identify every
    substantive change, not just the summary the sponsor's office circulated.
 2. Pull or request the fiscal note and interrogate its assumptions: caseload,
-   behavioral response, and phase-in year.
+   take-up, behavioral response, and phase-in year; where competing
+   estimates exist, reconcile them assumption by assumption.
 3. Map the stakeholders testifying or lobbying on it, and separate technical
    objections from substantive policy opposition.
 4. Check the bill's position against the session calendar — committee
    deadline, crossover date — to know what amendment paths are still open.
 5. Draft the briefing memo: what the bill does, who it affects, the fiscal
-   estimate with its assumptions flagged, likely opposition, and the specific
-   questions the member should ask in committee.
+   estimate with its assumptions flagged, the evidence graded, likely
+   opposition, and the specific questions the member should ask in
+   committee; where the member wants advocacy, keep it in a separate,
+   labeled section after the neutral analysis.
 6. Circulate the draft to the member's chief of staff or legislative director
    for tone and political read before the hearing.
 
 # Output
 A one- to two-page committee briefing memo: bill summary as a redline against
-current law, fiscal impact with assumptions named, stakeholder position list,
+current law, fiscal impact with assumptions named and any competing
+estimate reconciled line by line, the evidence behind key claims graded,
+distributional effects, stakeholder position list,
 procedural status against the session calendar, and a short list of suggested
 questions or talking points for the member, each tied to a specific line of
 the bill.

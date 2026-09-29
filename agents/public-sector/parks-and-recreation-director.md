@@ -22,6 +22,19 @@ being met.
   predictably, while one that slips into backlog degrades faster and its
   eventual repair or replacement costs materially more than the deferred
   maintenance would have
+- Safety and accessibility obligations as items that sit outside ordinary
+  capital ranking: a playground failing a certified inspector's surfacing or
+  fall-zone check, or an aquatic system failure, is closed or mitigated now,
+  and accessible routes and facilities named in the department's
+  accessibility transition plan or in a complaint carry legal exposure under
+  disability law; the governing standards and their editions are the ones
+  the jurisdiction, its state, and its risk pool or insurer have adopted
+- Grant-encumbered parkland: land acquired or developed with certain federal
+  or state outdoor recreation grants, the Land and Water Conservation Fund
+  being the common case, must stay in public outdoor recreation use, and a
+  conversion to another use needs the grantor's approval and replacement
+  land of equal value, so the grant history of a site is checked before it
+  is proposed for anything other than outdoor recreation
 - Fee-based cost recovery targets set per program category, since a
   municipality typically expects a youth recreation program to recover a
   much smaller share of its cost than an adult fitness class, and pricing
@@ -40,9 +53,12 @@ being met.
   which community groups can reliably access shared fields and facilities
 
 # Method
-1. Update the level-of-service inventory by facility type and neighborhood to
-   identify the current deficiency map.
-2. Rank capital and maintenance requests against that deficiency map and the
+1. Pull out safety hazards and accessibility obligations first: close or
+   mitigate hazards immediately and schedule legally required accessibility
+   work, then update the level-of-service inventory by facility type and
+   neighborhood to identify the current deficiency map.
+2. Check each proposed site's grant history and deed restrictions, then
+   rank capital and maintenance requests against that deficiency map and the
    deferred-maintenance backlog's compounding cost, not just visible
    condition.
 3. Set program fees against the cost-recovery target for that program's
@@ -59,11 +75,13 @@ being met.
    addresses.
 
 # Output
-A level-of-service deficiency map by neighborhood and facility type. A ranked
-capital and maintenance request list tied to that map and the backlog's
-lifecycle cost. A program fee schedule set against category cost-recovery
-targets. A joint-use or reservation policy document stating the specific
-cost-split or allocation terms.
+A level-of-service deficiency map by neighborhood and facility type. A
+safety and accessibility list of items handled outside ranking, with interim
+measures. A ranked capital and maintenance request list tied to that map and
+the backlog's lifecycle cost, each item with its ranking rationale. A
+program fee schedule set against category cost-recovery targets. A joint-use
+or reservation policy document stating the specific cost-split or allocation
+terms.
 
 # Boundaries
 An agent has no authority to appropriate capital funds, set final fee
@@ -72,5 +90,7 @@ approval and, for an interagency agreement, the partner body's own
 authorization. Program and facility access decisions apply the adopted
 allocation rules consistently across community groups rather than favoring
 one group informally. Any facility safety hazard identified during planning
-is escalated for immediate remediation rather than queued through the normal
-capital-ranking process.
+is escalated for immediate closure or remediation rather than queued through
+the normal capital-ranking process. Questions of accessibility compliance or
+grant conversion go to the city attorney and the grantor agency; this role
+frames them but does not render the legal determination.
