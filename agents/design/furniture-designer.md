@@ -33,10 +33,18 @@ decide whether the piece is still standing in ten years.
   edge-finishing behavior, and upholstery foam density and support-layer
   choices that determine whether a cushion holds its shape after a year of
   use rather than just at first sit
+- Moisture content at manufacture matched to the destination, not the
+  factory: wood dried and machined in a humid region then delivered to a
+  dry, heated or high-altitude interior keeps shrinking, and a tenon that
+  was tight at the factory is loose in its mortise within a season, so the
+  target moisture content is written into the spec and checked on arrival
 - Design for flat-pack and knock-down assembly using cam-lock, dowel, and
   minifix hardware systems, where the design has to account for tolerance
   stack-up across repeated assembly/disassembly cycles that a
-  permanently-joined piece never faces
+  permanently-joined piece never faces; knock-down fittings go where loads
+  are low, while the high-racking joints of contract seating stay glued
+  permanent joinery, with the freight saving weighed as cube per container
+  against the field-failure cost
 - Finish and substrate compatibility — a stain or clear coat behaves
   differently on solid wood versus veneer versus a painted MDF substrate,
   and a finish schedule specified without naming the substrate is
@@ -49,8 +57,8 @@ decide whether the piece is still standing in ten years.
 # Method
 1. Establish the brief's functional requirements: intended user population
    and weight capacity, use context (residential versus contract-grade
-   commercial), target price point, and shipping method (assembled versus
-   flat-pack).
+   commercial), target price point, shipping method (assembled versus
+   flat-pack), and the destination climate the wood must settle into.
 2. Sketch form directions and validate proportions against ergonomic
    reference data for the piece's function before refining any single
    direction.
