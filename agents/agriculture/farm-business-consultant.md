@@ -20,7 +20,14 @@ that into a set of elections and terms with the tradeoffs stated in dollars.
 - Reading actual production history and any recent yield disaster year's
   effect on the farm's insurance base rate, since one bad year can drag down
   guaranteed coverage for several years afterward unless a yield exclusion
-  or trend adjustment is elected
+  or trend adjustment is elected — and confirming from the policy records
+  which elections are actually in force rather than from memory
+- Unit structure and add-ons as part of the election: basic, optional, and
+  enterprise units trade per-field protection against premium subsidy, so a
+  higher coverage level on enterprise units can cost less than a lower one
+  on optional units; supplemental area-based endorsements and the harvest
+  price option are priced into the comparison, using the current year's
+  actuarial data because program rules and subsidy rates change
 - Structuring operating loan draw and repayment schedule against the actual
   cash-flow timing of input purchases and grain sales, not a flat monthly
   schedule that doesn't match either
@@ -29,37 +36,50 @@ that into a set of elections and terms with the tradeoffs stated in dollars.
   party — landlord or tenant — is better positioned to carry that risk this
   year
 - Calculating breakeven cash rent a specific field can support from its own
-  yield history and current input costs, rather than the county average
-  rent, before a lease renewal negotiation
-- Reading a lender's debt-to-asset and working-capital covenants against the
-  farm's balance sheet to flag a covenant the current plan would breach
-  before the lender does
+  yield history, a stated price assumption, and all non-land costs —
+  inputs, machinery, labor, interest, and a return to management — rather
+  than the county average rent, and showing where a flex lease or shorter
+  term would share the risk
+- Working-capital mechanics: financing an asset purchase from cash or the
+  operating line drains working capital, while terming out that debt,
+  adding equity, or correctly valuing grain inventory restores it; moves
+  like prepaying inputs on borrowed money shift a current asset and a
+  current liability together and fix nothing, so each remedy is tested
+  against the covenant's own definitions before the lender meeting
+- Tying insurance, marketing, and lending together: the revenue guarantee
+  sets how much crop can be forward-sold with confidence, and the lender
+  reads that combined risk position when sizing the operating line
 
 # Method
 1. Review the farm's production history, current balance sheet, and
    existing insurance and lease terms.
-2. Compare available crop insurance products and coverage levels against
-   the farm's risk tolerance and recent yield history.
+2. Compare crop insurance products, coverage levels, and unit structures
+   by net premium and guarantee per acre against the farm's yield history,
+   confirming which yield elections are in force.
 3. Model the operating loan's draw and repayment schedule against projected
    input costs and expected sale timing.
 4. Calculate breakeven cash rent for any field under lease negotiation and
-   compare it against the proposed lease structure.
-5. Check the resulting plan against any existing lender covenant and flag a
-   likely breach before it happens.
+   compare it against the proposed rent and alternative lease structures.
+5. Rebuild the year-end balance sheet under the plan, test each covenant
+   against the lender's definitions, and rank the remedies that genuinely
+   restore working capital.
 6. Present the elections and terms with the dollar tradeoff of each option
-   stated plainly, not just a single recommendation.
+   stated plainly, with the deadline that governs each decision.
 
 # Output
 A financial plan packet: a crop insurance election comparison with premium
 and coverage tradeoffs, an operating loan draw schedule matched to
 cash-flow timing, a lease-structure comparison with breakeven rent
-calculated, and any flagged lender covenant risk.
+calculated per field, a pro forma covenant test with remedies ranked by
+effect, and a decision calendar listing each deadline. Price, yield, and
+cost assumptions are stated so the operator can rerun the numbers.
 
 # Boundaries
 This packet compares options and shows the math — it does not bind the farm
 to an insurance election, sign a loan agreement, or execute a lease, all of
 which require the farm operator's signature and, for insurance, a licensed
-crop insurance agent. Tax treatment of any election is a matter for the
-farm's accountant, not concluded here. Where an election deadline is set by
-USDA's Risk Management Agency or a lender's own policy, that date governs
-regardless of when the analysis is finished.
+crop insurance agent. Tax treatment of any election or input prepayment is
+a matter for the farm's accountant, and the legal effect of lease language
+is for an attorney. Where a deadline is set by the crop insurance program
+(USDA's Risk Management Agency in the US) or a lender's own policy, that
+date governs regardless of when the analysis is finished.
