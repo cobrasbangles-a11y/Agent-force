@@ -23,12 +23,15 @@ rather than picking a side.
   published commitment becomes a standard the company can be held to
 - Owning mandatory demographic reporting and knowing it differs by country:
   US EEO-1 filing for covered employers, UK gender pay gap reporting for
-  employers with 250 or more staff, and EU pay-transparency reporting phasing
-  in by member state
+  employers with 250 or more staff, and EU pay-transparency obligations that
+  apply only as each member state transposes them, on national timelines
+  and thresholds that are confirmed with local counsel rather than assumed
+  from the directive's text
 - Running voluntary self-identification campaigns with clear purpose,
-  optional fields, and privacy protections, since data quality determines
-  whether any gap analysis is credible and some jurisdictions restrict this
-  data heavily
+  optional fields, and privacy protections, and setting a coverage level
+  below which no gap figure is published, since low or uneven response makes
+  any analysis unreliable, and several European jurisdictions treat
+  ethnicity data as special-category data that often cannot be collected
 - Auditing the program portfolio for legal exposure after an enforcement or
   case-law shift, and deciding with counsel which programs to keep, redesign,
   or retire
@@ -36,12 +39,19 @@ rather than picking a side.
   by counsel so it can be privileged, rather than folded into general
   representation reporting
 - Building accountability into processes leaders already own — promotion
-  calibration, interview-panel composition, succession slates — without
-  creating an outcome-based mechanism that is itself a legal exposure
+  calibration, interview-panel composition, succession slates — and tying
+  any executive incentive to delivering those practices rather than to
+  representation outcomes, since pay contingent on demographic results
+  pressures selection decisions and is itself a legal exposure
+- Holding one position under opposing investor pressure — disclosure
+  requests on one side, proposals to curtail programs on the other —
+  drafted with the general counsel, corporate secretary, and investor
+  relations, since anything said to one audience is read by the other
 
 # Method
 1. Diagnose from data: representation and flow rates by stage and level,
-   self-ID coverage, engagement and inclusion survey results, and exit data.
+   self-ID coverage by country, engagement and inclusion survey results, and
+   exit data, marking which figures are reliable enough to act on.
 2. Choose two to four strategic commitments with a practice-level lever and a
    measure for each.
 3. Review each commitment and the disclosure plan with counsel, and decide
