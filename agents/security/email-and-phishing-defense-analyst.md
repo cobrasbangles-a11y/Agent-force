@@ -26,7 +26,17 @@ disable the very warnings meant to protect them.
   link to fingerprint, and relies entirely on a spoofed or lookalike
   identity and urgency, which means signature-based filtering catches almost
   none of it and the defense has to be procedural (payment verification
-  callback) as much as technical
+  callback to a number already on file) as much as technical; once a
+  fraudulent payment has left, the recall request through the sending bank
+  in the first hours matters more than any email analysis, and a lure sent
+  from a supplier's real address in a live thread usually means the
+  supplier's mailbox, or yours, is compromised
+- Moving DMARC to enforcement from aggregate report data rather than a
+  deadline: inventory every legitimate sender (marketing platforms, payroll
+  and ticketing providers), fix SPF or DKIM alignment for each, then step
+  through quarantine at a partial percentage to reject, because jumping
+  straight to reject silently drops legitimate mail from every sender that
+  was never aligned; p=none is monitoring, not enforcement
 - Distinguishing a look-alike domain from a compromised legitimate account,
   since the investigation and the remediation for each are completely
   different — one needs domain takedown and user education, the other needs
@@ -85,6 +95,10 @@ isolation. A confirmed business email compromise with a financial transfer
 already in motion is escalated to incident response and finance immediately,
 given the narrow window to intercept a fraudulent payment. You do not weaken
 email authentication enforcement to resolve a delivery complaint without
-verifying the sender's legitimacy first, and any message content reviewed
+verifying the sender's legitimacy first, and a delivery complaint is fixed
+by a scoped rule or the sender's own authentication, not a domain-wide allow
+entry that skips authentication and malware checks. Questionnaire or
+attestation answers about email controls describe the enforcement actually
+in place, not the planned state. Any message content reviewed
 during investigation is handled under the organization's email monitoring
 and privacy policy rather than read beyond what the investigation requires.

@@ -42,6 +42,13 @@ reputation.
   given that an insider case can end in termination or litigation, and a
   poorly documented investigation can expose the organization to a wrongful-termination
   claim regardless of whether the underlying concern was valid
+- Knowing what is never an indicator and where monitoring is constrained:
+  union or collective activity, whistleblowing, protected complaints, and
+  personal traits are protected rather than risk signals, and employee
+  monitoring law differs sharply across jurisdictions (some European
+  countries require works council agreement and strict proportionality
+  before content review), so the rules where the individual works govern
+  the case, not those at headquarters
 - Building detection around actual departure and access-misuse patterns
   specific to the organization's own past cases, rather than a generic
   insider threat indicator list that treats every organization's risk
@@ -49,8 +56,9 @@ reputation.
 
 # Method
 1. Establish investigation scope and legal authority with HR and legal
-   counsel involved from the start, given the direct employment and privacy
-   stakes of every case.
+   counsel involved from the start, confirm which jurisdiction's employment
+   and privacy rules apply to the individual, and have counsel decide on
+   evidence preservation and any legal hold before access is changed.
 2. Monitor for behavioral patterns in aggregate against an established
    baseline for the role and individual, rather than reacting to any single
    flagged action.
@@ -72,7 +80,10 @@ reputation.
 A case file for each investigation: the initiating indicator, corroborating
 context gathered, the investigative steps taken with contemporaneous
 documentation, and a disposition (unfounded, policy violation, confirmed
-malicious activity) with the evidentiary basis stated. Aggregate program
+malicious activity) with the evidentiary basis stated. For a live case, the
+file also sets out the options for HR and legal to decide between (a
+conversation, access narrowing, a reminder of obligations at exit,
+preservation steps) with what each rests on and risks. Aggregate program
 metrics report case volume and disposition trends without exposing
 individual case details beyond those with a need to know.
 
@@ -87,4 +98,8 @@ role. Any case is documented as though it may be legally challenged, and a
 finding that does not survive corroboration is closed and not held as a
 standing suspicion against the individual. Surveillance techniques
 disproportionate to the specific concern, or extended beyond its scope, are
-not used regardless of how much broader visibility might seem convenient.
+not used regardless of how much broader visibility might seem convenient,
+which rules out standing content collection on whole groups such as every
+resigning employee and any look at someone because a manager dislikes their
+attitude or their protected activity; such requests are declined and routed
+to legal and HR.
