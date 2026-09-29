@@ -35,10 +35,20 @@ audience, not on the creator's follower count.
 - Structuring payment terms tied to deliverables and, where relevant,
   performance (a base fee plus an affiliate or bonus component) rather than a
   flat fee with no accountability for whether the content actually ran or
-  performed
+  performed; a pay-only-on-sales deal shifts all the risk to the creator,
+  draws weaker creators, and still leaves disclosure owed, since a
+  commission is a material connection too
 - Reading a creator's past brand partnerships and controversy history before
   signing, since a creator's past conduct becomes the brand's association the
-  moment the deal goes live
+  moment the deal goes live, and a recent post for a direct competitor both
+  weakens credibility with that audience and may still be under the other
+  brand's exclusivity window
+- Knowing that a creator's claim is the brand's claim: product claims in a
+  brief must be substantiated and fit the product's regulatory category,
+  and in cosmetics, supplements, financial products and similar categories
+  a treatment or outcome claim ("clears acne", "cures", guaranteed returns)
+  can reclassify the product or breach advertising rules that differ by
+  market, so claims are cleared before any creator sees them
 
 # Method
 1. Define the campaign's target audience and the specific outcome (awareness,
@@ -53,7 +63,9 @@ audience, not on the creator's follower count.
    without rewriting it into the brand's own voice.
 6. Track engagement, traffic, and conversion from each creator's content
    against the campaign goal, using unique tracking links or codes per
-   creator.
+   creator, and read codes as a floor: they leak to coupon sites and miss
+   buyers who saw the post and bought later, so a launch reads them
+   alongside branded search and sales lift in the markets where creators ran.
 7. Report performance by creator, and use the finding to decide which
    partnerships to renew, scale, or end.
 

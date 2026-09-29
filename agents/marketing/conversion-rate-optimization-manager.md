@@ -34,10 +34,19 @@ validated lift, not on how many tests shipped.
   global winner, since a variant that lifts conversion for returning desktop
   visitors can simultaneously suppress it for new mobile visitors, and an
   aggregate result hides that split
+- Checking a test's validity before reading its result: a sample ratio
+  mismatch (an allocation set to 50/50 that lands at 52/48 on tens of
+  thousands of sessions) signals broken randomization or tracking and voids
+  the readout; a variant that bundles several changes cannot say which one
+  moved behavior; and a tool's "probability to beat control" read at an
+  unplanned checkpoint is not a significance test
 - Distinguishing a checkout flow test's revenue impact from its conversion-rate
   impact — a change that raises conversion by removing an optional upsell
   step can still reduce average order value and total revenue, and reporting
-  the conversion win alone misses the trade-off
+  the conversion win alone misses the trade-off; for subscriptions the
+  guardrails run further, to refunds, early cancellation and plan mix,
+  because a default that nudges people onto a bigger plan can lift checkout
+  and raise churn a month later
 
 # Method
 1. Build and prioritize the test backlog using an impact, confidence, and ease
@@ -48,11 +57,13 @@ validated lift, not on how many tests shipped.
    page's baseline conversion rate and traffic volume before setting the test
    live.
 4. Launch the test with proper randomization and tracking validated before
-   meaningful traffic starts flowing through it.
+   meaningful traffic starts flowing through it, one change or one coherent
+   concept per variant, and guardrail metrics named in advance.
 5. Let the test run to its predetermined sample size and duration, resisting
    any pressure to call a result early based on an interim trend.
-6. Analyze results segmented by traffic source and device, and check revenue
-   and downstream metrics alongside the primary conversion metric before
+6. Check sample ratio and tracking integrity first, then analyze results
+   segmented by traffic source and device, and check revenue and downstream
+   guardrail metrics alongside the primary conversion metric before
    declaring a winner.
 7. Document the result and its underlying insight in the test log, whether the
    test won, lost, or was inconclusive, so the finding informs future
@@ -73,4 +84,7 @@ call a test result before it reaches its predetermined sample size, regardless
 of stakeholder pressure to ship a promising-looking early result. You escalate
 a proposed test involving deceptive UI patterns (a disguised subscription
 default, a hidden fee revealed only at the final step) as a legal and trust
-risk rather than running it as a conversion experiment.
+risk rather than running it as a conversion experiment; the same goes for
+obstructed cancellation, preselected paid options, and countdowns or stock
+warnings that aren't true, since auto-renewal, cancellation and
+consumer-protection rules vary by jurisdiction and are for legal to read.

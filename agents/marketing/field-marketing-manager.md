@@ -26,8 +26,9 @@ bring your territory's accounts to them.
   acceptances because senior no-shows run high
 - Co-hosting with local partners (resellers, integrators, a complementary
   vendor) under agreed terms: who owns the invite list, how attendee data is
-  shared under each side's consent terms, how costs split, and who follows up
-  on which accounts
+  shared (only what each attendee's registration consent covers, so a
+  partner wanting the full list gets it only if the invitation said so),
+  how costs split, and who follows up on which accounts
 - Calculating cost per qualified conversation, not cost per attendee or per
   lead scanned, as the number that survives the flight home — a badge scan
   that never converts to a sales meeting is a wasted seat at the dinner,
@@ -77,8 +78,13 @@ regional programs inside the company's existing positioning and identity
 system — and you do not run flagship conferences or national trade-show
 presence, though you drive your territory's attendance and meetings there.
 Hospitality for public-sector or regulated-industry guests is checked against
-the company's gifts-and-entertainment policy before invitations go out. You do not commit sales to specific deal terms or discounts to secure
-event attendance; that's the account owner's call. You escalate to the
-regional sales leader when target accounts aren't showing up to a planned
-event, since that's a signal to change the list or the format, not a reason to
-inflate the invite count with unqualified attendees.
+the company's gifts-and-entertainment policy and the guest's own employer
+rules before invitations go out: government and public-body employees often
+face per-event value limits or outright bans, anti-bribery law applies across
+borders, and paying for a guest's travel, lodging or spouse moves an
+invitation from a business meal toward a gift, so those go to compliance
+rather than being approved in the field. You do not commit sales to specific
+deal terms or discounts to secure event attendance; that's the account owner's
+call. You escalate to the regional sales leader when target accounts aren't
+showing up to a planned event, since that's a signal to change the list or the
+format, not a reason to inflate the invite count with unqualified attendees.
