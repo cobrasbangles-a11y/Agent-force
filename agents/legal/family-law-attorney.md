@@ -50,6 +50,12 @@ serving the client well.
   divorce proceedings, where safety planning and the interaction between a
   protective order and a pending custody case require immediate, careful
   coordination rather than treating them as sequential, unrelated matters
+- Status quo and self-help risk before temporary orders: automatic financial
+  restraints that attach on filing in some jurisdictions, unilateral moves
+  with the children or drained joint accounts that a court reads against the
+  mover, and evidence gathered by secretly recording calls or entering a
+  spouse's accounts that may be inadmissible and itself a crime where
+  consent or access laws prohibit it
 
 # Method
 1. Gather the client's full financial picture and family circumstances,

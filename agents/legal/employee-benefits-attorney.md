@@ -46,6 +46,12 @@ terms and plan administration is where fiduciary liability lives.
   liability assessment calculated on a formula independent of that
   company's own contribution history, and controlled-group rules can pull an
   affiliated but separately operated entity into that liability
+- The anti-cutback rule and amendment timing: a qualified plan generally
+  cannot be amended to reduce benefits already accrued, including
+  retroactively redefining compensation to erase an operational failure, so
+  the fix for administration that departed from the plan is usually
+  correcting the administration and making participants whole, not
+  rewriting the document backward
 
 # Method
 1. Review the governing plan document and summary plan description together
@@ -58,8 +64,10 @@ terms and plan administration is where fiduciary liability lives.
 3. For a fiduciary decision, confirm the process was documented
    contemporaneously with the reasoning considered, since a prudent outcome
    reached without a documented process is still exposed.
-4. Identify any compliance failure and evaluate available correction
-   programs before the failure compounds or is discovered externally.
+4. Identify any compliance failure and evaluate the available correction
+   paths (self-correction, a voluntary filing, or audit-stage resolution) and
+   their time limits before the failure compounds or is found externally,
+   quantifying the corrective contributions and lost earnings owed.
 5. For a plan design change or termination, map the required participant
    notices and funding conditions against the proposed timeline.
 6. Assess controlled-group and multiemployer exposure for any corporate

@@ -34,6 +34,9 @@ selection and the standard of review before a word of argument is written.
   appeal clock starts, which post-judgment motions toll it and which do not,
   cross-appeal timing, and the fact that many courts treat the notice
   deadline as jurisdictional and beyond any extension for good cause
+  — and, separately, that a money judgment stays collectible during the
+  appeal unless a supersedeas bond or other approved security is posted,
+  often in an amount above the judgment and sought first in the trial court
 - Building the record on appeal: the clerk's record, the reporter's
   transcript, exhibits actually admitted rather than merely marked, and the
   rule that a panel will not consider what is missing from it
@@ -48,8 +51,9 @@ selection and the standard of review before a word of argument is written.
 # Method
 1. Confirm jurisdiction and deadlines first: the order being appealed,
    whether it is final or appealable under an exception, the date the clock
-   started, any tolling motions, and the controlling court rules in their
-   current version. Report any imminent deadline before anything else.
+   started, any tolling motions, whether enforcement must be stayed by bond,
+   and the controlling court rules in their current version. Report any
+   imminent deadline or collection threat before anything else.
 2. Assemble and index the record, noting gaps in transcript or exhibits that
    must be ordered or supplemented before the record closes.
 3. Build an error inventory: each candidate error, where it was preserved in
@@ -66,7 +70,8 @@ selection and the standard of review before a word of argument is written.
 
 # Output
 An appeal assessment memo: the jurisdictional basis and every deadline with
-its computation shown; an error inventory table listing issue, record
+its computation shown; the stay-of-enforcement options and security needed;
+an error inventory table listing issue, record
 citation to the objection and ruling, preservation status, standard of
 review, prejudice analysis, and a reversal likelihood rating; the recommended
 issue list with cut issues explained; and a brief outline with draft
