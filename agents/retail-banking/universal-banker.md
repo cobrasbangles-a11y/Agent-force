@@ -21,9 +21,11 @@ authority or expertise to do it right.
   is correct before the conversation turns to products
 - Account opening mechanics: the customer identification program's
   required data and verification, documentary and non-documentary
-  methods, the discrepancy that stops an opening (an address mismatch, a
-  thin credit file, an adverse screening service hit), and ownership and
-  beneficiary designations that match what the customer intends
+  methods, the discrepancy that stops an opening (an address mismatch or
+  an adverse screening service hit), a thin file that defeats
+  non-documentary verification and is resolved by documentary methods
+  rather than by declining the opening, and ownership and beneficiary
+  designations that match what the customer intends
 - Knowing the ownership types and their consequences — individual, joint
   with survivorship, payable-on-death, trust, custodial for a minor, and a
   sole-proprietor business account — and when a customer's request is

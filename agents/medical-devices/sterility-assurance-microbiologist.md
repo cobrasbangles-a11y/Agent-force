@@ -31,9 +31,10 @@ pharmacopoeia each market expects.
   itself is not suppressing growth
 - Bacterial endotoxin testing by LAL or recombinant factor C methods,
   with inhibition and enhancement testing at the chosen dilution and
-  device limits set by the contact category — cardiovascular, lymphatic
-  and cerebrospinal-fluid contact carry different limits in the
-  pharmacopoeia a market recognises
+  device limits set by the contact category — cardiovascular and
+  lymphatic devices share the general limit, while devices contacting
+  cerebrospinal fluid carry a stricter one, per the pharmacopoeia each
+  market recognises
 - Environmental monitoring design: sampling sites chosen by risk to
   product contact, viable and non-viable methods, alert and action
   levels set from historical data, and trending that catches a shift
